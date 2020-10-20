@@ -1,0 +1,24 @@
+﻿[
+  {"wf": "nu", "lemma": "nuənə"},
+  {"wf": "ud", "lemma": "udənə"},
+  {"wf": "med", "lemma": "medənə"},
+  {"wf": "kak", "lemma": "kakənə"},
+  {"wf": "^kučʼi?k.*", "lemma": "kuənə"},
+  {"gr": "vn,.*attr"},
+  {"wf": "pudo", "lemma": "pud"},
+  {"wf": "kəno.*", "lemma": "kən"},
+  {"wf": "karo", "lemma": "kar"},
+  {"wf": "poto", "lemma": "pot"},
+  {"wf": "pote", "lemma": "pot"},
+  {"wf": "kuro", "lemma": "kur"},
+  {"wf": "madʼo", "lemma": "madʼ"},
+  {"wf": "pɤrtem.*", "lemma": "pɤr"},
+  {"wf": "šʼulo.*", "lemma": "šʼul"},
+  {"wf": "kišʼt.*", "lemma": "kišʼ"},
+  {"wf": "pala[zd]ə?", "lemma": "palanə"},
+  {"wf": "tərtem.*", "lemma": "tərənə"},
+  {"wf": "(vəl|ul)ən", "gr": ".*,ins,.*"},
+  {"wf": "(vəl|ul|ber|gən)e", "gr": ".*1sg.*"},
+  {"wf": "kuto", "lemma": "^(kut|kuənə)$"}
+]
+

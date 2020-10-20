@@ -1,0 +1,399 @@
+# This is an example Constraint Grammar rules file.
+
+# There is no built-in manual yet. Resources:
+# http://visl.sdu.dk/cg3.html
+# http://groups.google.com/group/constraint-grammar
+# http://kevindonnelly.org.uk/2010/05/constraint-grammar-tutorial/
+
+# Firstly, we need to define what tags should be considered sentence delimiters.
+DELIMITERS = "<SENT_BOUNDARY>";
+
+LIST NegVerbs = "ug" ("ud" V) "uz" ("um" V) "ej" ("ed" V) "ez" ("em" V);
+LIST NegVerbs1 = ("um" V) "ej";
+LIST NegVerbs2 = ("ud" V) ("ed" V);
+LIST NegVerbs3 = "uz" ("um" V) "ez" ("em" V);
+LIST Clitics = "no" "nʼi" "na" "pe" "pi" "a" "wa" "uk" "ik" "ke" "ma" "gine" "gəne" "lešʼa" "vəldə";
+LIST VerbalClitics = "nʼi" "na" "uk" "lešʼa" "vəldə";
+SET NotClitics = (*) - Clitics;
+LIST Poss = 1sg 2sg 3sg 1pl 2pl 3pl;
+LIST PossNot3sg = 1sg 2sg 1pl 2pl 3pl;
+SET NN = (N sg nom) - Poss;
+SET NomPoss = (N sg nom 1sg) OR (N sg nom 2sg) OR (N sg nom 3sg) OR (N sg nom 1pl) OR (N sg nom 2pl) OR (N sg nom 3pl);
+LIST DemPersPro = "<so>" "<ta>";
+LIST NAdj = N A;
+LIST VPred = V PRED;
+SET VTr1 = (V tr) OR (V caus);
+SET VTr2 = VTr1 - (detr);
+SET VTr = VTr2 OR ("veranə");
+LIST BOS = (>>>);
+SET BOSPunct = (punct) | BOS;
+LIST WhQuestions = "kəžʼə" "ku" "kenʼa" "kətən" "kətəšʼ" "kətišʼen" "kətʼi" "kətčʼə";
+
+
+
+SECTION    # Verbs
+# Only leave V,neg analyses if there is a negative verb nearby.
+REMOVE (V neg) IF (NEGATE *-1 NegVerbs BARRIER NotClitics) 
+                  (NEGATE 0 NegVerbs);
+SELECT (V neg) IF (*-1 NegVerbs BARRIER NotClitics) ;
+
+# Choose correct person for negated verbs based on the
+# negative verb.
+SELECT (V neg 3) IF (*-1 NegVerbs3 BARRIER NotClitics);
+REMOVE (V neg 3) IF (*-1 NegVerbs2 BARRIER NotClitics);
+REMOVE (V neg 2) IF (*-1 ("<ug>"i) BARRIER NotClitics);
+REMOVE (V neg 1) IF (*-1 NegVerbs2 BARRIER NotClitics);
+SELECT (V neg 1) IF (*-1 NegVerbs1 BARRIER NotClitics);
+
+# Pst2 vs. nominalization in -m
+REMOVE (V pst2 sg) IF (1 ("ber" ill));
+REMOVE (V ptcp pst sg nom) IF (1 ("šusa") OR VerbalClitics);
+SELECT (V pst2 3 sg) IF (0 (ptcp 3sg sg nom))
+                        (*1 ("potənə") BARRIER NotClitics);
+
+# fut,1,sg vs. prs,3,pl: look at possible subjects
+SELECT (V fut 1 sg) IF (NOT 0 (V detr))
+                       (*-1 ("<mon>"i) BARRIER BOSPunct | (PRO pers sg nom) | (N sg nom));
+SELECT (V prs 3 pl) IF (NOT 0 (V detr))
+                       (*-1 (N pl nom) | ("<vičʼaksə>"i) BARRIER BOSPunct | (PRO pers sg nom) | (N sg nom));
+SELECT (V prs 3 pl) IF (NOT 0 (V detr))
+                       (*-1 (PRO pers pl nom) BARRIER BOSPunct | (PRO pers sg nom) | (N sg nom));
+SELECT (V prs 3 pl) IF (NOT 0 (V detr))
+                       (1C (PRO pers pl nom) OR (N pl nom))
+                       (-1 BOSPunct OR (CONJ));
+SELECT (V prs 3 pl) IF (-2C (V prs 3 pl))
+                       (-1 (","));
+SELECT (V 3 pl) IF (0 (V detr))
+                   (-1C (N pl nom) | (PRO pl nom) | ("<vičʼaksə>"i));
+REMOVE (V fut detr) IF (0 (V prs))
+                       (NOT 0 (V caus))
+                       (-1C (acc))
+                       (*-2 BOSPunct OR (CONJ) BARRIER NotClitics);
+REMOVE (V fut detr) IF (0 (V prs))
+                       (NOT 0 (V caus))
+                       (1C (acc))
+                       (*-1 BOSPunct OR (CONJ) BARRIER NotClitics)
+                       (*2 BOSPunct OR (CONJ) BARRIER NotClitics);
+
+# imperative plural is a very rare form which coincides
+# with prs,3,pl
+REMOVE (V imp pl) IF (-1 (PRO sg nom) OR WhQuestions);
+REMOVE (V imp pl) IF (0 (V intr detr 3 sg));
+
+# ume ušʼənə "fall asleep"
+SELECT (N sg ill) IF (0 ("um"))
+                     (1* ("ušʼənə") BARRIER NotClitics);
+REMOVE (N) IF (0 ("um") OR ("ud") OR ("em") OR ("ed"))
+              (*1 (V neg) BARRIER NotClitics);
+
+# kučʼkənə can not be the caustive-detransitive for kuənə
+REMOVE ("kuənə") IF (0 ("kučʼkənə"));
+
+# Forms in -ono should only be analysed as debitive, not
+# as nominalization in -n plus an attributive (which is
+# probably the diachronic source of the former).
+REMOVE (V vn attr_o);
+
+# prs vs. detr homonymy: if the verb is intransitive, it
+# can only have a detransitive suffix if it also has a
+# causative, or if it is in prs.3sg.
+REMOVE (V intr detr fut) IF (0 (V intr detr fut) - (V intr detr 3 sg) - (V intr detr caus));
+REMOVE (V intr detr prs 3 pl) IF (0 (V intr prs 1 sg));
+
+# imperative vs. prs.3sg
+REMOVE (V imp) IF (0 (V prs 3 sg))
+                  (0C (V))
+                  (*-1 NomPoss BARRIER NotClitics - (ADV))
+                  (NEGATE *-1 (acc) BARRIER NotClitics - (ADV))
+                  (NEGATE -2 (V 3 sg) OR (V res) OR (PRED));
+REMOVE (V imp) IF (0 (V prs 3 sg))
+                  (0C (V intr) - (caus))
+                  (*-1 (N sg nom) - NomPoss BARRIER NotClitics - (ADV))
+                  (NEGATE *0 (V tr) BARRIER BOSPunct);
+
+
+SECTION    # Nouns
+# Illative vs. 1sg
+# If there is a possessor to the left and the noun is animate,
+# it could hardly be in the illative.
+REMOVE (N ill sg) IF (0 (N anim 1sg))
+                     (-1 ("<mənam>"i))
+                     (NOT 0 (N ill Poss));
+# Time measurement units and months are usually in the illative.
+REMOVE (N nom sg 1sg) IF (0 (N time_meas sg ill))
+                         (NEGATE *-1 ("<mənam>"i) BARRIER BOSPunct);
+# Exclamations starting with "e" or "oj" are in nom.1sg.
+REMOVE (N sg ill) IF (0 (N nom sg 1sg))
+                     (-1 ("<e>"i) OR ("<oj>"i));
+# If there is a verb that requires illative and no "mənam" around,
+# this is also probably the illative.
+REMOVE (N nom sg 1sg) IF (0 (N sg ill))
+                         (NEGATE *0 ("<mənam>"i) BARRIER BOSPunct)
+                         (*0 (V with_ill) BARRIER BOSPunct);
+# In the opposite case, it is probably nom.1sg.
+REMOVE (N sg ill) IF (0 (N nom sg 1sg))
+                     (*0 ("<mənam>"i) BARRIER BOSPunct)
+                     (NEGATE *0 (V with_ill) BARRIER BOS);
+# Couple of cases that are almost never either of the two.
+REMOVE (N sg ill) IF (0 ("<noməre>") OR ("<nokinʼe>") OR ("<gəne>"))
+                     (NEGATE *0 ("<mənam>"i) BARRIER BOSPunct)
+                     (NEGATE *0 (V with_ill) BARRIER BOS);
+REMOVE (N nom sg 1sg) IF (0 ("<noməre>") OR ("<nokinʼe>") OR ("<gəne>"))
+                         (NEGATE *0 ("<mənam>"i) BARRIER BOSPunct)
+                         (NEGATE *0 (V with_ill) BARRIER BOS);
+
+# ill vs. prs.3sg of similar verbs
+REMOVE (N) IF (0 ("<zore>"i) OR ("<vaje>"i) OR ("<vožʼe>"i) OR ("<šue>"i))
+              (NEGATE *0 VPred BARRIER BOS);
+REMOVE (N) IF (0 ("<vue>"i))
+              (NEGATE *0 VPred BARRIER BOS)
+              (*0 (ill) BARRIER BOS);
+# gəne is usually PART
+REMOVE (N) IF (0 ("<gəne>"i))
+              (-1 (NUM) OR ("<kalʼlʼen>"i) OR ("<ožʼ>"i) OR ("<əžət>"i));
+
+
+# Accusative vs. 3sg
+# Choose 3sg if there is a genitive possessor to the left.
+SELECT (N sg nom 3sg) IF (0 (N sg acc))
+                      (-1C (N gen) OR (PRO gen));
+# Remove acc in -ez if there are no transitive verbs but there is
+# an intransitive verb or predicative.
+REMOVE (N sg acc) IF (0 ("<.*ez>"r))
+                     (NEGATE *0 VTr BARRIER BOS)
+                     (*0 (V intr) - (V ptcp prs) OR (PRED));
+# Remove pl.nom.2sg in -tə if there is a transitive verb
+# around and no other accusative candidates.
+REMOVE (N pl nom 2pl) IF (0 (N pl acc))
+                         (*0 VTr BARRIER BOS)
+                         (NEGATE *0 (acc));
+# Soostə etc. can hardly ever be pl.nom.2sg in real life.
+REMOVE (PRO pl nom 2pl) IF (0 ("<soostə>i") OR ("<taostə>"i) OR ("<asmestə>"i) OR ("<ašʼmestə>"i));
+REMOVE (PRO pl nom 2pl) IF (0 ("<vəldə>i"))
+                           (1 (punct));
+
+# Relational nouns are hardly ever used in the nominative.
+REMOVE (N rel_n nom 1sg) IF (0 (N rel_n ill))
+                            (-1 (N nom) OR (PRO pers nom));
+# And in the instrumental.
+REMOVE (N rel_n ins) IF (0 (N rel_n loc))
+                        (-1 (N nom) OR (PRO pers nom));
+
+# korka: ill vs. nom
+SELECT (N nom) IF (0 ("<korka>"i))
+                  (1 (N rel_n) OR ("pal") OR ("ber") OR ("šʼer") OR ("ažʼ"));
+SELECT (N nom) IF (0 ("<korka>"i))
+                  (*0 (V 3 sg) OR (PRED) OR (VerbalClitics))
+                  (NEGATE *0 (V with_ill) BARRIER BOS);
+
+# pəd: "foot" vs. "pound"
+SELECT (N body) IF (0 ("pəd"))
+                   (NEGATE *-1C (NUM) BARRIER NotClitics)
+                   (NEGATE *0 ("ves") OR ("mertanə") OR (kəskənə) BARRIER BOS);
+SELECT (N body) IF (0 ("pəd"))
+                   (0 PossNot3sg);
+
+SECTION    # Adjectives
+# Most adjectives can also work as adverbs. If an adjective
+# precedes a noun, it is not an adverb. If an adverb precedes
+# a verb, it is not an adjective.
+REMOVE (ADV) IF (0 (A))
+                (*1C (N) BARRIER (*) - (A));
+REMOVE (A) IF (0 (ADV))
+              (*1C (V) - ("šuənə") - ("veranə") - ("luənə") BARRIER (*) - (ADV));
+SELECT (ADV) IF (0 ("<jun>"))
+                (1C (A) OR (PRED) OR (ADV));
+
+# təs is relational adjective if preceded by human
+SELECT (A) IF (0 ("təs"))
+              (-1C ("<kinʼ>"i) OR (hum) OR (supernat));
+
+
+SECTION    # Numerals
+REMOVE (nom) IF (0 (NUM) - Poss - (sg) - (pl));
+
+SECTION    # Pronouns
+# ta/so are used as personal pronouns if there is a verb
+# not far away to the right or if they are at the end of
+# the sentence. They are probably used as demonstratives
+# if there is no verb after them and the next word is a noun
+# or an adjective (with no alternative ADV analysis).
+SELECT (pers) IF (0 DemPersPro)
+                 (*1C (V) BARRIER NotClitics);
+SELECT (pers) IF (0 DemPersPro)
+                 (1 BOSPunct - ("<...>"));
+SELECT (pers) IF (0 DemPersPro)
+                 (1 ("<bere>"i) OR ("<kuspən>i"));
+SELECT (pers) IF (0 DemPersPro)
+                 (1C (POST));
+SELECT (dem) IF (0 DemPersPro)
+                (1C NAdj)
+                (NOT 1 (ADV))
+                (NEGATE 2* VPred);
+SELECT (dem) IF (0 DemPersPro)
+                (1 ("pal"));
+
+# Negative pronouns vs. nomər "worm"
+SELECT (PRO) IF (0 ("<noməre>"i))
+                (1 ("<no>"i));
+SELECT (PRO) IF (0 ("nomər"))
+                (1 ("<no>"i))
+                (*0 (V neg) BARRIER BOS);
+
+SECTION    # Unchangeable POS
+# Some idyosyncratic things.
+REMOVE (N) IF (0 ("nʼi"))
+              (-1 VPred OR Clitics);
+REMOVE (N) IF (0 ("dərja"))
+              (-1 (vn));
+
+# Russian conjunctions vs. native particles.
+SELECT (rus) IF (0 ("a"))
+                (-1 BOSPunct);
+SELECT (rus) IF (0 ("a"))
+                (*-1 BOS BARRIER (*) - (punct));
+REMOVE (rus) IF (0 ("a"))
+                (NOT -1 BOSPunct);
+REMOVE (PART rus) IF (0 ("a"))
+                     (NOT 1 BOSPunct);
+SELECT (CONJ) IF (0 ("no"))
+                (-1 BOSPunct);
+SELECT (CONJ) IF (0 ("no"))
+                (*-1 BOS BARRIER (*) - (punct));
+REMOVE (CONJ) IF (0 ("no"))
+                 (NOT -1 BOSPunct);
+
+# med V.fut
+SELECT (CONJ) IF (0 ("<med>"i))
+                 (1 (V fut));
+
+
+
+SECTION    # Other inter-POS homonymy
+# wanʼ: "to be" vs. "all"
+REMOVE (PRO sg nom) IF (0 ("<wanʼ>"i))
+                       (*-1 NN BARRIER NotClitics);
+REMOVE (PRO sg nom) IF (0 ("<wanʼ>"i))
+                       (*-1 (N nom) BARRIER NotClitics)
+                       (1 BOS);
+REMOVE (PRO sg nom) IF (0 ("<wanʼ>"i))
+                       (1 VerbalClitics);
+# Possessive construction: possessor in genitive + possessee
+# with a possessive suffix + wanʼ
+REMOVE (PRO sg nom) IF (0 ("<wanʼ>"i))
+                       (-1 (N 1sg))
+                       (*-2 ("<mənam>"i) BARRIER NotClitics)
+                       (NEGATE *1 (VPred) BARRIER BOSPunct);
+REMOVE (PRO sg nom) IF (0 ("<wanʼ>"i))
+                       (-1 (N 2sg))
+                       (*-2 ("<tənad>"i) BARRIER NotClitics)
+                       (NEGATE *1 (VPred) BARRIER BOSPunct);
+REMOVE (PRO sg nom) IF (0 ("<wanʼ>"i))
+                       (-1 (N 1pl))
+                       (*-2 ("<milʼam>"i) BARRIER NotClitics)
+                       (NEGATE *1 (VPred) BARRIER BOSPunct);
+REMOVE (PRO sg nom) IF (0 ("<wanʼ>"i))
+                       (-1 (N 2pl))
+                       (*-2 ("<tilʼad>"i) BARRIER NotClitics)
+                       (NEGATE *1 (VPred) BARRIER BOSPunct);
+REMOVE (PRO sg nom) IF (0 ("<wanʼ>"i))
+                       (-1 (N 3sg))
+                       (*-2C (PRO pers sg gen) OR (N sg gen) BARRIER NotClitics)
+                       (NEGATE *1 (VPred) BARRIER BOSPunct);
+REMOVE (PRO sg nom) IF (0 ("<wanʼ>"i))
+                       (-1 (N 3pl))
+                       (*-2C (PRO pers pl gen) OR (N pl gen) BARRIER NotClitics)
+                       (NEGATE *1 (VPred) BARRIER BOSPunct);
+
+
+# kare: city-ill vs. do-prs.3sg
+SELECT (V) IF (0 ("<kare>"i) OR ("<kar>"i))
+              (-1 ("marəm"));
+REMOVE (N) IF (0 ("<kare>"i))
+              (NEGATE *-1 VPred BARRIER NotClitics)
+              (NEGATE *1 VPred BARRIER NotClitics);
+
+
+# ule: down-ill vs. live-prs.3sg
+SELECT (V) IF (0 ("<ule>"i))
+              (*-1 (loc) BARRIER NotClitics);
+SELECT (N) IF (0 ("<ule>"i))
+              (-1 (N nom))
+              (*1 (V) BARRIER NotClitics);
+
+
+# vožʼ: meadow vs. hold.IMP
+SELECT (N) IF (0 ("<vožʼ>"i))
+              (1 ("vəl") OR ("dor") OR ("dur"));
+SELECT (V) IF (0 ("<vožʼ>"i))
+              (-1C (acc))
+              (NEGATE *1 (V) BARRIER BOSPunct);
+
+
+# val: to be vs. horse
+SELECT (V) IF (0 ("<val>"i))
+              (*-1 ("ej") BARRIER NotClitics);
+SELECT (V) IF (0 ("<val>"i))
+              (*-1 (loc) BARRIER NotClitics)
+              (NOT 1 (V) OR (PRED));
+SELECT (V) IF (0 ("<val>"i))
+              (1 VerbalClitics)
+              (NOT 2 (V));
+
+
+# pi: son vs. AUTOCIT
+SELECT (N) IF (0 ("<pi>"i))
+              (-1 ("<pičʼi>"i));
+SELECT (N) IF (0 ("<pi>"i))
+              (1 ("murt"));
+
+
+# zɤk: big vs. boss
+SELECT (A) IF (0 ("<zɤk>"))
+              (1 (N));
+
+# čʼuž: yellow vs. yolk
+SELECT (A) IF (0 ("<čʼuž>"))
+              (1 (N));
+
+
+# pal*: side vs. forms of palanə
+SELECT (N) IF (0 ("<palan>"i))
+              (-1 ("<ulla>"i) OR ("<valla>"i) OR ("<so>"i) OR ("<ta>"i) OR ("<ažʼ>"i) OR ("<ber>"i) OR ("<šʼer>"i));
+SELECT (N) IF (0 ("<palaz>"i) OR ("<pala>"i))
+              (-1 ("<ulla>"i) OR ("<valla>"i) OR ("<ažʼ>"i) OR ("<ber>"i) OR ("<šʼer>"i));
+
+
+# ber: N vs. A/ADV
+SELECT (N) IF (0 ("<ber>"i))
+              (1 ("pal"));
+
+# vitʼe: five-ill vs. wait-prs.3sg
+SELECT (V) IF (0 ("<vitʼe>"i))
+              (1 VerbalClitics);
+
+
+# murt: person vs. alien
+SELECT (N) IF (0 ("murt"))
+              (-1 ("<nəl>"i) OR ("<pios>"i) OR ("<pi>"i) OR ("<kəšno>"i) OR (NUM));
+
+# vera: N vs. V
+REMOVE (N) IF (0 ("vera"))
+              (0 (V))
+              (*0 (N acc) BARRIER NotClitics);
+
+# šue: says vs. some kind of berry
+REMOVE (N) IF (0 ("<šue>"i))
+              (*0 (V with_ill) BARRIER BOSPunct);
+
+# zɤk bakčʼe: N, not V
+REMOVE (V) IF (0 (N sg ill))
+              (*-1C (A) BARRIER NotClitics);
+
+# kijaz[ə]: "in the hand" vs. "broke"
+REMOVE (V) IF (0 ("<kija[mdz]ə?>"r))
+              (*-1 ("palʼlʼan") OR ("bur") OR ("muket") BARRIER NotClitics);
+
+# pənə: dog
+SELECT (N) IF (0 ("<pənə>"i))
+              (NOT 0 (V neg));
