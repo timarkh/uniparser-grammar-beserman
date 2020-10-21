@@ -9543,7 +9543,7 @@
 
 -lexeme
  lex: kək
- stem: kə.|k.
+ stem: kə.//k.
  gramm: NUM
  paradigm: paradigm_2_coll
  trans_ru: два

@@ -6,7 +6,7 @@
   {"wf": "^kučʼi?k.*", "lemma": "kuənə"},
   {"gr": "vn,.*attr"},
   {"wf": "pudo", "lemma": "pud"},
-  {"wf": "kəno.*", "lemma": "kən"},
+  {"wf": "kən(o.*|e)", "lemma": "kən"},
   {"wf": "karo", "lemma": "kar"},
   {"wf": "poto", "lemma": "pot"},
   {"wf": "pote", "lemma": "pot"},
