@@ -69,8 +69,17 @@
 -paradigm: paradigm_A
  -flex: .<.>
   gramm:
- paradigm: Adjectives_Pl
- paradigm: Noun-case-compounding
+  paradigm: Adjectives_Pl
+  paradigm: Noun-case-compounding
+ -flex: .o<.>
+  gramm: attr,attr_o
+  gloss: ATTR
+  paradigm: paradigm_A
+ -flex: .jo<.>
+  gramm: attr,attr_o
+  gloss: ATTR
+  regex-prev: ^.*[aeiouəɤɨ][<>.]*$
+  paradigm: paradigm_A
 
  
 -paradigm: paradigm_NUM
@@ -139,6 +148,18 @@
   regex-stem: ^[<>.]*(das|kɨžʼ|kwamən|.*[td]on)[<>.]*$
   paradigm: paradigm_A
 
+-paradigm: paradigm_2_coll
+ -flex: <0>.na<.>
+  gramm: coll
+  gloss: COLL
+  paradigm: Noun-case-mar
+  paradigm: Noun-case-mar-poss-1,sg
+  paradigm: Noun-case-mar-poss-2,sg
+  paradigm: Noun-case-mar-poss-3,sg
+  paradigm: Noun-case-poss-1,pl
+  paradigm: Noun-case-poss-2,pl
+  paradigm: Noun-case-poss-3,pl
+  paradigm: Comparative
 
 -paradigm: paradigm_N
  -flex: .<.>
@@ -3312,7 +3333,7 @@
   gramm: detr
   gloss: DETR
   regex-prev: ^.*i[<>.]*$
- -flex: <1>.ik<.>//<1>.k<.>
+ -flex: <1>.ik<.>//<1>.k<.>//<1>.ək<.>
   gramm: detr
   gloss: DETR
   regex-prev: ^.*[šžǯč]ʼ?[<>.]*$
@@ -3332,7 +3353,7 @@
   gramm: detr,iter
   gloss: DETR|ITER
   regex-prev: ^.*i[<>.]*$
- -flex: <1>.ik|əl<.>//<1>.k|əl<.>
+ -flex: <1>.ik|əl<.>//<1>.k|əl<.>//<1>.ək|əl<.>
   gramm: detr,iter
   gloss: DETR|ITER
   regex-prev: ^.*[šžǯč]ʼ?[<>.]*$
@@ -3346,7 +3367,7 @@
   gramm: detr,caus
   gloss: DETR|CAUS
   regex-prev: ^.*i[<>.]*$
- -flex: <1>.ik|ət<.>//<1>.k|ət<.>
+ -flex: <1>.ik|ət<.>//<1>.k|ət<.>//<1>.ək|ət<.>
   gramm: detr,caus
   gloss: DETR|CAUS
   regex-prev: ^.*[šžǯč]ʼ?[<>.]*$

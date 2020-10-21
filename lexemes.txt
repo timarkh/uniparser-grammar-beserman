@@ -350,7 +350,7 @@
 
 -lexeme
  lex: Kəbančʼa
- stem: kəbančʼa.//kəbančʼ.
+ stem: kəbančʼa.//kəbančʼ.//kəbanʼčʼa.//kəbanʼčʼ.
  gramm: N
  paradigm: paradigm_N
  trans_ru: день Ивана Купалы
@@ -3891,7 +3891,7 @@
  stem: e.
  gramm: INTERJ
  paradigm: Empty
- trans_ru: ой, нет; э, эй; ой, ох
+ trans_ru: ой, нет; э, эй
 
 -lexeme
  lex: ebečʼijanə
@@ -3919,14 +3919,14 @@
  stem: ed.
  gramm: V,neg,pst,2,sg
  paradigm: Comparative
- trans_ru: отрицательный глагол, форма 2 л. ед. и мн. ч. прош. вр. и условн. накл.; см. ug
+ trans_ru: не
 
 -lexeme
  lex: ed
  stem: ed.
  gramm: N
  paradigm: paradigm_N_px_ə
- trans_ru: /у человека и у лошади/ способность работать, жизненная сила, желание жить
+ trans_ru: жизненная сила
 
 -lexeme
  lex: edə
@@ -3947,7 +3947,7 @@
  stem: ej.
  gramm: V,neg,pst,1,sg
  paradigm: Comparative
- trans_ru: отрицательный глагол, форма 1 л. ед. ч. прош. вр. и всех лиц обоих чисел в условн. накл.; см. ug
+ trans_ru: не
 
 -lexeme
  lex: ek-ek-ek
@@ -3961,7 +3961,7 @@
  stem: eke.
  gramm: PART
  paradigm: Empty
- trans_ru: обращение к супругу, "связка слов", заменитель имени - говорится при запрещении чего-либо
+ trans_ru: обращение; говорится при запрещении чего-либо
 
 -lexeme
  lex: ekton
@@ -3975,14 +3975,14 @@
  stem: ekt.|ekčʼ.//ečʼ.
  gramm: V,intr,with_instr
  paradigm: paradigm_V
- trans_ru: танцевать, потанцевать; плясать, поплясать
+ trans_ru: танцевать
 
 -lexeme
  lex: em
  stem: em.
  gramm: V,neg,pst,1,pl
  paradigm: Comparative
- trans_ru: отрицательный глагол, форма 1 л. мн. ч. прош. вр. и условн. накл.; см. ug
+ trans_ru: не
 
 -lexeme
  lex: em
@@ -4038,7 +4038,7 @@
  stem: en.
  gramm: V,prh,2
  paradigm: Comparative
- trans_ru: отрицательный глагол, повелит. накл.
+ trans_ru: не (прохибитив)
 
 -lexeme
  lex: enʼer
@@ -4052,7 +4052,7 @@
  stem: enʼera.
  gramm: V,tr
  paradigm: paradigm_V
- trans_ru: седлать, оседлать
+ trans_ru: седлать
 
 -lexeme
  lex: enʼerčʼak
@@ -4073,7 +4073,7 @@
  stem: es.
  gramm: N
  paradigm: paradigm_N
- trans_ru: дверь, дверца, створка, створки
+ trans_ru: дверь
 
 -lexeme
  lex: esep
@@ -4094,14 +4094,14 @@
  stem: esk.
  gramm: V,intr,with_instr
  paradigm: paradigm_V
- trans_ru: тошнить, тянуть на рвоту; рвать, вырвать
+ trans_ru: тошнить
 
 -lexeme
  lex: estənə
  stem: est.|esčʼ.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: топить, затопить
+ trans_ru: топить (печь)
 
 -lexeme
  lex: etaž
@@ -4143,14 +4143,14 @@
  stem: evəl.
  gramm: PRED
  paradigm: paradigm_PRED
- trans_ru: нет, не является; нет, отсутствует; не
+ trans_ru: нет; не
 
 -lexeme
  lex: ez
  stem: ez.
  gramm: V,neg,pst,3
  paradigm: Comparative
- trans_ru: отрицательный глагол, форма 3 л. ед. и мн. ч. прош. вр.; см. ug
+ trans_ru: не
 
 -lexeme
  lex: ečʼ-ečʼ-ečʼ
@@ -5082,14 +5082,14 @@
  stem: gəlt.|gəlčʼ.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: полоскать, отполоскать, ополоснуть, протереть пол; размывать, размыть
+ trans_ru: ополоснуть, протереть пол
 
 -lexeme
  lex: gəlǯʼənə
  stem: gəlǯʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о лыжах, обуви/ скользить; выскользнуть; /о человеке/ поскользнуться
+ trans_ru: скользить
 
 -lexeme
  lex: gəlʼ
@@ -5117,7 +5117,7 @@
  stem: gəlʼlʼa.//gəlja.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: полоскать, ополаскивать, отполаскивать, протирать пол
+ trans_ru: полоскать
 
 -lexeme
  lex: gəlʼət
@@ -5436,17 +5436,17 @@
 
 -lexeme
  lex: iskilʼlʼanə
- stem: iskilʼlʼa.
+ stem: iskilʼlʼa.//skilʼlʼa.
  gramm: V,intr,with_instr
  paradigm: paradigm_V
  trans_ru: кататься
 
 -lexeme
  lex: iskilʼtənə
- stem: iskilʼt.|iskilʼčʼ.
+ stem: iskilʼt.//skilʼt.|iskilʼčʼ.//skilʼčʼ.
  gramm: V,intr,with_instr
  paradigm: paradigm_V
- trans_ru: прокатиться, скатиться; прокатить кого-л., скатить кого-л.
+ trans_ru: скатиться; скатить
 
 -lexeme
  lex: italmas
@@ -5600,7 +5600,7 @@
  stem: jangəš.
  gramm: N
  paradigm: paradigm_N
- trans_ru: проступок, плохой поступок, неправильный поступок, ошибка; ущерб; недостаток /характера человека/
+ trans_ru: проступок, ошибка; ущерб
 
 -lexeme
  lex: jangəšanə
@@ -6146,7 +6146,7 @@
  stem: južta.
  gramm: V,impers,intr
  paradigm: paradigm_V
- trans_ru: /о снеге/ покрываться, покрыться настом или о погоде, когда снег твердеет и превращается в наст
+ trans_ru: покрыться настом
 
 -lexeme
  lex: juənə
@@ -6295,21 +6295,21 @@
  stem: jərjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: образовывать, образовать кочан, головку или коробочку
+ trans_ru: образовать кочан, головку или коробочку
 
 -lexeme
  lex: jərjənə
  stem: jərj.
  gramm: V,tr
  paradigm: paradigm_V
- trans_ru: /о грызунах/ грызть, прогрызть; жевать, разжевать
+ trans_ru: грызть; жевать
 
 -lexeme
  lex: jəros
  stem: jəros.
  gramm: A,rel_adj
  paradigm: paradigm_A
- trans_ru: /о человеке/ ровесник, одногодок; район; примерно одинаковые по количеству; приблизительно до
+ trans_ru: примерно одинаковый по количеству
 
 -lexeme
  lex: jəros
@@ -6387,14 +6387,14 @@
  stem: jɤa.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: рубить куски льда на реке для охлаждения самогона
+ trans_ru: рубить куски льда на реке
 
 -lexeme
  lex: jɤkəranə
  stem: jɤkəra.
  gramm: V,impers,intr
  paradigm: paradigm_V
- trans_ru: /о неодушевленных объектах/ обледеневать, обледенеть, покрываться, покрыться льдом
+ trans_ru: обледенеть
 
 -lexeme
  lex: jɤl
@@ -6682,28 +6682,28 @@
  stem: kalʼlʼa.
  gramm: V,tr,ill
  paradigm: paradigm_V
- trans_ru: вешать, повесить, развешивать, развесить, свешивать, свесить
+ trans_ru: развесить
 
 -lexeme
  lex: kalʼlʼen
  stem: kalʼlʼen.
  gramm: ADV
  paradigm: Comparative
- trans_ru: медленно; тихо, негромко; слабо, тихо; легонько, тихонько, несильно; не спеша, спокойно, аккуратно
+ trans_ru: медленно; тихо
 
 -lexeme
  lex: kalʼlʼen
  stem: kalʼlʼen.
  gramm: A
  paradigm: paradigm_A
- trans_ru: тихий; тихий, медлительный, робкий
+ trans_ru: тихий
 
 -lexeme
  lex: kalʼlʼet
  stem: kalʼlʼet.
  gramm: N,vn
  paradigm: paradigm_N
- trans_ru: крючок, вешалка, верёвка, петелька; связка, вязанка
+ trans_ru: крючок, вешалка
 
 -lexeme
  lex: kalʼtər
@@ -7112,6 +7112,13 @@
  trans_ru: сколько-нибудь, несколько, сколько-то; немного
 
 -lexeme
+ lex: nokenʼa
+ stem: nokenʼa.//nokɤnʼa.
+ gramm: PRO
+ paradigm: paradigm_N
+ trans_ru: нисколько
+
+-lexeme
  lex: kenʼer
  stem: kenʼer.
  gramm: N
@@ -7305,7 +7312,7 @@
  stem: kežegjašʼk.
  gramm: V,intr,detr
  paradigm: paradigm_V
- trans_ru: ворчать, поворчать; отказываться, отказаться, быть несговорчивым, привередничать
+ trans_ru: ворчать; отказываться
 
 -lexeme
  lex: kežegomənə
@@ -7428,7 +7435,7 @@
 
 -lexeme
  lex: kinʼ
- stem: kilʼlʼen.
+ stem: kilʼlʼen.//kilʼlen.
  gramm: PRO,gen
  paradigm: Noun-case-compounding
  trans_ru: кто
@@ -7442,7 +7449,7 @@
 
 -lexeme
  lex: kinʼke
- stem: kilʼlʼen.ke
+ stem: kilʼlʼen.ke//kilʼlen.ke
  gramm: PRO
  paradigm: Noun-case-compounding
  trans_ru: кто-то, кто-нибудь; кто-нибудь; кое-кто
@@ -7494,7 +7501,7 @@
  stem: kivaltos.
  gramm: N,vn
  paradigm: paradigm_N
- trans_ru: палка, которой погоняют гусей и овец; средство защиты или борьбы с непослушными животными
+ trans_ru: палка, которой погоняют гусей и овец
 
 -lexeme
  lex: kivaltənə
@@ -7809,7 +7816,7 @@
  stem: kolʼčʼo.//kolʼco.
  gramm: N,rus
  paradigm: paradigm_N
- trans_ru: кольцо; деревянный крюк для фиксации сена, соломы, снопов на телеге
+ trans_ru: кольцо
 
 -lexeme
  lex: komak
@@ -9535,6 +9542,13 @@
  trans_ru: два
 
 -lexeme
+ lex: kək
+ stem: kə.|k.
+ gramm: NUM
+ paradigm: paradigm_2_coll
+ trans_ru: два
+
+-lexeme
  lex: kəkto
  stem: kəkto.
  gramm: N,anim,hum
@@ -9705,16 +9719,16 @@
 -lexeme
  lex: kəlʼənə
  stem: kəlʼ.
- gramm: V,intr
+ gramm: V,tr
  paradigm: paradigm_V
- trans_ru: снимать, снять; раздевать, раздеть
+ trans_ru: снять; раздеть
 
 -lexeme
  lex: kəmanə
  stem: kəma.
  gramm: V,tr,with_ill
  paradigm: paradigm_V
- trans_ru: опрокидывать, опрокинуть, переворачивать, перевернуть
+ trans_ru: опрокинуть
 
 -lexeme
  lex: kəməs
@@ -9819,21 +9833,21 @@
  stem: kərk.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: трясти, потрясти, вытрясти, встряхивать, встряхнуть, стряхивать, стряхнуть
+ trans_ru: трясти, встряхивать
 
 -lexeme
  lex: kərmanə
  stem: kərma.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: жать; мять руками, разминать; массировать; бить /о человеке/; щупать, приставать
+ trans_ru: жать
 
 -lexeme
  lex: kərmənə
  stem: kərm.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: жать, сжимать; мять руками /напр., картошку/; жать, пожать /руку/
+ trans_ru: жать
 
 -lexeme
  lex: kərməšjanə
@@ -9945,14 +9959,14 @@
  stem: kərəža.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: покоситься, стать кривым, искривиться, криво расти
+ trans_ru: покоситься, искривиться
 
 -lexeme
  lex: kərəžtənə
  stem: kərəžt.|kərəžčʼ.
  gramm: V,tr
  paradigm: paradigm_V
- trans_ru: наклонять, наклонить; криво или наискосок поставить
+ trans_ru: наклонить
 
 -lexeme
  lex: kəs
@@ -10208,7 +10222,7 @@
 
 -lexeme
  lex: kəčʼe
- stem: kəčʼe.//kčʼe.
+ stem: kəčʼe.//kčʼe.//kəče.//kče.
  gramm: PRO
  paradigm: paradigm_A
  trans_ru: какой; как
@@ -10222,10 +10236,10 @@
 
 -lexeme
  lex: kəčʼeke
- stem: kəčʼeke.//kčʼeke.
+ stem: kəčʼeke.//kčʼeke.//kəčeke.//kčeke.
  gramm: ADV
  paradigm: Comparative
- trans_ru: как-нибудь, как-то, каким-то образом
+ trans_ru: как-нибудь, как-то
 
 -lexeme
  lex: kəš
@@ -10400,7 +10414,7 @@
  stem: kɤjom.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: жиреть, набирать жир, разжиреть, толстеть, потолстеть, поправиться
+ trans_ru: жиреть
 
 -lexeme
  lex: kɤkat
@@ -11299,7 +11313,16 @@
  stem: lɨ.
  gramm: N,body
  paradigm: paradigm_N_px_ə
+ paradigm: paradigm_N_px
  trans_ru: кость
+
+-lexeme
+ lex: urdlɨ
+ stem: urdlɨ.
+ gramm: N,body
+ paradigm: paradigm_N_px_ə
+ paradigm: paradigm_N_px
+ trans_ru: ребро
 
 -lexeme
  lex: lʼab
@@ -11551,7 +11574,7 @@
  stem: lʼud.|lʼuǯʼ.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: мелко резать, нарезать ломтиками, порезать ломтиками, шинковать, нашинковать; крошить, покрошить; крошить, покрошить; резать и чистить картошку
+ trans_ru: мелко резать; крошить
 
 -lexeme
  lex: lʼugdənə
@@ -11901,7 +11924,7 @@
  stem: mama.//mam.
  gramm: N
  paradigm: paradigm_N
- trans_ru: вкусное содержимое, окруженное твёрдой оболочкой -- ядро /ореха/, сердцевина /стеблей растений/, костный мозг, начинка
+ trans_ru: вкусное содержимое, окруженное твёрдой оболочкой
 
 -lexeme
  lex: mamaš
@@ -12169,7 +12192,7 @@
  stem: merčʼət.|merčʼəčʼ.
  gramm: V,tr
  paradigm: paradigm_V
- trans_ru: кауз. от merčʼənə -- сильно бить, избивать, избить; больно щипать, дергать за уши, таскать за волосы и т.п.; хлестать, отхлестать
+ trans_ru: избить
 
 -lexeme
  lex: mes
@@ -12414,7 +12437,7 @@
  stem: mišʼkalt.|mišʼkalčʼ.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: простирнуть, быстро и неаккуратно помыть, сполоснуть
+ trans_ru: простирнуть, сполоснуть
 
 -lexeme
  lex: mišʼkon
@@ -12477,7 +12500,14 @@
  stem: molʼog.
  gramm: N
  paradigm: paradigm_N
- trans_ru: комок, ком; шишка, жировик; костяшка, мосол
+ trans_ru: комок; шишка
+
+-lexeme
+ lex: mog
+ stem: mog.
+ gramm: N
+ paradigm: paradigm_N
+ trans_ru: шишка
 
 -lexeme
  lex: molʼogašʼkənə
@@ -12737,7 +12767,7 @@
  stem: murta.
  gramm: V,intr,with_gen2
  paradigm: paradigm_V
- trans_ru: стесняться, застесняться, чуждаться, не хотеть общаться
+ trans_ru: стесняться, чуждаться
 
 -lexeme
  lex: mus
@@ -12891,7 +12921,7 @@
  stem: məl-kəd.
  gramm: N
  paradigm: paradigm_N_px_ə
- trans_ru: хорошее настроение, настрой, желание что-то делать; состояние
+ trans_ru: хорошее настроение, желание
 
 -lexeme
  lex: məlʼəkjanə
@@ -12905,7 +12935,7 @@
  stem: məlʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: оставаться, остаться лишним, неиспользованным; не помещаться, не поместиться куда-л.
+ trans_ru: остаться лишним
 
 -lexeme
  lex: mənda
@@ -13927,7 +13957,7 @@
  stem: nʼij.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: снимать, снять шкуру или кожу, свежевать, освежевать; сильно поругать
+ trans_ru: освежевать
 
 -lexeme
  lex: nʼilʼ
@@ -14067,14 +14097,14 @@
  stem: nʼurja.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: нажимать, нажать; утрамбовывать, утрамбовать; прижимать, прижать, давить, придавливать, придавить книзу; замачивать, замочить; топтать, потоптать самку; задушить, придавив книзу
+ trans_ru: давить; нажимать
 
 -lexeme
  lex: nʼurtənə
  stem: nʼurt.|nʼurčʼ.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: давить, надавить, прижимать, прижать, держать под гнетом, замачивать, замочить; задушить, придавив книзу; топтать, потоптать самку; прижать, зажать, припрятать
+ trans_ru: надавить; нажать
 
 -lexeme
  lex: nʼəgəlʼ
@@ -14137,7 +14167,7 @@
  stem: nʼəlda.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: ошкуривать, ошкурить, обдирать, ободрать кору с дерева
+ trans_ru: ошкурить
 
 -lexeme
  lex: nʼəlon
@@ -14543,7 +14573,7 @@
  stem: oktənə-kalt.|oktənə-kalčʼ.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: собирать, собрать урожай; наводить, навести порядок, убираться, убраться; обряжать, обрядить покойника, убирать, готовить покойника перед похоронами
+ trans_ru: собрать урожай; навести порядок
 
 -lexeme
  lex: oktʼabər
@@ -14809,7 +14839,7 @@
  stem: omərja.
  gramm: V,tr,with_instr,with_el
  paradigm: paradigm_V
- trans_ru: черпать, зачёрпывать, зачерпнуть; набрасываться, наброситься, покусать, искусать, рвать, порвать
+ trans_ru: черпать; набрасываться
 
 -lexeme
  lex: opetʼ
@@ -14844,7 +14874,7 @@
  stem: orsm.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о крови/ сворачиваться, свернуться, образовывать, образовать сгусток, загустевать, загустеть
+ trans_ru: /о крови/ сворачиваться
 
 -lexeme
  lex: orčʼənə
@@ -15657,7 +15687,7 @@
  stem: perčʼ.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: развязывать, развязать, расстегивать, расстегнуть
+ trans_ru: развязать, расстегнуть
 
 -lexeme
  lex: peršal
@@ -16374,8 +16404,8 @@
  trans_ru: помидор
 
 -lexeme
- lex: pominka
- stem: pominka.//pomink.
+ lex: pominʼka
+ stem: pominka.//pomink.//pominʼka.//pominʼk.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: день поминовения усопших, поминки
@@ -16420,7 +16450,7 @@
  stem: por.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: корчевать; рыхлить, размельчать засохшую землю у поверхности; клянчить
+ trans_ru: корчевать; рыхлить
 
 -lexeme
  lex: poskes
@@ -16553,7 +16583,7 @@
  stem: pozərt.|pozərčʼ.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: скручивать, скрутить, закручивать, закрутить, накручивать, накрутить
+ trans_ru: скрутить
 
 -lexeme
  lex: počʼtʼi
@@ -16759,13 +16789,6 @@
  trans_ru: одновременно, по ходу дела; сразу же
 
 -lexeme
- lex: pumitʼ
- stem: pumitʼ.
- gramm: POST
- paradigm: Comparative
- trans_ru: 
-
--lexeme
  lex: pumitʼanə
  stem: pumitʼa.
  gramm: V,tr,with_instr
@@ -16795,17 +16818,17 @@
 
 -lexeme
  lex: pumətʼ
- stem: pumətʼ.
+ stem: pumətʼ.//pumitʼ.
  gramm: ADV
  paradigm: Comparative
  trans_ru: в ответ, наперекор
 
 -lexeme
  lex: pumətʼ
- stem: pumətʼ.
- gramm: POST
- paradigm: Comparative
- trans_ru: напротив; навстречу; накануне, перед; против
+ stem: pumətʼ.//pumitʼ.
+ gramm: N,rel_n
+ paradigm: paradigm_N_px_ə
+ trans_ru: напротив; навстречу
 
 -lexeme
  lex: pumətʼ
@@ -16947,7 +16970,7 @@
  stem: pusj.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: отмечать, отметить; ставить, поставить знак, клеймо, зарубку, отметку
+ trans_ru: отметить; поставить клеймо
 
 -lexeme
  lex: puskaj
@@ -16961,7 +16984,7 @@
  stem: puskar.
  gramm: N
  paradigm: paradigm_N
- trans_ru: гнездо /птиц, животных, насекомых/, дупло; берлога; конура
+ trans_ru: гнездо, дупло; берлога; конура
 
 -lexeme
  lex: puz
@@ -17151,14 +17174,14 @@
  stem: pəkm.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: портиться, испортиться; тухнуть, протухнуть, горкнуть, прогоркнуть; стать затхлым, плохо пахнуть, пропахнуть
+ trans_ru: протухнуть
 
 -lexeme
  lex: pəktənə
  stem: pəkt.|pəkčʼ.//pəčʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: опухать, опухнуть, отекать, отечь, набухать, набухнуть
+ trans_ru: опухнуть, отечь
 
 -lexeme
  lex: pəkə
@@ -17327,7 +17350,7 @@
  stem: pərčʼa.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: прокалывать, проколоть, продырявить, сделать дырку; сверлить, просверлить
+ trans_ru: проколоть
 
 -lexeme
  lex: pərčʼijo
@@ -17425,7 +17448,7 @@
  stem: pətʼəra.
  gramm: V,intr,with_el,with_ill
  paradigm: paradigm_V
- trans_ru: катиться, покатиться, переворачиваться, крутиться
+ trans_ru: катиться, крутиться
 
 -lexeme
  lex: pətʼərjanə
@@ -17453,7 +17476,7 @@
  stem: pəčʼa.
  gramm: V,impers,intr,with_ill
  paradigm: paradigm_V
- trans_ru: намачивать, намочить, промочить, впитывать, впитать влагу, пропитывать, пропитать
+ trans_ru: намочить
 
 -lexeme
  lex: pəčʼej
@@ -17733,7 +17756,7 @@
  stem: radʼja.
  gramm: V,tr
  paradigm: paradigm_V
- trans_ru: устраивать, устроить, проводить, провести, организовывать, организовать /о каком-л. мероприятии/
+ trans_ru: устроить, провести
 
 -lexeme
  lex: ralʼnʼik
@@ -19040,7 +19063,7 @@
 
 -lexeme
  lex: səčʼe
- stem: səčʼe.//sčʼe.
+ stem: səčʼe.//sčʼe.//səče.
  gramm: PRO
  paradigm: paradigm_N
  paradigm: paradigm_A
@@ -19048,7 +19071,7 @@
 
 -lexeme
  lex: səčʼe
- stem: səčʼe.//sčʼe.
+ stem: səčʼe.//sčʼe.//səče.
  gramm: ADV
  paradigm: Comparative
  trans_ru: так, таким образом; так, настолько; так; настолько хорошо
@@ -19775,6 +19798,13 @@
  trans_ru: вон, вот
 
 -lexeme
+ lex: tanʼ
+ stem: tanʼ.
+ gramm: PART
+ paradigm: Empty
+ trans_ru: вон, вот
+
+-lexeme
  lex: to
  stem: to.
  gramm: PART,rus
@@ -19919,14 +19949,14 @@
  stem: tolmačʼa.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: поделывать что-то не на виду, вдали от глаз говорящего
+ trans_ru: поделывать что-то вдали от глаз говорящего
 
 -lexeme
  lex: tolmənə
  stem: tolm.
  gramm: V,impers
  paradigm: paradigm_V
- trans_ru: наступить /о зиме/; остаться зимовать, перезимовать
+ trans_ru: наступить /о зиме/; перезимовать
 
 -lexeme
  lex: tolon
@@ -20063,7 +20093,7 @@
 
 -lexeme
  lex: tože
- stem: tože.
+ stem: tože.//tožo.
  gramm: ADV,rus
  paradigm: Comparative
  trans_ru: тоже
@@ -20935,7 +20965,7 @@
  stem: təšʼ.
  gramm: N
  paradigm: paradigm_N
- trans_ru: зерно, зёрнышко; яйцо /насекомого/; зародыш /яиц некоторых насекомых/
+ trans_ru: зерно; яйцо /насекомого/; зародыш /яиц некоторых насекомых/
 
 -lexeme
  lex: tɤl
@@ -20949,7 +20979,7 @@
  stem: tɤla.
  gramm: V,impers
  paradigm: paradigm_V
- trans_ru: /о ветре/ дуть; сушиться, сохнуть на ветру, развеваться на ветру, колыхаться, реять
+ trans_ru: /о ветре/ дуть; сохнуть на ветру
 
 -lexeme
  lex: tɤlperi
@@ -21432,7 +21462,7 @@
  stem: ud.
  gramm: V,neg,2
  paradigm: Comparative
- trans_ru: отрицательный глагол, форма 2 л. ед. и мн. ч. наст. и буд. вр.; см. ug
+ trans_ru: не
 
 -lexeme
  lex: ud
@@ -21453,7 +21483,7 @@
  stem: uda.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о растении/ приживаться, прижиться, прорастать, прорасти; /о дереве, о человеке/ расти
+ trans_ru: /о растении/ прижиться, прорасти
 
 -lexeme
  lex: udmort
@@ -21481,14 +21511,14 @@
  stem: ud.|uǯʼ.
  gramm: V,intr,with_instr
  paradigm: paradigm_V
- trans_ru: угощать, угостить; давать, дать, протянуть, протягивать, совать, сунуть; ударить
+ trans_ru: угостить; совать
 
 -lexeme
  lex: ug
  stem: ug.
  gramm: V,neg
  paradigm: Comparative
- trans_ru: отрицательный глагол
+ trans_ru: не
 
 -lexeme
  lex: ugolʼ
@@ -21558,7 +21588,7 @@
  stem: uj.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: прогонять, прогнать; гнаться, догонять, догнать, обогнать
+ trans_ru: прогнать; гнаться
 
 -lexeme
  lex: uk
@@ -21699,7 +21729,7 @@
  stem: ulčʼa.//ulčʼ.
  gramm: N,rus
  paradigm: paradigm_N
- trans_ru: улица; улица
+ trans_ru: улица
 
 -lexeme
  lex: ulčʼag
@@ -21790,7 +21820,7 @@
  stem: um.
  gramm: V,neg,1,pl
  paradigm: Comparative
- trans_ru: отрицательный глагол, форма 1 л. мн. ч. наст. и буд. вр.; см. ug
+ trans_ru: не
 
 -lexeme
  lex: um
@@ -21965,7 +21995,7 @@
  stem: urǯʼik.
  gramm: V,intr,detr
  paradigm: paradigm_V
- trans_ru: детр. от urdənə -- встать во весь рост, подняться на цыпочки, на задние лапы, встать на дыбы; высовываться, высунуться; набрасываться, наброситься, накидываться, накинуться
+ trans_ru: встать во весь рост, высунуться
 
 -lexeme
  lex: urənə
@@ -22028,7 +22058,7 @@
  stem: uz.
  gramm: V,neg,fut,3
  paradigm: Comparative
- trans_ru: отрицательный глагол, форма 3 ед. и мн. ч. буд. вр.; см.ug
+ trans_ru: не
 
 -lexeme
  lex: uzijanə
@@ -22168,7 +22198,7 @@
  stem: ušʼeg.
  gramm: N
  paradigm: paradigm_N
- trans_ru: сусек (ящик, сундук, отсек для муки, зерна); в колхозе -- пространство между двумя перегородками для хранения зерна, муки
+ trans_ru: сусек (ящик, сундук, отсек для муки, зерна)
 
 -lexeme
  lex: ušʼjanə
@@ -22833,7 +22863,7 @@
  stem: visja.
  gramm: V,tr
  paradigm: paradigm_V
- trans_ru: делить, отделить; перегораживать, перегородить, разделять, разделить
+ trans_ru: делить; перегораживать
 
 -lexeme
  lex: visjet
@@ -22917,7 +22947,7 @@
  stem: vizəlt.|vizəlčʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: рябь или зыбь на воде, когда видно что вода течет
+ trans_ru: рябь или зыбь на воде
 
 -lexeme
  lex: vičʼak
@@ -23197,14 +23227,14 @@
  stem: vožʼmalt.|vožʼmalčʼ.
  gramm: V,tr
  paradigm: paradigm_V
- trans_ru: семельф. от vožʼmanə -- посторожить, последить, покараулить, понаблюдать
+ trans_ru: покараулить
 
 -lexeme
  lex: vožʼmanə
  stem: vožʼma.
  gramm: V,tr
  paradigm: paradigm_V
- trans_ru: сторожить, стеречь, охранять, караулить; смотреть, следить; пасти
+ trans_ru: сторожить; следить; пасти
 
 -lexeme
  lex: vožʼmatʼtʼanə
@@ -23639,21 +23669,21 @@
  stem: vɤld.|vɤlǯʼ.
  gramm: V,tr,with_ill
  paradigm: paradigm_V
- trans_ru: распространять; раскидывать, раскидать, раскладывать, разложить, раскатывать, раскатать
+ trans_ru: распространять; раскидывать
 
 -lexeme
  lex: vɤlmənə
  stem: vɤlm.
  gramm: V,intr,with_ill
  paradigm: paradigm_V
- trans_ru: распространяться, распространиться
+ trans_ru: распространиться
 
 -lexeme
  lex: vɤlənə
  stem: vɤl.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: строгать; заострять, точить /о деревянных заостренных предметах/
+ trans_ru: строгать; заострять
 
 -lexeme
  lex: vɤlʼət
@@ -23721,7 +23751,7 @@
 
 -lexeme
  lex: wadʼes
- stem: wadʼes.|wadʼesk.//wadʼs.
+ stem: wadʼes.//vadʼes.|wadʼesk.//wadʼs.//vadʼesk.//vadʼs.//wads.//vads.
  gramm: N,rel_n|N,rel_n,obl
  paradigm: paradigm_N
  trans_ru: место напротив чего-либо
@@ -23843,14 +23873,14 @@
  stem: waməšja.
  gramm: V,tr
  paradigm: paradigm_V
- trans_ru: перешагивать, переходить, перепрыгивать, перескакивать
+ trans_ru: перешагивать
 
 -lexeme
  lex: waməštənə
  stem: waməšt.|waməščʼ.
  gramm: V,tr
  paradigm: paradigm_V
- trans_ru: шагнуть; перешагнуть
+ trans_ru: шагнуть
 
 -lexeme
  lex: wanʼ
@@ -23878,7 +23908,7 @@
  stem: wanʼm.
  gramm: V,intr,with_gen2
  paradigm: paradigm_V
- trans_ru: быть свободным от дел, освободиться, иметь свободное время; бездельничать
+ trans_ru: освободиться; бездельничать
 
 -lexeme
  lex: warmaj
@@ -24736,7 +24766,7 @@
  stem: čʼar.
  gramm: V,intr,with_dat
  paradigm: paradigm_V
- trans_ru: /о болезни или перен. о негативно оцениваемых событиях, невезении, плохих привычках/ переходить; заражаться, заразиться
+ trans_ru: /о болезни, плохих привычках/ переходить; заражаться, заразиться
 
 -lexeme
  lex: čʼas
@@ -25608,7 +25638,7 @@
 
 -lexeme
  lex: čʼoš
- stem: čʼoš.
+ stem: čʼoš.//čoš.
  gramm: ADV
  paradigm: Comparative
  trans_ru: вместе
@@ -25622,7 +25652,7 @@
 
 -lexeme
  lex: čʼošen
- stem: čʼošen.
+ stem: čʼošen.//čošen.
  gramm: ADV,ins
  paradigm: Comparative
  trans_ru: в количестве стольких-то человек
@@ -27103,7 +27133,7 @@
  stem: šonʼert.|šonʼerčʼ.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: разравнивать, разровнять, распрямлять, распрямить
+ trans_ru: разровнять, распрямить
 
 -lexeme
  lex: šor
@@ -27502,7 +27532,7 @@
  stem: šəkəs.
  gramm: N
  paradigm: paradigm_N
- trans_ru: короб из липовой или дубовой коры для одежды и швейных принадлежностей
+ trans_ru: короб из липовой или дубовой коры
 
 -lexeme
  lex: šəltər-šaltər
@@ -27677,7 +27707,7 @@
  stem: šət.|šəčʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о продуктах, которые готовятся при помощи мучной или дрожжевой закваски/ подниматься, подняться; бродить, забродить; разводить мучную закваску для кваса в воде
+ trans_ru: /о продуктах, которые готовятся при помощи мучной или дрожжевой закваски/ подняться; бродить
 
 -lexeme
  lex: šɤdənə
@@ -27735,6 +27765,13 @@
  gramm: N,body
  paradigm: paradigm_N
  trans_ru: желчь; желчный пузырь
+
+-lexeme
+ lex: želčʼ
+ stem: želčʼ.
+ gramm: N,body,rus
+ paradigm: paradigm_N
+ trans_ru: желчь
 
 -lexeme
  lex: šɤtem
@@ -28392,7 +28429,7 @@
  stem: šʼižʼ.
  gramm: V,tr,with_dat
  paradigm: paradigm_V
- trans_ru: посвящать, приносить жертву; просить, попросить, выпрашивать, выпросить, клянчить, хотеть, желать; дарить, подарить
+ trans_ru: посвящать, приносить жертву; просить
 
 -lexeme
  lex: šʼo
@@ -28712,7 +28749,7 @@
  stem: šʼužʼja.//šʼužʼžʼa.
  gramm: V,tr,with_gen2,with_instr
  paradigm: paradigm_V
- trans_ru: чистить, счистить; очищать, очистить; убирать, убрать, наводить порядок, навести порядок; вычищать, вычистить послед /у скотины/
+ trans_ru: чистить; убирать
 
 -lexeme
  lex: šʼužʼjašʼkon
@@ -28726,7 +28763,7 @@
  stem: šʼužʼ.
  gramm: V,intr,with_ill
  paradigm: paradigm_V
- trans_ru: дотягиваться, дотянуться, доставать, достать; хватать, приходиться, прийтись впору
+ trans_ru: дотянуться, достать
 
 -lexeme
  lex: šʼəpərtənə
@@ -29496,7 +29533,7 @@
  stem: ǯʼuja.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: собирать, заготавливать мох; конопатить мхом, прокладывать мох между бревнами при строительстве
+ trans_ru: заготавливать мох; конопатить мхом
 
 -lexeme
  lex: ǯʼuk
@@ -29657,14 +29694,14 @@
  stem: ǯʼəgərt.|ǯʼəgərčʼ.
  gramm: V,tr
  paradigm: paradigm_V
- trans_ru: обхватывать, обхватить, прижимать, прижать к себе; обнимать, обнять; заплетать косичку из ниток
+ trans_ru: обхватить, обнять; заплетать косичку из ниток
 
 -lexeme
  lex: ǯʼəgərə
  stem: ǯʼəgərə.|ǯʼəgəri.
  gramm: N
  paradigm: paradigm_N
- trans_ru: моток ниток, спрядённых на станке, в форме косички; подвижный приёмный вал ткацкого станка
+ trans_ru: моток ниток в форме косички; подвижный приёмный вал ткацкого станка
 
 -lexeme
  lex: ǯʼəkə
@@ -30373,6 +30410,20 @@
  trans_ru: Петрович
 
 -lexeme
+ lex: Nʼikolaičʼ
+ stem: nʼikolaičʼ.
+ gramm: N,patrn
+ paradigm: paradigm_N
+ trans_ru: Николаевич
+
+-lexeme
+ lex: Vašʼilʼičʼ
+ stem: vašʼilʼičʼ.
+ gramm: N,patrn
+ paradigm: paradigm_N
+ trans_ru: Васильевич
+
+-lexeme
  lex: Pugačʼova
  stem: pugačʼova.//pugačʼov.
  gramm: N,famn
@@ -30826,6 +30877,13 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: гараж
+
+-lexeme
+ lex: akuratno
+ stem: akuratno.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: аккуратно
 
 -lexeme
  lex: gdʼeto
@@ -33366,7 +33424,7 @@
  stem: nərsa.
  gramm: V,impers
  paradigm: paradigm_V
- trans_ru: (о погоде) становиться пасмурной перед дождем, хмуриться, портиться
+ trans_ru: (о погоде) хмуриться, портиться
 
 -lexeme
  lex: nʼak-nʼak
@@ -34199,14 +34257,14 @@
  stem: təlpinʼ.
  gramm: IMIT
  paradigm: Comparative
- trans_ru: (о красном цвете) очень яркий, цвет раскаленных углей или раскаленного металла
+ trans_ru: (о красном цвете) очень яркий
 
 -lexeme
  lex: təlʼək
  stem: təlʼək.
  gramm: IMIT
  paradigm: Comparative
- trans_ru: (о детях, о детенышах животных) упитанный
+ trans_ru: (о детях, о детёнышах животных) упитанный
 
 -lexeme
  lex: təp-təp
@@ -34808,7 +34866,7 @@
  stem: čʼorkak.
  gramm: IMIT
  paradigm: Comparative
- trans_ru: откуда ни возьмись, ни с того ни с сего, как отрезало
+ trans_ru: откуда ни возьмись, ни с того ни с сего
 
 -lexeme
  lex: čʼoškatənə
@@ -39463,3 +39521,150 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: жвачка
+
+-lexeme
+ lex: kapot
+ stem: kapot.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: капот
+
+-lexeme
+ lex: stojanka
+ stem: stojanka.//stojank.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: стоянка
+
+-lexeme
+ lex: nadrez
+ stem: nadrez.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: надрез
+
+-lexeme
+ lex: sustav
+ stem: sustav.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: сустав
+
+-lexeme
+ lex: pozvonok
+ stem: pozvonok.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: позвонок
+
+-lexeme
+ lex: mezdra
+ stem: mezdra.//mezdr.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: мездра
+
+-lexeme
+ lex: dʼiafragma
+ stem: dʼiafragma.//dʼiafragm.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: диафрагма
+
+-lexeme
+ lex: klʼonka
+ stem: klʼonka.//klʼonk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: клеёнка
+
+-lexeme
+ lex: mɤlʼa
+ stem: mɤlʼa.
+ gramm: N,body
+ paradigm: paradigm_N
+ trans_ru: грудина
+
+-lexeme
+ lex: šlang
+ stem: šlang.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: шланг
+
+-lexeme
+ lex: okažʼja
+ stem: okažʼja.//okažʼija.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: оказия; ситуация
+
+-lexeme
+ lex: napor
+ stem: napor.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: напор
+
+-lexeme
+ lex: talʼlʼan
+ stem: talʼlʼan.
+ gramm: N
+ paradigm: paradigm_N
+ trans_ru: педаль (pəd talʼlʼan)
+
+-lexeme
+ lex: tʼfu
+ stem: tʼfu.
+ gramm: INTJ
+ paradigm: Comparative
+ trans_ru: тьфу
+
+-lexeme
+ lex: blʼa
+ stem: blʼa.
+ gramm: INTJ,rus
+ paradigm: Comparative
+ trans_ru: бля
+
+-lexeme
+ lex: nʼixuja
+ stem: nʼixuja.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: нихуя (себе)
+
+-lexeme
+ lex: fiolʼetovoj
+ stem: fiolʼetovoj.//fiolʼetovɨj.//fiolʼotovoj.//fiolʼotovɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: фиолетовый
+
+-lexeme
+ lex: skažem
+ stem: skažem.
+ gramm: PARENTH,rus
+ paradigm: Comparative
+ trans_ru: скажем
+
+-lexeme
+ lex: vidʼimo
+ stem: vidʼimo.
+ gramm: PARENTH,rus
+ paradigm: Comparative
+ trans_ru: видимо
+
+-lexeme
+ lex: vosnovnom
+ stem: vosnovnom.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: в основном
+
+-lexeme
+ lex: vrodʼe
+ stem: vrodʼe.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: вроде
