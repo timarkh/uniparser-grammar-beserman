@@ -22,9 +22,13 @@ SET NomPoss = (N sg nom 1sg) OR (N sg nom 2sg) OR (N sg nom 3sg) OR (N sg nom 1p
 LIST DemPersPro = "<so>" "<ta>";
 LIST NAdj = N A;
 LIST VPred = V PRED;
+
 SET VTr1 = (V tr) OR (V caus);
 SET VTr2 = VTr1 - (detr);
 SET VTr = VTr2 OR ("veranə");
+SET VFin = (V 1) OR (V 2) OR (V 3) OR ("val") OR ("wanʼ");
+SET VTrFin = (V tr 1) - (detr) OR (V tr 2) - (detr) OR (V tr 3) - (detr) OR (V caus 1) OR (V caus 2) OR (V caus 3);
+SET VIntr = (V intr) - (V ptcp prs) - (caus) OR (PRED);
 LIST BOS = (>>>);
 SET BOSPunct = (punct) | BOS;
 LIST WhQuestions = "kəžʼə" "ku" "kenʼa" "kətən" "kətəšʼ" "kətišʼen" "kətʼi" "kətčʼə";
@@ -161,7 +165,12 @@ SELECT (N sg nom 3sg) IF (0 (N sg acc))
 # an intransitive verb or predicative.
 REMOVE (N sg acc) IF (0 ("<.*ez>"r))
                      (NEGATE *0 VTr BARRIER BOS)
-                     (*0 (V intr) - (V ptcp prs) OR (PRED));
+                     (*0 VIntr);
+# Remove 3sg if there are no intransitive verbs or predicatives
+# but there is a transitive verb in a finite form other than 3sg.
+REMOVE (N sg nom 3sg) IF (0 ("<.*ez>"r))
+                         (NEGATE *0 VIntr BARRIER BOS)
+                         (*0 VTrFin - (3 sg));
 # Remove pl.nom.2sg in -tə if there is a transitive verb
 # around and no other accusative candidates.
 REMOVE (N pl nom 2pl) IF (0 (N pl acc))
@@ -266,6 +275,9 @@ REMOVE (CONJ) IF (0 ("no"))
 # med V.fut
 SELECT (CONJ) IF (0 ("<med>"i))
                  (1 (V fut));
+SELECT (CONJ) IF (0 ("<med>"i))
+					  (1 (ADV) OR ("<marəm>"i) OR (PRO pers))
+                 (2 (V fut));
 
 
 
