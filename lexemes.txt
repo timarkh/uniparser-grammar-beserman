@@ -23659,7 +23659,7 @@
 
 -lexeme
  lex: vɤldənə
- stem: vɤld.|vɤlǯʼ.
+ stem: vɤld.//veld.|vɤlǯʼ.//velǯʼ.
  gramm: V,tr,with_ill
  paradigm: paradigm_V
  trans_ru: распространять; раскидывать
@@ -29600,14 +29600,14 @@
 
 -lexeme
  lex: ǯʼužət
- stem: ǯʼužət.
+ stem: ǯʼužət.//ǯužət.
  gramm: A
  paradigm: paradigm_A
  trans_ru: высокий
 
 -lexeme
  lex: ǯʼužət
- stem: ǯʼužət.
+ stem: ǯʼužət.//ǯužət.
  gramm: N
  paradigm: paradigm_N
  trans_ru: высота
