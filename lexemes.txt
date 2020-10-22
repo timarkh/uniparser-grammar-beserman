@@ -22828,6 +22828,7 @@
  stem: vir.
  gramm: N,body
  paradigm: paradigm_N_px_ə
+ paradigm: paradigm_N
  trans_ru: кровь
 
 -lexeme
