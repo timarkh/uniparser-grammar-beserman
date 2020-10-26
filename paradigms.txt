@@ -726,6 +726,38 @@
  -flex: .ja<.>
   gramm: case_comp,adv
   gloss: ADV
+ -flex: .[ʼ]dʼa<.>
+  gramm: case_comp,adv
+  gloss: ADV
+  regex-prev: ^.*d[.<>]*$
+ -flex: .[ʼ]tʼa<.>
+  gramm: case_comp,adv
+  gloss: ADV
+  regex-prev: ^.*t[.<>]*$
+ -flex: .[ʼ]nʼa<.>
+  gramm: case_comp,adv
+  gloss: ADV
+  regex-prev: ^.*n[.<>]*$
+ -flex: .[ʼ]lʼa<.>
+  gramm: case_comp,adv
+  gloss: ADV
+  regex-prev: ^.*l[.<>]*$
+ -flex: .dʼa<.>
+  gramm: case_comp,adv
+  gloss: ADV
+  regex-prev: ^.*dʼ[.<>]*$
+ -flex: .tʼa<.>
+  gramm: case_comp,adv
+  gloss: ADV
+  regex-prev: ^.*tʼ[.<>]*$
+ -flex: .nʼa<.>
+  gramm: case_comp,adv
+  gloss: ADV
+  regex-prev: ^.*nʼ[.<>]*$
+ -flex: .lʼa<.>
+  gramm: case_comp,adv
+  gloss: ADV
+  regex-prev: ^.*lʼ[.<>]*$
  -flex: .ən<.>
   regex-prev: ^.*[^<>.ə][<>.]*$
   gloss: LOC
@@ -1023,10 +1055,45 @@
   gramm: adv
   gloss: ADV
   paradigm: Comparative
+ -flex: .[ʼ]dʼa<.>
+  gramm: adv
+  gloss: ADV
+  regex-prev: ^.*d[.<>]*$
+  paradigm: Comparative
+ -flex: .[ʼ]tʼa<.>
+  gramm: adv
+  gloss: ADV
+  regex-prev: ^.*t[.<>]*$
+  paradigm: Comparative
  -flex: .[ʼ]nʼa<.>
   gramm: adv
   gloss: ADV
-  regex-prev: ^.*n[<>.]*$
+  regex-prev: ^.*n[.<>]*$
+  paradigm: Comparative
+ -flex: .[ʼ]lʼa<.>
+  gramm: adv
+  gloss: ADV
+  regex-prev: ^.*l[.<>]*$
+  paradigm: Comparative
+ -flex: .dʼa<.>
+  gramm: adv
+  gloss: ADV
+  regex-prev: ^.*dʼ[.<>]*$
+  paradigm: Comparative
+ -flex: .tʼa<.>
+  gramm: adv
+  gloss: ADV
+  regex-prev: ^.*tʼ[.<>]*$
+  paradigm: Comparative
+ -flex: .nʼa<.>
+  gramm: adv
+  gloss: ADV
+  regex-prev: ^.*nʼ[.<>]*$
+  paradigm: Comparative
+ -flex: .lʼa<.>
+  gramm: adv
+  gloss: ADV
+  regex-prev: ^.*lʼ[.<>]*$
   paradigm: Comparative
  -flex: .ən<.>
   gramm: loc
