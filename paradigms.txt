@@ -147,6 +147,14 @@
   gloss: ATTR
   regex-stem: ^[<>.]*(das|kɨžʼ|kwamən|.*[td]on)[<>.]*$
   paradigm: paradigm_A
+ -flex: .jem<.>
+  gramm: attr,attr_em
+  gloss: ATTR
+  paradigm: paradigm_A
+ -flex: .tem<.>
+  gramm: attr,attr_tem
+  gloss: NEG.ATTR
+  paradigm: paradigm_A
 
 -paradigm: paradigm_2_coll
  -flex: <0>.na<.>
