@@ -1861,10 +1861,10 @@
  -flex: .tʼi|m<.>
   gramm: prol,1sg
   gloss: PROL|P.1SG
- -flex: .ətʼi|m<.>
+ -flex: <1>.ətʼi|m<.>
   gramm: prol,1sg
   gloss: PROL|P.1SG
-  regex-prev: ^.*[mk][.<>]*$
+  regex-gramm: .*obl.*
   
  -flex: .ə|nʼ|ən<.>
   gramm: dms,loc,1sg
@@ -2012,10 +2012,10 @@
  -flex: .tʼi|d<.>
   gramm: prol,2sg
   gloss: PROL|P.2SG
- -flex: .ətʼi|d<.>
+ -flex: <1>.ətʼi|d<.>
   gramm: prol,2sg
   gloss: PROL|P.2SG
-  regex-prev: ^.*[mk][.<>]*$
+  regex-gramm: .*obl.*
   
  -flex: .əd|nʼ|ən<.>
   gramm: dms,loc,2sg
@@ -2164,10 +2164,10 @@
  -flex: .tʼi|z<.>
   gramm: prol,3sg
   gloss: PROL|P.3SG
- -flex: .ətʼi|z<.>
+ -flex: <1>.ətʼi|z<.>
   gramm: prol,3sg
   gloss: PROL|P.3SG
-  regex-prev: ^.*[mk][.<>]*$
+  regex-gramm: .*obl.*
   
  -flex: .əz|nʼ|ən<.>
   gramm: dms,loc,3sg
