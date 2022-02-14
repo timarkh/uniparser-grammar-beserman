@@ -2590,7 +2590,7 @@
 
 -lexeme
  lex: butulʼ
- stem: butulʼ.
+ stem: butulʼ.//butɨlʼ.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: стеклянная банка, бутыль ёмкостью от трёх литров
@@ -4133,7 +4133,7 @@
 
 -lexeme
  lex: evəl
- stem: evəl.
+ stem: evəl.//ɤvɤl.
  gramm: PRED
  paradigm: paradigm_PRED
  trans_ru: нет; не
@@ -4406,7 +4406,7 @@
 
 -lexeme
  lex: geršok
- stem: geršok.
+ stem: geršok.//gɤršok.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: горшок
@@ -11441,7 +11441,7 @@
 
 -lexeme
  lex: lʼelʼ
- stem: lʼelʼ.
+ stem: lʼelʼ.//lʼɤlʼ.
  gramm: A,rus
  paradigm: paradigm_A
  trans_ru: фиолетовый; сиреневый; розовый
@@ -14961,7 +14961,7 @@
 
 -lexeme
  lex: otčʼə
- stem: otčʼə.
+ stem: otčʼə.//otcə.
  gramm: PRO,dem,ill
  paradigm: Comparative
  trans_ru: туда
@@ -15095,6 +15095,13 @@
 -lexeme
  lex: ožʼ
  stem: ožʼ.
+ gramm: PRO,dem
+ paradigm: Comparative
+ trans_ru: так
+
+-lexeme
+ lex: sožʼ
+ stem: sožʼ.
  gramm: PRO,dem
  paradigm: Comparative
  trans_ru: так
@@ -22674,7 +22681,7 @@
 
 -lexeme
  lex: vedʼ
- stem: vedʼ.
+ stem: vedʼ.//vetʼi.
  gramm: PART,rus
  paradigm: Comparative
  trans_ru: ведь
@@ -23260,6 +23267,13 @@
  gramm: PART,rus
  paradigm: Comparative
  trans_ru: вот
+
+-lexeme
+ lex: vo
+ stem: vo.
+ gramm: PART,rus
+ paradigm: Comparative
+ trans_ru: во
 
 -lexeme
  lex: vošjanə
@@ -26070,14 +26084,14 @@
 
 -lexeme
  lex: čʼuž
- stem: čʼuž.
+ stem: čʼuž.//čuž.
  gramm: A
  paradigm: paradigm_A
  trans_ru: жёлтый; светло-оранжевый
 
 -lexeme
  lex: čʼuž
- stem: čʼuž.
+ stem: čʼuž.//čuž.
  gramm: N
  paradigm: paradigm_N
  trans_ru: желток
@@ -29306,7 +29320,7 @@
 
 -lexeme
  lex: ǯʼek
- stem: ǯʼek.
+ stem: ǯʼek.//ǯɤk.
  gramm: N
  paradigm: paradigm_N
  trans_ru: стол
@@ -36269,8 +36283,8 @@
  trans_ru: карта, карты
 
 -lexeme
- lex: kastrʼulʼa
- stem: kastrʼulʼa.//kastrʼulʼ.
+ lex: kostrʼulʼa
+ stem: kostrʼulʼa.//kostrʼulʼ.//kastrʼulʼa.//kastrʼulʼ.//kostrulʼa.//kostrulʼ.//kastrulʼa.//kastrulʼ.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: кастрюля
@@ -42050,6 +42064,13 @@
  trans_ru: картофельный
 
 -lexeme
+ lex: razdʼeločʼnoj
+ stem: razdʼeločʼnoj.//razdʼeločʼnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: разделочный
+
+-lexeme
  lex: kaš
  stem: kaš.
  gramm: N,body
@@ -42062,6 +42083,13 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: клапан
+
+-lexeme
+ lex: sarafan
+ stem: sarafan.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: сарафан
 
 -lexeme
  lex: kološ
@@ -42247,10 +42275,17 @@
 
 -lexeme
  lex: specalʼnoj
- stem: specalʼnoj.//specalʼnɨj.
+ stem: specalʼnoj.//specalʼnɨj.//specialʼnoj.//specialʼnɨj.
  gramm: A,rus
  paradigm: paradigm_A
  trans_ru: специальный
+
+-lexeme
+ lex: specalʼno
+ stem: specalʼno.//specialʼno.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: специально
 
 -lexeme
  lex: sportsmen
@@ -42587,6 +42622,13 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: будильник
+
+-lexeme
+ lex: umɨvalʼnʼik
+ stem: umɨvalʼnʼik.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: умывальник
 
 -lexeme
  lex: centr
