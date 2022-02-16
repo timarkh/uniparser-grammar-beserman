@@ -1,140 +1,147 @@
 ﻿-lexeme
  lex: Akaška
  stem: akaška.//akašk.
- gramm: N
+ gramm: N,PN
  paradigm: paradigm_N
  trans_ru: Акашка
 
 -lexeme
  lex: Akajaška
  stem: akajaška.//akajašk.
- gramm: N
+ gramm: N,PN
  paradigm: paradigm_N
  trans_ru: Акашка
 
 -lexeme
  lex: Alla
  stem: alla.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Алла
 
 -lexeme
  lex: Alʼina
  stem: alʼina.//alʼin.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Алина
 
 -lexeme
  lex: Marina
  stem: marina.//marin.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Марина
 
 -lexeme
  lex: Ava
  stem: ava.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Ава
 
 -lexeme
  lex: Akmarov
- stem: akmarov.
- gramm: N,famn
+ stem: akmarov.//axmarov.
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Ахмаров
 
 -lexeme
  lex: Azrak
  stem: azrak.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Азраково
 
 -lexeme
+ lex: Azrak
+ stem: azrak.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Азрак (кличка)
+
+-lexeme
  lex: Bagurt
  stem: bagurt.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Абашево
 
 -lexeme
  lex: Kestəm
  stem: kestəm.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Кестым
 
 -lexeme
  lex: Belʼan
  stem: belʼan.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Беляново
 
 -lexeme
  lex: Berdəš
  stem: berdəš.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Бердыши
 
 -lexeme
  lex: Braga
  stem: braga.//brag.
- gramm: N
+ gramm: N,PN
  paradigm: paradigm_N
  trans_ru: Брага
 
 -lexeme
  lex: Buldakov
  stem: buldakov.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Будлаков
 
 -lexeme
  lex: Dusəgurt
  stem: dusəgurt.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Дусыково
 
 -lexeme
  lex: Fedʼa
  stem: fedʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Федя
 
 -lexeme
  lex: Fʼodorovna
  stem: fʼodorovna.//fjodorovna.
- gramm: N,patrn
+ gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Фёдоровна
 
 -lexeme
  lex: Gerber
  stem: gerber.
- gramm: N
+ gramm: N,PN
  paradigm: paradigm_N
  trans_ru: Петров день; Гербер; день летнего солнцестояния
 
 -lexeme
  lex: Glazgurt
  stem: glazgurt.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Глазовский починок
 
 -lexeme
  lex: Glazov
  stem: glazov.
- gramm: N,topn,rus
+ gramm: N,PN,topn,rus
  paradigm: paradigm_N
  trans_ru: Глазов
 
@@ -148,54 +155,54 @@
 -lexeme
  lex: Ida
  stem: ida.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Ида
 
 -lexeme
  lex: Ira
  stem: ira.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Ира
 
 -lexeme
  lex: Irina
  stem: irina.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Ирина
 
 -lexeme
  lex: Ivan
  stem: ivan.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Иван
 
 -lexeme
  lex: Ivanov
  stem: ivanov.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Иванов
 
 -lexeme
  lex: Ivanova
  stem: ivanova.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Иванова
 
 -lexeme
  lex: Ivanovna
  stem: ivanovna.
- gramm: N,patrn
+ gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Ивановна
 
 -lexeme
- lex: Ivanɨčʼ
+ lex: ivanɨčʼ
  stem: ivanɨčʼ.
  gramm: N
  paradigm: paradigm_N
@@ -204,133 +211,126 @@
 -lexeme
  lex: Iž
  stem: iž.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Ижевск
 
 -lexeme
  lex: Iževsk
  stem: iževsk.//ižefsk.
- gramm: N,topn,rus
+ gramm: N,PN,topn,rus
  paradigm: paradigm_N
  trans_ru: Ижевск
 
 -lexeme
  lex: Jar
  stem: jar.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Яр
 
 -lexeme
  lex: Jargalas
  stem: jargalas.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Яргалас
 
 -lexeme
  lex: Jekatʼerina
  stem: jekatʼerina.//jekatʼerin.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Екатерина
 
 -lexeme
  lex: Ježgurt
  stem: ježgurt.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Ёжево
 
 -lexeme
  lex: Jukamenskoj
  stem: jukamenskoj.//jukamensk.
- gramm: N,topn,rus
+ gramm: N,PN,topn,rus
  paradigm: paradigm_N
  trans_ru: Юкаменское
 
 -lexeme
  lex: Junda
  stem: junda.//jund.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Юнда
 
 -lexeme
  lex: Jura
  stem: jura.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Юра
 
 -lexeme
  lex: Jurik
  stem: jurik.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Юрик
 
 -lexeme
  lex: Jərtem
  stem: jərtem.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Ертем
 
 -lexeme
  lex: Kar
  stem: kar.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Глазов
 
 -lexeme
  lex: Katʼa
  stem: katʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Катя
 
 -lexeme
  lex: Kladbišʼšʼo
  stem: kladbišʼšʼo.
- gramm: N,topn,rus
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Скотомогильник
 
 -lexeme
  lex: Koblanʼuk
  stem: koblanʼuk.//koblanʼik.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Кобланюк (Большой или Малый)
 
 -lexeme
  lex: Kolʼa
  stem: kolʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Коля
 
 -lexeme
  lex: Kutor
  stem: kutor.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
- trans_ru: Лемский
-
--lexeme
- lex: Kvanʼčʼa
- stem: kvanʼčʼa.//kvanʼčʼ.
- gramm: N
- paradigm: paradigm_N
- trans_ru: 
+ trans_ru: Лемский 
 
 -lexeme
  lex: Kwatʼčʼinʼəgurt
  stem: kwatʼčʼinʼəgurt.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Шестоперово
 
@@ -344,13 +344,13 @@
 -lexeme
  lex: Kšʼuša
  stem: kšʼuša.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Ксюша
 
 -lexeme
  lex: Kəbančʼa
- stem: kəbančʼa.//kəbančʼ.//kəbanʼčʼa.//kəbanʼčʼ.//kvančʼa.//kvančʼ.
+ stem: kəbančʼa.//kəbančʼ.//kəbanʼčʼa.//kəbanʼčʼ.//kvančʼa.//kvančʼ.//kvanʼčʼa.//kvanʼčʼ.
  gramm: N,PN,time_meas
  paradigm: paradigm_N
  trans_ru: день Ивана Купалы
@@ -365,98 +365,98 @@
 -lexeme
  lex: Kərban
  stem: kərban.
- gramm: N
+ gramm: N,PN
  paradigm: paradigm_N
  trans_ru: Кырбан
 
 -lexeme
  lex: Kərem
  stem: kərem.
- gramm: N
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Промоина
 
 -lexeme
  lex: Kəčʼon
  stem: kəčʼon.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Кычён
 
 -lexeme
  lex: Ləktonna
  stem: ləktonna.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Переход
 
 -lexeme
  lex: Lʼakban
  stem: lʼakban.//lʼagban.//lʼabgan.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Лякбан
 
 -lexeme
  lex: Lʼakšur
  stem: lʼakšur.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Лякшур
 
 -lexeme
  lex: Lʼekma
  stem: lʼekma.//lʼekm.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Лекма
 
 -lexeme
  lex: Lʼema
  stem: lʼema.//lʼem.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Лема
 
 -lexeme
  lex: Lʼemskoj
  stem: lʼemskoj.
- gramm: N,topn,rus
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Лемский
 
 -lexeme
  lex: Lʼena
  stem: lʼena.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Лена
 
 -lexeme
  lex: Lʼenin
  stem: lʼenin.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Ленин
 
 -lexeme
  lex: Stalʼin
  stem: stalʼin.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Сталин
 
 -lexeme
  lex: Lʼonʼa
  stem: lʼonʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Лёня
 
 -lexeme
  lex: Lʼudmila
  stem: lʼudmila.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Людмила
 
@@ -470,105 +470,105 @@
 -lexeme
  lex: Maša
  stem: maša.//maš.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Маша
 
 -lexeme
  lex: Memetgurt
  stem: memetgurt.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Меметово
 
 -lexeme
  lex: Milka
  stem: milka.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Милка
 
 -lexeme
  lex: Mixajlo
  stem: mixajlo.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Михайло
 
 -lexeme
  lex: Mišutka
  stem: mišutka.//mišutk.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Мишутка
 
 -lexeme
  lex: Moskva
  stem: moskva.
- gramm: N,topn,rus
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Москва
 
 -lexeme
  lex: Məstaj
  stem: məstaj.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Мустай
 
 -lexeme
  lex: Məškošur
  stem: məškošur.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Мышкошур
 
 -lexeme
  lex: Nʼina
  stem: nʼina.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Нина
 
 -lexeme
  lex: Našʼta
  stem: našʼta.//nasʼtʼa.//nastʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Настя
 
 -lexeme
  lex: Olʼa
  stem: olʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Оля
 
 -lexeme
  lex: Odotʼ
  stem: odotʼ.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Авдотья
 
 -lexeme
  lex: Olʼeg
  stem: olʼeg.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Олег
 
 -lexeme
  lex: Ožjar
  stem: ožjar.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Турчино
 
 -lexeme
  lex: Padʼejšur
  stem: padʼejšur.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Падейшур
 
@@ -582,147 +582,147 @@
 -lexeme
  lex: Paššur
  stem: paššur.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Пасшур
 
 -lexeme
  lex: Penʼmošur
  stem: penʼmošur.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Зольный лог
 
 -lexeme
  lex: Petʼa
  stem: petʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Петя
 
 -lexeme
  lex: Piskor
  stem: piskor.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Новоёлово
 
 -lexeme
  lex: Pislʼegurt
  stem: pislʼegurt.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Истошур
 
 -lexeme
  lex: Pičʼinka
  stem: pičʼinka.//pičʼink.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Ёжевский
 
 -lexeme
  lex: Počʼinka
  stem: počʼinka.//počʼink.
- gramm: N,topn,rus
+ gramm: N,PN,topn,rus
  paradigm: paradigm_N
  trans_ru: 
 
 -lexeme
  lex: Pošʼolok
  stem: pošʼolok.
- gramm: N,topn,rus
+ gramm: N,PN,topn,rus
  paradigm: paradigm_N
  trans_ru: 
 
 -lexeme
  lex: Pulʼkino
  stem: pulʼkino.
- gramm: N,topn,rus
+ gramm: N,PN,topn,rus
  paradigm: paradigm_N
  trans_ru: Сидорово
 
 -lexeme
  lex: Puška
  stem: puška.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Пушка (имя кошки)
 
 -lexeme
  lex: Pədsə
  stem: pədsə.|pədsi.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Волга (населённый пункт)
 
 -lexeme
  lex: Pəgəlʼə
  stem: pəgəlʼə.|pəgəlʼi.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Кочуково
 
 -lexeme
  lex: Pəšket
  stem: pəšket.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Пышкет
 
 -lexeme
  lex: Rimma
  stem: rimma.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Римма
 
 -lexeme
  lex: Ruslan
  stem: ruslan.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Руслан
 
 -lexeme
  lex: Sanʼa
  stem: sanʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Саня
 
 -lexeme
  lex: Sašik
  stem: sašik.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Сашик
 
 -lexeme
  lex: Slavik
  stem: slavik.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Славик
 
 -lexeme
  lex: Sočʼi
  stem: sočʼi.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Сочи
 
 -lexeme
  lex: Talʼigurt
  stem: talʼigurt.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Логошур
 
 -lexeme
  lex: Totorja
  stem: totorja.//totorj.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Тоторъя
 
@@ -736,84 +736,84 @@
 -lexeme
  lex: Təgej
  stem: təgej.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Төгей (домовое имя)
 
 -lexeme
  lex: Tələs
  stem: tələs.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Тылыс
 
 -lexeme
  lex: Təmjar
  stem: təmjar.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Тымъяр
 
 -lexeme
  lex: Tʼimofej
  stem: tʼimofej.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Тимофей
 
 -lexeme
  lex: Vanʼa
  stem: vanʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Ваня
 
 -lexeme
  lex: Vanʼka
  stem: vanʼka.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Ванька
 
 -lexeme
  lex: Vašʼa
  stem: vašʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Вася
 
 -lexeme
  lex: Vladʼimir
  stem: vladʼimir.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Владимир
 
 -lexeme
  lex: Vašʼopi
  stem: vašʼopi.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Васепиево
 
 -lexeme
  lex: Velʼiktem
  stem: velʼiktem.
- gramm: N
+ gramm: N,rus
  paradigm: paradigm_N
  trans_ru: Великий четверг
 
 -lexeme
  lex: Volok
  stem: volok.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Волок
 
 -lexeme
  lex: Vorčʼa
  stem: vorčʼa.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Ворца
 
@@ -19536,7 +19536,7 @@
 -lexeme
  lex: petʼerburg
  stem: petʼerburg.
- gramm: N,topn,rus
+ gramm: N,PN,topn,rus
  paradigm: paradigm_N
  trans_ru: Петербург
 
@@ -24876,7 +24876,7 @@
 -lexeme
  lex: Čʼakərma
  stem: čʼakərma.//čʼakərm.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Чакорма
 
@@ -26795,63 +26795,63 @@
 -lexeme
  lex: Šadrašur
  stem: šadrašur.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Шадра-шур
 
 -lexeme
  lex: Šajšur
  stem: šajšur.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Могильный лог
 
 -lexeme
  lex: Šamardan
  stem: šamardan.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Шамардан
 
 -lexeme
  lex: Pitʼer
  stem: pitʼer.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Питер, Петербург
 
 -lexeme
  lex: Šurik
  stem: šurik.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Шурик
 
 -lexeme
  lex: Parašʼ
  stem: parašʼ.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Прасковья
 
 -lexeme
  lex: Šʼedban
  stem: šʼedban.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Усть-Лем
 
 -lexeme
  lex: Šʼenʼagurt
  stem: šʼenʼagurt.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Сянино
 
 -lexeme
  lex: Šʼiktanšur
  stem: šʼiktanšur.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Щиктаншур
 
@@ -29428,7 +29428,7 @@
 -lexeme
  lex: Əbǯʼik
  stem: əbǯʼik.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Абджик
 
@@ -29442,21 +29442,21 @@
 -lexeme
  lex: Ǯʼangagurt
  stem: ǯʼangagurt.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Зянкино
 
 -lexeme
  lex: Ǯʼangəlʼdə
  stem: ǯʼangəlʼdə.|ǯʼangəlʼdi.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Кельдыки
 
 -lexeme
  lex: Ǯʼuam
  stem: ǯʼuam.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Жувам
 
@@ -30694,42 +30694,42 @@
 -lexeme
  lex: Alʼa
  stem: alʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Аля
 
 -lexeme
  lex: Alʼošik
  stem: alʼošik.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Алёшик
 
 -lexeme
  lex: Anʼa
  stem: anʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Аня
 
 -lexeme
  lex: Batər
  stem: batər.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Батыр (гора)
 
 -lexeme
  lex: Galʼa
  stem: galʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Галя
 
 -lexeme
  lex: Germanʼija
  stem: germanʼija.//germanʼij.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Германия
 
@@ -30743,126 +30743,126 @@
 -lexeme
  lex: Jaga
  stem: jaga.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Яга
 
 -lexeme
  lex: Kitaj
  stem: kitaj.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Китай
 
 -lexeme
  lex: Lʼera
  stem: lʼera.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Лера
 
 -lexeme
  lex: Miša
  stem: miša.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Миша
 
 -lexeme
  lex: Ondrej
  stem: ondrej.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Андрей
 
 -lexeme
  lex: Pažmə
  stem: pažmə.//pažmi.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Пажма (Верхняя или Нижняя)
 
 -lexeme
  lex: Pedor
  stem: pedor.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Фёдор
 
 -lexeme
  lex: Petrovičʼ
  stem: petrovičʼ.
- gramm: N,patrn
+ gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Петрович
 
 -lexeme
  lex: Nʼikolaičʼ
  stem: nʼikolaičʼ.
- gramm: N,patrn
+ gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Николаевич
 
 -lexeme
  lex: Vašʼilʼičʼ
  stem: vašʼilʼičʼ.
- gramm: N,patrn
+ gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Васильевич
 
 -lexeme
  lex: Pugačʼova
  stem: pugačʼova.//pugačʼov.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Пугачёва
 
 -lexeme
  lex: Roman
  stem: roman.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Роман
 
 -lexeme
  lex: Saša
  stem: saša.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Саша
 
 -lexeme
  lex: Tanʼa
  stem: tanʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Таня
 
 -lexeme
  lex: Tolʼa
  stem: tolʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Толя
 
 -lexeme
  lex: Uržum
  stem: uržum.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Уржум
 
 -lexeme
  lex: Valʼa
  stem: valʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Валя
 
 -lexeme
  lex: Vitʼa
  stem: vitʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Витя
 
@@ -31212,7 +31212,7 @@
 -lexeme
  lex: ex
  stem: ex.
- gramm: INTRJ,rus
+ gramm: INTERJ,rus
  paradigm: Comparative
  trans_ru: эх
 
@@ -32532,14 +32532,14 @@
 -lexeme
  lex: Pəškižʼ
  stem: pəškižʼ.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Пышкет
 
 -lexeme
  lex: Varuk
  stem: varuk.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Варвара, Варя
 
@@ -32707,7 +32707,7 @@
 -lexeme
  lex: erektek
  stem: erektek.
- gramm: INTRJ
+ gramm: INTERJ
  paradigm: Comparative
  trans_ru: конечно, вот именно
 
@@ -33732,7 +33732,7 @@
 -lexeme
  lex: mužət
  stem: mužət.
- gramm: INTRJ,rus
+ gramm: INTERJ,rus
  paradigm: Comparative
  trans_ru: может
 
@@ -33802,9 +33802,9 @@
 -lexeme
  lex: načʼort
  stem: načʼort.
- gramm: INTRJ,rus
+ gramm: INTERJ,rus
  paradigm: Comparative
- trans_ru: на черта
+ trans_ru: нафиг
 
 -lexeme
  lex: nonəkəl
@@ -36364,42 +36364,42 @@
 -lexeme
  lex: əčʼ-əčʼ
  stem: əčʼ-əčʼ.
- gramm: INTRJ
+ gramm: INTERJ
  paradigm: Comparative
  trans_ru: фу
 
 -lexeme
  lex: Abaševo
  stem: abaševo.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Абашево
 
 -lexeme
  lex: Glazkar
  stem: glazkar.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Глазов
 
 -lexeme
  lex: Nadʼa
  stem: nadʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Надя
 
 -lexeme
  lex: Tamara
  stem: tamara.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Тамара
 
 -lexeme
  lex: Ušʼtʼinʼ
  stem: ušʼtʼinʼ.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Устиний
 
@@ -36959,77 +36959,77 @@
 -lexeme
  lex: Kafkaz
  stem: kafkaz.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Кавказ
 
 -lexeme
  lex: Kalašnʼikov
  stem: kalašnʼikov.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Калашников
 
 -lexeme
  lex: Nataša
  stem: nataša.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Наташа
 
 -lexeme
  lex: Petrova
  stem: petrova.//petrov.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Петрова
 
 -lexeme
  lex: Petʼka
  stem: petʼka.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Петька
 
 -lexeme
  lex: Polʼina
  stem: polʼina.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Полина
 
 -lexeme
  lex: Rita
  stem: rita.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Рита
 
 -lexeme
  lex: Sveta
  stem: sveta.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Света
 
 -lexeme
  lex: Udmurtʼija
  stem: udmurtʼija.//udmurtʼij.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Удмуртия
 
 -lexeme
  lex: Ural
  stem: ural.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Урал
 
 -lexeme
  lex: Vladʼivostok
  stem: vladʼivostok.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Владивосток
 
@@ -37876,35 +37876,35 @@
 -lexeme
  lex: Baškirija
  stem: baškirija.//baškirij.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Башкортостан
 
 -lexeme
  lex: Bražʼilʼija
  stem: bražʼilʼija.//bražʼilʼij.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Бразилия
 
 -lexeme
  lex: Fʼodorovičʼ
  stem: fʼodorovičʼ.
- gramm: N,patrn
+ gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Фёдорович
 
 -lexeme
  lex: Grigor
  stem: grigor.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Григорий
 
 -lexeme
  lex: Ižkar
  stem: ižkar.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Ижевск
 
@@ -37918,21 +37918,21 @@
 -lexeme
  lex: Lʼida
  stem: lʼida.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Лида
 
 -lexeme
  lex: Lʼušʼa
  stem: lʼušʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Люся
 
 -lexeme
  lex: Menʼdʼelʼejev
  stem: menʼdʼelʼejev.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Менделеев
 
@@ -37953,49 +37953,49 @@
 -lexeme
  lex: Popova
  stem: popova.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Попова
 
 -lexeme
  lex: Raja
  stem: raja.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Рая
 
 -lexeme
  lex: Rošʼija
  stem: rošʼija.//rošʼij.//rošʼšʼija.//rošʼšʼij.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Россия
 
 -lexeme
  lex: Sabrekov
  stem: sabrekov.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Сабреков
 
 -lexeme
  lex: Ufa
  stem: ufa.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Уфа
 
 -lexeme
  lex: Valʼerjan
  stem: valʼerjan.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Валерьян
 
 -lexeme
  lex: Votkinsk
  stem: votkinsk.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Воткинск
 
@@ -38023,7 +38023,7 @@
 -lexeme
  lex: ax
  stem: ax.
- gramm: INTRJ,rus
+ gramm: INTERJ,rus
  paradigm: Comparative
  trans_ru: ах
 
@@ -38996,7 +38996,7 @@
 -lexeme
  lex: Žuvam
  stem: žuvam.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Жувам
 
@@ -39017,14 +39017,14 @@
 -lexeme
  lex: Joževo
  stem: joževo.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Ёжево
 
 -lexeme
  lex: Lada
  stem: lada.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Лада
 
@@ -39038,14 +39038,14 @@
 -lexeme
  lex: Vinokur
  stem: vinokur.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Винокур
 
 -lexeme
  lex: Zoja
  stem: zoja.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Зоя
 
@@ -39268,35 +39268,35 @@
 -lexeme
  lex: Ignatʼ
  stem: ignatʼ.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Игнатий
 
 -lexeme
  lex: Ilʼičʼ
  stem: ilʼičʼ.
- gramm: N,patrn
+ gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Ильич
 
 -lexeme
  lex: Jeva
  stem: jeva.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Ева
 
 -lexeme
  lex: Kamčʼatka
  stem: kamčʼatka.//kamčʼatk.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Камчатка
 
 -lexeme
  lex: Kreməlʼ
  stem: kreməlʼ.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Кремль
 
@@ -39310,14 +39310,14 @@
 -lexeme
  lex: Svetlana
  stem: svetlana.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Светлана
 
 -lexeme
  lex: Volkov
  stem: volkov.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Волков
 
@@ -40122,14 +40122,14 @@
 -lexeme
  lex: tʼfu
  stem: tʼfu.
- gramm: INTJ
+ gramm: INTERJ
  paradigm: Comparative
  trans_ru: тьфу
 
 -lexeme
  lex: blʼa
  stem: blʼa.
- gramm: INTJ,rus
+ gramm: INTERJ,rus
  paradigm: Comparative
  trans_ru: бля
 
@@ -40178,21 +40178,21 @@
 -lexeme
  lex: Alʼonka
  stem: alʼonka.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Алёнка
 
 -lexeme
  lex: Griška
  stem: griška.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Гришка
 
 -lexeme
  lex: Jebək
  stem: jebək.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Йебык (лес)
 
@@ -40206,28 +40206,28 @@
 -lexeme
  lex: Natalʼ
  stem: natalʼ.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Наталья
 
 -lexeme
  lex: Nʼikolaj
  stem: nʼikolaj.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Николай
 
 -lexeme
  lex: Olʼokšʼej
  stem: olʼokšʼej.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Алексей
 
 -lexeme
  lex: Pibanʼšur
  stem: pibanʼšur.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Пибаньшур
 
@@ -40241,21 +40241,21 @@
 -lexeme
  lex: Polʼša
  stem: polʼša.//polʼš.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Польша
 
 -lexeme
  lex: Tʼopan
  stem: tʼopan.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Степан
 
 -lexeme
  lex: Valʼerija
  stem: valʼerija.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Валерия
 
@@ -40990,7 +40990,7 @@
 -lexeme
  lex: u
  stem: u.
- gramm: INTRJ
+ gramm: INTERJ
  paradigm: Comparative
  trans_ru: у-у
 
@@ -41102,7 +41102,7 @@
 -lexeme
  lex: Čʼagan
  stem: čʼagan.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Чаган (домовое имя)
 
@@ -41179,112 +41179,112 @@
 -lexeme
  lex: Amerika
  stem: amerika.//amerik.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Америка
 
 -lexeme
  lex: Anna
  stem: anna.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Анна
 
 -lexeme
  lex: Boris
  stem: boris.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Борис
 
 -lexeme
  lex: Dʼima
  stem: dʼima.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Дима
 
 -lexeme
  lex: Jako
  stem: jako.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Яко (домовое имя)
 
 -lexeme
  lex: Jəva
  stem: jəva.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Ева
 
 -lexeme
  lex: Kanada
  stem: kanada.//kanad.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Канада
 
 -lexeme
  lex: Katok
  stem: katok.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Каток (домовое имя)
 
 -lexeme
  lex: Kostʼa
  stem: kostʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Костя
 
 -lexeme
  lex: Kwatʼo
  stem: kwatʼo.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Кватё (домовое имя)
 
 -lexeme
  lex: Lʼogonʼ
  stem: lʼogonʼ.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Лёгонь (домовое имя)
 
 -lexeme
  lex: Lʼuba
  stem: lʼuba.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Люба
 
 -lexeme
  lex: Nʼikolajevičʼ
  stem: nʼikolajevičʼ.
- gramm: N,patrn
+ gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Николаевич
 
 -lexeme
  lex: Patʼik
  stem: patʼik.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Патик (домовое имя)
 
 -lexeme
  lex: Valʼerij
  stem: valʼerij.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Валерий
 
 -lexeme
  lex: Vova
  stem: vova.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Вова
 
@@ -41970,7 +41970,7 @@
 -lexeme
  lex: Čʼura
  stem: čʼura.//čʼur.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Чура
 
@@ -42005,7 +42005,7 @@
 -lexeme
  lex: Šʼidorov
  stem: šʼidorov.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Сидоров
 
@@ -42033,7 +42033,7 @@
 -lexeme
  lex: Alʼona
  stem: alʼona.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Алёна
 
@@ -42047,21 +42047,21 @@
 -lexeme
  lex: Gelʼa
  stem: gelʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Геля
 
 -lexeme
  lex: Kazanʼ
  stem: kazanʼ.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Казань
 
 -lexeme
  lex: Kostʼik
  stem: kostʼik.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Костик
 
@@ -42075,77 +42075,77 @@
 -lexeme
  lex: Lʼenʼingrad
  stem: lʼenʼingrad.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Ленинград
 
 -lexeme
  lex: Lʼuda
  stem: lʼuda.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Люда
 
 -lexeme
  lex: Məško
  stem: məško.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Мышко (шур)
 
 -lexeme
  lex: Padʼej
  stem: padʼej.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Падей (шур)
 
 -lexeme
  lex: Perm
  stem: perm.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Пермь
 
 -lexeme
  lex: Petrofka
  stem: petrofka.//petrofk.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Петровка
 
 -lexeme
  lex: Putʼin
  stem: putʼin.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Путин
 
 -lexeme
  lex: Stanʼislav
  stem: stanʼislav.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Станислав
 
 -lexeme
  lex: Trifan
  stem: trifan.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Трифон; Трифонов день
 
 -lexeme
  lex: Trifon
  stem: trifon.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Трифон; Трифонов день
 
 -lexeme
  lex: Veronʼika
  stem: veronʼika.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Вероника
 
@@ -42789,14 +42789,14 @@
 -lexeme
  lex: Ženʼa
  stem: ženʼa.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Женя
 
 -lexeme
  lex: Žʼankino
  stem: žʼankino.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Зянкино
 
@@ -42810,84 +42810,84 @@
 -lexeme
  lex: Borisovna
  stem: borisovna.//borisovn.
- gramm: N,patrn
+ gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Борисовна
 
 -lexeme
  lex: Lʼeonʼidovna
  stem: lʼeonʼidovna.//lʼeonʼidovn.
- gramm: N,patrn
+ gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Леонидовна
 
 -lexeme
  lex: Darja
  stem: darja.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Дарья
 
 -lexeme
  lex: Daša
  stem: daša.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Даша
 
 -lexeme
  lex: Galʼina
  stem: galʼina.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Галина
 
 -lexeme
  lex: Gena
  stem: gena.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Гена
 
 -lexeme
  lex: Kolumb
  stem: kolumb.
- gramm: N,famn
+ gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Колумб
 
 -lexeme
  lex: Lʼiza
  stem: lʼiza.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Лиза
 
 -lexeme
  lex: Matrʼona
  stem: matrʼona.
- gramm: N,persn
+ gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Матрёна
 
 -lexeme
  lex: Palagaj
  stem: palagaj.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Палагай
 
 -lexeme
  lex: Stʼepanovna
  stem: stʼepanovna.//stʼepanovn.
- gramm: N,patrn
+ gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Степановна
 
 -lexeme
  lex: Turcija
  stem: turcija.//turcij.
- gramm: N,topn
+ gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Турция
 
@@ -43468,7 +43468,7 @@
 -lexeme
  lex: au
  stem: au.
- gramm: INTRJ
+ gramm: INTERJ
  paradigm: Comparative
  trans_ru: а?
 
@@ -43503,7 +43503,7 @@
 -lexeme
  lex: jekunʼa-vanʼa
  stem: jekunʼa-vanʼa.
- gramm: INTRJ,rus
+ gramm: INTERJ,rus
  paradigm: Comparative
  trans_ru: Екуня-Ваня
 
@@ -43580,7 +43580,7 @@
 -lexeme
  lex: jokələmənə
  stem: jokələmənə.
- gramm: INTRJ,rus
+ gramm: INTERJ,rus
  paradigm: Comparative
  trans_ru: ёклмн
 
