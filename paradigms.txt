@@ -236,6 +236,10 @@
   gramm: attr,attr_tem
   gloss: NEG.ATTR
   paradigm: paradigm_A
+ -flex: .jen|tem<.>
+  gramm: ins,attr,attr_tem
+  gloss: INS|NEG.ATTR
+  paradigm: paradigm_A
  -flex: .skən<.>
   gramm: period
   gloss: DELIM
@@ -436,6 +440,10 @@
   gramm: attr,attr_tem
   gloss: NEG.ATTR
   paradigm: paradigm_A
+ -flex: .en|tem<.>
+  gramm: ins,attr,attr_tem
+  gloss: INS|NEG.ATTR
+  paradigm: paradigm_A
  -flex: .skən<.>
   gramm: period
   gloss: DELIM
@@ -476,6 +484,10 @@
  -flex: .tem<.>
   gramm: attr,attr_tem
   gloss: NEG.ATTR
+  paradigm: paradigm_A
+ -flex: .jən|tem<.>
+  gramm: ins,attr,attr_tem
+  gloss: INS|NEG.ATTR
   paradigm: paradigm_A
  -flex: .skən<.>
   gramm: period
@@ -633,6 +645,10 @@
  -flex: .jem<.>
   gramm: attr,attr_em
   gloss: ATTR
+  paradigm: paradigm_A
+ -flex: .ən|tem<.>
+  gramm: ins,attr,attr_tem
+  gloss: INS|NEG.ATTR
   paradigm: paradigm_A
  -flex: .skən<.>
   gramm: period

@@ -1588,6 +1588,20 @@
 
 -lexeme
  lex: ačʼiz
+ stem: asnʼa.
+ gramm: PRO,refl,dms,loc
+ paradigm: poss
+ trans_ru: сам
+
+-lexeme
+ lex: ačʼiz
+ stem: asnʼa.
+ gramm: PRO,refl,dms,ill
+ paradigm: poss
+ trans_ru: сам
+
+-lexeme
+ lex: ačʼiz
  stem: ašʼmes.//asmes.//ačʼmes.
  gramm: PRO,refl,nom,1pl
  paradigm: Comparative
@@ -11428,7 +11442,7 @@
  stem: lɨ.
  gramm: N,body
  paradigm: paradigm_N_px_ə
- paradigm: paradigm_N_px
+ paradigm: paradigm_N
  trans_ru: кость
 
 -lexeme
@@ -11436,7 +11450,7 @@
  stem: urdlɨ.
  gramm: N,body
  paradigm: paradigm_N_px_ə
- paradigm: paradigm_N_px
+ paradigm: paradigm_N
  trans_ru: ребро
 
 -lexeme
@@ -23370,7 +23384,7 @@
 
 -lexeme
  lex: vopšʼeto
- stem: vopšʼeto.//vobšʼeto.
+ stem: vopšʼeto.//vobšʼeto.//vopšeto.
  gramm: PART,rus
  paradigm: Comparative
  trans_ru: вообще-то
@@ -27705,7 +27719,7 @@
 -lexeme
  lex: šum
  stem: šum.
- gramm: 
+ gramm: PART
  paradigm: Empty
  trans_ru: šum potənə -- радоваться
 
@@ -30520,10 +30534,17 @@
  trans_ru: действительно
 
 -lexeme
+ lex: əzem
+ stem: əzem.
+ gramm: A
+ paradigm: paradigm_A
+ trans_ru: настоящий
+
+-lexeme
  lex: əzər-bazər
  stem: əzər-bazər.
- gramm: paradigm_A
- paradigm: Comparative
+ gramm: A
+ paradigm: paradigm_A
  trans_ru: корявый
 
 -lexeme
@@ -33423,8 +33444,8 @@
 -lexeme
  lex: lapər-lapər
  stem: lapər-lapər.
- gramm: paradigm_A
- paradigm: Comparative
+ gramm: A
+ paradigm: paradigm_A
  trans_ru: хороший, правильный
 
 -lexeme
@@ -34439,8 +34460,8 @@
 -lexeme
  lex: talʼək
  stem: talʼək.
- gramm: paradigm_A
- paradigm: Comparative
+ gramm: A
+ paradigm: paradigm_A
  trans_ru: упитанный
 
 -lexeme
