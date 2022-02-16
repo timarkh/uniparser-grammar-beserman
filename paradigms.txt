@@ -929,7 +929,7 @@
  -flex: .lešʼ<.>//.ləšʼ<.>
   gramm: case_comp,gen2
   gloss: GEN2
- -flex: .lə<.>
+ -flex: .lə<.>//.lɨ<.>
   gramm: case_comp,dat
   gloss: DAT
  -flex: .ən<.>//.ɨn<.>
@@ -1270,7 +1270,7 @@
   gramm: el
   gloss: EL
   paradigm: Noun-case-compounding
-  regex-next: ^[.<>0-9,]*(ez|se).*$
+  regex-next: ^[.<>0-9,]*(ez|se|az|tʼiz|ožʼaz|išʼenəz).*$
  -flex: .ašʼ<.>
   gramm: sg,el
   gloss: EL
@@ -1885,7 +1885,7 @@
 
 
 -paradigm: Noun-case-poss-ə-1,sg
- -flex: .ə<.>
+ -flex: .ə<.>//.ɨ<.>
   gramm: nom,1sg
   gloss: P.1SG
  -flex: .jə<.>
@@ -1895,21 +1895,21 @@
  -flex: .me<.>
   gramm: acc,1sg
   gloss: P.1SG.ACC
- -flex: .ə|len<.>
+ -flex: .ə|len<.>//.ɨ|len<.>
   gramm: gen,1sg
   gloss: P.1SG|GEN
  -flex: .jə|len<.>
   gramm: gen,1sg
   gloss: P.1SG|GEN
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
- -flex: .ə|lešʼ<.>//.ə|ləšʼ<.>
+ -flex: .ə|lešʼ<.>//.ə|ləšʼ<.>//.ɨ|lešʼ<.>
   gramm: gen2,1sg
   gloss: P.1SG|GEN2
  -flex: .jə|lešʼ<.>//.jə|ləšʼ<.>
   gramm: gen2,1sg
   gloss: P.1SG|GEN2
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
- -flex: .ə|lə<.>
+ -flex: .ə|lə<.>//.ɨ|lɨ<.>
   gramm: dat,1sg
   gloss: P.1SG|DAT
  -flex: .jə|lə<.>
@@ -2032,28 +2032,28 @@
  paradigm: Comparative
 
 -paradigm: Noun-case-poss-ə-2,sg
- -flex: .əd<.>
+ -flex: .əd<.>//.ɨd<.>
   gramm: nom,2sg
   gloss: P.2SG
  -flex: .jəd<.>
   gramm: nom,2sg
   gloss: P.2SG
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
- -flex: .əd|len<.>
+ -flex: .əd|len<.>//.ɨd|len<.>
   gramm: gen,2sg
   gloss: P.2SG|GEN
  -flex: .jəd|len<.>
   gramm: gen,2sg
   gloss: P.2SG|GEN
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
- -flex: .əd|lešʼ<.>//.əd|ləšʼ<.>
+ -flex: .əd|lešʼ<.>//.əd|ləšʼ<.>//.ɨd|lešʼ<.>
   gramm: gen2,2sg
   gloss: P.2SG|GEN2
  -flex: .jəd|lešʼ<.>//.jəd|ləšʼ<.>
   gramm: gen2,2sg
   gloss: P.2SG|GEN2
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
- -flex: .əd|lə<.>
+ -flex: .əd|lə<.>//.ɨd|lɨ<.>
   gramm: dat,2sg
   gloss: P.2SG|DAT
  -flex: .jəd|lə<.>
@@ -2184,28 +2184,28 @@
 
   
 -paradigm: Noun-case-poss-ə-3,sg
- -flex: .əz<.>
+ -flex: .əz<.>//.ɨz<.>
   gramm: nom,3sg
   gloss: P.3SG
  -flex: .jəz<.>
   gramm: nom,3sg
   gloss: P.3SG
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
- -flex: .əz|len<.>
+ -flex: .əz|len<.>//.ɨz|len<.>
   gramm: gen,3sg
   gloss: P.3SG|GEN
  -flex: .jəz|len<.>
   gramm: gen,3sg
   gloss: P.3SG|GEN
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
- -flex: .əz|lešʼ<.>//.əz|ləšʼ<.>
+ -flex: .əz|lešʼ<.>//.əz|ləšʼ<.>//.ɨz|lešʼ<.>
   gramm: gen2,3sg
   gloss: P.3SG|GEN2
  -flex: .jəz|lešʼ<.>//.jəz|ləšʼ<.>
   gramm: gen2,3sg
   gloss: P.3SG|GEN2
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
- -flex: .əz|lə<.>
+ -flex: .əz|lə<.>//.ɨz|lɨ<.>
   gramm: dat,3sg
   gloss: P.3SG|DAT
  -flex: .jəz|lə<.>
@@ -2336,16 +2336,16 @@
 
 
 -paradigm: Noun-case-poss-1,pl
- -flex: .mə<.>
+ -flex: .mə<.>//.mɨ<.>
   gramm: nom,1pl
   gloss: P.1PL
- -flex: .mə|len<.>
+ -flex: .mə|len<.>//.mɨ|len<.>
   gramm: gen,1pl
   gloss: P.1PL|GEN
- -flex: .mə|lešʼ<.>//.mə|ləšʼ<.>
+ -flex: .mə|lešʼ<.>//.mə|ləšʼ<.>//.mɨ|lešʼ<.>
   gramm: gen2,1pl
   gloss: P.1PL|GEN2
- -flex: .mə|lə<.>
+ -flex: .mə|lə<.>//.mɨ|lɨ<.>
   gramm: dat,1pl
   gloss: P.1PL|DAT
  -flex: .mə|tek<.>
@@ -2426,20 +2426,20 @@
 
 
 -paradigm: Noun-case-poss-2,pl
- -flex: .tə<.>
+ -flex: .tə<.>//.tɨ<.>
   gramm: nom,2pl
   gloss: P.2PL
   regex-prev: .*[kpstfxčš]ʼ?[<>.]*$
- -flex: .də<.>
+ -flex: .də<.>//.dɨ<.>
   gramm: nom,2pl
   gloss: P.2PL
- -flex: .tə|len<.>//.də|len<.>
+ -flex: .tə|len<.>//.də|len<.>//.tɨ|len<.>//.dɨ|len<.>
   gramm: gen,2pl
   gloss: P.2PL|GEN
- -flex: .tə|lešʼ<.>//.də|lešʼ<.>//.tə|ləšʼ<.>//.də|ləšʼ<.>
+ -flex: .tə|lešʼ<.>//.də|lešʼ<.>//.tə|ləšʼ<.>//.də|ləšʼ<.>//.tɨ|lešʼ<.>//.dɨ|lešʼ<.>
   gramm: gen2,2pl
   gloss: P.2PL|GEN2
- -flex: .tə|lə<.>//.də|lə<.>
+ -flex: .tə|lə<.>//.də|lə<.>//.tɨ|lɨ<.>//.dɨ|lɨ<.>
   gramm: dat,2pl
   gloss: P.2PL|DAT
  -flex: .tə|tek<.>//.də|tek<.>
@@ -2547,20 +2547,20 @@
 
   
 -paradigm: Noun-case-poss-3,pl
- -flex: .sə<.>
+ -flex: .sə<.>//.sɨ<.>
   gramm: nom,3pl
   gloss: P.3PL
   regex-prev: .*[kpstfxčš]ʼ?[<>.]*$
- -flex: .zə<.>
+ -flex: .zə<.>//.zɨ<.>
   gramm: nom,3pl
   gloss: P.3PL
- -flex: .sə|len<.>//.zə|len<.>
+ -flex: .sə|len<.>//.zə|len<.>//.sɨ|len<.>//.zɨ|len<.>
   gramm: gen,3pl
   gloss: P.3PL|GEN
- -flex: .sə|lešʼ<.>//.zə|lešʼ<.>//.sə|ləšʼ<.>//.zə|ləšʼ<.>
+ -flex: .sə|lešʼ<.>//.zə|lešʼ<.>//.sə|ləšʼ<.>//.zə|ləšʼ<.>//.sɨ|lešʼ<.>//.zɨ|lešʼ<.>
   gramm: gen2,3pl
   gloss: P.3PL|GEN2
- -flex: .sə|lə<.>//.zə|lə<.>
+ -flex: .sə|lə<.>//.zə|lə<.>//.sɨ|lɨ<.>//.zɨ|lɨ<.>
   gramm: dat,3pl
   gloss: P.3PL|DAT
  -flex: .sə|tek<.>//.zə|tek<.>
@@ -2871,7 +2871,7 @@
   gramm: cvb,dur
   gloss: CVB.DUR
   paradigm: poss
- -flex: .emən<.>//.əmən<.>
+ -flex: .emən<.>//.əmən<.>//.emɨn<.>//.əmɨn<.>
   gramm: res
   gloss: RES
   paradigm: Comparative
@@ -2902,7 +2902,7 @@
   gramm: cvb,dur
   gloss: CVB.DUR
   paradigm: poss
- -flex: .mən<.>
+ -flex: .mən<.>//.mɨn<.>
   gramm: res
   gloss: RES
   paradigm: Comparative
@@ -3173,17 +3173,17 @@
  -flex: .e<.>
   gramm: 3,sg,prs
   gloss: PRS.3SG
- -flex: .išʼkom<.>//.išʼkomə<.>
+ -flex: .išʼkom<.>//.išʼkomə<.>//.išʼkomɨ<.>
   gramm: 1,pl,prs
   gloss: PRS.1PL
- -flex: .kom<.>//.komə<.>
+ -flex: .kom<.>//.komə<.>//.komɨ<.>
   gramm: 1,pl,prs
   gloss: PRS.1PL
   regex-lex: ^šuənə$
- -flex: .išʼkodə<.>
+ -flex: .išʼkodə<.>//.išʼkodɨ<.>
   gramm: 2,pl,prs
   gloss: PRS.2PL
- -flex: .kodə<.>
+ -flex: .kodə<.>//.kodɨ<.>
   gramm: 2,pl,prs
   gloss: PRS.2PL
   regex-lex: ^šuənə$
@@ -3221,13 +3221,13 @@
  -flex: .i|z<.>
   gramm: 3,sg,pst
   gloss: PST|3SG
- -flex: .i|m<.>//.i|mə<.>
+ -flex: .i|m<.>//.i|mə<.>//.i|mɨ<.>
   gramm: 1,pl,pst
   gloss: PST|1PL
- -flex: .i|də<.>
+ -flex: .i|də<.>//.i|dɨ<.>
   gramm: 2,pl,pst
   gloss: PST|2PL
- -flex: .i|zə<.>
+ -flex: .i|zə<.>//.i|zɨ<.>
   gramm: 3,pl,pst
   gloss: PST|3PL
  paradigm: Comparative
@@ -3244,13 +3244,13 @@
  -flex: .o|z<.>
   gramm: 3,sg,fut
   gloss: FUT|3SG
- -flex: .o|m<.>//.o|mə<.>
+ -flex: .o|m<.>//.o|mə<.>//.o|mɨ<.>
   gramm: 1,pl,fut
   gloss: FUT|1PL
- -flex: .o|də<.>
+ -flex: .o|də<.>//.o|dɨ<.>
   gramm: 2,pl,fut
   gloss: FUT|2PL
- -flex: .o|zə<.>
+ -flex: .o|zə<.>//.o|zɨ<.>
   gramm: 3,pl,fut
   gloss: FUT|3PL
  paradigm: Comparative
@@ -3379,10 +3379,10 @@
   gloss: PRS.2SG
  -flex: .<.>
   gramm: 3,sg,prs
- -flex: .šʼkom<.>//.šʼkomə<.>
+ -flex: .šʼkom<.>//.šʼkomə<.>//.šʼkomɨ<.>
   gramm: 1,pl,prs
   gloss: PRS.1PL
- -flex: .šʼkodə<.>
+ -flex: .šʼkodə<.>//.šʼkodɨ<.>
   gramm: 2,pl,prs
   gloss: PRS.2PL
  -flex: .[l]o<.>
@@ -3400,13 +3400,13 @@
  -flex: .z<.>
   gramm: 3,sg,pst
   gloss: PST.3SG
- -flex: .m<.>//.mə<.>
+ -flex: .m<.>//.mə<.>//.mɨ<.>
   gramm: 1,pl,pst
   gloss: PST.1PL
- -flex: .də<.>
+ -flex: .də<.>//.dɨ<.>
   gramm: 2,pl,pst
   gloss: PST.2PL
- -flex: .zə<.>
+ -flex: .zə<.>//.zɨ<.>
   gramm: 3,pl,pst
   gloss: PST.3PL
  paradigm: Comparative
@@ -3421,13 +3421,13 @@
  -flex: .[l]o|z<.>
   gramm: 3,sg,fut
   gloss: FUT|3SG
- -flex: .[l]o|m<.>//.[l]o|mə<.>
+ -flex: .[l]o|m<.>//.[l]o|mə<.>//.[l]o|mɨ<.>
   gramm: 1,pl,fut
   gloss: FUT|1PL
- -flex: .[l]o|də<.>
+ -flex: .[l]o|də<.>//.[l]o|dɨ<.>
   gramm: 2,pl,fut
   gloss: FUT|2PL
- -flex: .[l]o|zə<.>
+ -flex: .[l]o|zə<.>//.[l]o|zɨ<.>
   gramm: 3,pl,fut
   gloss: FUT|3PL
  paradigm: Comparative

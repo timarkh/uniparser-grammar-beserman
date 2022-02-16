@@ -350,7 +350,7 @@
 
 -lexeme
  lex: Kəbančʼa
- stem: kəbančʼa.//kəbančʼ.//kəbanʼčʼa.//kəbanʼčʼ.
+ stem: kəbančʼa.//kəbančʼ.//kəbanʼčʼa.//kəbanʼčʼ.//kvančʼa.//kvančʼ.
  gramm: N,PN,time_meas
  paradigm: paradigm_N
  trans_ru: день Ивана Купалы
@@ -462,7 +462,7 @@
 
 -lexeme
  lex: Mačʼinčʼa
- stem: mačʼinčʼa.//mačʼinčʼ.//mačʼenčʼa.//mačʼenčʼ.
+ stem: mačʼinčʼa.//mačʼinčʼ.//mačʼenčʼa.//mačʼenčʼ.//mačʼenʼčʼa.//mačʼenʼčʼ.
  gramm: N,PN,time_meas
  paradigm: paradigm_N
  trans_ru: Масленица
@@ -532,7 +532,7 @@
 
 -lexeme
  lex: Našʼta
- stem: našʼta.
+ stem: našʼta.//nasʼtʼa.//nastʼa.
  gramm: N,persn
  paradigm: paradigm_N
  trans_ru: Настя
@@ -1386,6 +1386,13 @@
 
 -lexeme
  lex: as
+ stem: ašʼmelen.//asmelen.
+ gramm: PRO,refl,sg,gen,1pl
+ paradigm: Empty
+ trans_ru: сам; свой
+
+-lexeme
+ lex: as
  stem: aste.//ašʼte.//asəde.
  gramm: PRO,refl,sg,acc,2sg
  paradigm: Empty
@@ -1581,14 +1588,14 @@
 
 -lexeme
  lex: ačʼiz
- stem: ašʼmes.//asmes.
+ stem: ašʼmes.//asmes.//ačʼmes.
  gramm: PRO,refl,nom,1pl
  paradigm: Comparative
  trans_ru: сам
 
 -lexeme
  lex: ačʼiz
- stem: ašʼmestə.//asmestə.
+ stem: ašʼmestə.//asmestə.//ačʼmestə.
  gramm: PRO,refl,acc,1pl
  paradigm: Comparative
  trans_ru: сам
@@ -1910,7 +1917,7 @@
 
 -lexeme
  lex: bašʼjanə
- stem: bašʼja.
+ stem: bašʼja.//bašʼšʼa.
  gramm: V,tr
  paradigm: paradigm_V
  trans_ru: брать; покупать
@@ -2106,7 +2113,7 @@
 
 -lexeme
  lex: bešʼerman
- stem: bešʼerman.//besʼerman.
+ stem: bešʼerman.//besʼerman.//besʼermʼan.
  gramm: N,anim,hum
  paradigm: paradigm_N
  trans_ru: бесермянин, бесермянка
@@ -2717,7 +2724,7 @@
 
 -lexeme
  lex: bəgatənə
- stem: bəgat.|bəgačʼ.
+ stem: bəgat.//bɨgat.|bəgačʼ.//bɨgačʼ.
  gramm: V,intr,with_inf
  paradigm: paradigm_V
  trans_ru: мочь; уметь
@@ -2970,14 +2977,14 @@
 
 -lexeme
  lex: bətčʼa
- stem: bətčʼa.//bətčʼ.
+ stem: bətčʼa.//bətčʼ.//bətca.
  gramm: A,rel_adj
  paradigm: paradigm_A
  trans_ru: размером равный чему-то
 
 -lexeme
  lex: bətčʼa
- stem: bətčʼa.
+ stem: bətčʼa.//bətca.
  gramm: ADV
  paradigm: Comparative
  trans_ru: даже
@@ -3747,7 +3754,15 @@
 
 -lexeme
  lex: dərja
- stem: dərja.
+ stem: dərja.//dɨrja.
+ gramm: POST
+ paradigm: Comparative
+ paradigm: poss
+ trans_ru: во время, в течение
+
+-lexeme
+ lex: dərjala
+ stem: dərjala.
  gramm: POST
  paradigm: Comparative
  paradigm: poss
@@ -3853,35 +3868,35 @@
 
 -lexeme
  lex: dʼešʼ
- stem: dʼešʼ.
+ stem: dʼešʼ.//ǯʼečʼ.
  gramm: A
  paradigm: paradigm_A
  trans_ru: хороший
 
 -lexeme
  lex: dʼešʼ
- stem: dʼešʼ.
+ stem: dʼešʼ.//ǯʼečʼ.
  gramm: ADV
  paradigm: Comparative
  trans_ru: хорошо
 
 -lexeme
  lex: dʼešʼ
- stem: dʼešʼ.
+ stem: dʼešʼ.//ǯʼečʼ.
  gramm: PRED
  paradigm: Comparative
  trans_ru: хорошо
 
 -lexeme
  lex: dʼešʼlək
- stem: dʼešʼlək.
+ stem: dʼešʼlək.//ǯʼečʼlɨk.
  gramm: N
  paradigm: paradigm_N
  trans_ru: хорошее
 
 -lexeme
  lex: dʼešʼomənə
- stem: dʼešʼom.
+ stem: dʼešʼom.//ǯʼečʼom.
  gramm: V,intr
  paradigm: paradigm_V
  trans_ru: улучшаться
@@ -4196,7 +4211,7 @@
 
 -lexeme
  lex: evəl
- stem: evəl.//ɤvɤl.
+ stem: evəl.//ɤvɤl.//əvəl.
  gramm: PRED
  paradigm: paradigm_PRED
  trans_ru: нет; не
@@ -4469,7 +4484,7 @@
 
 -lexeme
  lex: geršok
- stem: geršok.//gɤršok.
+ stem: geršok.//gɤršok.//goršok.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: горшок
@@ -5443,7 +5458,7 @@
 
 -lexeme
  lex: dʼenʼroždʼenʼje
- stem: dʼenʼroždʼenʼje.//dʼenʼroždʼenʼj.
+ stem: dʼenʼroždʼenʼje.//dʼenʼroždʼenʼj.//dʼenʼroždʼenʼij.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: день рождения
@@ -6587,7 +6602,7 @@
 
 -lexeme
  lex: kabəsta
- stem: kabəsta.//kabəst.
+ stem: kabəsta.//kabəst.//kubišʼta.//kubišʼt.
  gramm: N
  paradigm: paradigm_N
  trans_ru: капуста огородная
@@ -6819,7 +6834,7 @@
 
 -lexeme
  lex: režʼinka
- stem: režʼinka.
+ stem: režʼinka.//režʼink.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: резинка
@@ -7499,7 +7514,7 @@
 
 -lexeme
  lex: kinʼ
- stem: kinʼ.
+ stem: kinʼ.//kin.
  gramm: PRO
  paradigm: paradigm_N-mar
  trans_ru: кто
@@ -7512,8 +7527,15 @@
  trans_ru: кто
 
 -lexeme
+ lex: kinʼ
+ stem: kilʼlə.
+ gramm: PRO,dat
+ paradigm: Noun-case-compounding
+ trans_ru: кто
+
+-lexeme
  lex: kinʼke
- stem: kinʼ.ke
+ stem: kinʼ.ke//kin.ke
  gramm: PRO
  paradigm: paradigm_N-mar
  trans_ru: кто-то, кто-нибудь; кое-кто
@@ -8298,7 +8320,7 @@
 
 -lexeme
  lex: kotʼkəčʼe
- stem: kotʼkəčʼe.//kotʼkɨče.
+ stem: kotʼkəčʼe.//kotʼkɨče.//kotʼkəče.
  gramm: PRO
  paradigm: paradigm_N
  trans_ru: любой, какой угодно
@@ -8396,7 +8418,7 @@
 
 -lexeme
  lex: košʼag
- stem: košʼag.//košʼak.
+ stem: košʼag.//košʼak.//kosʼag.//kosʼak.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: окно
@@ -8449,6 +8471,20 @@
  gramm: V,tr,rus
  paradigm: paradigm_V
  trans_ru: красить
+
+-lexeme
+ lex: buksovatʼtənə
+ stem: buksovatʼt.|buksovatʼčʼ.
+ gramm: V,intr,rus
+ paradigm: paradigm_V
+ trans_ru: буксовать
+
+-lexeme
+ lex: dumatʼtənə
+ stem: dumatʼt.|dumatʼčʼ.
+ gramm: V,intr,rus
+ paradigm: paradigm_V
+ trans_ru: думать
 
 -lexeme
  lex: krenʼ
@@ -8977,7 +9013,7 @@
 
 -lexeme
  lex: kučʼkənə
- stem: kučʼk.//kučʼik.
+ stem: kučʼk.//kutsk.//kučʼik.
  gramm: V,intr,with_inf
  paradigm: paradigm_V
  trans_ru: начать, начаться
@@ -9839,14 +9875,14 @@
 
 -lexeme
  lex: kəno
- stem: kəno.
+ stem: kəno.//kuno.
  gramm: N,anim,hum
  paradigm: paradigm_N
  trans_ru: гость
 
 -lexeme
  lex: kənojanə
- stem: kənoja.
+ stem: kənoja.//kunoja.
  gramm: V,tr
  paradigm: paradigm_V
  trans_ru: гостить; угощать
@@ -9972,14 +10008,14 @@
 
 -lexeme
  lex: kərǯʼan
- stem: kərǯʼan.
+ stem: kərǯʼan.//kɨrǯʼan.
  gramm: N,vn
  paradigm: paradigm_N
  trans_ru: песня
 
 -lexeme
  lex: kərǯʼanə
- stem: kərǯʼa.
+ stem: kərǯʼa.//kɨrǯʼa.
  gramm: V,tr
  paradigm: paradigm_V
  trans_ru: петь
@@ -10962,7 +10998,7 @@
 
 -lexeme
  lex: lešʼjanə
- stem: lešʼja.
+ stem: lešʼja.//lešʼšʼa.
  gramm: V,intr
  paradigm: paradigm_V
  trans_ru: чинить
@@ -11482,7 +11518,7 @@
 
 -lexeme
  lex: lʼegitʼ
- stem: lʼegitʼ.//jegitʼ.
+ stem: lʼegitʼ.//jegitʼ.//jegit.
  gramm: A
  paradigm: paradigm_N
  paradigm: paradigm_A
@@ -11973,14 +12009,14 @@
 
 -lexeme
  lex: malə
- stem: malə.
+ stem: malə.//malɨ.
  gramm: PRO
  paradigm: paradigm_N
  trans_ru: зачем; почему
 
 -lexeme
  lex: maləke
- stem: maləke.
+ stem: maləke.//malɨke.
  gramm: PRO
  paradigm: paradigm_N
  trans_ru: почему-то, зачем-то
@@ -13355,7 +13391,7 @@
 
 -lexeme
  lex: načʼinka
- stem: načʼinka.
+ stem: načʼinka.//načʼink.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: начинка
@@ -13411,7 +13447,7 @@
 
 -lexeme
  lex: nokinʼ no
- stem: nokinʼ.
+ stem: nokinʼ.//nokin.
  gramm: PRO
  paradigm: paradigm_N-mar
  trans_ru: никто
@@ -14056,7 +14092,7 @@
 
 -lexeme
  lex: nʼilʼ
- stem: nʼilʼ.
+ stem: nʼilʼ.//nʼɨlʼ.
  gramm: NUM
  paradigm: paradigm_NUM
  trans_ru: четыре
@@ -14189,7 +14225,7 @@
 
 -lexeme
  lex: nʼumalǯʼənə
- stem: nʼumalǯʼ.
+ stem: nʼumalǯʼ.//jumalǯʼ.
  gramm: V,intr
  paradigm: paradigm_V
  trans_ru: стать сладким
@@ -14625,7 +14661,7 @@
 
 -lexeme
  lex: ogrežʼ
- stem: ogrežʼ.//ogrešʼ.
+ stem: ogrežʼ.//ogrešʼ.//ogrečʼ.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: огурец
@@ -15052,7 +15088,7 @@
 
 -lexeme
  lex: otčʼə
- stem: otčʼə.//otcə.
+ stem: otčʼə.//otcə.//otčʼɨ.//otcɨ.
  gramm: PRO,dem,ill
  paradigm: Comparative
  trans_ru: туда
@@ -15066,14 +15102,14 @@
 
 -lexeme
  lex: otən
- stem: otən.
+ stem: otən.//otɨn.
  gramm: PRO,dem,loc
  paradigm: paradigm_N
  trans_ru: там
 
 -lexeme
  lex: otəšʼ
- stem: otəšʼ.
+ stem: otəšʼ.//otɨšʼ.
  gramm: PRO,dem,el
  paradigm: Comparative
  trans_ru: оттуда
@@ -15466,14 +15502,14 @@
 
 -lexeme
  lex: pastuk
- stem: pastuk.
+ stem: pastuk.//pastux.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: пастух; выпас
 
 -lexeme
  lex: pastukanə
- stem: pastuka.
+ stem: pastuka.//pastuka.
  gramm: V,intr,rus
  paradigm: paradigm_V
  trans_ru: пасти скот, пастушить
@@ -16179,6 +16215,13 @@
  trans_ru: маленький
 
 -lexeme
+ lex: pičʼijak
+ stem: pičʼijak.
+ gramm: ADV
+ paradigm: Comparative
+ trans_ru: чуть-чуть
+
+-lexeme
  lex: pičʼi-pičʼi
  stem: pičʼi-pičʼi.
  gramm: ADV
@@ -16593,7 +16636,7 @@
 
 -lexeme
  lex: portmanʼet
- stem: portmanʼet.
+ stem: portmanʼet.//portomanʼet.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: кошелёк
@@ -17063,7 +17106,7 @@
 
 -lexeme
  lex: punənə
- stem: pun.
+ stem: pun.//pon.
  gramm: V,tr,with_ill
  paradigm: paradigm_V
  trans_ru: класть; ставить
@@ -17216,6 +17259,14 @@
  paradigm: paradigm_N
  paradigm: paradigm_N_px_ə
  trans_ru: внутренность
+
+-lexeme
+ lex: nʼules
+ stem: nʼules.|nʼulesk.
+ gramm: N|N,obl
+ paradigm: paradigm_N
+ paradigm: paradigm_N_px_ə
+ trans_ru: лес (удм.)
 
 -lexeme
  lex: pušjənə
@@ -17464,21 +17515,21 @@
 
 -lexeme
  lex: pər
- stem: pər.
+ stem: pər.//pɨr.
  gramm: ADV
  paradigm: Comparative
  trans_ru: насквозь, навылет; постоянно
 
 -lexeme
  lex: pər
- stem: pər.
+ stem: pər.//pɨr.
  gramm: POST
  paradigm: Comparative
  trans_ru: сквозь, через
 
 -lexeme
  lex: pəranə
- stem: pəra.
+ stem: pəra.//pɨra.
  gramm: V,intr,with_el,with_ill
  paradigm: paradigm_V
  trans_ru: входить
@@ -17563,7 +17614,7 @@
 
 -lexeme
  lex: pərənə
- stem: pər.
+ stem: pər.//pɨr.
  gramm: V,intr,with_el,with_ill
  paradigm: paradigm_V
  trans_ru: входить
@@ -17787,14 +17838,14 @@
 
 -lexeme
  lex: pɤjanə
- stem: pɤja.
+ stem: pɤja.//peja.
  gramm: V,intr,with_dat
  paradigm: paradigm_V
  trans_ru: врать
 
 -lexeme
  lex: pɤjšuranə
- stem: pɤjšura.
+ stem: pɤjšura.//pejšura.
  gramm: V,intr,with_dat,with_instr
  paradigm: paradigm_V
  trans_ru: охотиться
@@ -17808,126 +17859,126 @@
 
 -lexeme
  lex: pɤlə
- stem: pɤlə.|pɤli.
+ stem: pɤlə.//pelə.|pɤli.//peli.
  gramm: N,body
  paradigm: paradigm_N_px_ə
  trans_ru: большой палец
 
 -lexeme
  lex: pɤr
- stem: pɤr.
+ stem: pɤr.//per.
  gramm: N
  paradigm: paradigm_N
  trans_ru: женские домашние обязанности, хозяйственные дела
 
 -lexeme
  lex: pɤr
- stem: pɤr.
+ stem: pɤr.//per.
  gramm: N,anim,supernat
  paradigm: paradigm_N_px_ə
  trans_ru: пер, дух болезни; болезнь с высокой температурой
 
 -lexeme
  lex: pɤranə
- stem: pɤra.
+ stem: pɤra.//pera.
  gramm: V,intr
  paradigm: paradigm_V
  trans_ru: готовить еду; заниматься хозяйством
 
 -lexeme
  lex: pɤrmənə
- stem: pɤrm.
+ stem: pɤrm.//perm.
  gramm: V,intr,with_el
  paradigm: paradigm_V
  trans_ru: получиться; образоваться
 
 -lexeme
  lex: pɤrtem
- stem: pɤrtem.
+ stem: pɤrtem.//pertem.
  gramm: A
  paradigm: paradigm_A
  trans_ru: разный
 
 -lexeme
  lex: pɤrtmašʼkon
- stem: pɤrtmašʼkon.
+ stem: pɤrtmašʼkon.//pertmašʼkon.
  gramm: N,vn,anim,supernat
  paradigm: paradigm_N
  trans_ru: привидение
 
 -lexeme
  lex: pɤrtmašʼkənə
- stem: pɤrtmašʼk.
+ stem: pɤrtmašʼk.//pertmašʼk.
  gramm: V,intr,with_dat,detr
  paradigm: paradigm_V
  trans_ru: привидеться
 
 -lexeme
  lex: pɤšʼ
- stem: pɤšʼ.
+ stem: pɤšʼ.//pešʼ.
  gramm: A
  paradigm: paradigm_A
  trans_ru: горячий
 
 -lexeme
  lex: pɤšʼ
- stem: pɤšʼ.
+ stem: pɤšʼ.//pešʼ.
  gramm: PRED
  paradigm: Comparative
  trans_ru: жарко; горячо
 
 -lexeme
  lex: pɤšʼ
- stem: pɤšʼ.
+ stem: pɤšʼ.//pešʼ.
  gramm: N
  paradigm: paradigm_N
  trans_ru: жара, жар
 
 -lexeme
  lex: pɤšʼanə
- stem: pɤšʼa.
+ stem: pɤšʼa.//pešʼa.
  gramm: V,intr
  paradigm: paradigm_V
  trans_ru: потеть
 
 -lexeme
  lex: pɤšʼektənə
- stem: pɤšʼekt.|pɤšʼekčʼ.//pɤšʼečʼ.
+ stem: pɤšʼekt.//pešʼekt.|pɤšʼekčʼ.//pɤšʼečʼ.//pešʼekčʼ.//pešʼečʼ.
  gramm: V,intr
  paradigm: paradigm_V
  trans_ru: подняться /о температуре/; перегреться
 
 -lexeme
  lex: pɤšʼkə
- stem: pɤšʼkə.|pɤšʼki.
+ stem: pɤšʼkə.//pešʼkə.|pɤšʼki.//pešʼki.
  gramm: N,body
  paradigm: paradigm_N
  trans_ru: чирей, фурункул
 
 -lexeme
  lex: pɤšʼkətənə
- stem: pɤšʼkət.|pɤšʼkəčʼ.
+ stem: pɤšʼkət.//pešʼkət.|pɤšʼkəčʼ.//pešʼkəčʼ.
  gramm: V,tr
  paradigm: paradigm_V
  trans_ru: износить; выдавить, прорвать
 
 -lexeme
  lex: pɤšʼtənə
- stem: pɤšʼt.|pɤšʼčʼ.
+ stem: pɤšʼt.//pešʼt.|pɤšʼčʼ.//pešʼčʼ.
  gramm: V,intr
  paradigm: paradigm_V
  trans_ru: полностью износиться
 
 -lexeme
  lex: pɤžʼ
- stem: pɤžʼ.
+ stem: pɤžʼ.//pežʼ.
  gramm: N
  paradigm: paradigm_N
  trans_ru: варежка, варежки
 
 -lexeme
  lex: pɤžʼənə
- stem: pɤžʼ.
+ stem: pɤžʼ.//pežʼ.
  gramm: V,intr
  paradigm: paradigm_V
  trans_ru: кипеть; вариться
@@ -17941,7 +17992,7 @@
 
 -lexeme
  lex: rad
- stem: rad.
+ stem: rad.//rʼad.
  gramm: N,rus
  paradigm: paradigm_N
  paradigm: paradigm_N_px_ə
@@ -18180,7 +18231,7 @@
 
 -lexeme
  lex: samopraka
- stem: samopraka.//samoprak.
+ stem: samopraka.//samoprak.//samoprʼaxa.//samoprʼax.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: самопрялка
@@ -18461,7 +18512,7 @@
 
 -lexeme
  lex: slaltənə
- stem: slalt.|slalčʼ.
+ stem: slalt.//səlalt.|slalčʼ.//səlalčʼ.
  gramm: V,tr
  paradigm: paradigm_V
  trans_ru: солить
@@ -19167,6 +19218,13 @@
  trans_ru: потом; а
 
 -lexeme
+ lex: səre
+ stem: səreze.
+ gramm: ADV,acc,3sg
+ paradigm: Comparative
+ trans_ru: потом; а
+
+-lexeme
  lex: sərek
  stem: sərek.
  gramm: N
@@ -19259,7 +19317,7 @@
 
 -lexeme
  lex: səčʼe
- stem: səčʼe.//sčʼe.//səče.//sče.
+ stem: səčʼe.//sčʼe.//səče.//sče.//sɨče.
  gramm: PRO
  paradigm: paradigm_N
  paradigm: paradigm_A
@@ -19267,7 +19325,7 @@
 
 -lexeme
  lex: səčʼe
- stem: səčʼe.//sčʼe.//səče.//sče.
+ stem: səčʼe.//sčʼe.//səče.//sče.//sɨče.
  gramm: ADV
  paradigm: Comparative
  trans_ru: так
@@ -19687,14 +19745,14 @@
 
 -lexeme
  lex: tatən
- stem: tatən.
+ stem: tatən.//tatɨn.
  gramm: PRO,dem,loc
  paradigm: paradigm_N
  trans_ru: здесь, тут
 
 -lexeme
  lex: tatəšʼ
- stem: tatəšʼ.
+ stem: tatəšʼ.//tatɨšʼ.
  gramm: PRO,dem,el
  paradigm: Comparative
  trans_ru: отсюда, от этого места
@@ -19820,7 +19878,7 @@
 
 -lexeme
  lex: tedʼə
- stem: tedʼə.//tedʼi.
+ stem: tedʼə.//tedʼi.//tɤdʼə.//tɤdʼi.//tɤdʼɨ.
  gramm: A
  paradigm: paradigm_A
  trans_ru: белый; светлый, яркий
@@ -19981,7 +20039,7 @@
 
 -lexeme
  lex: tinʼ
- stem: tinʼ.
+ stem: tinʼ.//tinʼi.
  gramm: PART
  paradigm: Empty
  trans_ru: вон, вот
@@ -19995,7 +20053,7 @@
 
 -lexeme
  lex: tanʼ
- stem: tanʼ.
+ stem: tanʼ.//tanʼi.
  gramm: PART
  paradigm: Empty
  trans_ru: вон, вот
@@ -20759,7 +20817,7 @@
 
 -lexeme
  lex: təbənə
- stem: təb.
+ stem: təb.//tub.
  gramm: V,intr,with_el,with_ill
  paradigm: paradigm_V
  trans_ru: подниматься
@@ -23311,8 +23369,15 @@
  trans_ru: вообще
 
 -lexeme
+ lex: vopšʼeto
+ stem: vopšʼeto.//vobšʼeto.
+ gramm: PART,rus
+ paradigm: Comparative
+ trans_ru: вообще-то
+
+-lexeme
  lex: vopšʼem
- stem: vopšʼem.//vobšʼem.
+ stem: vopšʼem.//vobšʼem.//vopšem.
  gramm: ADV,rus
  paradigm: paradigm_N
  trans_ru: в общем
@@ -24214,7 +24279,7 @@
 
 -lexeme
  lex: watənə
- stem: wat.|wačʼ.
+ stem: wat.//vat.|wačʼ.//vačʼ.
  gramm: V,tr,with_ill
  paradigm: paradigm_V
  trans_ru: прятать; хоронить
@@ -25090,7 +25155,7 @@
 
 -lexeme
  lex: čʼašja
- stem: čʼašja.//čʼašj.//čʼašša.//čʼašš.//čʼašʼšʼa.//čʼašʼa.//čʼašʼšʼ.
+ stem: čʼašja.//čʼašj.//čʼašša.//čʼašš.//čʼašʼšʼa.//čʼašʼa.//čʼašʼšʼ.//čašša.//čašš.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: лес; дерево
@@ -26014,14 +26079,14 @@
 
 -lexeme
  lex: čʼukna
- stem: čʼukna.//čʼukn.
+ stem: čʼukna.//čʼukn.//čukna.//čukn.
  gramm: N
  paradigm: paradigm_N
  trans_ru: утро
 
 -lexeme
  lex: čʼukna
- stem: čʼukna.
+ stem: čʼukna.//čukna.
  gramm: ADV
  paradigm: Comparative
  trans_ru: утром
@@ -26161,28 +26226,28 @@
 
 -lexeme
  lex: čʼušaltənə
- stem: čʼušalt.
+ stem: čʼušalt.//čušalt.
  gramm: V,tr,with_instr,with_el
  paradigm: paradigm_V
  trans_ru: вытереть; стереть
 
 -lexeme
  lex: čʼušet
- stem: čʼušet.
+ stem: čʼušet.//čušet.
  gramm: N,vn
  paradigm: paradigm_N
  trans_ru: небольшая тряпка, полотенце; ластик
 
 -lexeme
  lex: čʼušjal
- stem: čʼušjal.
+ stem: čʼušjal.//čušjal.
  gramm: N,anim
  paradigm: paradigm_N
  trans_ru: ёж
 
 -lexeme
  lex: čʼuškon
- stem: čʼuškon.
+ stem: čʼuškon.//čuškon.
  gramm: N,vn
  paradigm: paradigm_N
  trans_ru: полотенце
@@ -26196,7 +26261,7 @@
 
 -lexeme
  lex: čʼušənə
- stem: čʼuš.
+ stem: čʼuš.//čuš.
  gramm: V,tr,with_instr,with_el
  paradigm: paradigm_V
  trans_ru: вытирать; стирать
@@ -27772,7 +27837,7 @@
 
 -lexeme
  lex: šədənə
- stem: šəd.|šəǯʼ.
+ stem: šəd.//šud.|šəǯʼ.//šuǯʼ.
  gramm: V,intr,with_instr
  paradigm: paradigm_V
  trans_ru: играть
@@ -28110,14 +28175,14 @@
 
 -lexeme
  lex: šʼarəšʼ
- stem: šʼarəšʼ.
+ stem: šʼarəšʼ.//šʼarɨšʼ.
  gramm: POST
  paradigm: Comparative
  trans_ru: о
 
 -lexeme
  lex: šʼarəšʼ
- stem: šʼarəšʼ.
+ stem: šʼarəšʼ.//šʼarɨšʼ.
  gramm: CONJ
  paradigm: Empty
  trans_ru: чем
@@ -28145,7 +28210,7 @@
 
 -lexeme
  lex: šʼed
- stem: šʼed.
+ stem: šʼed.//šʼɤd.
  gramm: A
  paradigm: paradigm_A
  trans_ru: чёрный
@@ -28194,21 +28259,21 @@
 
 -lexeme
  lex: šʼekət
- stem: šʼekət.
+ stem: šʼekət.//šʼekɨt.
  gramm: A
  paradigm: paradigm_A
  trans_ru: тяжёлый
 
 -lexeme
  lex: šʼekət
- stem: šʼekət.
+ stem: šʼekət.//šʼekɨt.
  gramm: ADV
  paradigm: Comparative
  trans_ru: тяжело, трудно
 
 -lexeme
  lex: šʼekət
- stem: šʼekət.
+ stem: šʼekət.//šʼekɨt.
  gramm: PRED
  paradigm: Comparative
  trans_ru: тяжело, трудно
@@ -28285,14 +28350,14 @@
 
 -lexeme
  lex: šʼer
- stem: šʼer.
+ stem: šʼer.//šʼɤr.
  gramm: N,rel_n
  paradigm: paradigm_N_px_ə
  trans_ru: пространство за ориентиром
 
 -lexeme
  lex: šʼer
- stem: šʼer.
+ stem: šʼer.//šʼɤr.
  gramm: A
  paradigm: paradigm_A
  trans_ru: задний
@@ -29802,6 +29867,13 @@
  trans_ru: гореть
 
 -lexeme
+ lex: ǯʼuatʼtʼanə
+ stem: ǯʼuatʼtʼa.//ǯuatʼtʼa.
+ gramm: V,tr
+ paradigm: paradigm_V
+ trans_ru: зажигать
+
+-lexeme
  lex: ǯʼubis
  stem: ǯʼubis.
  gramm: A
@@ -30492,7 +30564,7 @@
 
 -lexeme
  lex: əšna
- stem: əšna.
+ stem: əšna.//ɨšna.
  gramm: ADV
  paradigm: Empty
  trans_ru: ещё
@@ -30642,7 +30714,7 @@
 
 -lexeme
  lex: Ilʼlʼin
- stem: ilʼlʼin.//ilʼlʼinʼ.
+ stem: ilʼlʼin.//ilʼlʼinʼ.//ilʼlʼenʼ.
  gramm: N,PN,rus
  paradigm: paradigm_N
  trans_ru: Ильин (день)
@@ -30800,6 +30872,13 @@
  gramm: A,oblin
  paradigm: paradigm_A
  trans_ru: весь в ямах
+
+-lexeme
+ lex: šaktaješʼ
+ stem: šaktaješʼ.
+ gramm: A,oblin
+ paradigm: paradigm_A
+ trans_ru: весь в сорняках
 
 -lexeme
  lex: artasa
@@ -31272,7 +31351,7 @@
 
 -lexeme
  lex: kagbutto
- stem: kagbutto.//kagbutʼto.
+ stem: kagbutto.//kagbutʼto.//kagbudʼto.
  gramm: CONJ,rus
  paradigm: Comparative
  trans_ru: как будто
@@ -33673,7 +33752,7 @@
 
 -lexeme
  lex: nalʼeg
- stem: nalʼeg.
+ stem: nalʼeg.//nalʼek.
  gramm: N
  paradigm: paradigm_N
  trans_ru: деревянный капкан
@@ -37866,7 +37945,7 @@
 
 -lexeme
  lex: Rošʼija
- stem: rošʼija.//rošʼij.
+ stem: rošʼija.//rošʼij.//rošʼšʼija.//rošʼšʼij.
  gramm: N,topn
  paradigm: paradigm_N
  trans_ru: Россия
@@ -42204,8 +42283,8 @@
  trans_ru: втулка
 
 -lexeme
- lex: garmonʼist
- stem: garmonʼist.
+ lex: garmonʼis
+ stem: garmonʼist.//garmonʼis.
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
  trans_ru: гармонист
@@ -43364,3 +43443,2230 @@
  gramm: A,rus
  paradigm: paradigm_A
  trans_ru: фабричный, цветастый (платок)
+
+-lexeme
+ lex: au
+ stem: au.
+ gramm: INTRJ
+ paradigm: Comparative
+ trans_ru: а?
+
+-lexeme
+ lex: vezdʼe
+ stem: vezdʼe.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: везде
+
+-lexeme
+ lex: von
+ stem: von.
+ gramm: PART,rus
+ paradigm: Comparative
+ trans_ru: вон
+
+-lexeme
+ lex: davajtʼe
+ stem: davajtʼe.
+ gramm: PART,rus
+ paradigm: Comparative
+ trans_ru: давайте
+
+-lexeme
+ lex: inačʼe
+ stem: inačʼe.
+ gramm: CONJ,rus
+ paradigm: Comparative
+ trans_ru: иначе
+
+-lexeme
+ lex: jekunʼa-vanʼa
+ stem: jekunʼa-vanʼa.
+ gramm: INTRJ,rus
+ paradigm: Comparative
+ trans_ru: Екуня-Ваня
+
+-lexeme
+ lex: kakoj
+ stem: kakoj.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: какой (там!)
+
+-lexeme
+ lex: normalʼno
+ stem: normalʼno.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: нормально
+
+-lexeme
+ lex: sročʼno
+ stem: sročʼno.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: срочно
+
+-lexeme
+ lex: tolʼi
+ stem: tolʼi.
+ gramm: CONJ,rus
+ paradigm: Comparative
+ trans_ru: то ли
+
+-lexeme
+ lex: vdrug
+ stem: vdrug.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: вдруг
+
+-lexeme
+ lex: vokšʼu
+ stem: vokšʼu.
+ gramm: ADV
+ paradigm: Comparative
+ trans_ru: вообще
+
+-lexeme
+ lex: zato
+ stem: zato.
+ gramm: CONJ,rus
+ paradigm: Comparative
+ trans_ru: зато
+
+-lexeme
+ lex: znatʼ
+ stem: znatʼ.
+ gramm: PARENTH,rus
+ paradigm: Comparative
+ trans_ru: знать, видимо
+
+-lexeme
+ lex: budʼto
+ stem: budʼto.//butʼto.//butto.
+ gramm: CONJ,rus
+ paradigm: Comparative
+ trans_ru: будто
+
+-lexeme
+ lex: celʼikom
+ stem: celʼikom.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: целиком
+
+-lexeme
+ lex: jokələmənə
+ stem: jokələmənə.
+ gramm: INTRJ,rus
+ paradigm: Comparative
+ trans_ru: ёклмн
+
+-lexeme
+ lex: nepravilʼno
+ stem: nepravilʼno.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: неправильно
+
+-lexeme
+ lex: nʼekogda
+ stem: nʼekogda.
+ gramm: PREDIC,rus
+ paradigm: Comparative
+ trans_ru: некогда
+
+-lexeme
+ lex: nʼeobezatʼelʼno
+ stem: nʼeobezatʼelʼno.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: необязательно
+
+-lexeme
+ lex: nʼeudobno
+ stem: nʼeudobno.
+ gramm: PREDIC,rus
+ paradigm: Comparative
+ trans_ru: неудобно
+
+-lexeme
+ lex: nʼevozmožno
+ stem: nʼevozmožno.
+ gramm: PREDIC,rus
+ paradigm: Comparative
+ trans_ru: невозможно
+
+-lexeme
+ lex: nʼikak
+ stem: nʼikak.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: никак
+
+-lexeme
+ lex: obɨčʼno
+ stem: obɨčʼno.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: обычно
+
+-lexeme
+ lex: odnako
+ stem: odnako.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: однако
+
+-lexeme
+ lex: osobo
+ stem: osobo.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: особо
+
+-lexeme
+ lex: poprobuj
+ stem: poprobuj.
+ gramm: PART,rus
+ paradigm: Comparative
+ trans_ru: попробуй
+
+-lexeme
+ lex: strogo
+ stem: strogo.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: строго
+
+-lexeme
+ lex: šʼilom
+ stem: šʼilom.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: силой
+
+-lexeme
+ lex: dostatočʼno
+ stem: dostatočʼno.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: достаточно
+
+-lexeme
+ lex: faktʼičʼeski
+ stem: faktʼičʼeski.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: фактически
+
+-lexeme
+ lex: inogda
+ stem: inogda.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: иногда
+
+-lexeme
+ lex: jestʼestvenno
+ stem: jestʼestvenno.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: естественно
+
+-lexeme
+ lex: spokojno
+ stem: spokojno.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: спокойно
+
+-lexeme
+ lex: vnʼimatʼelʼno
+ stem: vnʼimatʼelʼno.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: внимательно
+
+-lexeme
+ lex: sovremennoj
+ stem: sovremennoj.//sovremennɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: современный
+
+-lexeme
+ lex: svetloj
+ stem: svetloj.//svetlɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: светлый
+
+-lexeme
+ lex: plazmennoj
+ stem: plazmennoj.//plazmennɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: плазменный
+
+-lexeme
+ lex: raznocvetnoj
+ stem: raznocvetnoj.//raznocvetnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: разноцветный
+
+-lexeme
+ lex: vɨššoj
+ stem: vɨššoj.//vɨššɨj.//vɨššij.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: вышший
+
+-lexeme
+ lex: zapasnoj
+ stem: zapasnoj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: запасной
+
+-lexeme
+ lex: bambukovoj
+ stem: bambukovoj.//bambukovɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: бамбуковый
+
+-lexeme
+ lex: bednoj
+ stem: bednoj.//bednɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: бедный
+
+-lexeme
+ lex: bengalʼskoj
+ stem: bengalʼskoj.//bengalʼskij.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: бенгальский
+
+-lexeme
+ lex: cerkovnoj
+ stem: cerkovnoj.//cerkovnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: церковный
+
+-lexeme
+ lex: dvuxmesnoj
+ stem: dvuxmesnoj.//dvuxmesnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: двухместный
+
+-lexeme
+ lex: dʼerevenskoj
+ stem: dʼerevenskoj.//dʼerevenskij.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: деревенский
+
+-lexeme
+ lex: gružonoj
+ stem: gružonoj.//gružonɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: гружёный
+
+-lexeme
+ lex: inostrannoj
+ stem: inostrannoj.//inostrannɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: иностранный
+
+-lexeme
+ lex: jevrejskoj
+ stem: jevrejskoj.//jevrejskij.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: еврейский
+
+-lexeme
+ lex: kolxoznoj
+ stem: kolxoznoj.//kolxoznɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: колхозный
+
+-lexeme
+ lex: koričʼnevoj
+ stem: koričʼnevoj.//koričʼnevɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: коричневый
+
+-lexeme
+ lex: krasnoj
+ stem: krasnoj.//krasnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: красный
+
+-lexeme
+ lex: kvadratnoj
+ stem: kvadratnoj.//kvadratnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: квадратный
+
+-lexeme
+ lex: lʼedʼanoj
+ stem: lʼedʼanoj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: ледяной
+
+-lexeme
+ lex: nacionalʼnoj
+ stem: nacionalʼnoj.//nacionalʼnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: национальный
+
+-lexeme
+ lex: nʼepravilʼnoj
+ stem: nʼepravilʼnoj.//nʼepravilʼnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: неправильный
+
+-lexeme
+ lex: nʼikakoj
+ stem: nʼikakoj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: никакой
+
+-lexeme
+ lex: odnoetažnoj
+ stem: odnoetažnoj.//odnoetažnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: одноэтажный
+
+-lexeme
+ lex: ostalʼnoj
+ stem: ostalʼnoj.//ostalʼnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: остальной
+
+-lexeme
+ lex: prʼamougolʼnoj
+ stem: prʼamougolʼnoj.//prʼamougolʼnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: прямоугольный
+
+-lexeme
+ lex: rajonnoj
+ stem: rajonnoj.//rajonnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: районный
+
+-lexeme
+ lex: respublʼikanskoj
+ stem: respublʼikanskoj.//respublʼikanskij.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: республиканский
+
+-lexeme
+ lex: rovnoj
+ stem: rovnoj.//rovnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: ровный
+
+-lexeme
+ lex: rozovoj
+ stem: rozovoj.//rozovɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: розовый
+
+-lexeme
+ lex: srednʼij
+ stem: srednʼij.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: средний
+
+-lexeme
+ lex: čʼornobeloj
+ stem: čʼornobeloj.//čʼornobelɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: чёрно-белый
+
+-lexeme
+ lex: bražʼilʼskoj
+ stem: bražʼilʼskoj.//bražʼilʼskij.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: бразильский
+
+-lexeme
+ lex: cvetnoj
+ stem: cvetnoj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: цветной
+
+-lexeme
+ lex: cifrovoj
+ stem: cifrovoj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: цифровой
+
+-lexeme
+ lex: dvojurodnoj
+ stem: dvojurodnoj.//dvojurodnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: двоюродный
+
+-lexeme
+ lex: dʼešovoj
+ stem: dʼešovoj.//dʼešovɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: дешёвый
+
+-lexeme
+ lex: gazovoj
+ stem: gazovoj.//gazovɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: газовый
+
+-lexeme
+ lex: glubokoj
+ stem: glubokoj.//glubokij.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: глубокий
+
+-lexeme
+ lex: gorʼačʼij
+ stem: gorʼačʼij.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: горячий
+
+-lexeme
+ lex: iskustvennoj
+ stem: iskustvennoj.//iskustvennɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: искуственный
+
+-lexeme
+ lex: kačʼestvennoj
+ stem: kačʼestvennoj.//kačʼestvennɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: качественный
+
+-lexeme
+ lex: kolʼcevoj
+ stem: kolʼcevoj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: кольцевой
+
+-lexeme
+ lex: krajnʼij
+ stem: krajnʼij.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: крайний
+
+-lexeme
+ lex: krugovoj
+ stem: krugovoj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: круговой
+
+-lexeme
+ lex: kuxonnoj
+ stem: kuxonnoj.//kuxonnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: кухонный
+
+-lexeme
+ lex: lʼexkovoj
+ stem: lʼexkovoj.//lʼoxkovoj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: легковой
+
+-lexeme
+ lex: malocennoj
+ stem: malocennoj.//malocennɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: малоценный
+
+-lexeme
+ lex: mnogoetažnoj
+ stem: mnogoetažnoj.//mnogoetažnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: многоэтажный
+
+-lexeme
+ lex: normalʼnoj
+ stem: normalʼnoj.//normalʼnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: нормальный
+
+-lexeme
+ lex: nʼepodvižnoj
+ stem: nʼepodvižnoj.//nʼepodvižnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: неподвижный
+
+-lexeme
+ lex: nʼeproxodʼimoj
+ stem: nʼeproxodʼimoj.//nʼeproxodʼimɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: непроходимый
+
+-lexeme
+ lex: osobennoj
+ stem: osobennoj.//osobennɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: особенный
+
+-lexeme
+ lex: osnovnoj
+ stem: osnovnoj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: основной
+
+-lexeme
+ lex: osoboj
+ stem: osoboj.//osobɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: особый
+
+-lexeme
+ lex: ostroj
+ stem: ostroj.//ostrɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: острый
+
+-lexeme
+ lex: perevʼornutoj
+ stem: perevʼornutoj.//perevʼornutɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: перевёрнутый
+
+-lexeme
+ lex: pervosortnoj
+ stem: pervosortnoj.//pervosortnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: первосортный
+
+-lexeme
+ lex: plotnoj
+ stem: plotnoj.//plotnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: плотный
+
+-lexeme
+ lex: pustoj
+ stem: pustoj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: пустой
+
+-lexeme
+ lex: sapožnoj
+ stem: sapožnoj.//sapožnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: сапожный
+
+-lexeme
+ lex: skakatʼelʼnoj
+ stem: skakatʼelʼnoj.//skakatʼelʼnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: скакательный
+
+-lexeme
+ lex: složnoj
+ stem: složnoj.//složnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: сложный
+
+-lexeme
+ lex: važnoj
+ stem: važnoj.//važnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: важный
+
+-lexeme
+ lex: xiloj
+ stem: xiloj.//xilɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: хилый
+
+-lexeme
+ lex: xolodnoj
+ stem: xolodnoj.//xolodnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: холодный
+
+-lexeme
+ lex: zdorovoj
+ stem: zdorovoj.//zdorovɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: здоровый
+
+-lexeme
+ lex: čʼistoj
+ stem: čʼistoj.//čʼistɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: чистый
+
+-lexeme
+ lex: čʼistoplotnoj
+ stem: čʼistoplotnoj.//čʼistoplotnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: чистоплотный
+
+-lexeme
+ lex: šʼeroj
+ stem: šʼeroj.//šʼerɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: серый
+
+-lexeme
+ lex: žirnoj
+ stem: žirnoj.//žirnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: жирный
+
+-lexeme
+ lex: Adlʼer
+ stem: adlʼer.
+ gramm: N,PN,topn
+ paradigm: paradigm_N
+ trans_ru: Адлер
+
+-lexeme
+ lex: Alʼoša
+ stem: alʼoša.//alʼoš.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Алёша
+
+-lexeme
+ lex: Andreičʼ
+ stem: andreičʼ.//andrejevičʼ.
+ gramm: N,PN,patrn
+ paradigm: paradigm_N
+ trans_ru: Андреевич
+
+-lexeme
+ lex: Annok
+ stem: annok.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Анна
+
+-lexeme
+ lex: antonofka
+ stem: antonofka.//antonofk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: антоновка
+
+-lexeme
+ lex: Arkaš
+ stem: arkaš.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Аркаша
+
+-lexeme
+ lex: Aršʼenʼtʼij
+ stem: aršʼenʼtʼij.//arsʼenʼtʼij.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Арсентий
+
+-lexeme
+ lex: Aršʼenʼtʼjevna
+ stem: aršʼenʼtʼjevna.//aršʼenʼtʼjevn.//arsʼenʼtʼjevna.//arsʼenʼtʼjevn.
+ gramm: N,PN,patrn
+ paradigm: paradigm_N
+ trans_ru: Арсентьевна
+
+-lexeme
+ lex: atlant
+ stem: atlant.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: атлант (позвонок)
+
+-lexeme
+ lex: bagaž
+ stem: bagaž.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: багаж
+
+-lexeme
+ lex: Baldačʼev
+ stem: baldačʼev.
+ gramm: N,PN,famn
+ paradigm: paradigm_N
+ trans_ru: Балдачев
+
+-lexeme
+ lex: bambuk
+ stem: bambuk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: бамбук
+
+-lexeme
+ lex: batʼuška
+ stem: batʼuška.//batʼušk.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: батюшка
+
+-lexeme
+ lex: bašnʼa
+ stem: bašnʼa.//bašnʼ.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: башня
+
+-lexeme
+ lex: bolvan
+ stem: bolvan.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: болван
+
+-lexeme
+ lex: borodafka
+ stem: borodafka.//borodafk.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: бородавка
+
+-lexeme
+ lex: Bočʼi
+ stem: bočʼi.
+ gramm: N,PN,famn
+ paradigm: paradigm_N
+ trans_ru: Бочи
+
+-lexeme
+ lex: brʼušina
+ stem: brʼušina.//brʼušin.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: брюшина
+
+-lexeme
+ lex: bulki
+ stem: bulki.//bulka.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: булки, булка
+
+-lexeme
+ lex: carevičʼ
+ stem: carevičʼ.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: царевич
+
+-lexeme
+ lex: dublʼonka
+ stem: dublʼonka.//dublʼonk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: дублёнка
+
+-lexeme
+ lex: dɨmoxod
+ stem: dɨmoxod.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: дымоход
+
+-lexeme
+ lex: dʼelʼikates
+ stem: dʼelʼikates.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: деликатес
+
+-lexeme
+ lex: dʼerevo
+ stem: dʼerevo.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: дерево
+
+-lexeme
+ lex: eksperiment
+ stem: eksperiment.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: эксперимент
+
+-lexeme
+ lex: eksponat
+ stem: eksponat.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: экспонат
+
+-lexeme
+ lex: elʼektromesorupka
+ stem: elʼektromesorupka.//elʼektromesorupk.//elʼektromʼasorupka.//elʼektromʼasorupk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: электромясорубка
+
+-lexeme
+ lex: Emma
+ stem: emma.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Эмма
+
+-lexeme
+ lex: epistrofej
+ stem: epistrofej.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: эпистрофей (позвонок)
+
+-lexeme
+ lex: ešalon
+ stem: ešalon.
+ gramm: N,rus,transport
+ paradigm: paradigm_N
+ trans_ru: эшелон
+
+-lexeme
+ lex: Faja
+ stem: faja.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Фая
+
+-lexeme
+ lex: fanʼtʼik
+ stem: fanʼtʼik.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: фантик
+
+-lexeme
+ lex: Fekla
+ stem: fekla.//fekl.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Фёкла
+
+-lexeme
+ lex: Felʼiks
+ stem: felʼiks.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Феликс
+
+-lexeme
+ lex: figura
+ stem: figura.//figur.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: фигура
+
+-lexeme
+ lex: Finlʼandʼija
+ stem: finlʼandʼija.//finlʼandʼij.//finlʼanʼdʼija.//finlʼanʼdʼij.
+ gramm: N,PN,topn
+ paradigm: paradigm_N
+ trans_ru: Финляндия
+
+-lexeme
+ lex: finʼiš
+ stem: finʼiš.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: финиш
+
+-lexeme
+ lex: folʼga
+ stem: folʼga.//folʼg.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: фольга
+
+-lexeme
+ lex: fortočʼka
+ stem: fortočʼka.//fortočʼk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: форточка
+
+-lexeme
+ lex: furgon
+ stem: furgon.
+ gramm: N,rus,transport
+ paradigm: paradigm_N
+ trans_ru: фургон
+
+-lexeme
+ lex: Fʼokla
+ stem: fʼokla.//fʼokl.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Фёкла
+
+-lexeme
+ lex: Garipov
+ stem: garipov.
+ gramm: N,PN,famn
+ paradigm: paradigm_N
+ trans_ru: Гарипов
+
+-lexeme
+ lex: gazon
+ stem: gazon.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: газон
+
+-lexeme
+ lex: Gollandʼija
+ stem: gollandʼija.//gollandʼij.//gollanʼdʼija.//gollanʼdʼij.
+ gramm: N,PN,topn
+ paradigm: paradigm_N
+ trans_ru: Голландия
+
+-lexeme
+ lex: gram
+ stem: gram.//gramm.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: грамм
+
+-lexeme
+ lex: granʼ
+ stem: granʼ.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: грань
+
+-lexeme
+ lex: gribovnʼica
+ stem: gribovnʼica.//gribovnʼic.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: грибовница, грибной суп
+
+-lexeme
+ lex: ikona
+ stem: ikona.//ikon.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: икона
+
+-lexeme
+ lex: Irinka
+ stem: irinka.//irink.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Иринка
+
+-lexeme
+ lex: Istošur
+ stem: istošur.
+ gramm: N,PN,topn
+ paradigm: paradigm_N
+ trans_ru: Истошур
+
+-lexeme
+ lex: jabločʼko
+ stem: jabločʼko.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: яблочко
+
+-lexeme
+ lex: jazɨk
+ stem: jazɨk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: язык
+
+-lexeme
+ lex: Jefim
+ stem: jefim.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Ефим
+
+-lexeme
+ lex: jevrej
+ stem: jevrej.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: еврей
+
+-lexeme
+ lex: jož
+ stem: jož.
+ gramm: N,rus,anim
+ paradigm: paradigm_N
+ trans_ru: ёж
+
+-lexeme
+ lex: južanʼin
+ stem: južanʼin.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: южанин
+
+-lexeme
+ lex: kalbas
+ stem: kalbas.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: колбаса
+
+-lexeme
+ lex: kalʼendar
+ stem: kalʼendar.//kalʼendarʼ.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: календарь
+
+-lexeme
+ lex: Kamki
+ stem: kamki.
+ gramm: N,PN,topn
+ paradigm: paradigm_N
+ trans_ru: Камки
+
+-lexeme
+ lex: kapusta
+ stem: kapusta.//kapust.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: капуста
+
+-lexeme
+ lex: karp
+ stem: karp.
+ gramm: N,rus,anim
+ paradigm: paradigm_N
+ trans_ru: карп
+
+-lexeme
+ lex: kartočʼka
+ stem: kartočʼka.//kartočʼk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: карточка
+
+-lexeme
+ lex: kartʼina
+ stem: kartʼina.//kartʼin.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: картина
+
+-lexeme
+ lex: kačʼalka
+ stem: kačʼalka.//kačʼalk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: качалка
+
+-lexeme
+ lex: kažʼanki
+ stem: kažʼanki.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: какая-то часть тела животных
+
+-lexeme
+ lex: kažʼein
+ stem: kažʼein.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: казеин
+
+-lexeme
+ lex: Kijongurt
+ stem: kijongurt.
+ gramm: N,PN,topn
+ paradigm: paradigm_N
+ trans_ru: Филимоново
+
+-lexeme
+ lex: Kiril
+ stem: kiril.//kirill.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Кирилл
+
+-lexeme
+ lex: Kiznʼer
+ stem: kiznʼer.
+ gramm: N,PN,topn
+ paradigm: paradigm_N
+ trans_ru: Кизнер
+
+-lexeme
+ lex: kiška
+ stem: kiška.//kišk.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: кишка
+
+-lexeme
+ lex: knopka
+ stem: knopka.//knopk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: кнопка
+
+-lexeme
+ lex: knʼiška
+ stem: knʼiška.//knʼišk.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: книжка (желудок)
+
+-lexeme
+ lex: kofšik
+ stem: kofšik.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: ковшик
+
+-lexeme
+ lex: koloda
+ stem: koloda.//kolod.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: колода
+
+-lexeme
+ lex: kolokolʼčʼik
+ stem: kolokolʼčʼik.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: колокольчик
+
+-lexeme
+ lex: komanʼdʼirofka
+ stem: komanʼdʼirofka.//komanʼdʼirofk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: командировка
+
+-lexeme
+ lex: kombikorm
+ stem: kombikorm.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: комбикорм
+
+-lexeme
+ lex: komunʼist
+ stem: komunʼist.//kommunʼist.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: коммунист
+
+-lexeme
+ lex: konoplʼa
+ stem: konoplʼa.//konoplʼ.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: конопля
+
+-lexeme
+ lex: konvejer
+ stem: konvejer.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: конвейер
+
+-lexeme
+ lex: kormilʼica
+ stem: kormilʼica.//kormilʼic.
+ gramm: N,rus,anim
+ paradigm: paradigm_N
+ trans_ru: кормилица
+
+-lexeme
+ lex: korobočʼka
+ stem: korobočʼka.//korobočʼk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: коробочка
+
+-lexeme
+ lex: korosta
+ stem: korosta.//korost.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: короста
+
+-lexeme
+ lex: koročʼka
+ stem: koročʼka.//koročʼk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: корочка
+
+-lexeme
+ lex: kotʼol
+ stem: kotʼol.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: котёл
+
+-lexeme
+ lex: kovjor
+ stem: kovjor.//kovʼor.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: ковёр
+
+-lexeme
+ lex: kočʼegarka
+ stem: kočʼegarka.//kočʼegark.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: кочегарка
+
+-lexeme
+ lex: Kraskino
+ stem: kraskino.
+ gramm: N,PN,topn
+ paradigm: paradigm_N
+ trans_ru: Краскино
+
+-lexeme
+ lex: krovatʼ
+ stem: krovatʼ.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: кровать
+
+-lexeme
+ lex: kulʼtura
+ stem: kulʼtura.//kulʼtur.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: культура
+
+-lexeme
+ lex: kvadrat
+ stem: kvadrat.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: квадрат
+
+-lexeme
+ lex: lopatka
+ stem: lopatka.//lopatk.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: лопатка
+
+-lexeme
+ lex: lɨžnʼik
+ stem: lɨžnʼik.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: лыжник
+
+-lexeme
+ lex: Lʼitva
+ stem: lʼitva.//lʼitv.
+ gramm: N,PN,topn
+ paradigm: paradigm_N
+ trans_ru: Литва
+
+-lexeme
+ lex: Lʼonʼčʼik
+ stem: lʼonʼčʼik.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Лёнчик
+
+-lexeme
+ lex: Lʼubovʼ
+ stem: lʼubovʼ.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Любовь
+
+-lexeme
+ lex: maječʼka
+ stem: maječʼka.//maječʼk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: маечка
+
+-lexeme
+ lex: majonez
+ stem: majonez.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: майонез
+
+-lexeme
+ lex: Makšʼim
+ stem: makšʼim.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Максим
+
+-lexeme
+ lex: Marfa
+ stem: marfa.//marf.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Марфа
+
+-lexeme
+ lex: marušʼa
+ stem: marušʼa.//marušʼ.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: Маруся
+
+-lexeme
+ lex: maslʼata
+ stem: maslʼata.//maslʼat.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: маслята, маслёнок
+
+-lexeme
+ lex: matka
+ stem: matka.//matk.
+ gramm: N,rus,anim
+ paradigm: paradigm_N
+ trans_ru: матка
+
+-lexeme
+ lex: melʼnʼica
+ stem: melʼnʼica.//melʼnʼic.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: мельница
+
+-lexeme
+ lex: melʼnʼik
+ stem: melʼnʼik.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: мельник
+
+-lexeme
+ lex: mesorupka
+ stem: mesorupka.//mesorupk.//mʼasorupka.//mʼasorupk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: мясорубка
+
+-lexeme
+ lex: Mixalɨčʼ
+ stem: mixalɨčʼ.//mixajlovičʼ.//mixajlɨčʼ.
+ gramm: N,PN,patrn
+ paradigm: paradigm_N
+ trans_ru: Михайлович
+
+-lexeme
+ lex: mojka
+ stem: mojka.//mojk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: мойка
+
+-lexeme
+ lex: molodnʼak
+ stem: molodnʼak.
+ gramm: N,rus,anim
+ paradigm: paradigm_N
+ trans_ru: молодняк
+
+-lexeme
+ lex: molodʼec
+ stem: molodʼec.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: молодец
+
+-lexeme
+ lex: Mongolʼija
+ stem: mongolʼija.//mongolʼij.
+ gramm: N,PN,topn
+ paradigm: paradigm_N
+ trans_ru: Монголия
+
+-lexeme
+ lex: mox
+ stem: mox.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: мох
+
+-lexeme
+ lex: mɨšca
+ stem: mɨšca.//mɨšc.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: мышца
+
+-lexeme
+ lex: Mɨškin
+ stem: mɨškin.
+ gramm: N,PN,famn
+ paradigm: paradigm_N
+ trans_ru: Мышкин
+
+-lexeme
+ lex: novobranʼec
+ stem: novobranʼec.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: новобранец
+
+-lexeme
+ lex: Nʼikolajevna
+ stem: nʼikolajevna.//nʼikolajevn.//nʼikolavna.//nʼikolavn.
+ gramm: N,PN,patrn
+ paradigm: paradigm_N
+ trans_ru: Николаевна
+
+-lexeme
+ lex: obkom
+ stem: obkom.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: обком
+
+-lexeme
+ lex: obrʼad
+ stem: obrʼad.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: обряд
+
+-lexeme
+ lex: odnoetaška
+ stem: odnoetaška.//odnoetašk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: одноэтажка
+
+-lexeme
+ lex: orexi
+ stem: orexi.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: орехи
+
+-lexeme
+ lex: otkrɨtka
+ stem: otkrɨtka.//otkrɨtk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: открытка
+
+-lexeme
+ lex: patronaž
+ stem: patronaž.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: патронаж
+
+-lexeme
+ lex: Pavlʼik
+ stem: pavlʼik.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Павлик
+
+-lexeme
+ lex: Pekla
+ stem: pekla.//pekl.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Фёкла
+
+-lexeme
+ lex: perec
+ stem: perec.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: перец
+
+-lexeme
+ lex: pečʼonka
+ stem: pečʼonka.//pečʼonk.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: печёнка
+
+-lexeme
+ lex: plošʼadʼ
+ stem: plošʼadʼ.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: площадь
+
+-lexeme
+ lex: Pokrov
+ stem: pokrov.
+ gramm: N,PN
+ paradigm: paradigm_N
+ trans_ru: Покров
+
+-lexeme
+ lex: pomošnʼik
+ stem: pomošnʼik.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: помощник
+
+-lexeme
+ lex: Port-artur
+ stem: port-artur.
+ gramm: N,PN,topn
+ paradigm: paradigm_N
+ trans_ru: Порт-Артур
+
+-lexeme
+ lex: povestka
+ stem: povestka.//povestk.//poveska.//povesk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: повестка
+
+-lexeme
+ lex: praktʼika
+ stem: praktʼika.//praktʼik.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: практика
+
+-lexeme
+ lex: prijomšʼica
+ stem: prijomšʼica.//prijomšʼic.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: приёмщица
+
+-lexeme
+ lex: primanka
+ stem: primanka.//primank.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: приманка
+
+-lexeme
+ lex: primeta
+ stem: primeta.//primet.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: примета
+
+-lexeme
+ lex: primešʼ
+ stem: primešʼ.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: примесь
+
+-lexeme
+ lex: princessa
+ stem: princessa.//princess.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: принцесса
+
+-lexeme
+ lex: priprava
+ stem: priprava.//priprav.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: приправа
+
+-lexeme
+ lex: prodolženʼije
+ stem: prodolženʼije.//prodolženʼij.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: продолжение
+
+-lexeme
+ lex: promɨslɨ
+ stem: promɨslɨ.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: промыслы, промысел
+
+-lexeme
+ lex: ptʼica
+ stem: ptʼica.//ptʼic.
+ gramm: N,rus,anim
+ paradigm: paradigm_N
+ trans_ru: птица
+
+-lexeme
+ lex: ptʼičʼka
+ stem: ptʼičʼka.//ptʼičʼk.
+ gramm: N,rus,anim
+ paradigm: paradigm_N
+ trans_ru: птичка
+
+-lexeme
+ lex: pupovina
+ stem: pupovina.//pupovin.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: пуповина
+
+-lexeme
+ lex: pučʼok
+ stem: pučʼok.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: пучок
+
+-lexeme
+ lex: Radʼik
+ stem: radʼik.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Радик
+
+-lexeme
+ lex: rakuška
+ stem: rakuška.//rakušk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: ракушка
+
+-lexeme
+ lex: rana
+ stem: rana.//ran.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: рана
+
+-lexeme
+ lex: raskaz
+ stem: raskaz.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: рассказ
+
+-lexeme
+ lex: raspoloženʼije
+ stem: raspoloženʼije.//raspoloženʼij.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: расположение
+
+-lexeme
+ lex: rastʼenʼije
+ stem: rastʼenʼije.//rastʼenʼij.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: растение
+
+-lexeme
+ lex: raznʼica
+ stem: raznʼica.//raznʼic.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: разница
+
+-lexeme
+ lex: remont
+ stem: remont.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: ремонт
+
+-lexeme
+ lex: repa
+ stem: repa.//rep.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: репа
+
+-lexeme
+ lex: salatnʼica
+ stem: salatnʼica.//salatnʼic.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: салатница
+
+-lexeme
+ lex: sanatorij
+ stem: sanatorij.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: санаторий
+
+-lexeme
+ lex: sankcija
+ stem: sankcija.//sankcij.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: санкция
+
+-lexeme
+ lex: sklatki
+ stem: sklatki.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: складки, складка
+
+-lexeme
+ lex: slovarʼ
+ stem: slovarʼ.//slovar.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: словарь
+
+-lexeme
+ lex: smetana
+ stem: smetana.//smetan.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: сметана
+
+-lexeme
+ lex: smola
+ stem: smola.//smol.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: смола
+
+-lexeme
+ lex: sojuz
+ stem: sojuz.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: союз
+
+-lexeme
+ lex: solominka
+ stem: solominka.//solomink.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: соломинка
+
+-lexeme
+ lex: spalʼnʼa
+ stem: spalʼnʼa.//spalʼnʼ.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: спальня
+
+-lexeme
+ lex: spasatʼelʼ
+ stem: spasatʼelʼ.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: спасатель
+
+-lexeme
+ lex: spinka
+ stem: spinka.//spink.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: спинка
+
+-lexeme
+ lex: strela
+ stem: strela.//strel.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: стрела
+
+-lexeme
+ lex: tamada
+ stem: tamada.//tamad.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: тамада
+
+-lexeme
+ lex: tankis
+ stem: tankis.//tankist.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: танкист
+
+-lexeme
+ lex: traxeja
+ stem: traxeja.//traxej.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: трахея
+
+-lexeme
+ lex: triko
+ stem: triko.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: трико
+
+-lexeme
+ lex: tualʼet
+ stem: tualʼet.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: туалет
+
+-lexeme
+ lex: tumbočʼka
+ stem: tumbočʼka.//tumbočʼk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: тумбочка
+
+-lexeme
+ lex: tʼexnʼika
+ stem: tʼexnʼika.//tʼexnʼik.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: техника
+
+-lexeme
+ lex: uborka
+ stem: uborka.//ubork.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: уборка
+
+-lexeme
+ lex: upakofka
+ stem: upakofka.//upakofk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: упаковка
+
+-lexeme
+ lex: uško
+ stem: uško.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: ушко
+
+-lexeme
+ lex: vagon
+ stem: vagon.
+ gramm: N,rus,transport
+ paradigm: paradigm_N
+ trans_ru: вагон
+
+-lexeme
+ lex: Vašʼilʼjevna
+ stem: vašʼilʼjevna.//vašʼilʼjevn.
+ gramm: N,PN,patrn
+ paradigm: paradigm_N
+ trans_ru: Васильевна
+
+-lexeme
+ lex: vek
+ stem: vek.
+ gramm: N,rus,time_meas
+ paradigm: paradigm_N
+ trans_ru: век
+
+-lexeme
+ lex: Viktorovna
+ stem: viktorovna.//viktorovn.
+ gramm: N,PN,patrn
+ paradigm: paradigm_N
+ trans_ru: Викторовна
+
+-lexeme
+ lex: Volodʼa
+ stem: volodʼa.//volodʼ.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Володя
+
+-lexeme
+ lex: volokna
+ stem: volokna.//volokn.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: волокно
+
+-lexeme
+ lex: vopros
+ stem: vopros.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: вопрос
+
+-lexeme
+ lex: vozrast
+ stem: vozrast.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: возраст
+
+-lexeme
+ lex: Vɨborg
+ stem: vɨborg.
+ gramm: N,PN,topn
+ paradigm: paradigm_N
+ trans_ru: Выборг
+
+-lexeme
+ lex: vɨdʼelka
+ stem: vɨdʼelka.//vɨdʼelk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: выделка
+
+-lexeme
+ lex: vɨpečʼka
+ stem: vɨpečʼka.//vɨpečʼk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: выпечка
+
+-lexeme
+ lex: vɨstafka
+ stem: vɨstafka.//vɨstafk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: выставка
+
+-lexeme
+ lex: ximoružije
+ stem: ximoružije.//ximoružij.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: химоружие
+
+-lexeme
+ lex: xlʼebnʼica
+ stem: xlʼebnʼica.//xlʼebnʼic.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: хлебница
+
+-lexeme
+ lex: xorovod
+ stem: xorovod.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: хоровод
+
+-lexeme
+ lex: Xoxrʼakov
+ stem: xoxrʼakov.
+ gramm: N,PN,famn
+ paradigm: paradigm_N
+ trans_ru: Хохряков
+
+-lexeme
+ lex: zagotofka
+ stem: zagotofka.//zagotofk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: заготовка
+
+-lexeme
+ lex: zagotpunkt
+ stem: zagotpunkt.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: заготовительный пункт
+
+-lexeme
+ lex: Zagrebino
+ stem: zagrebino.
+ gramm: N,PN,topn
+ paradigm: paradigm_N
+ trans_ru: Загребино
+
+-lexeme
+ lex: zapas
+ stem: zapas.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: запас
+
+-lexeme
+ lex: zapax
+ stem: zapax.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: запах
+
+-lexeme
+ lex: zaplatka
+ stem: zaplatka.//zaplatk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: заплатка
+
+-lexeme
+ lex: zapčʼašʼtʼ
+ stem: zapčʼašʼtʼ.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: запчасть
+
+-lexeme
+ lex: zavklub
+ stem: zavklub.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: завклубом
+
+-lexeme
+ lex: zdanʼije
+ stem: zdanʼije.//zdanʼij.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: здание
+
+-lexeme
+ lex: zdačʼa
+ stem: zdačʼa.//zdačʼ.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: сдача
+
+-lexeme
+ lex: Čʼelʼabinsk
+ stem: čʼelʼabinsk.
+ gramm: N,PN,topn
+ paradigm: paradigm_N
+ trans_ru: Челябинск
+
+-lexeme
+ lex: šarmanka
+ stem: šarmanka.//šarmank.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: шарманка
+
+-lexeme
+ lex: Šaximardan
+ stem: šaximardan.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Шахимардан
+
+-lexeme
+ lex: škura
+ stem: škura.//škur.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: шкура
+
+-lexeme
+ lex: želanʼije
+ stem: želanʼije.//želanʼij.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: желание
+
+-lexeme
+ lex: želudok
+ stem: želudok.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: желудок
+
+-lexeme
+ lex: ženʼix
+ stem: ženʼix.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: жених
+
+-lexeme
+ lex: žila
+ stem: žila.//žil.
+ gramm: N,rus,body
+ paradigm: paradigm_N
+ trans_ru: жила
+
+-lexeme
+ lex: žʼelʼenʼ
+ stem: žʼelʼenʼ.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: зелень
+
+-lexeme
+ lex: Žʼina
+ stem: žʼina.//žʼin.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Зина
+
