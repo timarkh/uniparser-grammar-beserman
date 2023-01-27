@@ -216,6 +216,13 @@
  trans_ru: Ижевск
 
 -lexeme
+ lex: Sverdlofsk
+ stem: sverdlovsk.//sverdlofsk.
+ gramm: N,PN,topn,rus
+ paradigm: paradigm_N
+ trans_ru: Свердловск (Екатеринбург)
+
+-lexeme
  lex: Iževsk
  stem: iževsk.//ižefsk.
  gramm: N,PN,topn,rus
@@ -599,6 +606,55 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Петя
+
+-lexeme
+ lex: Petʼa
+ stem: petʼa.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Петя
+
+-lexeme
+ lex: Dʼenʼis
+ stem: dʼenʼis.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Петя
+
+-lexeme
+ lex: Klaša
+ stem: klaša.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Петя
+
+-lexeme
+ lex: Genʼa
+ stem: genʼa.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Геня
+
+-lexeme
+ lex: Paša
+ stem: paša.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Паша
+
+-lexeme
+ lex: Manʼa
+ stem: manʼa.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Маня
+
+-lexeme
+ lex: Valʼera
+ stem: valʼera.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Валера
 
 -lexeme
  lex: Piskor
@@ -1819,7 +1875,7 @@
 
 -lexeme
  lex: balʼəš
- stem: balʼəš.
+ stem: balʼəš.//balʼɨš.
  gramm: N
  paradigm: paradigm_N
  trans_ru: балиш (блюдо)
@@ -12416,6 +12472,13 @@
  trans_ru: угу
 
 -lexeme
+ lex: hm
+ stem: hm.
+ gramm: PART
+ paradigm: Empty
+ trans_ru: хм
+
+-lexeme
  lex: mi
  stem: mi.
  gramm: PRO,pers,nom
@@ -14085,7 +14148,7 @@
 
 -lexeme
  lex: nʼi
- stem: nʼi.//ni.  # второе -- для исправления ошибок
+ stem: nʼi.//ni.//inʼi.
  gramm: PART
  paradigm: Empty
  trans_ru: уже
@@ -16538,7 +16601,7 @@
 
 -lexeme
  lex: pojezd
- stem: pojezd.
+ stem: pojezd.//pojez.
  gramm: N,rus,transport
  paradigm: paradigm_N
  trans_ru: поезд
@@ -17197,7 +17260,7 @@
 
 -lexeme
  lex: purəšʼ
- stem: purəšʼ.
+ stem: purəšʼ.//purišʼ.
  gramm: A
  paradigm: paradigm_A
  trans_ru: серый; седой или светлый
@@ -19997,7 +20060,7 @@
 
 -lexeme
  lex: ti
- stem: tilʼədestə.//tilʼedestə.
+ stem: tilʼədestə.//tilʼedestə.//tilʼestə.
  gramm: PRO,pers,acc
  paradigm: Noun-case-compounding
  trans_ru: вы
@@ -20515,10 +20578,10 @@
 
 -lexeme
  lex: tualte
- stem: tualte.
+ stem: tualte.//toalte.
  gramm: ADV
  paradigm: Comparative
- trans_ru: см. tolalte
+ trans_ru: зимой
 
 -lexeme
  lex: tuǯʼənə
@@ -22711,21 +22774,21 @@
 
 -lexeme
  lex: valla
- stem: valla.
+ stem: valla.//vəlla.
  gramm: A
  paradigm: paradigm_A
  trans_ru: верхний
 
 -lexeme
  lex: vallanʼ
- stem: vallanʼ.
+ stem: vallanʼ.//vəllanʼ.
  gramm: ADV
  paradigm: Comparative
  trans_ru: вверх, кверху
 
 -lexeme
  lex: vallanʼ
- stem: vallanʼ.
+ stem: vallanʼ.//vəllanʼ.
  gramm: POST
  paradigm: Comparative
  trans_ru: в сторону верхней части
@@ -22739,7 +22802,7 @@
 
 -lexeme
  lex: vallašʼen
- stem: vallašʼen.
+ stem: vallašʼen.//vəllašʼen.
  gramm: ADV
  paradigm: Comparative
  trans_ru: см. vəllašʼen
@@ -24335,7 +24398,7 @@
 
 -lexeme
  lex: wašʼkənə
- stem: wašʼk.
+ stem: wašʼk.//vašʼk.
  gramm: V,intr,with_el,with_ill
  paradigm: paradigm_V
  trans_ru: спускаться
@@ -29140,7 +29203,7 @@
 
 -lexeme
  lex: šʼəres
- stem: šʼəres.//šʼures.
+ stem: šʼəres.//šʼures.//šʼeres.
  gramm: N
  paradigm: paradigm_N
  trans_ru: дорога; путь
@@ -44229,6 +44292,13 @@
  trans_ru: Андреевич
 
 -lexeme
+ lex: Andrej
+ stem: andrej.//ondrej.
+ gramm: N,PN,patrn
+ paradigm: paradigm_N
+ trans_ru: Андрей
+
+-lexeme
  lex: Annok
  stem: annok.
  gramm: N,PN,persn
@@ -45691,3 +45761,66 @@
  paradigm: paradigm_N
  trans_ru: Зина
 
+
+-lexeme
+ lex: prodafšʼica
+ stem: prodafšʼica.//prodafšʼic.
+ gramm: N,rus,anim,hum
+ paradigm: paradigm_N
+ trans_ru: продавщица
+
+-lexeme
+ lex: lʼejka
+ stem: lʼejka.//lʼejk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: лейка
+
+-lexeme
+ lex: pesnʼa
+ stem: pesnʼa.//pesnʼ.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: песня
+
+-lexeme
+ lex: šʼelʼpo
+ stem: šʼelʼpo.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: сельпо
+
+-lexeme
+ lex: kotomka
+ stem: kotomka.//kotomk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: котомка
+
+-lexeme
+ lex: tajga
+ stem: tajga.//tajg.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: тайга
+
+-lexeme
+ lex: drožži
+ stem: drožži.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: дрожжи
+
+-lexeme
+ lex: dutka
+ stem: dutka.//dutk.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: дудка
+
+-lexeme
+ lex: krupa
+ stem: krupa.//krup.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: крупа
