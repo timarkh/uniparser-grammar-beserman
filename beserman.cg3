@@ -19,7 +19,7 @@ LIST Poss = 1sg 2sg 3sg 1pl 2pl 3pl;
 LIST PossNot3sg = 1sg 2sg 1pl 2pl 3pl;
 SET NN = (N sg nom) - Poss;
 SET NomPoss = (N sg nom 1sg) OR (N sg nom 2sg) OR (N sg nom 3sg) OR (N sg nom 1pl) OR (N sg nom 2pl) OR (N sg nom 3pl);
-LIST DemPersPro = "<so>"i "<ta>"i;
+SET DemPersPro = ("<so>"i) OR ("<ta>"i);
 LIST NAdj = N A;
 LIST VPred = V PRED;
 
@@ -31,7 +31,7 @@ SET VTrFin = (V tr 1) - (detr) OR (V tr 2) - (detr) - (imp) OR (V tr 3) - (detr)
 SET VIntr = (V intr) - (V ptcp prs) - (caus) OR (PRED);
 LIST BOS = (>>>);
 SET BOSPunct = (punct) | BOS;
-LIST StartClitics = "a" "<sre>"i "<səre>"i "tare" "ben" "šʼo" "<fšʼo>"i "i" "daže" "ja" "marke" "nu" "no" "tak" "tunne" "tolon" "tue";
+SET StartClitics = ("a") OR ("<sre>"i) OR ("<səre>"i) OR ("tare") OR ("ben") OR ("šʼo") OR ("<fšʼo>"i) OR ("i") OR ("daže") OR ("ja") OR ("marke") OR ("nu") OR ("no") OR ("tak") OR ("tunne") OR ("tolon") OR ("tue");
 LIST WhQuestions = "kəžʼə" "ku" "kenʼa" "kətən" "kətəšʼ" "kətišʼen" "kətʼi" "kətčʼə";
 
 
