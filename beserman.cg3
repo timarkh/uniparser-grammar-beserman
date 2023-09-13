@@ -19,7 +19,7 @@ LIST Poss = 1sg 2sg 3sg 1pl 2pl 3pl;
 LIST PossNot3sg = 1sg 2sg 1pl 2pl 3pl;
 SET NN = (N sg nom) - Poss;
 SET NomPoss = (N sg nom 1sg) OR (N sg nom 2sg) OR (N sg nom 3sg) OR (N sg nom 1pl) OR (N sg nom 2pl) OR (N sg nom 3pl);
-LIST DemPersPro = "<so>" "<ta>";
+LIST DemPersPro = "<so>"i "<ta>"i;
 LIST NAdj = N A;
 LIST VPred = V PRED;
 
@@ -31,6 +31,7 @@ SET VTrFin = (V tr 1) - (detr) OR (V tr 2) - (detr) - (imp) OR (V tr 3) - (detr)
 SET VIntr = (V intr) - (V ptcp prs) - (caus) OR (PRED);
 LIST BOS = (>>>);
 SET BOSPunct = (punct) | BOS;
+LIST StartClitics = "a" "<sre>"i "<səre>"i "tare" "ben" "šʼo" "<fšʼo>"i "i" "daže" "ja" "marke" "nu" "no" "tak" "tunne" "tolon" "tue";
 LIST WhQuestions = "kəžʼə" "ku" "kenʼa" "kətən" "kətəšʼ" "kətišʼen" "kətʼi" "kətčʼə";
 
 
@@ -83,6 +84,7 @@ REMOVE (V fut detr) IF (0 (V prs))
 # with prs,3,pl
 REMOVE (V imp pl) IF (-1 (PRO sg nom) OR WhQuestions);
 REMOVE (V imp pl) IF (0 (V intr detr 3 sg));
+SELECT (V imp pl) IF (1 ("<ka>"i) OR ("<ko>"i));
 
 # ume ušʼənə "fall asleep"
 SELECT (N sg ill) IF (0 ("um"))
@@ -114,6 +116,7 @@ REMOVE (V imp) IF (0 (V prs 3 sg))
                   (0C (V intr) - (caus))
                   (*-1 (N sg nom) - NomPoss BARRIER NotClitics - (ADV))
                   (NEGATE *0 (V tr) BARRIER BOSPunct);
+SELECT (V imp) IF (1 ("<ka>"i) OR ("<ko>"i));
 
 
 SECTION    # Nouns
@@ -218,7 +221,9 @@ REMOVE (ADV) IF (0 (A))
 REMOVE (A) IF (0 (ADV))
               (*1C (V) - ("šuənə") - ("veranə") - ("luənə") BARRIER (*) - (ADV));
 SELECT (ADV) IF (0 ("<jun>"))
-                (1C (A) OR (PRED) OR (ADV));
+                (1C (A) OR (PRED) OR (ADV) OR ("tros") OR ("šum"));
+SELECT (ADV) IF (0 ("<jun>"))
+                (1 ("jaranə") OR ("jaratənə") OR ("dʼešʼ"));
 
 # təs is relational adjective if preceded by human
 SELECT (A) IF (0 ("təs"))
@@ -235,17 +240,19 @@ SECTION    # Pronouns
 # if there is no verb after them and the next word is a noun
 # or an adjective (with no alternative ADV analysis).
 SELECT (pers) IF (0 DemPersPro)
-                 (*1C (V) BARRIER NotClitics);
+                 (*1C (V 3 sg) OR (V res) OR (V cvb) OR (V inf) OR ("<vəlem>"i) BARRIER NotClitics);
 SELECT (pers) IF (0 DemPersPro)
                  (1 BOSPunct - ("<...>"));
 SELECT (pers) IF (0 DemPersPro)
-                 (1 ("<bere>"i) OR ("<kuspən>i"));
+                 (1 ("<bere>"i) OR ("<kuspən>i") OR ("<bətčʼa>i") OR ("<mənda>i"));
 SELECT (pers) IF (0 DemPersPro)
                  (1C (POST));
 SELECT (dem) IF (0 DemPersPro)
                 (1C NAdj)
                 (NOT 1 (ADV))
-                (NEGATE 2* VPred);
+                (NOT 1 (N rel_n))
+                (NEGATE 2* VPred)
+                (NEGATE *-1 (V 3 sg) BARRIER BOSPunct);
 SELECT (dem) IF (0 DemPersPro)
                 (1 ("pal"));
 
@@ -378,9 +385,9 @@ SELECT (A) IF (0 ("<čʼuž>"))
 
 # pal*: side vs. forms of palanə
 SELECT (N) IF (0 ("<palan>"i))
-              (-1 ("<ulla>"i) OR ("<valla>"i) OR ("<so>"i) OR ("<ta>"i) OR ("<ažʼ>"i) OR ("<ber>"i) OR ("<šʼer>"i));
+              (-1 ("<ulla>"i) OR ("<valla>"i) OR ("<vəlla>"i) OR ("<so>"i) OR ("<ta>"i) OR ("<ažʼ>"i) OR ("<ber>"i) OR ("<šʼer>"i) OR ("<bur>"i) OR ("<palʼlʼan>"i) OR ("<kenʼer>"i) OR ("<odig>"i) OR ("<muket>"i) OR ("<ped>"i) OR ("<puš>"i) OR ("<kud>"i) OR ("<ulʼčʼa>"i) OR ("<šaj>"i) OR ("<vožʼ>"i) OR ("<milʼam>"i) OR ("<tilʼad>"i) OR (N topn nom));
 SELECT (N) IF (0 ("<palaz>"i) OR ("<pala>"i))
-              (-1 ("<ulla>"i) OR ("<valla>"i) OR ("<ažʼ>"i) OR ("<ber>"i) OR ("<šʼer>"i));
+              (-1 ("<ulla>"i) OR ("<valla>"i) OR ("<vəlla>"i) OR ("<ažʼ>"i) OR ("<ber>"i) OR ("<šʼer>"i) OR ("<bur>"i) OR ("<palʼlʼan>"i) OR ("<kenʼer>"i) OR ("<odig>"i) OR ("<muket>"i) OR ("<ped>"i) OR ("<puš>"i) OR ("<kud>"i) OR ("<ulʼčʼa>"i) OR ("<šaj>"i) OR ("<vožʼ>"i) OR ("<milʼam>"i) OR ("<tilʼad>"i) OR (N topn nom));
 
 
 # ber: N vs. A/ADV
@@ -416,3 +423,662 @@ REMOVE (V) IF (0 ("<kija[mdz]ə?>"r))
 # pənə: dog
 SELECT (N) IF (0 ("<pənə>"i))
               (NOT 0 (V neg));
+
+
+
+
+SECTION # Ad-hoc
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (",")) (2 ("<jeslʼi>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("...")) (2 ("<so>"i)) (3 (V prs 3 sg));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (N nom)) (2 ("<dore|vəle>"i)) (3 (","));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (N nom 3sg)) (2 (V res)) (3 (N loc));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (N acc pl)) (2 ("<[а-яё]*ть>"r)) (3 ("<karənə>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<aslaz>"i)) (2 (V prs 3 sg));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<ber>"i)) (2 ("<šʼižʼəl>"i)) (3 ("<val>"i));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (N acc 1sg) OR (N acc 2sg) OR (N acc 3sg) Or (N acc 1pl) OR (N acc 2pl) OR (N acc 3pl)) (2 (V 1) OR (V 2));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (N hum nom 1sg)) (2 (V 3 sg));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (N rel_n ill) OR (N rel_n loc)) (2 (PRO pers nom));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (N rel_n ill) OR (N rel_n loc)) (2 (V 1) OR (V 2) OR (V 3 pl));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<evəl>"i));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (N el) OR (N ill) OR (N loc) OR (N prol) OR (N egr) OR (N ins) OR (N dat)) (2 (V tr 1) OR (V tr 2) OR (V tr 3 pl)) (3 ("<soje>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (N topn loc) OR ("<otən>"i)) (2 ("ulənə" 3 sg)) (3 ("."));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<gono>"i)) (2 ("<adʼami>"i)) (3 ("mənənə" 3 sg));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (N acc 3sg)) (2 ("<pe>"i)) (3 ("<mon>"i) OR ("<ton>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<ik>"i)) (2 (V 3 sg));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<jun>"i) OR ("<kalʼ>"i));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (N nom 3 sg) OR NN) (2 (N loc)) (3 ("<vəlem>"i));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (N acc pl)) (2 (N ins) OR (N loc) OR (N el)) (3 (V 3 pl));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<med>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (PRO pers gen)) (2 (V 3 sg) OR (V res) OR (V cvb) OR (V inf) OR ("<vəlem>"i) OR ("<val>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (PRO pers acc)) (2 (V tr 3 sg));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<mənam>"i)) (2 ("<todemeja>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (PRO pers dat));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<mərdem>"i)) (2 (V 3 sg));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<naverno>"i) OR ("<navernoe>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<no>"i)) (2 (A)) (3 (","));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<no>"i)) (2 (N persn sg nom)) (3 ("<no>"i));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<nunal>"i)) (2 (","));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<otčʼə>"i) OR ("<otən>"i) OR ("<otəšʼ>"i) OR ("<ožʼ>"i) OR ("<tatčʼə>"i) OR ("<tatən>"i) OR ("<tatəšʼ>"i) OR ("<tažʼ>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (A)) (2 ("<gine>"i)) (3 ("<val>"i));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (N anim nom sg)) (2 ("<ajə>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (A)) (2 (",")) (3 (acc));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<punna>"i) OR ("<seren>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<soje>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (PRO pers acc)) (2 (V inf)) (3 ("<ug>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<takto>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<tamak>"i)) (2 ("<kəskənə>"i 3 sg));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<tože>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<ukol>"i)) (2 ("puktənə"i 3 sg)) (3 (","));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<vedʼ>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<viskən>"i) OR ("<šʼana>"i) OR ("<lašʼana>"i) OR ("<šʼarəšʼ>"i) OR ("<šʼerkən>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<vičʼak>"i)) (2 (","));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<vičʼak>"i)) (2 (A)) (3 ("<val>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<vot>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<že>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (N nom)) (2 ("<vəle>"i)) (3 ("našʼkənə" 3 sg));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<gono>"i)) (2 ("<adʼami>"i)) (3 (V intr 3 sg));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<gono>"i)) (2 ("<adʼamijez>"i)) (3 NN);
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<ug>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (NUM)) (2 (NUM)) (3 ("."));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (NUM)) (3 ("."));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (A)) (2 (",")) (3 ("<ben>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (A)) (2 ("<a>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (A)) (2 ("<naverno>"i)) (3 ("<luoz>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<vəldə>"i)) (2 ("?"));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<lud>"i)) (2 ("<adʼamiləšʼ>"i)) (3 ("."));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS) (1 ("<a>"i));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (N acc)) (2 ("vožʼmanə" 3 sg)) (3 (N hum nom sg));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 (N el)) (2 ("ləktənə"i 3 sg)) (3 (","));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<jalan>"i));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<kəšno>"i) OR ("<nəl>"i) OR ("<pios>"i)) (2 ("<murt>"i) OR ("<murtez>"i)) (3 (V intr 3 sg));
+SELECT (PRO nom) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 NN) (2 ("<evəl>"i)) (3 ("<vəlem>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 BOS)
+      (1 ("<marke>"i));
+
+
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (",")) (2 ("<jeslʼi>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("...")) (2 ("<so>"i)) (3 (V prs 3 sg));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (N nom)) (2 ("<dore|vəle>"i)) (3 (","));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (N nom 3sg)) (2 (V res)) (3 (N loc));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (N acc pl)) (2 ("<[а-яё]*ть>"r)) (3 ("<karənə>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<aslaz>"i)) (2 (V prs 3 sg));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<ber>"i)) (2 ("<šʼižʼəl>"i)) (3 ("<val>"i));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (N acc 1sg) OR (N acc 2sg) OR (N acc 3sg) Or (N acc 1pl) OR (N acc 2pl) OR (N acc 3pl)) (2 (V 1) OR (V 2));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (N hum nom 1sg)) (2 (V 3 sg));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (N rel_n ill) OR (N rel_n loc)) (2 (PRO pers nom));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (N rel_n ill) OR (N rel_n loc)) (2 (V 1) OR (V 2) OR (V 3 pl));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<evəl>"i));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (N el) OR (N ill) OR (N loc) OR (N prol) OR (N egr) OR (N ins) OR (N dat)) (2 (V tr 1) OR (V tr 2) OR (V tr 3 pl)) (3 ("<soje>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (N topn loc) OR ("<otən>"i)) (2 ("ulənə" 3 sg)) (3 ("."));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<gono>"i)) (2 ("<adʼami>"i)) (3 ("mənənə" 3 sg));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (N acc 3sg)) (2 ("<pe>"i)) (3 ("<mon>"i) OR ("<ton>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<ik>"i)) (2 (V 3 sg));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<jun>"i) OR ("<kalʼ>"i));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (N nom 3 sg) OR NN) (2 (N loc)) (3 ("<vəlem>"i));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (N acc pl)) (2 (N ins) OR (N loc) OR (N el)) (3 (V 3 pl));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<med>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (PRO pers gen)) (2 (V 3 sg) OR (V res) OR (V cvb) OR (V inf) OR ("<vəlem>"i) OR ("<val>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (PRO pers acc)) (2 (V tr 3 sg));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<mənam>"i)) (2 ("<todemeja>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (PRO pers dat));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<mərdem>"i)) (2 (V 3 sg));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<naverno>"i) OR ("<navernoe>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<no>"i)) (2 (A)) (3 (","));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<no>"i)) (2 (N persn sg nom)) (3 ("<no>"i));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<nunal>"i)) (2 (","));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<otčʼə>"i) OR ("<otən>"i) OR ("<otəšʼ>"i) OR ("<ožʼ>"i) OR ("<tatčʼə>"i) OR ("<tatən>"i) OR ("<tatəšʼ>"i) OR ("<tažʼ>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (A)) (2 ("<gine>"i)) (3 ("<val>"i));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (N anim nom sg)) (2 ("<ajə>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (A)) (2 (",")) (3 (acc));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<punna>"i) OR ("<seren>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<soje>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (PRO pers acc)) (2 (V inf)) (3 ("<ug>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<takto>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<tamak>"i)) (2 ("<kəskənə>"i 3 sg));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<tože>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<ukol>"i)) (2 ("puktənə"i 3 sg)) (3 (","));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<vedʼ>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<viskən>"i) OR ("<šʼana>"i) OR ("<lašʼana>"i) OR ("<šʼarəšʼ>"i) OR ("<šʼerkən>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<vičʼak>"i)) (2 (","));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<vičʼak>"i)) (2 (A)) (3 ("<val>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<vot>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<že>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (N nom)) (2 ("<vəle>"i)) (3 ("našʼkənə" 3 sg));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<gono>"i)) (2 ("<adʼami>"i)) (3 (V intr 3 sg));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<gono>"i)) (2 ("<adʼamijez>"i)) (3 NN);
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<ug>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (NUM)) (2 (NUM)) (3 ("."));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (NUM)) (3 ("."));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (A)) (2 (",")) (3 ("<ben>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (A)) (2 ("<a>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (A)) (2 ("<naverno>"i)) (3 ("<luoz>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<vəldə>"i)) (2 ("?"));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<lud>"i)) (2 ("<adʼamiləšʼ>"i)) (3 ("."));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics) (1 ("<a>"i));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (N acc)) (2 ("vožʼmanə" 3 sg)) (3 (N hum nom sg));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 (N el)) (2 ("ləktənə"i 3 sg)) (3 (","));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<jalan>"i));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<kəšno>"i) OR ("<nəl>"i) OR ("<pios>"i)) (2 ("<murt>"i) OR ("<murtez>"i)) (3 (V intr 3 sg));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 NN) (2 ("<evəl>"i)) (3 ("<vəlem>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 StartClitics)
+      (1 ("<marke>"i));
+
+
+
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 (N topn el) OR (N topn loc) OR ("<otən>"i) OR ("<otəšʼ>"i))
+      (1 ("<val>"i));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 WhQuestions)
+      (1 ("<val>"i) OR (",") OR ("?") OR (".") OR ("..."));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 (V 3 sg))
+      (1 (",") OR (ADV) OR ("<soku>"i) OR ("<sokə>"i));
+
+
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 ("<mon>"i))
+      (1 (N acc)) (2 (V tr 1 sg));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 ("<ton>"i))
+      (1 (N acc)) (2 (V tr 2 sg));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 ("<so>"i))
+      (1 (N acc)) (2 (V tr 3 sg));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 ("<mi>"i))
+      (1 (N acc)) (2 (V tr 1 pl));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 ("<ti>"i))
+      (1 (N acc)) (2 (V tr 2 pl));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 ("<soos>"i))
+      (1 (N acc)) (2 (V tr 3 pl));
+
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-2 BOS) (-1 ("mənənə" 3 sg) OR ("ləktənə" 3 sg))
+      (1 (N nom)) (2 (N rel_n ill) OR (N rel_n el)) (3 ("."));
+
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 (N sg nom hum))
+      (1 (N acc)) (2 (ADV)) (3 (V tr 3 sg) OR (V caus 3 sg));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (-1 (N sg nom hum))
+      (1 (N acc)) (2 (V tr 3 sg) OR (V caus 3 sg));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (1 (N acc)) (2 (V tr 3 pl) OR (V caus 3 pl));
+SELECT (PRO dem) IF (0 DemPersPro)
+      (1 (A)) (2 (N acc)) (3 (V tr 3 pl) OR (V caus 3 pl));
+SELECT (PRO pers) IF (0 DemPersPro)
+      (1 (N gen2) OR (PRO pers gen2)) (2 ("<jua>"i));
+
+
+SELECT (PRO pers) IF (0 DemPersPro)
+      (-1 ("<tokma>"i) OR ("<əzem>"i))
+      (1 (",") OR ("."));
+
+
+# val
+
+
+SELECT (N nom) IF (0 ("<val>"i))
+      (1 ("punna") OR ("šʼarəšʼ") OR ("<bɤršʼə>"i));
+
+SELECT (N nom) IF (0 ("<val>"i))
+      (1 ("<vələn>"i)) (0* ("ləktənə") OR ("mənənə") OR ("velʼtənə") OR ("velʼtʼənə") OR ("pukənə") OR ("pukšʼənə") OR ("wašʼkənə") OR ("təbənə"));
+
+SELECT (N nom) IF (0 ("<val>"i))
+      (-2 ("<kətkizə>"i)) (-1 (A))
+      (1 ("<kadʼ>"i));
+SELECT (N nom) IF (0 ("<val>"i))
+      (-2 ("<aǯʼiz>"i)) (-1 ("<so>"i))
+      (1 ("<kuze>"i));
+SELECT (N nom) IF (0 ("<val>"i))
+      (1 ("<kijed>"i)) (2 ("punənə"));
+SELECT (N nom) IF (0 ("<val>"i))
+      (-1 ("vuənə" 3))
+      (1 ("<doraz>"i) OR ("<duraz>"i) OR ("<dore>"i) OR ("<dure>"i));
+SELECT (N nom) IF (0 ("<val>"i))
+      (-3 ("<kelʼalo>"i)) (-2 ("<tənəd>"i)) (-1 (NUM));
+SELECT (N nom) IF (0 ("<val>"i))
+      (-1 ("<so>"i))
+      (1 ("<kuze>"i)) (2* ("<dongazə>"i));
+SELECT (N nom) IF (0 ("<val>"i))
+      (1 ("kətkənə"));
+SELECT (N nom) IF (0 ("<val>"i))
+      (-3 ("<mon>"i)) (-2 ("<tənəd>"i)) (-1 ("<kelʼalo>"i))
+      (1 ("<i>"i));
+SELECT (N nom) IF (0 ("<val>"i))
+      (-1* ("<konʼušnʼaje>"i))
+      (1 ("<gidʼe>"i));
+SELECT (N nom) IF (0 ("<val>"i))
+      (-2 ("<karem>"i)) (-1 ("<gondər>"i))
+      (1 ("<i>"i));
+SELECT (N nom) IF (0 ("<val>"i))
+      (-1 ("<i>"i))
+      (1 ("<no>"i)) (2 (V tr inf));
+SELECT (N nom) IF (0 ("<val>"i))
+      (-1 ("<lešʼtizə>"i))
+      (1 ("<kadʼ>"i));
+SELECT (N nom) IF (0 ("<val>"i))
+      (-1 ("<kolxoz>"i))
+      (1 ("<val>"i));
+SELECT (N nom) IF (0 ("<val>"i))
+      (-3 ("<vaje>"i)) (-2 ("<so>"i)) (-1 ("<solə>"i))
+      (1 (","));
+SELECT (N nom) IF (0 ("<val>"i))
+      (1 ("<val>"i)) (2 ("<uk>"i));
+SELECT (N nom) IF (0 ("<val>"i))
+      (-2 ("<səčʼe>"i)) (-1 ("<so>"i))
+      (1 ("<vəldə>"i)) (2 ("<val>"i));
+SELECT (N nom) IF (0 ("<val>"i))
+      (-2 ("<kelʼaz>"i)) (-1 (NUM));
+SELECT (N nom) IF (0 ("<val>"i))
+      (-2 ("vordənə" prs)) (-1 (","))
+      (1 ("<no>"i));
+SELECT (N nom) IF (0 ("<val>"i))
+      (-1 BOS)
+      (1 ("<marəmlešʼ>"i)) (2 (V pst 1));
+
+
+SELECT (V) IF (0 ("<val>"i))
+      (-1 BOS)
+      (1 (N nom)) (2 (","));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 BOS)
+      (1 (PRO pers 1 sg gen)) (2 (N 1sg));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 BOS)
+      (1 (PRO pers 2 sg gen)) (2 (N 2sg));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 BOS)
+      (1 (PRO pers 3 sg gen) OR (N sg gen)) (2 (N 3sg));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 BOS)
+      (1 (PRO pers 1 pl gen)) (2 (N 1pl));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 BOS)
+      (1 (PRO pers 2 pl gen)) (2 (N 2pl));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 BOS)
+      (1 (PRO pers 3 pl gen) OR (N pl gen)) (2 (N 3pl));
+
+SELECT (V) IF (0 ("<val>"i))
+      (-1 (N nom))
+      (1 ("<otən>"i) OR ("<tatən>"i));
+
+SELECT (V) IF (0 ("<val>"i))
+      (-2 BOS) (-1 NomPoss)
+      (1 (","));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 (ADV));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 ("<kwažʼ>"i));
+SELECT (V) IF (0 ("<val>"i))
+      (-2 BOS) (-1 ("<kətənke>"i))
+      (1 ("<vəldə>"i)) (2 ("<carez>"i)) (3 ("<no>"i));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 (medənə));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 ("<mi>"i))
+      (1 (NUM));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 ("<odigəz>"i))
+      (1 (N hum 1sg));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 ("<odigəz>"i))
+      (1 (gen)) (2 (N nom 3sg));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 ("<odigəz>"i))
+      (1 ("<tinʼ>"i)) (2 (gen)) (3 (N nom 3sg));
+SELECT (V) IF (0 ("<val>"i))
+      (-2 BOS) (-1 (V 3 sg))
+      (1 (N hum sg nom));
+SELECT (V) IF (0 ("<val>"i))
+      (-2 BOS) (-1 (V 3 pl))
+      (1 (N hum pl nom));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 ("<slučʼaj>"i));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 ("<sooslə>"i) OR ("<solə>"i))
+      (1 (NUM));
+SELECT (V) IF (0 ("<val>"i))
+      (-2 BOS) (-1 ("<tolon>"i))
+      (1 ("<kadʼ>"i)) (2 (",")) (3 ("<tolon>"i));
+SELECT (V) IF (0 ("<val>"i))
+      (-2 BOS) (-1 ("<tros>"i))
+      (1 ("..."));
+SELECT (V) IF (0 ("<val>"i))
+      (-2 BOS) (-1 ("<təl>"i))
+      (1 ("<bankajez>"i)) (2 ("<karašʼinʼ>"i)) (3 ("<bankajez>"i));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 (N topn loc))
+      (1 (","));
+SELECT (V) IF (0 ("<val>"i))
+      (-2 BOS) (-1 ("<užašʼko>"i))
+      (1 (",")) (2 ("<olo>"i)) (3 ("<brigadʼirən>"i));
+SELECT (V) IF (0 ("<val>"i))
+      (-2 BOS) (-1 ("<visʼačʼijez>"i))
+      (1 ("<kalʼlʼeten>"i));
+SELECT (V) IF (0 ("<val>"i))
+      (-2 BOS) (-1 ("<šʼekət>"i))
+      (1 ("<lešʼa>"i));
+SELECT (V) IF (0 ("<val>"i))
+      (-2 BOS) (-1 (V intr 3 pl));
+SELECT (V) IF (0 ("<val>"i))
+      (-2 BOS) (-1 ("<ǯʼət>"i))
+      (1 (","));
+SELECT (V) IF (0 ("<val>"i))
+      (-2 ("<ej>"i)) (-1 ("<a>"i));
+SELECT (V) IF (0 ("<val>"i))
+      (-2 ("<gordez>"i)) (-1 ("<na>"i))
+      (1 ("<vinez>"i));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 ("<intʼeresno>"i) OR ("<inʼtʼeresno>"i));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 (V deb));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 ("<šuəlo>"i))
+      (1 ("."));
+SELECT (V) IF (0 ("<val>"i))
+      (-2 ("<mənəm>"i)) (-1 ("<pote>"i));
+SELECT (V) IF (0 ("<val>"i))
+      (-1 ("<ičʼi>"i));
+
+
+
+
+SELECT (PRO) IF (0 ("<wanʼ>"i))
+      (1 NN) (2 (N acc pl)) (3 (V ptcp pst)) (4 ("<bere>"i));
+SELECT (PRO) IF (0 ("<wanʼ>"i))
+      (1 (N acc pl)) (2 (V ptcp pst)) (3 ("<bere>"i));
+SELECT (PRO) IF (0 ("<wanʼ>"i))
+      (-3 ("<užasalzə>"i)) (-2 (",")) (-1 ("<no>"i))
+      (1 ("<pudoez>"i)) (2 ("...")) (3 ("<pudo>"i));
+
+SELECT (V) IF (0 ("<wanʼ>"i))
+      (1 (",") OR ("?") OR ("."));
+SELECT (V) IF (0 ("<wanʼ>"i))
+      (1 ("<a>"i)) (2 (gen));
+SELECT (V) IF (0 ("<wanʼ>"i))
+      (1 ("<a>"i)) (2 (V ptcp pst));
+SELECT (V) IF (0 ("<wanʼ>"i))
+      (1 ("<na>"i) OR ("<nʼi>"i) OR ("<uk>"i));
+SELECT (V) IF (0 ("<wanʼ>"i))
+      (-1 ("<kotʼkətən>"i));
+
+
+
+
+REMOVE (V imp) IF (0 ("<vəle>"i));
+REMOVE (V) IF (0 ("<vəle>"i))
+      (NOT -1* ("<ule>"i));
+
+
+
+SELECT (V imp pl) IF (0 ("<məne>"i))
+      (-2 ("<babajaga>"i)) (-1 (","))
+      (1 ("<pe>"i)) (2 ("<koške>"i)) (3 (","));
+SELECT (V imp pl) IF (0 ("<məne>"i))
+      (-3 (",")) (-2 ("<davaj>"i)) (-1 (","))
+      (1 ("<pe>"i)) (2 ("<xalturkaje>"i)) (3 ("."));
+SELECT (V imp pl) IF (0 ("<məne>"i))
+      (-2 ("<koške>"i)) (-1 (","))
+      (1 ("<tatəšʼ>"i)) (2 (",")) (3 ("<šue>"i));
+
