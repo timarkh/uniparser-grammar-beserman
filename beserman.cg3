@@ -42,6 +42,7 @@ LIST EndSentPunc = "." "?" "!" ")." ")!" ")?" ".)" "!)" "?)"
 SECTION    # Verbs
 # Only leave V,neg analyses if there is a negative verb nearby.
 SELECT (V neg) IF (*-1 NegVerbs BARRIER NotClitics);
+REMOVE (V imp) IF (*-1 NegVerbs BARRIER NotClitics);
 
 # Choose correct person for negated verbs based on the
 # negative verb.
@@ -78,6 +79,7 @@ REMOVE (V neg pst) IF (NOT 0C (V neg pst))
 
 
 REMOVE (V neg) IF (NEGATE *-1 NegVerbs BARRIER NotClitics) 
+                  (NOT 0 NegVerbs)
                   (NEGATE 0C (V neg));
 
 
