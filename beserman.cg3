@@ -8,7 +8,7 @@
 # Firstly, we need to define what tags should be considered sentence delimiters.
 DELIMITERS = "<SENT_BOUNDARY>";
 
-LIST NegVerbs = "ug" ("ud" V) "uz" ("um" V) "ej" ("ed" V) "ez" ("em" V);
+LIST NegVerbs = "en" "medam" "medaz" "ug" ("ud" V) "uz" ("um" V) "ej" ("ed" V) "ez" ("em" V);
 LIST NegVerbs1 = ("um" V) "ej" ("em" V);
 LIST NegVerbs2 = ("ud" V) ("ed" V);
 LIST NegVerbs3 = "uz" "ez";
@@ -41,7 +41,7 @@ LIST EndSentPunc = "." "?" "!" ")." ")!" ")?" ".)" "!)" "?)"
 
 SECTION    # Verbs
 # Only leave V,neg analyses if there is a negative verb nearby.
-SELECT (V neg) IF (*-1 NegVerbs BARRIER NotClitics) ;
+SELECT (V neg) IF (*-1 NegVerbs BARRIER NotClitics);
 
 # Choose correct person for negated verbs based on the
 # negative verb.
@@ -52,8 +52,8 @@ SELECT (V neg pst) IF (-4 NegVerbsPst) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
 
 REMOVE (V neg 1) IF (*-1 NegVerbs3 BARRIER NotClitics);
 REMOVE (V neg 1) IF (-4 NegVerbs3) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
-REMOVE (V neg 2) IF (*-1 NegVerbs3 BARRIER NotClitics);
-REMOVE (V neg 2) IF (-4 NegVerbs3) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
+REMOVE (V neg 2) IF (*-1 NegVerbs3 OR ("<ug>"i) BARRIER NotClitics);
+REMOVE (V neg 2) IF (-4 NegVerbs3 OR ("<ug>"i)) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
 
 REMOVE (V neg 1) IF (*-1 NegVerbs2 BARRIER NotClitics);
 REMOVE (V neg 1) IF (-4 NegVerbs2) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
@@ -66,11 +66,11 @@ REMOVE (V neg 3) IF (*-1 NegVerbs1 BARRIER NotClitics);
 REMOVE (V neg 3) IF (-4 NegVerbs1) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
 
 REMOVE (V neg 3) IF (NOT 0C (V neg 3))
-                    (NEGATE *-1 NegVerbs3 | ("<ug>"i) BARRIER NotClitics);
+                    (NEGATE *-1 NegVerbs3 OR ("<ug>"i) BARRIER NotClitics);
 REMOVE (V neg 2) IF (NOT 0C (V neg 2))
                     (NEGATE *-1 NegVerbs2 BARRIER NotClitics);
 REMOVE (V neg 1) IF (NOT 0C (V neg 1))
-                    (NEGATE *-1 NegVerbs1 | ("<ug>"i) BARRIER NotClitics);
+                    (NEGATE *-1 NegVerbs1 OR ("<ug>"i) BARRIER NotClitics);
 REMOVE (V neg fut) IF (NOT 0C (V neg fut))
                       (NEGATE *-1 NegVerbsFut BARRIER NotClitics);
 REMOVE (V neg pst) IF (NOT 0C (V neg pst))
