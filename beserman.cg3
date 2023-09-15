@@ -468,28 +468,31 @@ SELECT (V) IF (0 ("<vitʼe>"i))
 
 
 # kule: V vs. PRED
+SELECT (PRED) IF (0 ("<kule>"i))
+              (-1 (dat));
 SELECT (PRED) IF (@2 ("<kule>"i))
               (-1 (N nom) - (N anim))
-              (1 (".") OR (","));
-SELECT (PRED) IF (0 ("<kule>"i))
-              (-2 (N nom) - (N anim)) (-1 (dat))
               (1 (".") OR (","));
 SELECT (PRED) IF (0 ("<kule>"i))
               (-1 (N nom) - (N anim)) (-2 (dat))
               (1 (".") OR (","));
 SELECT (PRED) IF (@2 ("<kule>"i))
               (-1 (N nom) - (N anim))
-              (1 ("<val>"i)) (2 (".") OR (","));
-SELECT (PRED) IF (0 ("<kule>"i))
-              (-2 (N nom) - (N anim)) (-1 (dat))
               (1 ("<val>"i)) (2 (".") OR (","));
 SELECT (PRED) IF (0 ("<kule>"i))
               (-1 (N nom) - (N anim)) (-2 (dat))
               (1 ("<val>"i)) (2 (".") OR (","));
 
-SELECT (N) IF (0 ("<ule>"i))
-              (-1 (N nom))
-              (*1 (V) BARRIER NotClitics);
+# pɤlə: thumb vs. into
+SELECT (N rel_n) IF (0 ("<pɤlə>"i))
+                 (-1 ("čʼašša") OR ("pižʼ") OR ("vu") OR ("ləmə") OR ("kwak") OR ("ǯʼeg") OR ("kalək") OR ("gibi") OR ("salat") OR ("koko") OR ("turən") OR ("jɤl") OR ("sulʼep") OR ("venʼək") OR ("kəz") OR ("pužəm") OR ("nɤd") OR ("tʼaponʼ") OR ("šʼuj") OR ("təl"))
+                 (NOT 1 (N rel_n));
+
+# vu: N vs. V
+SELECT (N) IF (0 ("<vu>"i))
+              (1 (N rel_n) - Poss);
+SELECT (N) IF (0 ("<vu>"i))
+              (1 ("<punna>"i) OR ("juənə") OR ("kišʼkanə") OR ("ləktənə") OR ("nullənə"));
 
 # murt: person vs. alien
 SELECT (N) IF (0 ("murt"))
