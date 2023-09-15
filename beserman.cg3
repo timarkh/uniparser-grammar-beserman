@@ -41,32 +41,45 @@ LIST EndSentPunc = "." "?" "!" ")." ")!" ")?" ".)" "!)" "?)"
 
 SECTION    # Verbs
 # Only leave V,neg analyses if there is a negative verb nearby.
-REMOVE (V neg) IF (NEGATE *-1 NegVerbs BARRIER NotClitics) 
-                  (NEGATE 0 NegVerbs);
 SELECT (V neg) IF (*-1 NegVerbs BARRIER NotClitics) ;
 
 # Choose correct person for negated verbs based on the
 # negative verb.
-SELECT (V neg 3) IF (*-1 NegVerbs3 BARRIER NotClitics);
-SELECT (V neg 3) IF (-4 NegVerbs3) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
-SELECT (V neg 2) IF (*-1 NegVerbs2 BARRIER NotClitics);
-SELECT (V neg 2) IF (-4 NegVerbs2) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
-SELECT (V neg 1) IF (*-1 NegVerbs1 BARRIER NotClitics);
-SELECT (V neg 1) IF (-4 NegVerbs1) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
 SELECT (V neg fut) IF (*-1 ("uz") BARRIER NotClitics);
 SELECT (V neg fut) IF (-4 ("uz")) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
 SELECT (V neg pst) IF (*-1 NegVerbsPst BARRIER NotClitics);
 SELECT (V neg pst) IF (-4 NegVerbsPst) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
+
+REMOVE (V neg 1) IF (*-1 NegVerbs3 BARRIER NotClitics);
+REMOVE (V neg 1) IF (-4 NegVerbs3) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
+REMOVE (V neg 2) IF (*-1 NegVerbs3 BARRIER NotClitics);
+REMOVE (V neg 2) IF (-4 NegVerbs3) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
+
+REMOVE (V neg 1) IF (*-1 NegVerbs2 BARRIER NotClitics);
+REMOVE (V neg 1) IF (-4 NegVerbs2) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
+REMOVE (V neg 3) IF (*-1 NegVerbs2 BARRIER NotClitics);
+REMOVE (V neg 3) IF (-4 NegVerbs2) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
+
+REMOVE (V neg 2) IF (*-1 NegVerbs1 BARRIER NotClitics);
+REMOVE (V neg 2) IF (-4 NegVerbs1) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
+REMOVE (V neg 3) IF (*-1 NegVerbs1 BARRIER NotClitics);
+REMOVE (V neg 3) IF (-4 NegVerbs1) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
+
 REMOVE (V neg 3) IF (NOT 0C (V neg 3))
-                    (*-1 NegVerbs3 BARRIER NotClitics);
+                    (NEGATE *-1 NegVerbs3 | ("<ug>"i) BARRIER NotClitics);
 REMOVE (V neg 2) IF (NOT 0C (V neg 2))
-                    (*-1 ("<ug>"i) BARRIER NotClitics);
+                    (NEGATE *-1 NegVerbs2 BARRIER NotClitics);
 REMOVE (V neg 1) IF (NOT 0C (V neg 1))
-                    (*-1 NegVerbs1 BARRIER NotClitics);
+                    (NEGATE *-1 NegVerbs1 | ("<ug>"i) BARRIER NotClitics);
 REMOVE (V neg fut) IF (NOT 0C (V neg fut))
-                      (*-1 NegVerbsFut BARRIER NotClitics);
+                      (NEGATE *-1 NegVerbsFut BARRIER NotClitics);
 REMOVE (V neg pst) IF (NOT 0C (V neg pst))
-                      (*-1 NegVerbsPst BARRIER NotClitics);
+                      (NEGATE *-1 NegVerbsPst BARRIER NotClitics);
+
+
+REMOVE (V neg) IF (NEGATE *-1 NegVerbs BARRIER NotClitics) 
+                  (NEGATE 0C (V neg));
+
 
 # Pst2 vs. nominalization in -m
 REMOVE (V pst2 sg) IF (1 ("ber" ill));
