@@ -30,7 +30,7 @@ SET VTr2 = VTr1 - (detr);
 SET VTr = VTr2 OR ("veranə");
 SET VFin = (V 1) OR (V 2) OR (V 3) OR ("val") OR ("wanʼ");
 SET VTrFin = (V tr 1) - (detr) OR (V tr 2) - (detr) - (imp) OR (V tr 3) - (detr) OR (V caus 1) OR (V caus 2) - (imp) OR (V caus 3);
-SET VIntr = (V intr) - (V ptcp prs) - (caus) OR (PRED);
+SET VIntr = (V intr) - (V ptcp prs) - (caus) OR (PRED) OR (V tr detr) - (V tr caus detr);
 LIST BOS = (>>>);
 SET BOSPunct = (punct) | BOS;
 SET StartClitics = ("a") OR ("<sre>"i) OR ("<səre>"i) OR ("tare") OR ("ben") OR ("šʼo") OR ("<fšʼo>"i) OR ("i") OR ("daže") OR ("ja") OR ("marke") OR ("nu") OR ("no") OR ("tak") OR ("tunne") OR ("tolon") OR ("tue");
@@ -88,6 +88,10 @@ REMOVE (V pst2 sg) IF (1 ("ber" ill));
 REMOVE (V ptcp pst sg nom) IF (1 ("šusa") OR VerbalClitics);
 SELECT (V pst2 3 sg) IF (0 (ptcp 3sg sg nom))
                         (*1 ("potənə") BARRIER NotClitics);
+
+# Resultative vs. nominalization in -m
+REMOVE (V ptcp pst sg loc) IF (0 (V res))
+                              (NEGATE 0* VPred - (V res) - (V ptcp pst sg loc));
 
 # fut,1,sg vs. prs,3,pl: look at possible subjects
 SELECT (V fut 1 sg) IF (NOT 0 (V detr))
@@ -517,17 +521,20 @@ SELECT (N) IF (0 ("murt"))
 REMOVE (N) IF (0 ("vera"))
               (0 (V))
               (*0 (N acc) BARRIER NotClitics);
-REMOVE (N) IF (@1 ("<vera>"i))
+REMOVE (N) IF (@1 ("<vera>"i) OR ("<veraz>"i) OR ("<verad>"i))
               (1 (":"));
-REMOVE (N) IF (@2 ("<vera>"i))
+REMOVE (N) IF (@2 ("<vera>"i) OR ("<veraz>"i) OR ("<verad>"i))
               (-1 DemPersPro | (N anim sg nom) | ("<i>"i))
               (1 (":"));
-REMOVE (N) IF (0 ("<vera>"i))
+REMOVE (N) IF (0 ("<vera>"i) OR ("<veraz>"i))
               (-1 DemPersPro | (N anim sg nom) | ("<i>"i))
               (1 (N anim dat) OR (N PN dat) OR (PRO pers dat));
-REMOVE (N) IF (0 ("<vera>"i))
+REMOVE (N) IF (0 ("<vera>"i) OR ("<veraz>"i))
               (-1 DemPersPro | (N anim sg nom) | ("<i>"i))
               (2 ("<nəl>"i) OR ("<pios>"i) OR ("<pi>"i) OR ("<kəšno>"i)) (2 (N anim dat));
+REMOVE (N) IF (0 ("<vera>"i) OR ("<veraz>"i) OR ("<verad>"i))
+              (-1 (N anim dat) OR (N PN dat) OR (PRO pers dat))
+              (NOT 2 VPred);
 SELECT (V imp) IF (0 ("<vera>"i))
                (-1 ("<ton>"i))
                (NOT 2 VPred);
