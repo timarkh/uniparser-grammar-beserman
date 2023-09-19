@@ -8,6 +8,13 @@
   gramm: comp
   gloss: COMP
   regex-prev: ^.*[kpstfxčš]ʼ?[.<>]*$
+ -flex: .gem
+  gramm: comp
+  gloss: COMP
+ -flex: .kem
+  gramm: comp
+  gloss: COMP
+  regex-prev: ^.*[kpstfxčš]ʼ?[.<>]*$
  -flex: .tem<.>
   gramm: attr,attr_tem
   gloss: NEG.ATTR
@@ -736,6 +743,31 @@
   gloss: PL
   regex-prev: ^.*[aeouiəɤɨ][<>.]*$
   paradigm: Noun-case-compounding-pl
+ -flex: .nʼos<.>
+  gramm: pl
+  gloss: PL
+  regex-prev: ^.*nʼ?[.<>]*$
+  paradigm: Noun-case-compounding-pl
+ -flex: .tʼos<.>
+  gramm: pl
+  gloss: PL
+  regex-prev: ^.*tʼ?[.<>]*$
+  paradigm: Noun-case-compounding-pl
+ -flex: .dʼos<.>
+  gramm: pl
+  gloss: PL
+  regex-prev: ^.*dʼ?[.<>]*$
+  paradigm: Noun-case-compounding-pl
+ -flex: .šʼos<.>
+  gramm: pl
+  gloss: PL
+  regex-prev: ^.*šʼ[.<>]*$
+  paradigm: Noun-case-compounding-pl
+ -flex: .žʼos<.>
+  gramm: pl
+  gloss: PL
+  regex-prev: ^.*žʼ[.<>]*$
+  paradigm: Noun-case-compounding-pl
 
 
 -paradigm: Noun-case-compounding-sg
@@ -1116,6 +1148,27 @@
   paradigm: Noun-case-poss-3,pl
  paradigm: Noun-case-compounding
 
+
+
+-paradigm: poss_refl
+ -flex: .m|len<.>
+  gramm: 1sg
+  gloss: P.1SG|GEN
+ -flex: .d|len<.>
+  gramm: 2sg
+  gloss: P.2SG|GEN
+ -flex: .z|len<.>
+  gramm: 3sg
+  gloss: P.3SG|GEN
+ -flex: .mə|len<.>
+  gramm: 1pl
+  gloss: P.1PL|GEN
+ -flex: .də|len<.>
+  gramm: 2pl
+  gloss: P.2PL|GEN
+ -flex: .zə|len<.>
+  gramm: 3pl
+  gloss: P.3PL|GEN
 
 -paradigm: Noun-case-ə
  -flex: .ən<.>//.jən<.>//.ɨn<.>//.jɨn<.>
@@ -1821,7 +1874,7 @@
  -flex: .se<.>
   gramm: acc,3sg
   gloss: P.3SG.ACC
-  regex-prev: ^.*[kpstfxčš]ʼ?[.<>]*$
+  regex-prev: ^.*[kpstfxčšc]ʼ?[.<>]*$
  -flex: .en|əz<.>//.ən|əz<.>
   gramm: ins,3sg
   gloss: INS|P.3SG
@@ -2272,7 +2325,7 @@
  -flex: .se<.>
   gramm: acc,3sg
   gloss: P.3SG.ACC
-  regex-prev: ^.*[kpstfxčš]ʼ?[.<>]*$
+  regex-prev: ^.*[kpstfxčšc]ʼ?[.<>]*$
  -flex: .en|əz<.>//.ən|əz<.>
   gramm: ins,3sg
   gloss: INS|P.3SG
@@ -3065,6 +3118,13 @@
   gramm: comp
   gloss: COMP
   regex-prev: ^.*[kpstfxčš]ʼ?[.<>]*$
+ -flex: <0>.gem//<1>.gem
+  gramm: comp
+  gloss: COMP
+ -flex: <0>.kem//<1>.kem
+  gramm: comp
+  gloss: COMP
+  regex-prev: ^.*[kpstfxčš]ʼ?[.<>]*$
  -flex: <0>.//<1>.
   gramm: 
 
@@ -3083,25 +3143,25 @@
  -flex: .ətek<.>
   gramm: cvb,neg
   gloss: CVB.NEG
- -flex: .əku<.>
+ -flex: .əku<.>//.əkə<.>
   gramm: cvb,simult
   gloss: CVB.SIMULT
- -flex: .əku|m<.>
+ -flex: .əku|m<.>//.əkə|m<.>
   gramm: cvb,simult,1,sg
   gloss: CVB.SIMULT|1SG
- -flex: .əku|mə<.>
+ -flex: .əku|mə<.>//.əkə|mə<.>
   gramm: cvb,simult,1,pl
   gloss: CVB.SIMULT|1PL
- -flex: .əku|d<.>
+ -flex: .əku|d<.>//.əkə|d<.>
   gramm: cvb,simult,2,sg
   gloss: CVB.SIMULT|2SG
- -flex: .əku|də<.>
+ -flex: .əku|də<.>//.əkə|də<.>
   gramm: cvb,simult,2,pl
   gloss: CVB.SIMULT|2PL
- -flex: .əku|z<.>
+ -flex: .əku|z<.>//.əkə|z<.>
   gramm: cvb,simult,3,sg
   gloss: CVB.SIMULT|3SG
- -flex: .əku|zə<.>
+ -flex: .əku|zə<.>//.əkə|zə<.>
   gramm: cvb,simult,3,pl
   gloss: CVB.SIMULT|3PL
  -flex: .ičʼožʼ<.>//.əčʼožʼ<.>//.idčʼožʼ<.>//.ədčʼožʼ<.>//.ičʼčʼožʼ<.>//.əčʼčʼožʼ<.>
@@ -3135,25 +3195,25 @@
  -flex: .tek<.>
   gramm: cvb,neg
   gloss: CVB.NEG
- -flex: .ku<.>
+ -flex: .ku<.>//.kə<.>
   gramm: cvb,simult
   gloss: CVB.SIMULT
- -flex: .ku|m<.>
+ -flex: .ku|m<.>//.kə|m<.>
   gramm: cvb,simult,1,sg
   gloss: CVB.SIMULT|1SG
- -flex: .ku|mə<.>
+ -flex: .ku|mə<.>//.kə|mə<.>
   gramm: cvb,simult,1,pl
   gloss: CVB.SIMULT|1PL
- -flex: .ku|d<.>
+ -flex: .ku|d<.>//.kə|d<.>
   gramm: cvb,simult,2,sg
   gloss: CVB.SIMULT|2SG
- -flex: .ku|də<.>
+ -flex: .ku|də<.>//.kə|də<.>
   gramm: cvb,simult,2,pl
   gloss: CVB.SIMULT|2PL
- -flex: .ku|z<.>
+ -flex: .ku|z<.>//.kə|z<.>
   gramm: cvb,simult,3,sg
   gloss: CVB.SIMULT|3SG
- -flex: .ku|zə<.>
+ -flex: .ku|zə<.>//.kə|zə<.>
   gramm: cvb,simult,3,pl
   gloss: CVB.SIMULT|3PL
  -flex: .čʼožʼ<.>//.dčʼožʼ<.>//.čʼčʼožʼ<.>
@@ -3589,7 +3649,7 @@
  -flex: <0>.t<.>
   gramm: caus
   gloss: CAUS
-  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə)$
+  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə|jetənə)$
  -flex: <0>.et|ət<.>
   gramm: caus
   gloss: CAUS|CAUS
@@ -3597,7 +3657,7 @@
  -flex: <0>.t|ət<.>
   gramm: caus
   gloss: CAUS|CAUS
-  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə)$
+  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə|jetənə)$
  -flex: <0>.išʼk|əl<.>
   gramm: detr,iter
   gloss: DETR|ITER
@@ -3633,7 +3693,7 @@
  -flex: <0>.t|išʼk<.>//<0>.čʼ|ik<.>//<0>.čʼ|k<.>
   gramm: caus,detr
   gloss: CAUS|DETR
-  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə)$
+  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə|jetənə)$
  -flex: <0>.əčʼ|ək<.>
   gramm: caus,detr
   gloss: CAUS|DETR
@@ -3646,7 +3706,7 @@
  -flex: <0>.čʼ|ək<.>
   gramm: caus,detr
   gloss: CAUS|DETR
-  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə)$
+  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə|jetənə)$
   paradigm: Verb-imp-neg-empty
  -flex: <0>.ət|išʼk|əl<.>//<0>.əčʼ|ik|əl<.>//<0>.əčʼ|k|əl<.>
   gramm: caus,detr,iter
@@ -3658,7 +3718,7 @@
  -flex: <0>.t|išʼk|əl<.>//<0>.čʼ|ik|əl<.>//<0>.čʼ|k|əl<.>
   gramm: caus,detr,iter
   gloss: CAUS|DETR|ITER
-  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə)$
+  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə|jetənə)$
  -flex: <0>.əl|ət<.>
   gramm: iter,caus
   gloss: ITER|CAUS
@@ -3672,7 +3732,7 @@
  -flex: <0>.t|əl<.>
   gramm: caus,iter
   gloss: CAUS|ITER
-  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə)$
+  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə|jetənə)$
  -flex: <0>.ət|əl|əl<.>
   gramm: caus,iter
   gloss: CAUS|ITER|ITER
@@ -3683,7 +3743,7 @@
  -flex: <0>.t|əl|əl<.>
   gramm: caus,iter
   gloss: CAUS|ITER|ITER
-  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə)$
+  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə|jetənə)$
  -flex: <0>.ət|əl|išʼk<.>
   gramm: caus,iter,detr
   gloss: CAUS|ITER|DETR
@@ -3694,7 +3754,7 @@
  -flex: <0>.t|əl|išʼk<.>
   gramm: caus,iter,detr
   gloss: CAUS|ITER|DETR
-  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə)$
+  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə|jetənə)$
  -flex: <0>.ət|əl|əl|išʼk<.>
   gramm: caus,iter,detr
   gloss: CAUS|ITER|ITER|DETR
@@ -3705,7 +3765,7 @@
  -flex: <0>.t|əl|əl|išʼk<.>
   gramm: caus,iter,detr
   gloss: CAUS|ITER|ITER|DETR
-  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə)$
+  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə|jetənə)$
  paradigm: Infinitive-I
  paradigm: Verb-pres-I-positive
  paradigm: Verb-past-I-positive
