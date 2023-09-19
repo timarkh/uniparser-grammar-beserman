@@ -1708,28 +1708,28 @@
 
 -lexeme
  lex: ačʼiz
- stem: ašʼmes.//asmes.//ačʼmes.//ašʼmeos.
+ stem: ašʼmes.//asmes.//ačʼmes.//ačʼimes.//ašʼmeos.
  gramm: PRO,refl,nom,1pl
  paradigm: Comparative
  trans_ru: сам
 
 -lexeme
  lex: ačʼiz
- stem: ašʼmestə.//asmestə.//ačʼmestə.
+ stem: ašʼmestə.//asmestə.//ačʼmestə.//ačʼimestə.
  gramm: PRO,refl,acc,1pl
  paradigm: Comparative
  trans_ru: сам
 
 -lexeme
  lex: ačʼiz
- stem: ašʼtes.//astes.
+ stem: ašʼtes.//astes.//ačʼides.
  gramm: PRO,refl,nom,1pl
  paradigm: Comparative
  trans_ru: сам
 
 -lexeme
  lex: ačʼiz
- stem: ašʼses.//ašʼšʼes.//asses.
+ stem: ašʼses.//ašʼšʼes.//asses.//ašʼizes.
  gramm: PRO,refl,nom,1pl
  paradigm: Comparative
  trans_ru: сам
@@ -46313,6 +46313,13 @@
  trans_ru: лиственный
 
 -lexeme
+ lex: banočʼnoj
+ stem: banočʼnoj.//banočʼnɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: баночное (пиво)
+
+-lexeme
  lex: matočʼnoj
  stem: matočʼnoj.//matočʼnɨj.
  gramm: A,rus
@@ -47067,6 +47074,13 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: водополица
+
+-lexeme
+ lex: nalʼičʼnʼik
+ stem: nalʼičʼnʼik.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: наличник
 
 -lexeme
  lex: optom

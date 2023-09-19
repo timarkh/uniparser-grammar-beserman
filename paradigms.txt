@@ -1150,7 +1150,7 @@
 
 
 
--paradigm: poss_refl
+-paradigm: poss_refl_gen
  -flex: .m|len<.>
   gramm: 1sg
   gloss: P.1SG|GEN
