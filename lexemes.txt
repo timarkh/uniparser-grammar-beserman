@@ -23577,7 +23577,7 @@
 
 -lexeme
  lex: vitʼənə
- stem: vitʼ.
+ stem: vitʼ.|vičʼ.
  gramm: V,tr
  paradigm: paradigm_V
  trans_ru: ждать; собирать жидкость
