@@ -952,7 +952,14 @@
 
 -lexeme
  lex: aha
- stem: aha.//axa.//əhə.
+ stem: aha.//axa.
+ gramm: PART
+ paradigm: Empty
+ trans_ru: ага
+
+-lexeme
+ lex: əhə
+ stem: əhə.
  gramm: PART
  paradigm: Empty
  trans_ru: ага
@@ -1361,6 +1368,13 @@
  trans_ru: армия
 
 -lexeme
+ lex: kompanʼij
+ stem: kompanʼija.//kompanʼij.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: компания
+
+-lexeme
  lex: matʼematʼika
  stem: matʼematʼika.//matʼematʼik.
  gramm: N,rus
@@ -1603,6 +1617,13 @@
  gramm: CONJ,rus
  paradigm: Empty
  trans_ru: а то
+
+-lexeme
+ lex: ito
+ stem: ito.
+ gramm: CONJ,rus
+ paradigm: Empty
+ trans_ru: и то
 
 -lexeme
  lex: atʼ
@@ -3430,6 +3451,13 @@
  gramm: PART,rus
  paradigm: Empty
  trans_ru: давай
+
+-lexeme
+ lex: nuko
+ stem: nuko.//nuka.
+ gramm: PART,rus
+ paradigm: Empty
+ trans_ru: ну-ка
 
 -lexeme
  lex: dašʼ
@@ -6335,7 +6363,7 @@
 
 -lexeme
  lex: jurtənə
- stem: jurt.|jurčʼ.
+ stem: jurt.//jurtt.|jurčʼ.//jurtčʼ.
  gramm: V,intr,with_dat,with_instr
  paradigm: paradigm_V
  trans_ru: помогать
@@ -7383,7 +7411,7 @@
 
 -lexeme
  lex: kenʼa
- stem: kenʼa.//kɤnʼa.
+ stem: kenʼa.//kɤnʼa.//kenʼ.//kɤnʼ.
  gramm: PRO
  paradigm: paradigm_N
  trans_ru: сколько
@@ -13958,12 +13986,13 @@
  lex: nəl
  stem: nəl.
  gramm: N,anim,hum
+ paradigm: paradigm_N
  paradigm: paradigm_N_px_ə
  trans_ru: девочка; девушка; дочь
 
 -lexeme
  lex: nəl-pi
- stem: nəl-pi.
+ stem: nəl-pi.//nəlpi.
  gramm: N,anim,hum
  paradigm: paradigm_N
  trans_ru: дети
@@ -14810,7 +14839,7 @@
 
 -lexeme
  lex: odig
- stem: odig.
+ stem: odig.//ojig.//oig.//wig.
  gramm: NUM
  paradigm: paradigm_N_px_ə
  paradigm: paradigm_NUM
@@ -15477,7 +15506,7 @@
 
 -lexeme
  lex: ožʼ
- stem: ožʼ.
+ stem: ožʼ.//ožʼə.
  gramm: PRO,dem
  paradigm: Comparative
  trans_ru: так
@@ -16493,7 +16522,7 @@
 
 -lexeme
  lex: pičʼi
- stem: pičʼi.
+ stem: pičʼi.//pɤčʼi.
  gramm: A
  paradigm: paradigm_A
  trans_ru: маленький
@@ -20162,7 +20191,7 @@
 
 -lexeme
  lex: tažʼ
- stem: tažʼ.
+ stem: tažʼ.//tažʼə.
  gramm: PRO
  paradigm: paradigm_N
  trans_ru: так
@@ -22785,7 +22814,7 @@
 
 -lexeme
  lex: ušjanə
- stem: ušja.
+ stem: ušja.//əšja.
  gramm: V,tr
  paradigm: paradigm_V
  trans_ru: хвалить
@@ -24567,7 +24596,7 @@
 
 -lexeme
  lex: wanʼ
- stem: wanʼ.|wanʼm.
+ stem: wanʼ.//vanʼ.|wanʼm.//vanʼm.
  gramm: PRO|PRO,obl
  paradigm: paradigm_N_px_ə
  trans_ru: всё; все
@@ -30012,21 +30041,21 @@
 
 -lexeme
  lex: ǯʼog
- stem: ǯʼog.
+ stem: ǯʼog.//ǯog.
  gramm: ADV
  paradigm: Comparative
  trans_ru: быстро
 
 -lexeme
  lex: ǯʼog
- stem: ǯʼogen.
+ stem: ǯʼogen.//ǯogen.
  gramm: ADV,ins
  paradigm: Comparative
  trans_ru: быстро
 
 -lexeme
  lex: ǯʼogak
- stem: ǯʼogak.
+ stem: ǯʼogak.//ǯogak.
  gramm: ADV
  paradigm: Comparative
  trans_ru: ненадолго, быстренько, по-быстрому
@@ -37697,7 +37726,7 @@
 
 -lexeme
  lex: kantora
- stem: kantora.//kantor.
+ stem: kantora.//kantor.//kontora.//kontor.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: контора
@@ -39496,7 +39525,7 @@
 
 -lexeme
  lex: car
- stem: car.
+ stem: car.//carʼ.
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
  trans_ru: царь
@@ -41543,6 +41572,20 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Чаган (домовое имя)
+
+-lexeme
+ lex: Makar
+ stem: makar.
+ gramm: N,PN,famn
+ paradigm: paradigm_N
+ trans_ru: Макар (домовое имя)
+
+-lexeme
+ lex: Tarzan
+ stem: tarzan.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Тарзан (кличка)
 
 -lexeme
  lex: čʼerta
@@ -47143,7 +47186,14 @@
  stem: ulʼjanofsk.
  gramm: N,PN,topn
  paradigm: paradigm_N
- trans_ru: ульяновск
+ trans_ru: Ульяновск
+
+-lexeme
+ lex: Valamaz
+ stem: valamaz.
+ gramm: N,PN,topn
+ paradigm: paradigm_N
+ trans_ru: Валамаз
 
 -lexeme
  lex: Zaksenxauzen
