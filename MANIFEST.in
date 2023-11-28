@@ -1,0 +1,2 @@
+include uniparser_beserman_lat/data_default/*.txt
+include uniparser_beserman_lat/data_default/*.cg3
