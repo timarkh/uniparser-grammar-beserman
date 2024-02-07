@@ -1086,7 +1086,7 @@
  -flex: .də<.>//.dɨ<.>
   gramm: 2pl
   gloss: P.2PL
- -flex: .zə<.>//.zi<.>
+ -flex: .zə<.>//.zɨ<.>
   gramm: 3pl
   gloss: P.3PL
  paradigm: Comparative
@@ -1160,13 +1160,13 @@
  -flex: .z|len<.>
   gramm: 3sg
   gloss: P.3SG|GEN
- -flex: .mə|len<.>
+ -flex: .mə|len<.>//.mɨ|len<.>
   gramm: 1pl
   gloss: P.1PL|GEN
- -flex: .də|len<.>
+ -flex: .də|len<.>//.dɨ|len<.>
   gramm: 2pl
   gloss: P.2PL|GEN
- -flex: .zə|len<.>
+ -flex: .zə|len<.>//.zɨ|len<.>
   gramm: 3pl
   gloss: P.3PL|GEN
 
