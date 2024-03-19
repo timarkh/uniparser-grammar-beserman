@@ -4,8 +4,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Абашево
- trans_en: 
- gloss: STEM
+ trans_en: Abashevo
+ gloss: Abashevo
 
 -lexeme
  lex: Adlʼer
@@ -3598,8 +3598,8 @@
  gramm: N,body
  paradigm: paradigm_N_px_ə
  trans_ru: нижняя часть лица; нижняя челюсть
- trans_en: 
- gloss: STEM
+ trans_en: jaw
+ gloss: jaw
 
 -lexeme
  lex: angina
@@ -3616,8 +3616,8 @@
  gramm: A,rus
  paradigm: paradigm_A
  trans_ru: английский
- trans_en: 
- gloss: STEM
+ trans_en: English
+ gloss: English
 
 -lexeme
  lex: ani
@@ -3634,8 +3634,8 @@
  gramm: INTERJ
  paradigm: Empty
  trans_ru: ой, мамочки!
- trans_en: 
- gloss: STEM
+ trans_en: oh my God!
+ gloss: oh.my.God
 
 -lexeme
  lex: anikoj
@@ -3643,8 +3643,8 @@
  gramm: INTERJ
  paradigm: Empty
  trans_ru: ой, мамочки!
- trans_en: 
- gloss: STEM
+ trans_en: oh my God!
+ gloss: oh.my.God
 
 -lexeme
  lex: anikoj
@@ -3652,8 +3652,8 @@
  gramm: N,anim,hum
  paradigm: paradigm_N
  trans_ru: мамочка
- trans_en: 
- gloss: STEM
+ trans_en: mommy
+ gloss: mommy
 
 -lexeme
  lex: ansambəlʼ
@@ -3661,8 +3661,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: ансамбль
- trans_en: 
- gloss: STEM
+ trans_en: band
+ gloss: band
 
 -lexeme
  lex: antenna
@@ -3670,8 +3670,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: антенна
- trans_en: 
- gloss: STEM
+ trans_en: antenna
+ gloss: antenna
 
 -lexeme
  lex: antonofka
@@ -3688,8 +3688,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: анекдот
- trans_en: 
- gloss: STEM
+ trans_en: joke
+ gloss: joke
 
 -lexeme
  lex: anʼəs
@@ -3706,8 +3706,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: апельсин
- trans_en: 
- gloss: STEM
+ trans_en: orange
+ gloss: orange
 
 -lexeme
  lex: aprelʼ
@@ -3715,8 +3715,8 @@
  gramm: N,time_meas
  paradigm: paradigm_N
  trans_ru: апрель
- trans_en: april
- gloss: april
+ trans_en: April
+ gloss: April
 
 -lexeme
  lex: aptʼeka
@@ -3724,8 +3724,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: аптека
- trans_en: 
- gloss: STEM
+ trans_en: drug store
+ gloss: drug.store
 
 -lexeme
  lex: ar
@@ -3760,8 +3760,8 @@
  gramm: N
  paradigm: paradigm_N
  trans_ru: самогон
- trans_en: 
- gloss: STEM
+ trans_en: moonshine
+ gloss: moonshine
 
 -lexeme
  lex: aranə
@@ -3787,8 +3787,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: вещь
- trans_en: 
- gloss: STEM
+ trans_en: thing, object
+ gloss: thing
 
 -lexeme
  lex: arbuz
@@ -3796,8 +3796,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: арбуз
- trans_en: 
- gloss: STEM
+ trans_en: watermelon
+ gloss: watermelon
 
 -lexeme
  lex: ardok
@@ -3805,8 +3805,8 @@
  gramm: N
  paradigm: paradigm_N
  trans_ru: промоина, яма с водой
- trans_en: 
- gloss: STEM
+ trans_en: ravine, hole filled with water
+ gloss: ravine
 
 -lexeme
  lex: ardokešʼ
@@ -3814,8 +3814,8 @@
  gramm: A,oblin
  paradigm: paradigm_A
  trans_ru: весь в ямах
- trans_en: 
- gloss: STEM
+ trans_en: full of ravines
+ gloss: full.of.ravines
 
 -lexeme
  lex: ares
@@ -3851,8 +3851,8 @@
  gramm: N,anim
  paradigm: paradigm_N
  trans_ru: чайка; ястреб; коршун
- trans_en: 
- gloss: STEM
+ trans_en: seagull; hawk
+ gloss: seagull
 
 -lexeme
  lex: armija
@@ -3878,8 +3878,8 @@
  gramm: ADV
  paradigm: Comparative
  trans_ru: бережно
- trans_en: 
- gloss: STEM
+ trans_en: carefully
+ gloss: carefully
 
 -lexeme
  lex: arte
@@ -3887,8 +3887,8 @@
  gramm: ADV
  paradigm: Comparative
  trans_ru: рядом, сбоку
- trans_en: 
- gloss: STEM
+ trans_en: at one's side, nearby
+ gloss: at.side
 
 -lexeme
  lex: arten
@@ -3896,8 +3896,8 @@
  gramm: A
  paradigm: paradigm_A
  trans_ru: соседний, стоящий сбоку
- trans_en: 
- gloss: STEM
+ trans_en: adjacent
+ gloss: adjacent
 
 -lexeme
  lex: arten
@@ -3905,8 +3905,8 @@
  gramm: ADV
  paradigm: Comparative
  trans_ru: рядом, сбоку, по соседству
- trans_en: 
- gloss: STEM
+ trans_en: at one's side, nearby
+ gloss: at.side
 
 -lexeme
  lex: arten
@@ -3914,8 +3914,8 @@
  gramm: N,loc
  paradigm: poss
  trans_ru: по соседству
- trans_en: 
- gloss: STEM
+ trans_en: at one's side, nearby
+ gloss: at.side.LOC
 
 -lexeme
  lex: arten
@@ -3923,8 +3923,8 @@
  gramm: N,el
  paradigm: poss
  trans_ru: по соседству
- trans_en: 
- gloss: STEM
+ trans_en: at one's side, nearby
+ gloss: at.side.EL
 
 -lexeme
  lex: arten
@@ -3932,8 +3932,8 @@
  gramm: N,el
  paradigm: Comparative
  trans_ru: по соседству
- trans_en: 
- gloss: STEM
+ trans_en: at one's side, nearby
+ gloss: at.side.EL
 
 -lexeme
  lex: artrit
@@ -3950,8 +3950,8 @@
  gramm: A
  paradigm: paradigm_A
  trans_ru: близкий, расположенный по соседству
- trans_en: 
- gloss: STEM
+ trans_en: adjacent
+ gloss: adjacent
 
 -lexeme
  lex: artʼist
@@ -3959,8 +3959,8 @@
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
  trans_ru: артист
- trans_en: 
- gloss: STEM
+ trans_en: artist
+ gloss: artist
 
 -lexeme
  lex: arwak
@@ -10896,8 +10896,8 @@
  gramm: PART
  paradigm: Empty
  trans_ru: только; совсем, прямо
- trans_en: 
- gloss: STEM
+ trans_en: only, just
+ gloss: only
 
 -lexeme
  lex: gips
@@ -12283,8 +12283,8 @@
  gramm: PART
  paradigm: Empty
  trans_ru: только; совсем, прямо
- trans_en: 
- gloss: STEM
+ trans_en: only, just
+ gloss: only
 
 -lexeme
  lex: gənmənə
@@ -16888,8 +16888,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: кофе
- trans_en: 
- gloss: STEM
+ trans_en: coffee
+ gloss: coffee
 
 -lexeme
  lex: kofta
@@ -16977,7 +16977,7 @@
  stem: kokonʼa.
  gramm: N,body
  paradigm: paradigm_N
- trans_ru: 
+ trans_ru: лодыжка
  trans_en: ankle
  gloss: ankle
 
@@ -25041,8 +25041,8 @@
  gramm: N,rus,transport
  paradigm: paradigm_N
  trans_ru: машина
- trans_en: 
- gloss: STEM
+ trans_en: car
+ gloss: car
 
 -lexeme
  lex: mašinka
@@ -26600,8 +26600,8 @@
  gramm: INTERJ,rus
  paradigm: Comparative
  trans_ru: может
- trans_en: 
- gloss: STEM
+ trans_en: maybe
+ gloss: maybe
 
 -lexeme
  lex: mužʼej
@@ -26609,8 +26609,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: музей
- trans_en: 
- gloss: STEM
+ trans_en: museum
+ gloss: museum
 
 -lexeme
  lex: məd-mədzə
@@ -26654,8 +26654,8 @@
  gramm: V,tr,with_instr
  paradigm: paradigm_V
  trans_ru: наклонять
- trans_en: 
- gloss: STEM
+ trans_en: tilt
+ gloss: tilt
 
 -lexeme
  lex: məkərtənə
@@ -26663,8 +26663,8 @@
  gramm: V,tr,with_instr
  paradigm: paradigm_V
  trans_ru: наклонить
- trans_en: 
- gloss: STEM
+ trans_en: tilt
+ gloss: tilt
 
 -lexeme
  lex: məl
@@ -26672,8 +26672,8 @@
  gramm: N
  paradigm: paradigm_N_px_ə
  trans_ru: настрой
- trans_en: 
- gloss: STEM
+ trans_en: mood
+ gloss: mood
 
 -lexeme
  lex: məl-kəd
@@ -26681,8 +26681,8 @@
  gramm: N
  paradigm: paradigm_N_px_ə
  trans_ru: хорошее настроение, желание
- trans_en: 
- gloss: STEM
+ trans_en: good mood, spirits, desire
+ gloss: desire
 
 -lexeme
  lex: məlʼək-malʼək
@@ -26717,8 +26717,8 @@
  gramm: A,rel_adj
  paradigm: paradigm_A
  trans_ru: количеством равный чему-то
- trans_en: 
- gloss: STEM
+ trans_en: as many as
+ gloss: as.many.as
 
 -lexeme
  lex: məntək
@@ -27889,7 +27889,7 @@
  paradigm: paradigm_V
  trans_ru: носить, везти
  trans_en: carry
- gloss: STEM
+ gloss: carry
 
 -lexeme
  lex: nullənə-vajənə
@@ -30810,8 +30810,8 @@
  gramm: PRO,dem,term
  paradigm: Comparative
  trans_ru: дотуда; до тех пор
- trans_en: 
- gloss: STEM
+ trans_en: until there
+ gloss: there.TERM
 
 -lexeme
  lex: otčʼə
@@ -30819,8 +30819,8 @@
  gramm: PRO,dem,ill
  paradigm: Comparative
  trans_ru: туда
- trans_en: 
- gloss: STEM
+ trans_en: there
+ gloss: there.ILL
 
 -lexeme
  lex: otčʼə-tatčʼə
@@ -30838,7 +30838,7 @@
  paradigm: paradigm_N
  trans_ru: там
  trans_en: there
- gloss: there
+ gloss: there.LOC
 
 -lexeme
  lex: otəšʼ
@@ -30847,7 +30847,7 @@
  paradigm: Comparative
  trans_ru: оттуда
  trans_en: from there
- gloss: from.there
+ gloss: there.EL
 
 -lexeme
  lex: otəšʼen
@@ -30856,7 +30856,7 @@
  paradigm: Comparative
  trans_ru: оттуда, от того места
  trans_en: from there
- gloss: from.there
+ gloss: there.EGR
 
 -lexeme
  lex: otʼ
@@ -30865,7 +30865,7 @@
  paradigm: Comparative
  trans_ru: там, по тому месту
  trans_en: there
- gloss: there
+ gloss: there.PROL
 
 -lexeme
  lex: otʼ-tatʼ
@@ -40106,7 +40106,7 @@
  paradigm: paradigm_V
  trans_ru: развариваться
  trans_en: cook through in boiling water
- gloss: cook .through
+ gloss: cook.through
 
 -lexeme
  lex: sələnə
@@ -40961,8 +40961,8 @@
  gramm: N,anim,hum
  paradigm: paradigm_N
  trans_ru: тётя; старшая сестра
- trans_en: 
- gloss: STEM
+ trans_en: aunt; elder sister
+ gloss: aunt
 
 -lexeme
  lex: tatišʼen
@@ -40970,8 +40970,8 @@
  gramm: PRO,dem,egr
  paradigm: Comparative
  trans_ru: с этого места, отсюда
- trans_en: 
- gloss: STEM
+ trans_en: from here
+ gloss: here.EGR
 
 -lexeme
  lex: tatčʼožʼ
@@ -40979,8 +40979,8 @@
  gramm: PRO,dem,term
  paradigm: Comparative
  trans_ru: до сих пор; до тех пор; до этого места, досюда
- trans_en: 
- gloss: STEM
+ trans_en: until here; until now
+ gloss: here.TERM
 
 -lexeme
  lex: tatčʼə
@@ -40988,8 +40988,8 @@
  gramm: PRO,dem,ill
  paradigm: Comparative
  trans_ru: сюда
- trans_en: 
- gloss: STEM
+ trans_en: here
+ gloss: here.ILL
 
 -lexeme
  lex: tatən
@@ -40997,8 +40997,8 @@
  gramm: PRO,dem,loc
  paradigm: paradigm_N
  trans_ru: здесь, тут
- trans_en: 
- gloss: STEM
+ trans_en: here
+ gloss: here.LOC
 
 -lexeme
  lex: tatəšʼ
@@ -41006,8 +41006,8 @@
  gramm: PRO,dem,el
  paradigm: Comparative
  trans_ru: отсюда, от этого места
- trans_en: 
- gloss: STEM
+ trans_en: from here
+ gloss: here.EL
 
 -lexeme
  lex: tatəšʼen
@@ -41015,8 +41015,8 @@
  gramm: PRO,dem,egr
  paradigm: Comparative
  trans_ru: см. tatišʼen
- trans_en: 
- gloss: STEM
+ trans_en: from here
+ gloss: here.EGR
 
 -lexeme
  lex: tatʼ
@@ -41024,17 +41024,17 @@
  gramm: PRO,dem,prol
  paradigm: Comparative
  trans_ru: здесь
- trans_en: 
- gloss: STEM
+ trans_en: here
+ gloss: here.PROL
 
 -lexeme
  lex: tatʼ
  stem: tatʼi.
  gramm: PRO,dem,prol
  paradigm: paradigm_N
- trans_ru: здесь
- trans_en: 
- gloss: STEM
+ trans_ru: место здесь
+ trans_en: here
+ gloss: here
 
 -lexeme
  lex: tau
