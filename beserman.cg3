@@ -578,7 +578,7 @@ SELECT (V) IF (0 ("<vaj>"i))
               (1 EndSentPunc);
 
 # ulənə-vələnə
-SELECT ("<vələnə>") IF (-1 ("<ulənə>")) OR (-2 ("<ulənə>"))
+SELECT ("<vələnə>") IF (-1* ("<ulənə>") BARRIER (*) - (punct))
 					   (0 (pst2) OR (pst) OR (inf));
 REMOVE ("<vələnə>") IF (0 ("<vəl>") OR ("<vəlem>"));
 
