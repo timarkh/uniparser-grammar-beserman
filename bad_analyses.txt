@@ -20,6 +20,7 @@
   {"wf": "(vəl|ul)ən", "gr": ".*,ins,.*"},
   {"wf": "(vəl|ul|ber|gən)e", "gr": ".*1sg.*"},
   {"wfGlossed": "^[^-]+[^-a]$", "lemma": ".*a$"},
-  {"wf": "kuto", "lemma": "^(kut|kuənə)$"}
+  {"wf": "kuto", "lemma": "^(kut|kuənə)$"},
+  {"gloss": ".*-DETR-DETR-(FUT|IMP|NEG|PRS\\.3PL|PRS\\.NEG|PST2|PTCP).*"}
 ]
 

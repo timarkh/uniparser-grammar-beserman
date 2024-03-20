@@ -53,6 +53,41 @@
   paradigm: Verb-pres-I-positive-short
   paradigm: Verb-pres-I-negative-short
   paradigm: Evidentiality-I-short
+ -flex: <0>.[ʼ]tʼa<.>//<0>.[ʼ]ja<.>//<0>.ja<.>
+  gramm: mult
+  regex-gramm: .*caus.*
+  paradigm: Aspect-II
+  paradigm: Infinitive-II
+  paradigm: Verb-pres-II-positive
+  paradigm: Verb-past-II-positive
+  paradigm: Verb-future-II-positive
+  paradigm: Verb-pres-II-negative
+  paradigm: Verb-II-negative
+  paradigm: Verb-subj-II
+  paradigm: Converbs-II
+  paradigm: Evidentiality-II
+  paradigm: Converbs-II
+  paradigm: Participles-II
+  paradigm: Participles-neg-II
+  paradigm: Verb-imp-II
+ -flex: <0>.[ʼ]a<.>
+  gramm: mult
+  regex-gramm: .*caus.*
+  regex-prev: .*tʼt[<>.]*$
+  paradigm: Aspect-II
+  paradigm: Infinitive-II
+  paradigm: Verb-pres-II-positive
+  paradigm: Verb-past-II-positive
+  paradigm: Verb-future-II-positive
+  paradigm: Verb-pres-II-negative
+  paradigm: Verb-II-negative
+  paradigm: Verb-subj-II
+  paradigm: Converbs-II
+  paradigm: Evidentiality-II
+  paradigm: Converbs-II
+  paradigm: Participles-II
+  paradigm: Participles-neg-II
+  paradigm: Verb-imp-II
 
 -paradigm: connect_verbs-II
  -flex: .<.>
@@ -3139,7 +3174,7 @@
  -flex: .sa<.>
   gramm: cvb
   gloss: CVB
-  regex-prev: .*[dt]ʼ?[<>.]*$
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
  -flex: .ətek<.>
   gramm: cvb,neg
   gloss: CVB.NEG
@@ -3283,19 +3318,19 @@
  paradigm: Comparative
 
 -paradigm: Verb-pres-I-positive-short
- -flex: .iko<.>//.əko<.>
+ -flex: .iko<.>//.əko<.>//.ko<.>
   gramm: 1,sg,prs
   gloss: PRS.1SG
   regex-prev: ^.*[šžǯč]ʼ?[<>.]*$
- -flex: .ikod<.>//.əkod<.>
+ -flex: .ikod<.>//.əkod<.>//.kod<.>
   gramm: 2,sg,prs
   gloss: PRS.2SG
   regex-prev: ^.*[šžǯč]ʼ?[<>.]*$
- -flex: .ikom<.>//.ikomə<.>//.əkom<.>//.əkomə<.>
+ -flex: .ikom<.>//.ikomə<.>//.əkom<.>//.əkomə<.>//.kom<.>//.komə<.>
   gramm: 1,pl,prs
   gloss: PRS.1PL
   regex-prev: ^.*[šžǯč]ʼ?[<>.]*$
- -flex: .ikodə<.>//.əkodə<.>
+ -flex: .ikodə<.>//.əkodə<.>//.kodə<.>
   gramm: 2,pl,prs
   gloss: PRS.2PL
   regex-prev: ^.*[šžǯč]ʼ?[<>.]*$
@@ -3414,27 +3449,59 @@
  -flex: .isal<.>//.əsal<.>
   gramm: 1,sg,subj
   gloss: SUBJ
+ -flex: .sal<.>
+  gramm: 1,sg,subj
+  gloss: SUBJ
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
  -flex: .isal<.>//.əsal<.>
   gramm: 2,sg,subj
   gloss: SUBJ
+ -flex: .sal<.>
+  gramm: 2,sg,subj
+  gloss: SUBJ
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
  -flex: .isal<.>//.əsal<.>
   gramm: 3,sg,subj
   gloss: SUBJ
+ -flex: .sal<.>
+  gramm: 3,sg,subj
+  gloss: SUBJ
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
  -flex: .isal|əd<.>//.əsal|əd<.>
   gramm: 2,sg,subj
   gloss: SUBJ|2SG
+ -flex: .sal|əd<.>
+  gramm: 2,sg,subj
+  gloss: SUBJ|2SG
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
  -flex: .isal|əz<.>//.əsal|əz<.>
   gramm: 3,sg,subj
   gloss: SUBJ|3SG
+ -flex: .sal|əz<.>
+  gramm: 3,sg,subj
+  gloss: SUBJ|3SG
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
  -flex: .isal|mə<.>//.əsal|mə<.>
   gramm: 1,pl,subj
   gloss: SUBJ|1PL
+ -flex: .sal|mə<.>
+  gramm: 1,pl,subj
+  gloss: SUBJ|1PL
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
  -flex: .isal|də<.>//.əsal|də<.>
   gramm: 2,pl,subj
   gloss: SUBJ|2PL
+ -flex: .sal|də<.>
+  gramm: 2,pl,subj
+  gloss: SUBJ|2PL
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
  -flex: .isal|zə<.>//.əsal|zə<.>
   gramm: 3,pl,subj
   gloss: SUBJ|3PL
+ -flex: .sal|zə<.>
+  gramm: 3,pl,subj
+  gloss: SUBJ|3PL
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
  paradigm: Comparative
 
 
@@ -3485,7 +3552,7 @@
  -flex: .šʼkodə<.>//.šʼkodɨ<.>
   gramm: 2,pl,prs
   gloss: PRS.2PL
- -flex: .[l]o<.>
+ -flex: .lo<.>
   gramm: 3,pl,prs
   gloss: PRS.3PL
  paradigm: Comparative
@@ -3512,22 +3579,22 @@
  paradigm: Comparative
 
 -paradigm: Verb-future-II-positive
- -flex: .[l]o<.>
+ -flex: .lo<.>
   gramm: 1,sg,fut
   gloss: FUT(1SG)
- -flex: .[l]o|d<.>
+ -flex: .lo|d<.>
   gramm: 2,sg,fut
   gloss: FUT|2SG
- -flex: .[l]o|z<.>
+ -flex: .lo|z<.>
   gramm: 3,sg,fut
   gloss: FUT|3SG
- -flex: .[l]o|m<.>//.[l]o|mə<.>//.[l]o|mɨ<.>
+ -flex: .lo|m<.>//.lo|mə<.>//.lo|mɨ<.>
   gramm: 1,pl,fut
   gloss: FUT|1PL
- -flex: .[l]o|də<.>//.[l]o|dɨ<.>
+ -flex: .lo|də<.>//.lo|dɨ<.>
   gramm: 2,pl,fut
   gloss: FUT|2PL
- -flex: .[l]o|zə<.>//.[l]o|zɨ<.>
+ -flex: .lo|zə<.>//.lo|zɨ<.>
   gramm: 3,pl,fut
   gloss: FUT|3PL
  paradigm: Comparative
@@ -3547,7 +3614,7 @@
  -flex: .šʼke<.>
   gramm: 2,pl,prs,neg
   gloss: PRS.NEG.2PL
- -flex: .[l]o<.>
+ -flex: .lo<.>
   gramm: 3,pl,prs,neg
   gloss: PRS.NEG.3PL
  paradigm: Comparative
@@ -3555,12 +3622,12 @@
 -paradigm: Verb-II-negative
  -flex: .<.>
   gramm: sg,fut,neg
- -flex: .[l]e<.>
+ -flex: .le<.>
   gramm: pl,fut,neg
   gloss: NEG.PL
  -flex: .<.>
   gramm: sg,pst,neg
- -flex: .[l]e<.>
+ -flex: .le<.>
   gramm: pl,pst,neg
   gloss: NEG.PL
  paradigm: Comparative
@@ -3595,13 +3662,13 @@
 -paradigm: Verb-imp-II
  -flex: .<.>
   gramm: imp,2,sg
- -flex: .[l]e<.>
+ -flex: .le<.>
   gramm: imp,2,pl
   gloss: IMP.2PL
  -flex: .-ka<.>
   gramm: imp,2,sg,hort
   gloss: HORT
- -flex: .[l]e|-ka<.>
+ -flex: .le|-ka<.>
   gramm: imp,2,pl,hort
   gloss: IMP.2PL|HORT
  paradigm: Comparative
@@ -3625,162 +3692,568 @@
  -flex: <0>.išʼk<.>
   gramm: detr
   gloss: DETR
+  paradigm: Aspect-I-2
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
  -flex: <0>.šʼk<.>
   gramm: detr
   gloss: DETR
   regex-prev: ^.*i[<>.]*$
+  paradigm: Aspect-I-2
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
  -flex: <1>.ik<.>//<1>.k<.>//<1>.ək<.>
   gramm: detr
   gloss: DETR
   regex-prev: ^.*[šžǯč]ʼ?[<>.]*$
+  paradigm: Aspect-I-2
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
  -flex: <0>.əl<.>//<0>.ɨl<.>
   gramm: iter
   gloss: ITER
- -flex: <0>.əl|əl<.>
+  paradigm: Aspect-I-2
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: <0>.əl|əl<.>//.ɨl|ɨl<.>
   gramm: iter
   gloss: ITER|ITER
+  paradigm: Aspect-I-2
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
  -flex: <0>.ət<.>//<0>.ɨt<.>
   gramm: caus
   gloss: CAUS
- -flex: <0>.et<.>
+  paradigm: Aspect-I-2
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: <0>.əčʼ<.>
   gramm: caus
   gloss: CAUS
-  regex-lex: ^(dəšənə|vərənə|vunənə|budənə)$
- -flex: <0>.t<.>
+  paradigm: Verb-pres-I-positive-short
+  paradigm: Verb-pres-I-negative-short
+  paradigm: Evidentiality-I-short
+ -flex: <0>.əčʼ|ik<.>//<0>.əčʼ|k<.>//<0>.əčʼ|ək<.>
+  gramm: caus,detr
+  gloss: CAUS|DETR
+  paradigm: Aspect-I-2
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: <0>.ətʼ|tʼa<.>//<0>.ɨtʼ|tʼa<.>//<0>.ətʼ|ja<.>//<0>.ɨtʼ|ja<.>//<0>.ət|ja<.>//<0>.ɨt|ja<.>
+  gramm: caus,mult
+  gloss: CAUS|MULT
+  paradigm: Aspect-II-2
+  paradigm: Infinitive-II
+  paradigm: Verb-pres-II-positive
+  paradigm: Verb-past-II-positive
+  paradigm: Verb-future-II-positive
+  paradigm: Verb-pres-II-negative
+  paradigm: Verb-II-negative
+  paradigm: Verb-subj-II
+  paradigm: Converbs-II
+  paradigm: Evidentiality-II
+  paradigm: Participles-II
+  paradigm: Participles-neg-II
+  paradigm: Verb-imp-II
+
+
+-paradigm: Aspect-I-2
+ -flex: .išʼk<.>
+  gramm: detr
+  gloss: DETR
+  paradigm: Aspect-I-3
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: .əl<.>//.ɨl<.>
+  gramm: iter
+  gloss: ITER
+  paradigm: Aspect-I-3
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: .əl|əl<.>//.ɨl|ɨl<.>
+  gramm: iter
+  gloss: ITER|ITER
+  paradigm: Aspect-I-3
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: .ət<.>//.ɨt<.>
   gramm: caus
   gloss: CAUS
-  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə|jetənə)$
- -flex: <0>.et|ət<.>
+  paradigm: Aspect-I-3
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: .əčʼ<.>
   gramm: caus
-  gloss: CAUS|CAUS
-  regex-lex: ^(dəšənə|vərənə|vunənə|budənə)$
- -flex: <0>.t|ət<.>
+  gloss: CAUS
+  paradigm: Verb-pres-I-positive-short
+  paradigm: Verb-pres-I-negative-short
+  paradigm: Evidentiality-I-short
+ -flex: .əčʼ|ik<.>//.əčʼ|k<.>//.əčʼ|ək<.>
+  gramm: caus,detr
+  gloss: CAUS|DETR
+  paradigm: Aspect-I-3
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: .ətʼ|tʼa<.>//.ɨtʼ|tʼa<.>//.ətʼ|ja<.>//.ɨtʼ|ja<.>//.ət|ja<.>//.ɨt|ja<.>
+  gramm: caus,mult
+  gloss: CAUS|MULT
+  paradigm: Aspect-II-3
+  paradigm: Infinitive-II
+  paradigm: Verb-pres-II-positive
+  paradigm: Verb-past-II-positive
+  paradigm: Verb-future-II-positive
+  paradigm: Verb-pres-II-negative
+  paradigm: Verb-II-negative
+  paradigm: Verb-subj-II
+  paradigm: Converbs-II
+  paradigm: Evidentiality-II
+  paradigm: Participles-II
+  paradigm: Participles-neg-II
+  paradigm: Verb-imp-II
+
+
+
+-paradigm: Aspect-I-3
+ -flex: .išʼk<.>
+  gramm: detr
+  gloss: DETR
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: .əl<.>//.ɨl<.>
+  gramm: iter
+  gloss: ITER
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: .əl|əl<.>//.ɨl|ɨl<.>
+  gramm: iter
+  gloss: ITER|ITER
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: .ət<.>//.ɨt<.>
   gramm: caus
-  gloss: CAUS|CAUS
-  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə|jetənə)$
- -flex: <0>.išʼk|əl<.>
-  gramm: detr,iter
-  gloss: DETR|ITER
- -flex: <0>.šʼk|əl<.>
-  gramm: detr,iter
-  gloss: DETR|ITER
-  regex-prev: ^.*i[<>.]*$
- -flex: <1>.ik|əl<.>//<1>.k|əl<.>//<1>.ək|əl<.>
-  gramm: detr,iter
-  gloss: DETR|ITER
-  regex-prev: ^.*[šžǯč]ʼ?[<>.]*$
- -flex: <0>.əl|išʼk<.>
-  gramm: iter,detr
-  gloss: ITER|DETR
- -flex: <0>.išʼk|ət<.>
-  gramm: detr,caus
-  gloss: DETR|CAUS
- -flex: <0>.šʼk|ət<.>
-  gramm: detr,caus
-  gloss: DETR|CAUS
-  regex-prev: ^.*i[<>.]*$
- -flex: <1>.ik|ət<.>//<1>.k|ət<.>//<1>.ək|ət<.>
-  gramm: detr,caus
-  gloss: DETR|CAUS
-  regex-prev: ^.*[šžǯč]ʼ?[<>.]*$
- -flex: <0>.ət|išʼk<.>//<0>.əčʼ|ik<.>//<0>.əčʼ|k<.>
+  gloss: CAUS
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: .əčʼ<.>
+  gramm: caus
+  gloss: CAUS
+  paradigm: Verb-pres-I-positive-short
+  paradigm: Verb-pres-I-negative-short
+  paradigm: Evidentiality-I-short
+ -flex: .əčʼ|ik<.>//.əčʼ|k<.>//.əčʼ|ək<.>
   gramm: caus,detr
   gloss: CAUS|DETR
- -flex: <0>.et|išʼk<.>//<0>.ečʼ|ik<.>//<0>.ečʼ|k<.>
-  gramm: caus,detr
-  gloss: CAUS|DETR
-  regex-lex: ^(dəšənə|vərənə|vunənə|budənə)$
- -flex: <0>.t|išʼk<.>//<0>.čʼ|ik<.>//<0>.čʼ|k<.>
-  gramm: caus,detr
-  gloss: CAUS|DETR
-  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə|jetənə)$
- -flex: <0>.əčʼ|ək<.>
-  gramm: caus,detr
-  gloss: CAUS|DETR
-  paradigm: Verb-imp-neg-empty
- -flex: <0>.ečʼ|ək<.>
-  gramm: caus,detr
-  gloss: CAUS|DETR
-  regex-lex: ^(dəšənə|vərənə|vunənə|budənə)$
-  paradigm: Verb-imp-neg-empty
- -flex: <0>.čʼ|ək<.>
-  gramm: caus,detr
-  gloss: CAUS|DETR
-  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə|jetənə)$
-  paradigm: Verb-imp-neg-empty
- -flex: <0>.ət|išʼk|əl<.>//<0>.əčʼ|ik|əl<.>//<0>.əčʼ|k|əl<.>
-  gramm: caus,detr,iter
-  gloss: CAUS|DETR|ITER
- -flex: <0>.et|išʼk|əl<.>//<0>.ečʼ|ik|əl<.>//<0>.ečʼ|k|əl<.>
-  gramm: caus,detr,iter
-  gloss: CAUS|DETR|ITER
-  regex-lex: ^(dəšənə|vərənə|vunənə|budənə)$
- -flex: <0>.t|išʼk|əl<.>//<0>.čʼ|ik|əl<.>//<0>.čʼ|k|əl<.>
-  gramm: caus,detr,iter
-  gloss: CAUS|DETR|ITER
-  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə|jetənə)$
- -flex: <0>.əl|ət<.>
-  gramm: iter,caus
-  gloss: ITER|CAUS
- -flex: <0>.ət|əl<.>
-  gramm: caus,iter
-  gloss: CAUS|ITER
- -flex: <0>.et|əl<.>
-  gramm: caus,iter
-  gloss: CAUS|ITER
-  regex-lex: ^(dəšənə|vərənə|vunənə|budənə)$
- -flex: <0>.t|əl<.>
-  gramm: caus,iter
-  gloss: CAUS|ITER
-  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə|jetənə)$
- -flex: <0>.ət|əl|əl<.>
-  gramm: caus,iter
-  gloss: CAUS|ITER|ITER
- -flex: <0>.et|əl|əl<.>
-  gramm: caus,iter
-  gloss: CAUS|ITER|ITER
-  regex-lex: ^(dəšənə|vərənə|vunənə|budənə)$
- -flex: <0>.t|əl|əl<.>
-  gramm: caus,iter
-  gloss: CAUS|ITER|ITER
-  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə|jetənə)$
- -flex: <0>.ət|əl|išʼk<.>
-  gramm: caus,iter,detr
-  gloss: CAUS|ITER|DETR
- -flex: <0>.et|əl|išʼk<.>
-  gramm: caus,iter,detr
-  gloss: CAUS|ITER|DETR
-  regex-lex: ^(dəšənə|vərənə|vunənə|budənə)$
- -flex: <0>.t|əl|išʼk<.>
-  gramm: caus,iter,detr
-  gloss: CAUS|ITER|DETR
-  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə|jetənə)$
- -flex: <0>.ət|əl|əl|išʼk<.>
-  gramm: caus,iter,detr
-  gloss: CAUS|ITER|ITER|DETR
- -flex: <0>.et|əl|əl|išʼk<.>
-  gramm: caus,iter,detr
-  gloss: CAUS|ITER|ITER|DETR
-  regex-lex: ^(dəšənə|vərənə|vunənə|budənə)$
- -flex: <0>.t|əl|əl|išʼk<.>
-  gramm: caus,iter,detr
-  gloss: CAUS|ITER|ITER|DETR
-  regex-lex: ^(pukənə|sələnə|potənə|pərənə|vədənə|pɤžʼənə|šedʼənə|əšənə|jetənə)$
- paradigm: Infinitive-I
- paradigm: Verb-pres-I-positive
- paradigm: Verb-past-I-positive
- paradigm: Verb-future-I-positive
- paradigm: Verb-pres-I-negative
- paradigm: Verb-I-negative
- paradigm: Verb-subj-I
- paradigm: Converbs-I
- paradigm: Evidentiality-I
- paradigm: Participles-I
- paradigm: Participles-neg-I
- paradigm: Verb-imp-I
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: .ətʼ|tʼa<.>//.ɨtʼ|tʼa<.>//.ətʼ|ja<.>//.ɨtʼ|ja<.>//.ət|ja<.>//.ɨt|ja<.>
+  gramm: caus,mult
+  gloss: CAUS|MULT
+  paradigm: Infinitive-II
+  paradigm: Verb-pres-II-positive
+  paradigm: Verb-past-II-positive
+  paradigm: Verb-future-II-positive
+  paradigm: Verb-pres-II-negative
+  paradigm: Verb-II-negative
+  paradigm: Verb-subj-II
+  paradigm: Converbs-II
+  paradigm: Evidentiality-II
+  paradigm: Participles-II
+  paradigm: Participles-neg-II
+  paradigm: Verb-imp-II
+
+
 
 
 -paradigm: Aspect-II
+ -flex: .šʼk<.>
+  gramm: detr
+  gloss: DETR
+  paradigm: Aspect-I-2
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: .lʼlʼa<.>
+  gramm: iter
+  gloss: ITER
+  paradigm: Aspect-II-2
+  paradigm: Infinitive-II
+  paradigm: Verb-pres-II-positive
+  paradigm: Verb-past-II-positive
+  paradigm: Verb-future-II-positive
+  paradigm: Verb-pres-II-negative
+  paradigm: Verb-II-negative
+  paradigm: Verb-subj-II
+  paradigm: Converbs-II
+  paradigm: Evidentiality-II
+  paradigm: Participles-II
+  paradigm: Participles-neg-II
+  paradigm: Verb-imp-II
+ -flex: .lʼlʼa|lʼlʼa<.>
+  gramm: iter
+  gloss: ITER|ITER
+  paradigm: Aspect-II-2
+  paradigm: Infinitive-II
+  paradigm: Verb-pres-II-positive
+  paradigm: Verb-past-II-positive
+  paradigm: Verb-future-II-positive
+  paradigm: Verb-pres-II-negative
+  paradigm: Verb-II-negative
+  paradigm: Verb-subj-II
+  paradigm: Converbs-II
+  paradigm: Evidentiality-II
+  paradigm: Participles-II
+  paradigm: Participles-neg-II
+  paradigm: Verb-imp-II
+ -flex: .t<.>
+  gramm: caus
+  gloss: CAUS
+  paradigm: Aspect-I-2
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: .čʼ<.>
+  gramm: caus
+  gloss: CAUS
+  paradigm: Verb-pres-I-positive-short
+  paradigm: Verb-pres-I-negative-short
+  paradigm: Evidentiality-I-short
+ -flex: .čʼ|ik<.>//.čʼ|k<.>//.čʼ|ək<.>
+  gramm: caus,detr
+  gloss: CAUS|DETR
+  paradigm: Aspect-I-2
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: .čʼ|ək<.>
+  gramm: caus,detr
+  gloss: CAUS|DETR
+  paradigm: Verb-imp-neg-empty
+ -flex: .tʼ|tʼa<.>//.tʼ|ja<.>//.t|ja<.>
+  gramm: caus,mult
+  gloss: CAUS|MULT
+  paradigm: Aspect-II-2
+  paradigm: Infinitive-II
+  paradigm: Verb-pres-II-positive
+  paradigm: Verb-past-II-positive
+  paradigm: Verb-future-II-positive
+  paradigm: Verb-pres-II-negative
+  paradigm: Verb-II-negative
+  paradigm: Verb-subj-II
+  paradigm: Converbs-II
+  paradigm: Evidentiality-II
+  paradigm: Participles-II
+  paradigm: Participles-neg-II
+  paradigm: Verb-imp-II
+
+
+-paradigm: Aspect-II-2
+ -flex: .šʼk<.>
+  gramm: detr
+  gloss: DETR
+  paradigm: Aspect-I-3
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: .lʼlʼa<.>
+  gramm: iter
+  gloss: ITER
+  paradigm: Aspect-II-3
+  paradigm: Infinitive-II
+  paradigm: Verb-pres-II-positive
+  paradigm: Verb-past-II-positive
+  paradigm: Verb-future-II-positive
+  paradigm: Verb-pres-II-negative
+  paradigm: Verb-II-negative
+  paradigm: Verb-subj-II
+  paradigm: Converbs-II
+  paradigm: Evidentiality-II
+  paradigm: Participles-II
+  paradigm: Participles-neg-II
+  paradigm: Verb-imp-II
+ -flex: .lʼlʼa|lʼlʼa<.>
+  gramm: iter
+  gloss: ITER|ITER
+  paradigm: Aspect-II-3
+  paradigm: Infinitive-II
+  paradigm: Verb-pres-II-positive
+  paradigm: Verb-past-II-positive
+  paradigm: Verb-future-II-positive
+  paradigm: Verb-pres-II-negative
+  paradigm: Verb-II-negative
+  paradigm: Verb-subj-II
+  paradigm: Converbs-II
+  paradigm: Evidentiality-II
+  paradigm: Participles-II
+  paradigm: Participles-neg-II
+  paradigm: Verb-imp-II
+ -flex: .t<.>
+  gramm: caus
+  gloss: CAUS
+  paradigm: Aspect-I-3
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: .čʼ<.>
+  gramm: caus
+  gloss: CAUS
+  paradigm: Verb-pres-I-positive-short
+  paradigm: Verb-pres-I-negative-short
+  paradigm: Evidentiality-I-short
+ -flex: .čʼ|ik<.>//.čʼ|k<.>//.čʼ|ək<.>
+  gramm: caus,detr
+  gloss: CAUS|DETR
+  paradigm: Aspect-I-3
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-subj-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Participles-neg-I
+  paradigm: Verb-imp-I
+ -flex: .čʼ|ək<.>
+  gramm: caus,detr
+  gloss: CAUS|DETR
+  paradigm: Verb-imp-neg-empty
+ -flex: .tʼ|tʼa<.>//.tʼ|ja<.>//.t|ja<.>
+  gramm: caus,mult
+  gloss: CAUS|MULT
+  paradigm: Aspect-II-3
+  paradigm: Infinitive-II
+  paradigm: Verb-pres-II-positive
+  paradigm: Verb-past-II-positive
+  paradigm: Verb-future-II-positive
+  paradigm: Verb-pres-II-negative
+  paradigm: Verb-II-negative
+  paradigm: Verb-subj-II
+  paradigm: Converbs-II
+  paradigm: Evidentiality-II
+  paradigm: Participles-II
+  paradigm: Participles-neg-II
+  paradigm: Verb-imp-II
+
+
+
+-paradigm: Aspect-II-3
  -flex: .šʼk<.>
   gramm: detr
   gloss: DETR
@@ -3841,205 +4314,28 @@
   paradigm: Participles-I
   paradigm: Participles-neg-I
   paradigm: Verb-imp-I
- -flex: .šʼk|əl<.>
-  gramm: detr,iter
-  gloss: DETR|ITER
-  paradigm: Infinitive-I
-  paradigm: Verb-pres-I-positive
-  paradigm: Verb-past-I-positive
-  paradigm: Verb-future-I-positive
-  paradigm: Verb-pres-I-negative
-  paradigm: Verb-I-negative
-  paradigm: Verb-subj-I
-  paradigm: Converbs-I
-  paradigm: Evidentiality-I
-  paradigm: Participles-I
-  paradigm: Participles-neg-I
-  paradigm: Verb-imp-I
- -flex: .šʼk|əl|əl<.>
-  gramm: detr,iter
-  gloss: DETR|ITER|ITER
-  paradigm: Infinitive-I
-  paradigm: Verb-pres-I-positive
-  paradigm: Verb-past-I-positive
-  paradigm: Verb-future-I-positive
-  paradigm: Verb-pres-I-negative
-  paradigm: Verb-I-negative
-  paradigm: Verb-subj-I
-  paradigm: Converbs-I
-  paradigm: Evidentiality-I
-  paradigm: Participles-I
-  paradigm: Participles-neg-I
-  paradigm: Verb-imp-I
- -flex: .lʼlʼa|šʼk<.>
-  gramm: iter,detr
-  gloss: ITER|DETR
-  paradigm: Infinitive-I
-  paradigm: Verb-pres-I-positive
-  paradigm: Verb-past-I-positive
-  paradigm: Verb-future-I-positive
-  paradigm: Verb-pres-I-negative
-  paradigm: Verb-I-negative
-  paradigm: Verb-subj-I
-  paradigm: Converbs-I
-  paradigm: Evidentiality-I
-  paradigm: Participles-I
-  paradigm: Participles-neg-I
-  paradigm: Verb-imp-I
- -flex: .lʼlʼa|šʼk|əl<.>
-  gramm: iter,detr
-  gloss: ITER|DETR|ITER
-  paradigm: Infinitive-I
-  paradigm: Verb-pres-I-positive
-  paradigm: Verb-past-I-positive
-  paradigm: Verb-future-I-positive
-  paradigm: Verb-pres-I-negative
-  paradigm: Verb-I-negative
-  paradigm: Verb-subj-I
-  paradigm: Converbs-I
-  paradigm: Evidentiality-I
-  paradigm: Participles-I
-  paradigm: Participles-neg-I
-  paradigm: Verb-imp-I
- -flex: .lʼlʼa|lʼlʼa|šʼk<.>
-  gramm: iter,detr
-  gloss: ITER|ITER|DETR
-  paradigm: Infinitive-I
-  paradigm: Verb-pres-I-positive
-  paradigm: Verb-past-I-positive
-  paradigm: Verb-future-I-positive
-  paradigm: Verb-pres-I-negative
-  paradigm: Verb-I-negative
-  paradigm: Verb-subj-I
-  paradigm: Converbs-I
-  paradigm: Evidentiality-I
-  paradigm: Participles-I
-  paradigm: Participles-neg-I
-  paradigm: Verb-imp-I
- -flex: .šʼk|ət<.>
-  gramm: detr,caus
-  gloss: DETR|CAUS
-  paradigm: Infinitive-I
-  paradigm: Verb-pres-I-positive
-  paradigm: Verb-past-I-positive
-  paradigm: Verb-future-I-positive
-  paradigm: Verb-pres-I-negative
-  paradigm: Verb-I-negative
-  paradigm: Verb-subj-I
-  paradigm: Converbs-I
-  paradigm: Evidentiality-I
-  paradigm: Participles-I
-  paradigm: Participles-neg-I
-  paradigm: Verb-imp-I
- -flex: .t|išʼk<.>//.čʼ|ik<.>//.čʼ|k<.>
-  gramm: caus,detr
-  gloss: CAUS|DETR
-  paradigm: Infinitive-I
-  paradigm: Verb-pres-I-positive
-  paradigm: Verb-past-I-positive
-  paradigm: Verb-future-I-positive
-  paradigm: Verb-pres-I-negative
-  paradigm: Verb-I-negative
-  paradigm: Verb-subj-I
-  paradigm: Converbs-I
-  paradigm: Evidentiality-I
-  paradigm: Participles-I
-  paradigm: Participles-neg-I
-  paradigm: Verb-imp-I
- -flex: .t|išʼk|əl<.>//.čʼ|ik|əl<.>//.čʼ|k|əl<.>
-  gramm: caus,detr,iter
-  gloss: CAUS|DETR|ITER
-  paradigm: Infinitive-I
-  paradigm: Verb-pres-I-positive
-  paradigm: Verb-past-I-positive
-  paradigm: Verb-future-I-positive
-  paradigm: Verb-pres-I-negative
-  paradigm: Verb-I-negative
-  paradigm: Verb-subj-I
-  paradigm: Converbs-I
-  paradigm: Evidentiality-I
-  paradigm: Participles-I
-  paradigm: Participles-neg-I
-  paradigm: Verb-imp-I
- -flex: <0>.čʼ|ək<.>
-  gramm: caus,detr
-  gloss: CAUS|DETR
-  paradigm: Verb-imp-neg-empty
- -flex: .lʼlʼa|t<.>
-  gramm: iter,caus
-  gloss: ITER|CAUS
-  paradigm: Infinitive-I
-  paradigm: Verb-pres-I-positive
-  paradigm: Verb-past-I-positive
-  paradigm: Verb-future-I-positive
-  paradigm: Verb-pres-I-negative
-  paradigm: Verb-I-negative
-  paradigm: Verb-subj-I
-  paradigm: Converbs-I
-  paradigm: Evidentiality-I
-  paradigm: Participles-I
-  paradigm: Participles-neg-I
-  paradigm: Verb-imp-I
- -flex: .t|əl<.>
-  gramm: caus,iter
-  gloss: CAUS|ITER
-  paradigm: Infinitive-I
-  paradigm: Verb-pres-I-positive
-  paradigm: Verb-past-I-positive
-  paradigm: Verb-future-I-positive
-  paradigm: Verb-pres-I-negative
-  paradigm: Verb-I-negative
-  paradigm: Verb-subj-I
-  paradigm: Converbs-I
-  paradigm: Evidentiality-I
-  paradigm: Participles-I
-  paradigm: Participles-neg-I
-  paradigm: Verb-imp-I
- -flex: .t|əl|əl<.>
-  gramm: caus,iter
-  gloss: CAUS|ITER|ITER
-  paradigm: Infinitive-I
-  paradigm: Verb-pres-I-positive
-  paradigm: Verb-past-I-positive
-  paradigm: Verb-future-I-positive
-  paradigm: Verb-pres-I-negative
-  paradigm: Verb-I-negative
-  paradigm: Verb-subj-I
-  paradigm: Converbs-I
-  paradigm: Evidentiality-I
-  paradigm: Participles-I
-  paradigm: Participles-neg-I
-  paradigm: Verb-imp-I
- -flex: .t|əl|išʼk<.>
-  gramm: caus,iter,detr
-  gloss: CAUS|ITER|DETR
-  paradigm: Infinitive-I
-  paradigm: Verb-pres-I-positive
-  paradigm: Verb-past-I-positive
-  paradigm: Verb-future-I-positive
-  paradigm: Verb-pres-I-negative
-  paradigm: Verb-I-negative
-  paradigm: Verb-subj-I
-  paradigm: Converbs-I
-  paradigm: Evidentiality-I
-  paradigm: Participles-I
-  paradigm: Participles-neg-I
-  paradigm: Verb-imp-I
- -flex: .t|əl|əl|išʼk<.>
-  gramm: caus,iter,detr
-  gloss: CAUS|ITER|ITER|DETR
-  paradigm: Infinitive-I
-  paradigm: Verb-pres-I-positive
-  paradigm: Verb-past-I-positive
-  paradigm: Verb-future-I-positive
-  paradigm: Verb-pres-I-negative
-  paradigm: Verb-I-negative
-  paradigm: Verb-subj-I
-  paradigm: Converbs-I
-  paradigm: Evidentiality-I
-  paradigm: Participles-I
-  paradigm: Participles-neg-I
-  paradigm: Verb-imp-I
+ -flex: .čʼ<.>
+  gramm: caus
+  gloss: CAUS
+  paradigm: Verb-pres-I-positive-short
+  paradigm: Verb-pres-I-negative-short
+  paradigm: Evidentiality-I-short
+ -flex: .tʼ|tʼa<.>//.tʼ|ja<.>//.t|ja<.>
+  gramm: caus,mult
+  gloss: CAUS|MULT
+  paradigm: Infinitive-II
+  paradigm: Verb-pres-II-positive
+  paradigm: Verb-past-II-positive
+  paradigm: Verb-future-II-positive
+  paradigm: Verb-pres-II-negative
+  paradigm: Verb-II-negative
+  paradigm: Verb-subj-II
+  paradigm: Converbs-II
+  paradigm: Evidentiality-II
+  paradigm: Participles-II
+  paradigm: Participles-neg-II
+  paradigm: Verb-imp-II
+
 
 
 -paradigm: Evidentiality-I
@@ -4076,11 +4372,11 @@
  paradigm: Comparative
 
 -paradigm: Evidentiality-I-short
- -flex: .ik|em<.>
+ -flex: .ik|em<.>//.k|em<.>
   gramm: pst2,1,sg
   gloss: 1|PST2
   regex-prev: ^.*[šžǯč]ʼ?[<>.]*$
- -flex: .ik|em|ə<.>//.ik|em|mə<.>
+ -flex: .ik|em|ə<.>//.ik|em|mə<.>//.k|em|ə<.>//.k|em|mə<.>
   gramm: pst2,1,pl
   gloss: 1|PST2|1PL
   regex-prev: ^.*[šžǯč]ʼ?[<>.]*$
