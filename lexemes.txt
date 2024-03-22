@@ -4569,7 +4569,7 @@
 -lexeme
  lex: aǯʼənə
  stem: aǯʼ.//adǯʼ.
- gramm: V,tr
+ gramm: V,tr,act_pst_es_s,act_prs_s
  paradigm: paradigm_V
  trans_ru: смотреть; видеть
  trans_en: look; see
@@ -5109,7 +5109,7 @@
 -lexeme
  lex: bašʼtənə
  stem: bašʼt.|bašʼčʼ.
- gramm: V,tr,with_el,with_ill
+ gramm: V,tr,with_el,with_ill,act_pst_es,act_prs_p
  paradigm: paradigm_V
  trans_ru: брать; покупать
  trans_en: take; buy
@@ -5262,7 +5262,7 @@
 -lexeme
  lex: berganə
  stem: berga.
- gramm: V,intr
+ gramm: V,intr,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: вертеться, вращаться
  trans_en: spin
@@ -5703,11 +5703,20 @@
 -lexeme
  lex: bižʼənə
  stem: bižʼ.
- gramm: V,intr,with_dat
+ gramm: V,intr,with_ill,act_pst_p,act_prs_p
  paradigm: paradigm_V
- trans_ru: бежать; выйти замуж
- trans_en: run; marry
+ trans_ru: бежать
+ trans_en: run
  gloss: run
+
+-lexeme
+ lex: bižʼənə
+ stem: bižʼ.
+ gramm: V,intr,with_ill,with_dat,act_pst_es,act_prs_0
+ paradigm: paradigm_V
+ trans_ru: выйти замуж
+ trans_en: marry
+ gloss: marry
 
 -lexeme
  lex: blafki
@@ -6153,7 +6162,7 @@
 -lexeme
  lex: brektənə
  stem: brekt.|brekčʼ.//brečʼ.
- gramm: V,intr
+ gramm: V,intr,act_pst_es,act_prs_p
  paradigm: paradigm_V
  trans_ru: вскипеть
  trans_en: boil
@@ -6270,7 +6279,7 @@
 -lexeme
  lex: budənə
  stem: bud.|buǯʼ.
- gramm: V,intr
+ gramm: V,intr,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: расти
  trans_en: grow
@@ -7308,7 +7317,7 @@
 -lexeme
  lex: bɤrdənə
  stem: bɤrd.|bɤrǯʼ.
- gramm: V,intr
+ gramm: V,intr,act_pst_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: плакать; скулить
  trans_en: cry, howl
@@ -9318,7 +9327,7 @@
 -lexeme
  lex: dʼišʼanə
  stem: dʼišʼa.//dišʼa.
- gramm: V,tr
+ gramm: V,tr,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: надеть
  trans_en: wear
@@ -9993,7 +10002,7 @@
 -lexeme
  lex: ečʼešənə
  stem: ečʼeš.
- gramm: V,intr,with_dat,with_instr
+ gramm: V,intr,with_dat,with_instr,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: спорить
  trans_en: argue
@@ -11208,7 +11217,7 @@
 -lexeme
  lex: gopanə
  stem: gopa.
- gramm: V,tr,with_instr
+ gramm: V,tr,with_instr,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: рыть, копать, выдалбливать
  trans_en: dig
@@ -11307,11 +11316,11 @@
 -lexeme
  lex: gordmanə
  stem: gordma.
- gramm: V,tr,with_instr
+ gramm: V,tr,with_instr,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: покрасить в красный, рыжий или бурый цвет
- trans_en: 
- gloss: STEM
+ trans_en: paint red
+ gloss: paint.red
 
 -lexeme
  lex: gordmət
@@ -11442,7 +11451,7 @@
 -lexeme
  lex: gožjanə
  stem: gožja.
- gramm: V,tr,with_instr
+ gramm: V,tr,with_instr,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: писать
  trans_en: write
@@ -11478,7 +11487,7 @@
 -lexeme
  lex: gožtənə
  stem: gožt.|gožčʼ.
- gramm: V,tr,with_instr
+ gramm: V,tr,with_instr,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: писать
  trans_en: write
@@ -11490,8 +11499,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: градус
- trans_en: 
- gloss: STEM
+ trans_en: degree
+ gloss: degree
 
 -lexeme
  lex: grafin
@@ -12802,7 +12811,7 @@
 -lexeme
  lex: isanə
  stem: isa.
- gramm: V,tr
+ gramm: V,tr,act_pst_es,act_prs_p
  paradigm: paradigm_V
  trans_ru: трогать; дразнить
  trans_en: touch; tease
@@ -13216,7 +13225,7 @@
 -lexeme
  lex: jaranə
  stem: jara.
- gramm: V,intr,with_dat
+ gramm: V,intr,with_dat,act_pst_es,act_prs_s
  paradigm: paradigm_V
  trans_ru: нравиться; пригодиться
  trans_en: be liked, be useful
@@ -13234,7 +13243,7 @@
 -lexeme
  lex: jaratənə
  stem: jarat.|jaračʼ.
- gramm: V,intr,with_dat
+ gramm: V,intr,with_dat,act_pst_es_s,act_prs_s
  paradigm: paradigm_V
  trans_ru: любить
  trans_en: love, like
@@ -14035,7 +14044,7 @@
 -lexeme
  lex: juənə
  stem: ju.
- gramm: V,tr,with_instr
+ gramm: V,tr,with_instr,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: пить, выпить
  trans_en: drink
@@ -15505,7 +15514,7 @@
 -lexeme
  lex: karənə
  stem: kar.
- gramm: V,tr,with_instr
+ gramm: V,tr,with_instr,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: делать; девать
  trans_en: do
@@ -15939,7 +15948,7 @@
 -lexeme
  lex: kertənə
  stem: kert.//kertt.|kerčʼ.//kertčʼ.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_ill,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: вязать; плести
  trans_en: knit, weave
@@ -16083,7 +16092,7 @@
 -lexeme
  lex: kešʼanə
  stem: kešʼa.
- gramm: V,tr,with_instr
+ gramm: V,tr,with_instr,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: рвать
  trans_en: tear
@@ -16092,7 +16101,7 @@
 -lexeme
  lex: kešʼənə
  stem: kešʼ.
- gramm: V,tr,with_instr
+ gramm: V,tr,with_instr,act_pst_es,act_prs_p
  paradigm: paradigm_V
  trans_ru: порвать
  trans_en: tear
@@ -20684,8 +20693,8 @@
 
 -lexeme
  lex: kəlǯʼikənə
- stem: kəlǯʼik.//kəlǯʼišʼk.
- gramm: V,intr,with_gen2
+ stem: kəlǯʼik.//kəlǯʼk.//kəlǯʼišʼk.
+ gramm: V,intr,with_gen2,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: слушаться
  trans_en: listen, be obedient
@@ -20712,7 +20721,7 @@
 -lexeme
  lex: kələnə
  stem: kəl.
- gramm: V,tr
+ gramm: V,tr,act_pst_es_s,act_prs_s
  paradigm: paradigm_V
  trans_ru: слышать
  trans_en: hear
@@ -20775,7 +20784,7 @@
 -lexeme
  lex: kəlʼlʼənə
  stem: kəlʼlʼ.
- gramm: V,intr
+ gramm: V,intr,act_pst_s,act_prs_s
  paradigm: paradigm_V
  trans_ru: лежать
  trans_en: lie
@@ -20919,7 +20928,7 @@
 -lexeme
  lex: kənmənə
  stem: kənm.//kəmm.
- gramm: V,intr
+ gramm: V,intr,act_pst_es,act_prs_s
  paradigm: paradigm_V
  trans_ru: замёрзнуть; застыть
  trans_en: get cold
@@ -21288,7 +21297,7 @@
 -lexeme
  lex: kəskənə
  stem: kəsk.
- gramm: V,tr,with_instr
+ gramm: V,tr,with_instr,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: тянуть, тащить; доить; курить; весить
  trans_en: pull; milk; smoke
@@ -21351,7 +21360,7 @@
 -lexeme
  lex: kəsənə
  stem: kəs.
- gramm: V,tr
+ gramm: V,tr,act_pst_es,act_prs_p
  paradigm: paradigm_V
  trans_ru: тушить, гасить; гаснуть
  trans_en: put out, extinguish
@@ -21729,7 +21738,7 @@
 -lexeme
  lex: kəškanə
  stem: kəška.
- gramm: V,intr,with_gen2
+ gramm: V,intr,with_gen2,act_pst_es,act_prs_s
  paradigm: paradigm_V
  trans_ru: бояться, испугаться
  trans_en: fear
@@ -50800,7 +50809,7 @@
 -lexeme
  lex: čʼaklanə
  stem: čʼakla.
- gramm: V,tr,with_inf
+ gramm: V,tr,with_inf,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: думать, полагать; размышлять
  trans_en: think, reckon
@@ -51637,7 +51646,7 @@
 -lexeme
  lex: čʼerekjanə
  stem: čʼerekja.
- gramm: V,intr
+ gramm: V,intr,mult,act_pst_mp,act_prs_mp
  paradigm: paradigm_V
  trans_ru: кричать
  trans_en: cry, yell
@@ -52042,20 +52051,20 @@
 -lexeme
  lex: čʼilʼikjanə
  stem: čʼilʼikja.
- gramm: V,impers
+ gramm: V,impers,act_pst_mp,act_prs_mp
  paradigm: paradigm_V
  trans_ru: сверкать
- trans_en: 
- gloss: STEM
+ trans_en: flash (of lightning)
+ gloss: flash
 
 -lexeme
  lex: čʼilʼiktənə
  stem: čʼilʼikt.|čʼilʼikčʼ.//čʼilʼičʼ.
- gramm: V,impers
+ gramm: V,impers,act_pst_es,act_prs_0
  paradigm: paradigm_V
  trans_ru: сверкнуть
- trans_en: 
- gloss: STEM
+ trans_en: flash (of lightning)
+ gloss: flash
 
 -lexeme
  lex: čʼilʼiriktənə
@@ -52897,7 +52906,7 @@
 -lexeme
  lex: čʼupanə
  stem: čʼupa.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_ill,act_pst_es_mp,act_prs_mp
  paradigm: paradigm_V
  trans_ru: целовать
  trans_en: kiss
