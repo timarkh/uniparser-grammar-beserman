@@ -5586,7 +5586,7 @@
 -lexeme
  lex: binʼalton
  stem: binʼalton.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: обёртывание, пеленание; портянки
  trans_en: wrapping, swaddling; footwrap, footwraps (cotton)
@@ -6559,7 +6559,7 @@
 -lexeme
  lex: burməton
  stem: burməton.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: выздоровление; лекарство
  trans_en: 
@@ -6894,7 +6894,7 @@
 -lexeme
  lex: bəgərton
  stem: bəgərton.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: скалка; кочерга; шевеление, ворочание
  trans_en: rolling pin; poker; stirring, rolling
@@ -9534,7 +9534,7 @@
 -lexeme
  lex: ekton
  stem: ekton.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: танец
  trans_en: dance
@@ -11442,7 +11442,7 @@
 -lexeme
  lex: gožjan
  stem: gožjan.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: метчик
  trans_en: marker
@@ -11478,7 +11478,7 @@
 -lexeme
  lex: gožton
  stem: gožton.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: метчик; инструмент для черчения
  trans_en: tap; drawing tool
@@ -12145,7 +12145,7 @@
 -lexeme
  lex: gəlton
  stem: gəlton.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: мытьё; намёт
  trans_en: washing; casting net
@@ -12820,7 +12820,7 @@
 -lexeme
  lex: isašʼkon
  stem: isašʼkon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: дразнилка
  trans_en: teaser
@@ -13234,7 +13234,7 @@
 -lexeme
  lex: jaraton
  stem: jaraton.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: любовь; любимый /о человеке/
  trans_en: love; loved one /of a person/
@@ -13720,7 +13720,7 @@
 -lexeme
  lex: juan
  stem: juan.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: вопрос; сватовство
  trans_en: question; match-making
@@ -13846,7 +13846,7 @@
 -lexeme
  lex: juon
  stem: juon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: напиток, питьё; выпивка; пьянство
  trans_en: drink, beverage; booze
@@ -14720,7 +14720,7 @@
 -lexeme
  lex: kakan
  stem: kakan.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  paradigm: paradigm_N_px_ə
  trans_ru: попа; прямая кишка
@@ -14838,7 +14838,7 @@
 -lexeme
  lex: kalton
  stem: kalton.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: бредень; сбор, заготовка
  trans_en: dragnet; gathering, harvesting
@@ -16480,7 +16480,7 @@
 -lexeme
  lex: kivaltos
  stem: kivaltos.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: палка, которой погоняют гусей и овец
  trans_en: instrument used to protect oneself from or to fight an unruly animal (mostly domestic)
@@ -17786,7 +17786,7 @@
 -lexeme
  lex: kormašʼkon
  stem: kormašʼkon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: чесотка
  trans_en: scabies
@@ -18938,7 +18938,7 @@
 -lexeme
  lex: kujašʼkonʼnʼig
  stem: kujašʼkonʼnʼig.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: место, куда бросают или оставляют заговорённые или оставшиеся от покойников предметы
  trans_en: 
@@ -19388,7 +19388,7 @@
 -lexeme
  lex: kurčʼon
  stem: kurčʼon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: закуска, сухомятка, перекус
  trans_en: 
@@ -19514,7 +19514,7 @@
 -lexeme
  lex: kuton
  stem: kuton.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: ручка; приспособление для лова; взятие; поимка
  trans_en: handle; taking; capture
@@ -19739,7 +19739,7 @@
 -lexeme
  lex: kužʼan
  stem: kužʼan.
- gramm: N,vn,body
+ gramm: N,nmlz_on,body
  paradigm: paradigm_N_px_ə
  trans_ru: половой орган, половые органы /человека и животных/
  trans_en: genitals
@@ -19766,7 +19766,7 @@
 -lexeme
  lex: kužʼatem
  stem: kužʼatem.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: творог
  trans_en: cottage cheese
@@ -20757,7 +20757,7 @@
 -lexeme
  lex: kəlʼem-məlʼem
  stem: kəlʼem-məlʼem.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: остатки, отходы
  trans_en: 
@@ -21135,7 +21135,7 @@
 -lexeme
  lex: kərǯʼan
  stem: kərǯʼan.//kɨrǯʼan.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: песня
  trans_en: song
@@ -21729,7 +21729,7 @@
 -lexeme
  lex: kəškan
  stem: kəškan.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: страх, волнение; беда, неприятность
  trans_en: fear, agitation
@@ -21954,7 +21954,7 @@
 -lexeme
  lex: kɤkat
  stem: kɤkat.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: силок
  trans_en: snare
@@ -24038,7 +24038,7 @@
 -lexeme
  lex: lʼudes
  stem: lʼudes.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: ломоть, ломтик
  trans_en: piece, slice
@@ -24605,7 +24605,7 @@
 -lexeme
  lex: malpan
  stem: malpan.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: мысль, идея
  trans_en: thought, idea; thinking
@@ -25767,7 +25767,7 @@
 -lexeme
  lex: mišʼkon
  stem: mišʼkon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: тряпка; мытьё
  trans_en: cloth (for washing something); washing
@@ -28427,7 +28427,7 @@
 -lexeme
  lex: nʼanʼan
  stem: nʼanʼan.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: замазка, раствор; мастерок; замазывание
  trans_en: putty, mortar; float; puttying
@@ -29238,7 +29238,7 @@
 -lexeme
  lex: nʼəlon
  stem: nʼəlon.
- gramm: N,vn,body
+ gramm: N,nmlz_on,body
  paradigm: paradigm_N
  trans_ru: глотка; глотание
  trans_en: throat; swallowing
@@ -29392,7 +29392,7 @@
 -lexeme
  lex: nʼərton
  stem: nʼərton.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: спичка, спички
  trans_en: match, matches
@@ -29988,7 +29988,7 @@
 -lexeme
  lex: oktos
  stem: oktos.
- gramm: N,vn,anim,hum
+ gramm: N,nmlz_on,anim,hum
  paradigm: paradigm_N
  trans_ru: рождённый вне брака
  trans_en: 
@@ -30969,7 +30969,7 @@
 -lexeme
  lex: ošon
  stem: ošon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: вешалка, крючок, гвоздь, заплечная лямка
  trans_en: hanger
@@ -32680,7 +32680,7 @@
 -lexeme
  lex: pikketon
  stem: pikketon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: пикульник обыкновенный
  trans_en: hemp-nettle
@@ -35182,7 +35182,7 @@
 -lexeme
  lex: pukon
  stem: pukon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: стул; сидение
  trans_en: chair, stool, bench; sitting; get-together
@@ -35335,7 +35335,7 @@
 -lexeme
  lex: punem
  stem: punem.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: долг
  trans_en: debt
@@ -36527,7 +36527,7 @@
 -lexeme
  lex: pəžišʼkon
  stem: pəžišʼkon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: выпечка
  trans_en: pastry; baking
@@ -36707,7 +36707,7 @@
 -lexeme
  lex: pɤrtmašʼkon
  stem: pɤrtmašʼkon.//pertmašʼkon.
- gramm: N,vn,anim,supernat
+ gramm: N,nmlz_on,anim,supernat
  paradigm: paradigm_N
  trans_ru: привидение
  trans_en: 
@@ -38329,7 +38329,7 @@
 -lexeme
  lex: sitʼan
  stem: sitʼan.
- gramm: N,vn,body
+ gramm: N,nmlz_on,body
  paradigm: paradigm_N_px_ə
  trans_ru: попа
  trans_en: butt
@@ -39778,7 +39778,7 @@
 -lexeme
  lex: suran
  stem: suran.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: палка-мешалка
  trans_en: stirring rod; stirring
@@ -41246,7 +41246,7 @@
 -lexeme
  lex: tekčʼan
  stem: tekčʼan.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: танец; трамплин
  trans_en: dance; springboard; jumping; dance
@@ -42443,7 +42443,7 @@
 -lexeme
  lex: tujon
  stem: tujon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: длинная палка для стирки белья; пест, пестик
  trans_en: long stick for doing laundry; pestle, pounder
@@ -42696,7 +42696,7 @@
 -lexeme
  lex: tupačʼkon
  stem: tupačʼkon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: предсвадебный сговор
  trans_en: premarriage agreement
@@ -44950,7 +44950,7 @@
 -lexeme
  lex: ulon
  stem: ulon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: жизнь, житьё
  trans_en: life, living
@@ -45905,7 +45905,7 @@
 -lexeme
  lex: ušʼton
  stem: ušʼton.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: ключ; открывание
  trans_en: wrench; key
@@ -46715,7 +46715,7 @@
 -lexeme
  lex: verašʼkon
  stem: verašʼkon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: разговор, беседа; рассказ
  trans_en: talk; tale
@@ -47364,7 +47364,7 @@
 -lexeme
  lex: višʼon
  stem: višʼon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: болезнь, боль
  trans_en: disease; illness
@@ -48291,7 +48291,7 @@
 -lexeme
  lex: vušton
  stem: vušton.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: скребок; тёрка
  trans_en: scraper; grater; rubbing, scraping
@@ -48390,7 +48390,7 @@
 -lexeme
  lex: vəjəton
  stem: vəjəton.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: грузило
  trans_en: plummet
@@ -48942,7 +48942,7 @@
 -lexeme
  lex: walʼes
  stem: walʼes.//valʼes.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: матрас, перина; постель
  trans_en: mattress, feather bed
@@ -49188,7 +49188,7 @@
 -lexeme
  lex: waton
  stem: waton.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: похороны
  trans_en: burial
@@ -50565,7 +50565,7 @@
 -lexeme
  lex: zəran
  stem: zəran.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: запор
  trans_en: brush, swab; smearing; locking stick; closing
@@ -50574,7 +50574,7 @@
 -lexeme
  lex: zəran
  stem: zəran.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: кисточка, помазок; мазание; смазка
  trans_en: brush, swab; smearing; locking stick; closing
@@ -51088,7 +51088,7 @@
 -lexeme
  lex: čʼapəštem
  stem: čʼapəštem.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: царапина; царапание
  trans_en: scratch
@@ -52420,7 +52420,7 @@
 -lexeme
  lex: čʼogjašʼ
  stem: čʼogjašʼ.
- gramm: N,vn,anim
+ gramm: N,nmlz_on,anim
  paradigm: paradigm_N
  trans_ru: ёрш
  trans_en: ruffe
@@ -53104,7 +53104,7 @@
 -lexeme
  lex: čʼuškon
  stem: čʼuškon.//čuškon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: полотенце
  trans_en: towel
@@ -53113,7 +53113,7 @@
 -lexeme
  lex: čʼušon
  stem: čʼušon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: 
  trans_en: small cloth used as a napkin or a towel
@@ -53149,7 +53149,7 @@
 -lexeme
  lex: čʼužekton
  stem: čʼužekton.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: желтуха
  trans_en: jaundice
@@ -53762,7 +53762,7 @@
 -lexeme
  lex: čʼəškan
  stem: čʼəškan.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: бабка для отбивания косы; колотушка для отбивания головок льна; отбивание; цеп
  trans_en: stock to whet a scythe; wooden beater to beat flax bolls; beating (process, action); flail
@@ -53951,7 +53951,7 @@
 -lexeme
  lex: čʼəžon
  stem: čʼəžon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: помело
  trans_en: broom
@@ -54356,7 +54356,7 @@
 -lexeme
  lex: šaltərton
  stem: šaltərton.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: погремушка
  trans_en: rattle
@@ -55292,7 +55292,7 @@
 -lexeme
  lex: šobərton
  stem: šobərton.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: крышка, закрывашка, тряпка, покрывало
  trans_en: lid, cap, rag, cover
@@ -55310,7 +55310,7 @@
 -lexeme
  lex: šobərčʼikon
  stem: šobərčʼikon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: одеяло
  trans_en: blanket
@@ -56147,7 +56147,7 @@
 -lexeme
  lex: šədon
  stem: šədon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: игрушка; игра
  trans_en: toy; game
@@ -56507,7 +56507,7 @@
 -lexeme
  lex: šərǯʼon
  stem: šərǯʼon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: метчик; обдирание /ненужного верхнего слоя/, обрывание, сбор /плодов, листьев/
  trans_en: marker; peeling
@@ -57355,7 +57355,7 @@
 -lexeme
  lex: šʼijon
  stem: šʼijon.//šʼion.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: еда
  trans_en: food
@@ -57364,7 +57364,7 @@
 -lexeme
  lex: šʼijon-juon
  stem: šʼijon-juon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: пиршество, угощение; еда и питьё; овощи
  trans_en: 
@@ -57689,7 +57689,7 @@
 -lexeme
  lex: šʼišʼkon
  stem: šʼišʼkon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: еда, пища, продукты
  trans_en: food, meal, products
@@ -57991,7 +57991,7 @@
 -lexeme
  lex: šʼulan
  stem: šʼulan.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: свисток, свистулька
  trans_en: whistle
@@ -58297,7 +58297,7 @@
 -lexeme
  lex: šʼužʼjašʼkon
  stem: šʼužʼjašʼkon.//šʼužʼžʼašʼkon.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: /у животных/ послед, плацента
  trans_en: /in animals/ afterbirth, placenta
@@ -59269,7 +59269,7 @@
 -lexeme
  lex: ǯʼečʼəran
  stem: ǯʼečʼəran.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: качели
  trans_en: swing
@@ -60052,7 +60052,7 @@
 -lexeme
  lex: ǯʼəgərtes
  stem: ǯʼəgərtes.
- gramm: N,vn
+ gramm: N,nmlz_on
  paradigm: paradigm_N
  trans_ru: охапка
  trans_en: armful

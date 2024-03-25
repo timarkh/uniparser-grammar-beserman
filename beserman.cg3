@@ -30,7 +30,7 @@ SET VTr2 = VTr1 - (detr);
 SET VTr = VTr2 OR ("veranə");
 SET VFin = (V 1) OR (V 2) OR (V 3) OR ("val") OR ("wanʼ");
 SET VTrFin = (V tr 1) - (detr) OR (V tr 2) - (detr) - (imp) OR (V tr 3) - (detr) OR (V caus 1) OR (V caus 2) - (imp) OR (V caus 3);
-SET VIntr = (V intr) - (V ptcp prs) - (caus) OR (PRED) OR (V tr detr) - (V tr caus detr);
+SET VIntr = (V intr) - (caus) OR (PRED) OR (V tr detr) - (V tr caus detr);
 LIST BOS = (>>>);
 SET BOSPunct = (punct) | BOS;
 SET StartClitics = ("a") OR ("<sre>"i) OR ("<səre>"i) OR ("tare") OR ("ben") OR ("šʼo") OR ("<fšʼo>"i) OR ("i") OR ("daže") OR ("ja") OR ("marke") OR ("nu") OR ("no") OR ("tak") OR ("tunne") OR ("tolon") OR ("tue");
@@ -40,58 +40,58 @@ LIST EndSentPunc = "." "?" "!" ")." ")!" ")?" ".)" "!)" "?)"
 
 
 SECTION    # Verbs
-# Only leave V,neg analyses if there is a negative verb nearby.
-SELECT (V neg) IF (*-1 NegVerbs BARRIER NotClitics);
+# Only leave V,cng analyses if there is a negative verb nearby.
+SELECT (V cng) IF (*-1 NegVerbs BARRIER NotClitics);
 REMOVE (V imp) IF (*-1 NegVerbs BARRIER NotClitics);
 
 # Choose correct person for negated verbs based on the
 # negative verb.
-SELECT (V neg fut) IF (*-1 ("uz") BARRIER NotClitics);
-SELECT (V neg fut) IF (-4 ("uz")) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
-SELECT (V neg pst) IF (*-1 NegVerbsPst BARRIER NotClitics);
-SELECT (V neg pst) IF (-4 NegVerbsPst) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
+SELECT (V cng fut) IF (*-1 ("uz") BARRIER NotClitics);
+SELECT (V cng fut) IF (-4 ("uz")) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
+SELECT (V cng pst) IF (*-1 NegVerbsPst BARRIER NotClitics);
+SELECT (V cng pst) IF (-4 NegVerbsPst) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
 
-REMOVE (V neg 1) IF (*-1 NegVerbs3 BARRIER NotClitics);
-REMOVE (V neg 1) IF (-4 NegVerbs3) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
-REMOVE (V neg 2) IF (*-1 NegVerbs3 OR ("<ug>"i) BARRIER NotClitics);
-REMOVE (V neg 2) IF (-4 NegVerbs3 OR ("<ug>"i)) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
+REMOVE (V cng 1) IF (*-1 NegVerbs3 BARRIER NotClitics);
+REMOVE (V cng 1) IF (-4 NegVerbs3) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
+REMOVE (V cng 2) IF (*-1 NegVerbs3 OR ("<ug>"i) BARRIER NotClitics);
+REMOVE (V cng 2) IF (-4 NegVerbs3 OR ("<ug>"i)) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
 
-REMOVE (V neg 1) IF (*-1 NegVerbs2 BARRIER NotClitics);
-REMOVE (V neg 1) IF (-4 NegVerbs2) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
-REMOVE (V neg 3) IF (*-1 NegVerbs2 BARRIER NotClitics);
-REMOVE (V neg 3) IF (-4 NegVerbs2) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
+REMOVE (V cng 1) IF (*-1 NegVerbs2 BARRIER NotClitics);
+REMOVE (V cng 1) IF (-4 NegVerbs2) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
+REMOVE (V cng 3) IF (*-1 NegVerbs2 BARRIER NotClitics);
+REMOVE (V cng 3) IF (-4 NegVerbs2) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
 
-REMOVE (V neg 2) IF (*-1 NegVerbs1 BARRIER NotClitics);
-REMOVE (V neg 2) IF (-4 NegVerbs1) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
-REMOVE (V neg 3) IF (*-1 NegVerbs1 BARRIER NotClitics);
-REMOVE (V neg 3) IF (-4 NegVerbs1) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
+REMOVE (V cng 2) IF (*-1 NegVerbs1 BARRIER NotClitics);
+REMOVE (V cng 2) IF (-4 NegVerbs1) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
+REMOVE (V cng 3) IF (*-1 NegVerbs1 BARRIER NotClitics);
+REMOVE (V cng 3) IF (-4 NegVerbs1) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
 
-REMOVE (V neg 3) IF (NEGATE 0C (V neg 3)) (NOT 0 NegVerbs)
+REMOVE (V cng 3) IF (NEGATE 0C (V cng 3)) (NOT 0 NegVerbs)
                     (NEGATE *-1 NegVerbs3 OR ("<ug>"i) BARRIER NotClitics);
-REMOVE (V neg 2) IF (NEGATE 0C (V neg 2)) (NOT 0 NegVerbs)
+REMOVE (V cng 2) IF (NEGATE 0C (V cng 2)) (NOT 0 NegVerbs)
                     (NEGATE *-1 NegVerbs2 BARRIER NotClitics);
-REMOVE (V neg 1) IF (NEGATE 0C (V neg 1)) (NOT 0 NegVerbs)
+REMOVE (V cng 1) IF (NEGATE 0C (V cng 1)) (NOT 0 NegVerbs)
                     (NEGATE *-1 NegVerbs1 OR ("<ug>"i) BARRIER NotClitics);
-REMOVE (V neg fut) IF (NEGATE 0C (V neg fut)) (NOT 0 NegVerbs)
+REMOVE (V cng fut) IF (NEGATE 0C (V cng fut)) (NOT 0 NegVerbs)
                       (NEGATE *-1 NegVerbsFut BARRIER NotClitics);
-REMOVE (V neg pst) IF (NEGATE 0C (V neg pst)) (NOT 0 NegVerbs)
+REMOVE (V cng pst) IF (NEGATE 0C (V cng pst)) (NOT 0 NegVerbs)
                       (NEGATE *-1 NegVerbsPst BARRIER NotClitics);
 
 
-REMOVE (V neg) IF (NEGATE *-1 NegVerbs BARRIER NotClitics) 
+REMOVE (V cng) IF (NEGATE *-1 NegVerbs BARRIER NotClitics) 
                   (NOT 0 NegVerbs)
-                  (NEGATE 0C (V neg));
+                  (NEGATE 0C (V cng));
 
 
 # Pst2 vs. nominalization in -m
 REMOVE (V pst2 sg) IF (1 ("ber" ill));
-REMOVE (V ptcp pst sg nom) IF (1 ("šusa") OR VerbalClitics);
-SELECT (V pst2 3 sg) IF (0 (ptcp 3sg sg nom))
+REMOVE (V nmlz_em sg nom) IF (1 ("šusa") OR VerbalClitics);
+SELECT (V pst2 3 sg) IF (0 (nmlz_em 3sg sg nom))
                         (*1 ("potənə") BARRIER NotClitics);
 
 # Resultative vs. nominalization in -m
-REMOVE (V ptcp pst sg loc) IF (0 (V res))
-                              (NEGATE 0* VPred - (V res) - (V ptcp pst sg loc));
+REMOVE (V nmlz_em sg loc) IF (0 (V res))
+                              (NEGATE 0* VPred - (V res) - (V nmlz_em sg loc));
 
 # fut,1,sg vs. prs,3,pl: look at possible subjects
 SELECT (V fut 1 sg) IF (NOT 0 (V detr))
@@ -144,7 +144,7 @@ SELECT (V imp pl) IF (1 ("<ka>"i) OR ("<ko>"i));
 SELECT (N sg ill) IF (0 ("um"))
                      (1* ("ušʼənə") BARRIER NotClitics);
 REMOVE (N) IF (0 ("um") OR ("ud") OR ("em") OR ("ed"))
-              (*1 (V neg) BARRIER NotClitics);
+              (*1 (V cng) BARRIER NotClitics);
 
 # kučʼkənə can not be the caustive-detransitive for kuənə
 REMOVE ("kuənə") IF (0 ("kučʼkənə"));
@@ -152,7 +152,7 @@ REMOVE ("kuənə") IF (0 ("kučʼkənə"));
 # Forms in -ono should only be analysed as debitive, not
 # as nominalization in -n plus an attributive (which is
 # probably the diachronic source of the former).
-REMOVE (V vn attr_o);
+REMOVE (V nmlz_on prop_o);
 
 # prs vs. detr homonymy: if the verb is intransitive, it
 # can only have a detransitive suffix if it also has a
@@ -338,14 +338,14 @@ SELECT (PRO) IF (0 ("<noməre>"i))
                 (1 ("<no>"i));
 SELECT (PRO) IF (0 ("nomər"))
                 (1 ("<no>"i))
-                (*0 (V neg) BARRIER BOS);
+                (*0 (V cng) BARRIER BOS);
 
 SECTION    # Unchangeable POS
 # Some idyosyncratic things.
 REMOVE (N) IF (0 ("nʼi"))
               (-1 VPred OR Clitics);
 SELECT (POST) IF (0 ("dərja"))
-      (-1 ("<kud>"i) OR (V vn) OR ("jegitʼ") OR ("lʼegitʼ") OR ("pičʼi") OR ("walʼlʼan") OR ("pinʼal") OR ("požar") OR ("šʼuan") OR ("vojna") OR ("muket") OR ("<navodnʼenʼije>"i) OR ("<navodnʼenʼie>"i) OR ("pɤšʼ") OR ("kežʼət") OR ("ognʼən") OR ("wanʼ") OR (PRO pers nom) OR (N PN nom) OR ("čʼem") OR ("kanʼikul") OR ("paska"i) OR ("tatən") OR ("otən"));
+      (-1 ("<kud>"i) OR (V nmlz_on) OR ("jegitʼ") OR ("lʼegitʼ") OR ("pičʼi") OR ("walʼlʼan") OR ("pinʼal") OR ("požar") OR ("šʼuan") OR ("vojna") OR ("muket") OR ("<navodnʼenʼije>"i) OR ("<navodnʼenʼie>"i) OR ("pɤšʼ") OR ("kežʼət") OR ("ognʼən") OR ("wanʼ") OR (PRO pers nom) OR (N PN nom) OR ("čʼem") OR ("kanʼikul") OR ("paska"i) OR ("tatən") OR ("otən"));
 
 # Russian conjunctions vs. native particles.
 SELECT (rus) IF (0 ("a"))
@@ -561,7 +561,7 @@ REMOVE (V) IF (0 ("<kija[mdz]ə?>"r))
 
 # pənə: dog
 SELECT (N) IF (0 ("<pənə>"i))
-              (NOT 0 (V neg));
+              (NOT 0 (V cng));
 
 # vaj: V vs. N
 SELECT (N) IF (0 ("<vaj>"i))
@@ -1130,9 +1130,9 @@ SELECT (V) IF (0 ("<val>"i))
 
 
 SELECT (PRO) IF (0 ("<wanʼ>"i))
-      (1 NN) (2 (N acc pl)) (3 (V ptcp pst)) (4 ("<bere>"i));
+      (1 NN) (2 (N acc pl)) (3 (V nmlz_em)) (4 ("<bere>"i));
 SELECT (PRO) IF (0 ("<wanʼ>"i))
-      (1 (N acc pl)) (2 (V ptcp pst)) (3 ("<bere>"i));
+      (1 (N acc pl)) (2 (V nmlz_em)) (3 ("<bere>"i));
 SELECT (PRO) IF (0 ("<wanʼ>"i))
       (-3 ("<užasalzə>"i)) (-2 (",")) (-1 ("<no>"i))
       (1 ("<pudoez>"i)) (2 ("...")) (3 ("<pudo>"i));
@@ -1142,7 +1142,7 @@ SELECT (V) IF (0 ("<wanʼ>"i))
 SELECT (V) IF (0 ("<wanʼ>"i))
       (1 ("<a>"i)) (2 (gen));
 SELECT (V) IF (0 ("<wanʼ>"i))
-      (1 ("<a>"i)) (2 (V ptcp pst));
+      (1 ("<a>"i)) (2 (V nmlz_em));
 SELECT (V) IF (0 ("<wanʼ>"i))
       (1 ("<na>"i) OR ("<nʼi>"i) OR ("<uk>"i));
 SELECT (V) IF (0 ("<wanʼ>"i))
@@ -1154,7 +1154,7 @@ SELECT (V) IF (0 ("<wanʼ>"i))
 REMOVE (V imp) IF (0 ("<vəle>"i));
 REMOVE (V) IF (0 ("<vəle>"i))
        (NOT -1* ("<ule>"i));
-REMOVE (V ptcp pst) IF (0 ("<vəlem>"i))
+REMOVE (V nmlz_em) IF (0 ("<vəlem>"i))
        (NOT -1* ("<ulem>"i));
 
 

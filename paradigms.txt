@@ -3008,16 +3008,16 @@
   gramm: res
   gloss: RES
   paradigm: Comparative
- -flex: .išʼ|tem<.>//.əšʼ|tem<.>
+ -flex: .išʼtem<.>//.əšʼtem<.>
   gramm: ptcp_act_neg
   gloss: PTCP.ACT.NEG
   paradigm: paradigm_A
- -flex: .on|tem<.>
+ -flex: .ontem<.>
   gramm: ptcp_hab_neg
   gloss: PTCP.HAB.NEG
   paradigm: paradigm_A
  -flex: .əmte<.>//.emte<.>
-  gramm: nmlz_neg
+  gramm: nmlz,nmlz_neg
   gloss: NMLZ.NEG
   paradigm: Noun-num-vowel
 
@@ -3047,16 +3047,16 @@
   gramm: res
   gloss: RES
   paradigm: Comparative
- -flex: .šʼ|tem<.>
+ -flex: .šʼtem<.>
   gramm: ptcp_act_neg
   gloss: PTCP.ACT.NEG
   paradigm: paradigm_A
- -flex: .n|tem<.>
+ -flex: .ntem<.>
   gramm: ptcp_hab_neg
   gloss: PTCP.HAB.NEG
   paradigm: paradigm_A
  -flex: .mte<.>
-  gramm: nmlz_neg
+  gramm: nmlz,nmlz_neg
   gloss: NMLZ.NEG
   paradigm: Noun-num-vowel
 
