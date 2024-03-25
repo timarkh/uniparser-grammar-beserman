@@ -462,7 +462,6 @@ jekunʼa-
 jə
 kš
 kəmalʼə
-kɨčeke
 le
 lʼešʼa
 mo
@@ -1345,6 +1344,7 @@ babu
 babuk
 baga
 bakčʼjaz
+baldačʼev
 batutjos
 bačʼka
 baštid
@@ -1617,6 +1617,7 @@ kwakpilešʼ
 kwalʼekčʼ
 kwarsanə
 kwašk
+kwaškatidčʼožʼ
 kwašʼ
 kwaž-kwaž
 kwi
@@ -2081,6 +2082,7 @@ sčʼə
 səbre
 səkə
 səlde
+səlidčʼožʼazə
 sənduk
 səsəpu
 səsəpujez
@@ -2184,7 +2186,6 @@ ux
 učʼitʼe
 užʼdʼečʼka
 užʼez
-užʼišʼešʼ
 va-
 va-ka
 vadʼeskətʼi
@@ -2341,7 +2342,6 @@ zɨraltɨlo
 šudonjon
 šuisʼkom
 šuk
-šumetəməšʼ
 šumetʼ
 šumpotəsa
 šuntskəsa
