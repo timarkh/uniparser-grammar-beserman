@@ -31558,13 +31558,13 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: партия
- trans_en: 
- gloss: STEM
+ trans_en: party
+ gloss: party
 
 -lexeme
  lex: paršʼ
  stem: paršʼ.
- gramm: N
+ gramm: N,anim
  paradigm: paradigm_N
  trans_ru: свинья
  trans_en: pig
@@ -31612,8 +31612,8 @@
  gramm: V,intr,rus
  paradigm: paradigm_V
  trans_ru: пасти скот, пастушить
- trans_en: graze
- gloss: graze
+ trans_en: herd
+ gloss: herd
 
 -lexeme
  lex: patra
@@ -31765,8 +31765,8 @@
  gramm: A,rel_adj
  paradigm: paradigm_A
  trans_ru: шириной равный чему-то
- trans_en: 
- gloss: STEM
+ trans_en: as wide as
+ gloss: as.wide.as
 
 -lexeme
  lex: pašʼtana
@@ -31837,8 +31837,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: педаль
- trans_en: 
- gloss: STEM
+ trans_en: pedal
+ gloss: pedal
 
 -lexeme
  lex: pedla
