@@ -14920,7 +14920,7 @@
 -lexeme
  lex: kalʼlʼanə
  stem: kalʼlʼa.
- gramm: V,tr,ill
+ gramm: V,tr,with_ill
  paradigm: paradigm_V
  trans_ru: развесить
  trans_en: hang up
@@ -15848,7 +15848,7 @@
 -lexeme
  lex: kenʼǯʼikənə
  stem: kenʼǯʼik.
- gramm: V,detr,intr
+ gramm: V,detr,intr,with_ill
  paradigm: paradigm_V
  trans_ru: зацепиться
  trans_en:  
@@ -36554,9 +36554,9 @@
 -lexeme
  lex: pəžənə
  stem: pəž.
- gramm: V,tr
+ gramm: V,tr,intr
  paradigm: paradigm_V
- trans_ru: испечь
+ trans_ru: испечь; испечься
  trans_en: bake
  gloss: bake
 
