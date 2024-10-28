@@ -84,7 +84,7 @@ REMOVE (V cng) IF (NEGATE *-1 NegVerbs BARRIER NotClitics)
 
 
 # Pst2 vs. nominalization in -m
-REMOVE (V pst2 sg) IF (1 ("ber" ill));
+REMOVE (V pst2 sg) IF (1 ("ber" lat));
 REMOVE (V nmlz_em sg nom) IF (1 ("šusa") OR VerbalClitics);
 SELECT (V pst2 3 sg) IF (0 (nmlz_em 3sg sg nom))
                         (*1 ("potənə") BARRIER NotClitics);
@@ -99,7 +99,7 @@ SELECT (V fut 1 sg) IF (NOT 0 (V detr))
 SELECT (V fut 1 sg) IF (NOT 0 (V detr))
                        (*-1 ("<askaz>"i) BARRIER NotClitics);
 SELECT (V fut 1 sg) IF (NOT 0 (V detr))
-                       (-2 (N nom) | DemPersPro) (-1 (N rel_n loc) OR (N rel_n el) OR (N rel_n ill))
+                       (-2 (N nom) | DemPersPro) (-1 (N rel_n loc) OR (N rel_n el) OR (N rel_n lat))
                        (*-3 ("<mon>"i) BARRIER BOSPunct | (PRO pers sg nom) | (N sg nom));
 SELECT (1 V fut sg) IF (0 ("<.*o>"r))
       (1 ("<ka>"i) OR ("<ko>"i));
@@ -141,7 +141,7 @@ REMOVE (V imp pl) IF (0 (V intr detr 3 sg));
 SELECT (V imp pl) IF (1 ("<ka>"i) OR ("<ko>"i));
 
 # ume ušʼənə "fall asleep"
-SELECT (N sg ill) IF (0 ("um"))
+SELECT (N sg lat) IF (0 ("um"))
                      (1* ("ušʼənə") BARRIER NotClitics);
 REMOVE (N) IF (0 ("um") OR ("ud") OR ("em") OR ("ed"))
               (*1 (V cng) BARRIER NotClitics);
@@ -172,7 +172,7 @@ REMOVE (V imp) IF (0 (V prs 3 sg))
                   (NEGATE *0 (V tr) BARRIER BOSPunct);
 REMOVE (V imp) IF (0 (V prs 3 sg))
                   (0C (V intr) - (caus))
-                  (-2 (N nom) | DemPersPro) (-1 (N rel_n loc) OR (N rel_n el) OR (N rel_n ill))
+                  (-2 (N nom) | DemPersPro) (-1 (N rel_n loc) OR (N rel_n el) OR (N rel_n lat))
                   (*-3 (N sg nom) - NomPoss BARRIER NotClitics - (ADV))
                   (NEGATE *0 (V tr) BARRIER BOSPunct);
 SELECT (V imp) IF (1 ("<ka>"i) OR ("<ko>"i));
@@ -181,39 +181,39 @@ SELECT (V imp) IF (1 ("<ka>"i) OR ("<ko>"i));
 SECTION    # Nouns
 # Illative vs. 1sg
 # If there is a possessor to the left and the noun is animate,
-# it could hardly be in the illative.
-REMOVE (N ill sg) IF (0 (N anim 1sg))
+# it could hardly be in the lative.
+REMOVE (N lat sg) IF (0 (N anim 1sg))
                      (-1 ("<mənam>"i))
-                     (NOT 0 (N ill Poss));
-# Time measurement units and months are usually in the illative.
-REMOVE (N nom sg 1sg) IF (0 (N time_meas sg ill))
+                     (NOT 0 (N lat Poss));
+# Time measurement units and months are usually in the lative.
+REMOVE (N nom sg 1sg) IF (0 (N time_meas sg lat))
                          (NEGATE *-1 ("<mənam>"i) BARRIER BOSPunct);
 # Exclamations starting with "e" or "oj" are in nom.1sg.
-REMOVE (N sg ill) IF (0 (N nom sg 1sg))
+REMOVE (N sg lat) IF (0 (N nom sg 1sg))
                      (-1 ("<e>"i) OR ("<oj>"i));
-# If there is a verb that requires illative and no "mənam" around,
-# this is also probably the illative.
-REMOVE (N nom sg 1sg) IF (0 (N sg ill))
+# If there is a verb that requires lative and no "mənam" around,
+# this is also probably the lative.
+REMOVE (N nom sg 1sg) IF (0 (N sg lat))
                          (NEGATE *0 ("<mənam>"i) BARRIER BOSPunct)
-                         (*0 (V with_ill) BARRIER BOSPunct);
+                         (*0 (V with_lat) BARRIER BOSPunct);
 # In the opposite case, it is probably nom.1sg.
-REMOVE (N sg ill) IF (0 (N nom sg 1sg))
+REMOVE (N sg lat) IF (0 (N nom sg 1sg))
                      (*0 ("<mənam>"i) BARRIER BOSPunct)
-                     (NEGATE *0 (V with_ill) BARRIER BOS);
+                     (NEGATE *0 (V with_lat) BARRIER BOS);
 # Couple of cases that are almost never either of the two.
-REMOVE (N sg ill) IF (0 ("<noməre>") OR ("<nokinʼe>") OR ("<gəne>"))
+REMOVE (N sg lat) IF (0 ("<noməre>") OR ("<nokinʼe>") OR ("<gəne>"))
                      (NEGATE *0 ("<mənam>"i) BARRIER BOSPunct)
-                     (NEGATE *0 (V with_ill) BARRIER BOS);
+                     (NEGATE *0 (V with_lat) BARRIER BOS);
 REMOVE (N nom sg 1sg) IF (0 ("<noməre>") OR ("<nokinʼe>") OR ("<gəne>"))
                          (NEGATE *0 ("<mənam>"i) BARRIER BOSPunct)
-                         (NEGATE *0 (V with_ill) BARRIER BOS);
+                         (NEGATE *0 (V with_lat) BARRIER BOS);
 
-# ill vs. prs.3sg of similar verbs
+# lat vs. prs.3sg of similar verbs
 REMOVE (N) IF (0 ("<zore>"i) OR ("<vaje>"i) OR ("<vožʼe>"i) OR ("<šue>"i))
               (NEGATE *0 VPred BARRIER BOS);
 REMOVE (N) IF (0 ("<vue>"i))
               (NEGATE *0 VPred BARRIER BOS)
-              (*0 (ill) BARRIER BOS);
+              (*0 (lat) BARRIER BOS);
 # gəne is usually PART
 REMOVE (N) IF (0 ("<gəne>"i))
               (-1 (NUM) OR ("<kalʼlʼen>"i) OR ("<ožʼ>"i) OR ("<əžət>"i));
@@ -251,18 +251,18 @@ REMOVE (PRO pl nom 2pl) IF (0 ("<vəldə>"i))
                            (NOT -1 ("<jɤl>"i) OR ("<ǯʼek>"i) OR ("<vožʼ>"i) OR ("<lud>"i) OR ("<nər>"i) OR ("<ber>"i));
 
 # Relational nouns are hardly ever used in the nominative.
-REMOVE (N rel_n nom 1sg) IF (0 (N rel_n ill))
+REMOVE (N rel_n nom 1sg) IF (0 (N rel_n lat))
                             (-1 (N nom) OR (PRO pers nom));
 # And in the instrumental.
 REMOVE (N rel_n ins) IF (0 (N rel_n loc))
                         (-1 (N nom) OR (PRO pers nom));
 
-# korka: ill vs. nom
+# korka: lat vs. nom
 SELECT (N nom) IF (0 ("<korka>"i))
                   (1 (N rel_n) OR ("pal") OR ("ber") OR ("šʼer") OR ("ažʼ") OR ("sereg"));
 SELECT (N nom) IF (0 ("<korka>"i))
                   (*0 (V 3 sg) OR (PRED) OR VerbalClitics)
-                  (NEGATE *0 (V with_ill) BARRIER BOS);
+                  (NEGATE *0 (V with_lat) BARRIER BOS);
 SELECT (N nom) IF (0 ("<korka>"i))
                   (1 ("puktənə") OR ("pukənə" caus));
 SELECT (N nom) IF (0 ("<korka>"i))
@@ -274,12 +274,12 @@ SELECT (N nom) IF (0 ("<korka>"i))
 SELECT (N nom) IF (0 ("<korka>"i))
                   (1 ("nʼəm" 3sg) OR ("nʼəm" 3pl) OR ("<kadʼ>"i));
 
-SELECT (N ill) IF (0 ("<korka>"i))
+SELECT (N lat) IF (0 ("<korka>"i))
                   (1 ("pərənə") OR ("vuənə") OR ("vajənə"));
-SELECT (N ill) IF (0 ("<korka>"i))
+SELECT (N lat) IF (0 ("<korka>"i))
                   (-1 ("pərənə") OR ("vuənə") OR ("vajənə"))
                   (1 EndSentPunc);
-SELECT (N ill) IF (0 ("<korka>"i))
+SELECT (N lat) IF (0 ("<korka>"i))
                   (-1 ("<korkašʼ>"i));
 
 # pəd: "foot" vs. "pound"
@@ -409,7 +409,7 @@ REMOVE (PRO sg nom) IF (0 ("<wanʼ>"i))
                        (NEGATE *1 VPred BARRIER BOSPunct);
 
 
-# kare: city-ill vs. do-prs.3sg
+# kare: city-lat vs. do-prs.3sg
 SELECT (V) IF (0 ("<kare>"i) OR ("<kar>"i))
               (-1 ("marəm"));
 REMOVE (N) IF (0 ("<kare>"i))
@@ -417,7 +417,7 @@ REMOVE (N) IF (0 ("<kare>"i))
               (NEGATE *1 VPred BARRIER NotClitics);
 
 
-# ule: down-ill vs. live-prs.3sg
+# ule: down-lat vs. live-prs.3sg
 SELECT (V) IF (0 ("<ule>"i))
               (*-1 (loc) BARRIER NotClitics);
 SELECT (N) IF (0 ("<ule>"i))
@@ -481,7 +481,7 @@ SELECT (N) IF (0 ("<palaz>"i) OR ("<pala>"i))
 SELECT (N) IF (0 ("<ber>"i))
               (1 ("pal"));
 
-# vitʼe: five-ill vs. wait-prs.3sg
+# vitʼe: five-lat vs. wait-prs.3sg
 SELECT (V) IF (0 ("<vitʼe>"i))
               (1 VerbalClitics);
 
@@ -549,10 +549,10 @@ SELECT (V imp) IF (@2 ("<vera>"i))
 
 # šue: says vs. some kind of berry
 REMOVE (N) IF (0 ("<šue>"i))
-              (*0 (V with_ill) BARRIER BOSPunct);
+              (*0 (V with_lat) BARRIER BOSPunct);
 
 # zɤk bakčʼe: N, not V
-REMOVE (V) IF (0 (N sg ill))
+REMOVE (V) IF (0 (N sg lat))
               (*-1C (A) BARRIER NotClitics);
 
 # kijaz[ə]: "in the hand" vs. "broke"
@@ -604,13 +604,13 @@ SELECT (PRO dem) IF (@1 DemPersPro)
 SELECT (PRO dem) IF (@1 DemPersPro)
       (1 (N hum nom 1sg)) (2 (V 3 sg));
 SELECT (PRO pers) IF (@1 DemPersPro)
-      (1 (N rel_n ill) OR (N rel_n loc)) (2 (PRO pers nom));
+      (1 (N rel_n lat) OR (N rel_n loc)) (2 (PRO pers nom));
 SELECT (PRO pers) IF (@1 DemPersPro)
-      (1 (N rel_n ill) OR (N rel_n loc)) (2 (V 1) OR (V 2) OR (V 3 pl));
+      (1 (N rel_n lat) OR (N rel_n loc)) (2 (V 1) OR (V 2) OR (V 3 pl));
 SELECT (PRO pers) IF (@1 DemPersPro)
       (1 ("<evəl>"i));
 SELECT (PRO dem) IF (@1 DemPersPro)
-      (1 (N el) OR (N ill) OR (N loc) OR (N prol) OR (N egr) OR (N ins) OR (N dat)) (2 (V tr 1) OR (V tr 2) OR (V tr 3 pl)) (3 ("<soje>"i));
+      (1 (N el) OR (N lat) OR (N loc) OR (N prol) OR (N egr) OR (N ins) OR (N dat)) (2 (V tr 1) OR (V tr 2) OR (V tr 3 pl)) (3 ("<soje>"i));
 SELECT (PRO pers) IF (@1 DemPersPro)
       (1 (N topn loc) OR ("<otən>"i)) (2 ("ulənə" 3 sg)) (3 EndSentPunc);
 SELECT (PRO pers) IF (@1 DemPersPro)
@@ -746,16 +746,16 @@ SELECT (PRO dem) IF (@2 DemPersPro)
       (1 (N hum nom 1sg)) (2 (V 3 sg));
 SELECT (PRO pers) IF (@2 DemPersPro)
       (-1 StartClitics)
-      (1 (N rel_n ill) OR (N rel_n loc)) (2 (PRO pers nom));
+      (1 (N rel_n lat) OR (N rel_n loc)) (2 (PRO pers nom));
 SELECT (PRO pers) IF (@2 DemPersPro)
       (-1 StartClitics)
-      (1 (N rel_n ill) OR (N rel_n loc)) (2 (V 1) OR (V 2) OR (V 3 pl));
+      (1 (N rel_n lat) OR (N rel_n loc)) (2 (V 1) OR (V 2) OR (V 3 pl));
 SELECT (PRO pers) IF (@2 DemPersPro)
       (-1 StartClitics)
       (1 ("<evəl>"i));
 SELECT (PRO dem) IF (@2 DemPersPro)
       (-1 StartClitics)
-      (1 (N el) OR (N ill) OR (N loc) OR (N prol) OR (N egr) OR (N ins) OR (N dat)) (2 (V tr 1) OR (V tr 2) OR (V tr 3 pl)) (3 ("<soje>"i));
+      (1 (N el) OR (N lat) OR (N loc) OR (N prol) OR (N egr) OR (N ins) OR (N dat)) (2 (V tr 1) OR (V tr 2) OR (V tr 3 pl)) (3 ("<soje>"i));
 SELECT (PRO pers) IF (@2 DemPersPro)
       (-1 StartClitics)
       (1 (N topn loc) OR ("<otən>"i)) (2 ("ulənə" 3 sg)) (3 EndSentPunc);
@@ -946,7 +946,7 @@ SELECT (PRO dem) IF (0 DemPersPro)
 
 SELECT (PRO pers) IF (@2 DemPersPro)
       (-1 ("mənənə" 3 sg) OR ("ləktənə" 3 sg))
-      (1 (N nom)) (2 (N rel_n ill) OR (N rel_n el)) (3 EndSentPunc);
+      (1 (N nom)) (2 (N rel_n lat) OR (N rel_n el)) (3 EndSentPunc);
 
 SELECT (PRO dem) IF (0 DemPersPro)
       (-1 (N sg nom hum))

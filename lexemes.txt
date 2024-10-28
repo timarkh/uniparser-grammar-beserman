@@ -3278,7 +3278,7 @@
 -lexeme
  lex: aldanə
  stem: alda.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: потерять
  trans_en: lose
@@ -4334,7 +4334,7 @@
 -lexeme
  lex: ačʼiz
  stem: asnʼa.
- gramm: PRO,refl,dms,ill
+ gramm: PRO,refl,dms,lat
  paradigm: poss
  trans_ru: сам
  trans_en: oneself
@@ -4461,7 +4461,7 @@
 -lexeme
  lex: ažʼ
  stem: ažʼejaz.
- gramm: N,ill,case_comp,3sg
+ gramm: N,lat,case_comp,3sg
  paradigm: Comparative
  trans_ru: перед
  trans_en: front
@@ -4470,7 +4470,7 @@
 -lexeme
  lex: ažʼelə
  stem: ažʼelə.
- gramm: POST,ill,dat
+ gramm: POST,lat,dat
  paradigm: Comparative
  trans_ru: перед
  trans_en: front
@@ -5109,7 +5109,7 @@
 -lexeme
  lex: bašʼtənə
  stem: bašʼt.|bašʼčʼ.
- gramm: V,tr,with_el,with_ill,act_pst_es,act_prs_p
+ gramm: V,tr,with_el,with_lat,act_pst_es,act_prs_p
  paradigm: paradigm_V
  trans_ru: брать; покупать
  trans_en: take; buy
@@ -5343,7 +5343,7 @@
 -lexeme
  lex: bertənə
  stem: bert.|berčʼ.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: вернуться
  trans_en: return
@@ -5595,7 +5595,7 @@
 -lexeme
  lex: binʼaltənə
  stem: binʼalt.|binʼalčʼ.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: завернуть, укутать
  trans_en: wrap
@@ -5604,7 +5604,7 @@
 -lexeme
  lex: binʼalʼlʼanə
  stem: binʼalʼlʼa.//binʼalja.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: заворачивать
  trans_en: wrap
@@ -5703,7 +5703,7 @@
 -lexeme
  lex: bižʼənə
  stem: bižʼ.
- gramm: V,intr,with_ill,act_pst_p,act_prs_p
+ gramm: V,intr,with_lat,act_pst_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: бежать
  trans_en: run
@@ -5712,7 +5712,7 @@
 -lexeme
  lex: bižʼənə
  stem: bižʼ.
- gramm: V,intr,with_ill,with_dat,act_pst_es,act_prs_0
+ gramm: V,intr,with_lat,with_dat,act_pst_es,act_prs_0
  paradigm: paradigm_V
  trans_ru: выйти замуж
  trans_en: marry
@@ -6785,7 +6785,7 @@
 -lexeme
  lex: bəgijanə
  stem: bəgija.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: приделывать ручку к ведру
  trans_en: 
@@ -7326,7 +7326,7 @@
 -lexeme
  lex: bɤršʼə
  stem: bɤršʼa.//beršʼa.
- gramm: POST,ill
+ gramm: POST,lat
  paradigm: poss
  trans_ru: за, вслед
  trans_en: after, following
@@ -7335,7 +7335,7 @@
 -lexeme
  lex: bɤršʼə
  stem: bɤršʼə.//beršʼə.
- gramm: POST,ill
+ gramm: POST,lat
  paradigm: Comparative
  trans_ru: за, вслед
  trans_en: after, following
@@ -7965,7 +7965,7 @@
 -lexeme
  lex: donganə
  stem: donga.
- gramm: V,tr,with_instr,with_ill
+ gramm: V,tr,with_instr,with_lat
  paradigm: paradigm_V
  trans_ru: толкать, запихивать
  trans_en: push, stuff
@@ -7983,7 +7983,7 @@
 -lexeme
  lex: dongənə
  stem: dong.
- gramm: V,tr,with_instr,with_ill
+ gramm: V,tr,with_instr,with_lat
  paradigm: paradigm_V
  trans_ru: толкать, засовывать
  trans_en: push, stuff
@@ -9903,7 +9903,7 @@
 -lexeme
  lex: etʼənə
  stem: etʼ.//ɤtʼ.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: пригласить; позвать
  trans_en: call, invite
@@ -12937,7 +12937,7 @@
 -lexeme
  lex: izbratʼ
  stem: izbratʼ.
- gramm: V,rus,rus_inf,tr,with_ill
+ gramm: V,rus,rus_inf,tr,with_lat
  paradigm: Comparative
  trans_ru: избрать
  trans_en: 
@@ -13486,7 +13486,7 @@
 -lexeme
  lex: jetənə
  stem: jet.|ječʼ.
- gramm: V,intr,with_dat,with_ill
+ gramm: V,intr,with_dat,with_lat
  paradigm: paradigm_V
  trans_ru: попасть; оказаться побитым, обруганным
  trans_en: get hit
@@ -14099,7 +14099,7 @@
 -lexeme
  lex: jəganə
  stem: jəga.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: избить; стучаться
  trans_en: beat
@@ -14126,7 +14126,7 @@
 -lexeme
  lex: jəggetənə
  stem: jəgget.|jəggečʼ.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: стучать
  trans_en: 
@@ -14135,7 +14135,7 @@
 -lexeme
  lex: jəggənə
  stem: jəgg.
- gramm: V,intr,with_dat,with_ill
+ gramm: V,intr,with_dat,with_lat
  paradigm: paradigm_V
  trans_ru: ударить
  trans_en: 
@@ -14271,7 +14271,7 @@
 -lexeme
  lex: jəromənə
  stem: jərom.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: заблудиться
  trans_en: get lost
@@ -14920,7 +14920,7 @@
 -lexeme
  lex: kalʼlʼanə
  stem: kalʼlʼa.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: развесить
  trans_en: hang up
@@ -15091,7 +15091,7 @@
 -lexeme
  lex: kantaritʼ
  stem: kantaritʼ.
- gramm: V,rus,rus_inf,tr,with_ill
+ gramm: V,rus,rus_inf,tr,with_lat
  paradigm: Comparative
  trans_ru: складывать
  trans_en: 
@@ -15181,7 +15181,7 @@
 -lexeme
  lex: kapatʼ
  stem: kapatʼ.
- gramm: V,rus,rus_inf,intr,with_ill
+ gramm: V,rus,rus_inf,intr,with_lat
  paradigm: Comparative
  trans_ru: капать
  trans_en: 
@@ -15388,7 +15388,7 @@
 -lexeme
  lex: karjašʼkənə
  stem: karjašʼk.
- gramm: V,intr,with_ill,detr
+ gramm: V,intr,with_lat,detr
  paradigm: paradigm_V
  trans_ru: гнездиться, разводить личинок
  trans_en: 
@@ -15577,7 +15577,7 @@
 -lexeme
  lex: kačʼatʼ
  stem: kačʼatʼ.
- gramm: V,rus,rus_inf,tr,with_ill,with_ins
+ gramm: V,rus,rus_inf,tr,with_lat,with_ins
  paradigm: Comparative
  trans_ru: качать
  trans_en: 
@@ -15739,7 +15739,7 @@
 -lexeme
  lex: kelʼanə
  stem: kelʼa.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: отправить; послать
  trans_en: send
@@ -15748,7 +15748,7 @@
 -lexeme
  lex: kelʼtənə
  stem: kelʼt.//kelʼtʼ.|kelʼčʼ.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: оставить
  trans_en: leave
@@ -15848,7 +15848,7 @@
 -lexeme
  lex: kenʼǯʼikənə
  stem: kenʼǯʼik.
- gramm: V,detr,intr,with_ill
+ gramm: V,detr,intr,with_lat
  paradigm: paradigm_V
  trans_ru: зацепиться
  trans_en:  
@@ -15857,7 +15857,7 @@
 -lexeme
  lex: kenʼǯʼənə
  stem: kenʼǯʼ.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: прицепиться
  trans_en: 
@@ -15948,7 +15948,7 @@
 -lexeme
  lex: kertənə
  stem: kert.//kertt.|kerčʼ.//kertčʼ.
- gramm: V,tr,with_ill,act_pst_es_p,act_prs_p
+ gramm: V,tr,with_lat,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: вязать; плести
  trans_en: knit, weave
@@ -16534,7 +16534,7 @@
 -lexeme
  lex: kišʼkanə
  stem: kišʼka.
- gramm: V,tr,with_el,with_ill,act_pst_es_p,act_prs_p
+ gramm: V,tr,with_el,with_lat,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: лить; сыпать
  trans_en: pour
@@ -16570,7 +16570,7 @@
 -lexeme
  lex: kišʼtənə
  stem: kišʼt.|kišʼčʼ.
- gramm: V,tr,with_el,with_ill,act_pst_es,act_prs_p
+ gramm: V,tr,with_el,with_lat,act_pst_es,act_prs_p
  paradigm: paradigm_V
  trans_ru: лить; сыпать
  trans_en: pour
@@ -17047,7 +17047,7 @@
 -lexeme
  lex: kolanə
  stem: kola.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: ходить по мокрой траве или по грязи; зачерпнуть грязь в обувь
  trans_en: 
@@ -18182,7 +18182,7 @@
 -lexeme
  lex: kotʼkətčʼə
  stem: kotʼkətčʼə.
- gramm: PRO,ill
+ gramm: PRO,lat
  paradigm: paradigm_N
  trans_ru: куда угодно
  trans_en: everywhere, anywhere
@@ -18353,7 +18353,7 @@
 -lexeme
  lex: koškənə
  stem: koš.
- gramm: V,intr,with_el,with_ill,imp,2,sg
+ gramm: V,intr,with_el,with_lat,imp,2,sg
  paradigm: Comparative
  trans_ru: уйти
  trans_en: leave
@@ -18362,7 +18362,7 @@
 -lexeme
  lex: koškənə
  stem: košk.
- gramm: V,intr,with_el,with_ill
+ gramm: V,intr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: уйти
  trans_en: leave
@@ -18929,7 +18929,7 @@
 -lexeme
  lex: kujanə
  stem: kuja.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: раскидывать, разбрасывать
  trans_en: throw
@@ -19640,7 +19640,7 @@
 -lexeme
  lex: kuštənə
  stem: kušt.|kuščʼ.
- gramm: V,tr,with_ill,act_pst_es,act_prs_p
+ gramm: V,tr,with_lat,act_pst_es,act_prs_p
  paradigm: paradigm_V
  trans_ru: бросить; выкинуть
  trans_en: throw, throw away
@@ -19893,7 +19893,7 @@
 -lexeme
  lex: kuǯʼanə
  stem: kuǯʼa.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: застрять
  trans_en: 
@@ -20856,7 +20856,7 @@
 -lexeme
  lex: kəlʼənə
  stem: kəlʼ.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: оставаться, остаться
  trans_en: remain
@@ -20874,7 +20874,7 @@
 -lexeme
  lex: kəmanə
  stem: kəma.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: опрокинуть
  trans_en: knock over
@@ -21000,7 +21000,7 @@
 -lexeme
  lex: kərdənə
  stem: kərd.|kərǯʼ.
- gramm: V,intr,with_el,with_ill
+ gramm: V,intr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: выпадать, осыпатся
  trans_en: fall out
@@ -21009,7 +21009,7 @@
 -lexeme
  lex: kərganə
  stem: kərga.
- gramm: V,intr,with_el,with_ill
+ gramm: V,intr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: пропасть, выпасть
  trans_en: disappear
@@ -21450,7 +21450,7 @@
 -lexeme
  lex: kətčʼə
  stem: kətčʼə.
- gramm: PRO,ill
+ gramm: PRO,lat
  paradigm: paradigm_N
  trans_ru: куда
  trans_en: where to
@@ -21459,7 +21459,7 @@
 -lexeme
  lex: kətčʼəke
  stem: kətčʼəke.
- gramm: PRO,ill
+ gramm: PRO,lat
  paradigm: paradigm_N
  trans_ru: куда-то, куда-нибудь
  trans_en: somewhere
@@ -21711,7 +21711,7 @@
 -lexeme
  lex: kəšjanə
  stem: kəšja.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: ставить заплатку
  trans_en: 
@@ -22713,7 +22713,7 @@
 -lexeme
  lex: ležʼənə
  stem: ležʼ.
- gramm: V,tr,with_inf,with_dat,with_ill
+ gramm: V,tr,with_inf,with_dat,with_lat
  paradigm: paradigm_V
  trans_ru: пускать; разрешать
  trans_en: let
@@ -23046,7 +23046,7 @@
 -lexeme
  lex: ləktənə
  stem: lək.//lɨk.
- gramm: V,intr,with_el,with_ill,act_pst_es_p,act_prs_p,imp,2,sg
+ gramm: V,intr,with_el,with_lat,act_pst_es_p,act_prs_p,imp,2,sg
  paradigm: Comparative
  trans_ru: прийти
  trans_en: come
@@ -23055,7 +23055,7 @@
 -lexeme
  lex: ləktənə
  stem: ləkt.//lɨkt.|ləkčʼ.//ləčʼ.
- gramm: V,intr,with_el,with_ill,act_pst_es_p,act_prs_p
+ gramm: V,intr,with_el,with_lat,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: прийти
  trans_en: come
@@ -23479,7 +23479,7 @@
 -lexeme
  lex: lʼakənə
  stem: lʼak.
- gramm: V,tr,with_instr,with_ill
+ gramm: V,tr,with_instr,with_lat
  paradigm: paradigm_V
  trans_ru: наклеить
  trans_en: 
@@ -23642,7 +23642,7 @@
 -lexeme
  lex: lʼekənə
  stem: lʼek.
- gramm: V,intr,with_ill,with_el
+ gramm: V,intr,with_lat,with_el
  paradigm: paradigm_V
  trans_ru: приходить (детск.)
  trans_en: come (babytalk)
@@ -24002,7 +24002,7 @@
 -lexeme
  lex: lʼoktənə
  stem: lʼokt.|lʼokčʼ.
- gramm: V,intr,with_ill,with_el
+ gramm: V,intr,with_lat,with_el
  paradigm: paradigm_V
  trans_ru: приходить (детск.)
  trans_en: come (babytalk)
@@ -24173,7 +24173,7 @@
 -lexeme
  lex: lʼukanə
  stem: lʼuka.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: собирать; копить
  trans_en: collect
@@ -24804,7 +24804,7 @@
 -lexeme
  lex: marširovatʼ
  stem: marširovatʼ.
- gramm: V,rus,rus_inf,intr,with_ill
+ gramm: V,rus,rus_inf,intr,with_lat
  paradigm: Comparative
  trans_ru: маршировать
  trans_en: 
@@ -24885,7 +24885,7 @@
 -lexeme
  lex: mate
  stem: mata.
- gramm: ADV,ill
+ gramm: ADV,lat
  paradigm: poss
  trans_ru: рядом, недалеко
  trans_en: near, short distance away (movement)
@@ -24903,7 +24903,7 @@
 -lexeme
  lex: mate
  stem: mate.
- gramm: ADV,ill
+ gramm: ADV,lat
  paradigm: Comparative
  trans_ru: рядом, недалеко
  trans_en: near, short distance away (movement)
@@ -25344,7 +25344,7 @@
 -lexeme
  lex: mestajanə
  stem: mestaja.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: положить на место
  trans_en: 
@@ -25605,7 +25605,7 @@
 -lexeme
  lex: mi
  stem: minʼnʼam.
- gramm: PRO,pers,dms,ill
+ gramm: PRO,pers,dms,lat
  paradigm: Noun-case-compounding
  trans_ru: мы (эксклюзивное)
  trans_en: we (exclusive)
@@ -26759,7 +26759,7 @@
 -lexeme
  lex: mənənə
  stem: mən.//mɨn.
- gramm: V,intr,with_el,with_ill,with_instr,act_pst_es_p,act_prs_p
+ gramm: V,intr,with_el,with_lat,with_instr,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: идти
  trans_en: go
@@ -26894,7 +26894,7 @@
 -lexeme
  lex: məčʼənə
  stem: məčʼ.
- gramm: V,intr,with_instr,with_ill
+ gramm: V,intr,with_instr,with_lat
  paradigm: paradigm_V
  trans_ru: сгребать; давать; протягивать; ударить
  trans_en: 
@@ -26930,7 +26930,7 @@
 -lexeme
  lex: məžganə
  stem: məžga.
- gramm: V,tr,with_ill,with_dat
+ gramm: V,tr,with_lat,with_dat
  paradigm: paradigm_V
  trans_ru: бить кулаками
  trans_en: 
@@ -26939,7 +26939,7 @@
 -lexeme
  lex: məžgənə
  stem: məžg.
- gramm: V,tr,with_ill,with_dat
+ gramm: V,tr,with_lat,with_dat
  paradigm: paradigm_V
  trans_ru: ударить кулаком
  trans_en: 
@@ -27146,7 +27146,7 @@
 -lexeme
  lex: nalčʼikənə
  stem: nalčʼik.//nalčʼək.//nalčʼk.
- gramm: V,intr,with_ill,detr
+ gramm: V,intr,with_lat,detr
  paradigm: paradigm_V
  trans_ru: глянуть, выглянуть; подсмотреть
  trans_en: 
@@ -27434,7 +27434,7 @@
 -lexeme
  lex: naznačʼitʼ
  stem: naznačʼitʼ.
- gramm: V,rus,rus_inf,tr,with_ill
+ gramm: V,rus,rus_inf,tr,with_lat
  paradigm: Comparative
  trans_ru: назначить
  trans_en: 
@@ -27524,7 +27524,7 @@
 -lexeme
  lex: našʼkənə
  stem: našʼk.
- gramm: V,tr,with_ill,act_pst_p,act_prs_p
+ gramm: V,tr,with_lat,act_pst_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: смотреть; наблюдать; следить
  trans_en: watch
@@ -27623,7 +27623,7 @@
 -lexeme
  lex: nokətčʼə no
  stem: nokətčʼə.
- gramm: PRO,ill
+ gramm: PRO,lat
  paradigm: paradigm_A
  trans_ru: никуда; некуда
  trans_en: nowhere
@@ -27903,7 +27903,7 @@
 -lexeme
  lex: nullənə
  stem: null.
- gramm: V,tr,with_instr,with_ill
+ gramm: V,tr,with_instr,with_lat
  paradigm: paradigm_V
  trans_ru: носить, везти
  trans_en: carry
@@ -28002,7 +28002,7 @@
 -lexeme
  lex: nuənə
  stem: nu.
- gramm: V,tr,with_instr,with_ill
+ gramm: V,tr,with_instr,with_lat
  paradigm: paradigm_V
  trans_ru: нести; вести; везти
  trans_en: carry
@@ -28238,7 +28238,7 @@
 -lexeme
  lex: nɤdənə
  stem: nɤd.|nɤǯʼ.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: пачкаться в грязи
  trans_en: get dirty
@@ -29464,7 +29464,7 @@
 -lexeme
  lex: nʼəžčʼikənə
  stem: nʼəžčʼ.
- gramm: V,intr,with_ill,detr
+ gramm: V,intr,with_lat,detr
  paradigm: Verb-pres-I-negative-short
  trans_ru: ползать
  trans_en: 
@@ -29473,7 +29473,7 @@
 -lexeme
  lex: nʼəžčʼikənə
  stem: nʼəžčʼik.//nʼəžčʼk.
- gramm: V,intr,with_ill,detr
+ gramm: V,intr,with_lat,detr
  paradigm: paradigm_V
  trans_ru: ползать
  trans_en: 
@@ -29718,7 +29718,7 @@
 -lexeme
  lex: odignʼige
  stem: odignʼige.
- gramm: ADV,ill
+ gramm: ADV,lat
  paradigm: Comparative
  trans_ru: в одно место, в одну кучу
  trans_en: into the same place, into one heap
@@ -30069,7 +30069,7 @@
 -lexeme
  lex: okətčʼə
  stem: okətčʼə.
- gramm: PRO,ill
+ gramm: PRO,lat
  paradigm: paradigm_N
  trans_ru: не знаю куда
  trans_en: 
@@ -30222,7 +30222,7 @@
 -lexeme
  lex: olokətčʼə
  stem: olokətčʼə.
- gramm: PRO,ill
+ gramm: PRO,lat
  paradigm: paradigm_N
  trans_ru: куда-то, не знаю куда
  trans_en: don't know where
@@ -30510,7 +30510,7 @@
 -lexeme
  lex: oranə
  stem: ora.
- gramm: V,tr,with_instr,with_ill
+ gramm: V,tr,with_instr,with_lat
  paradigm: paradigm_V
  trans_ru: кусать
  trans_en: 
@@ -30582,7 +30582,7 @@
 -lexeme
  lex: orčʼənə
  stem: orčʼ.
- gramm: V,intr,with_el,with_ill
+ gramm: V,intr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: проходить
  trans_en: pass
@@ -30834,7 +30834,7 @@
 -lexeme
  lex: otčʼə
  stem: otčʼə.//otcə.//otčʼɨ.//otcɨ.
- gramm: PRO,dem,ill
+ gramm: PRO,dem,lat
  paradigm: Comparative
  trans_ru: туда
  trans_en: there
@@ -30987,7 +30987,7 @@
 -lexeme
  lex: ošənə
  stem: oš.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: вешать; надевать
  trans_en: hang
@@ -31186,7 +31186,7 @@
 -lexeme
  lex: paldurjanə
  stem: paldurja.
- gramm: V,tr,with_gen2,with_ill
+ gramm: V,tr,with_gen2,with_lat
  paradigm: paradigm_V
  trans_ru: передвигать
  trans_en: 
@@ -31195,7 +31195,7 @@
 -lexeme
  lex: paldurtənə
  stem: paldurt.|paldurčʼ.
- gramm: V,tr,with_gen2,with_ill
+ gramm: V,tr,with_gen2,with_lat
  paradigm: paradigm_V
  trans_ru: отодвинуть, убрать
  trans_en: 
@@ -31204,7 +31204,7 @@
 -lexeme
  lex: palentənə
  stem: palent.|palenčʼ.
- gramm: V,tr,with_gen2,with_ill
+ gramm: V,tr,with_gen2,with_lat
  paradigm: paradigm_V
  trans_ru: отстранить, отложить
  trans_en: 
@@ -31789,7 +31789,7 @@
 -lexeme
  lex: pažʼanə
  stem: pažʼa.
- gramm: V,tr,with_ill,with_instr
+ gramm: V,tr,with_lat,with_instr
  paradigm: paradigm_V
  trans_ru: расплескать; рассыпать
  trans_en: splash
@@ -31798,7 +31798,7 @@
 -lexeme
  lex: pažʼgənə
  stem: pažʼg.
- gramm: V,intr,with_ill,with_instr
+ gramm: V,intr,with_lat,with_instr
  paradigm: paradigm_V
  trans_ru: брызгать
  trans_en: splash
@@ -31843,7 +31843,7 @@
 -lexeme
  lex: pedla
  stem: pedla.
- gramm: ADV,ill
+ gramm: ADV,lat
  paradigm: Comparative
  trans_ru: на улицу
  trans_en: outside
@@ -31888,7 +31888,7 @@
 -lexeme
  lex: pedlo
  stem: pedlo.
- gramm: ADV,ill
+ gramm: ADV,lat
  paradigm: Comparative
  trans_ru: на улицу
  trans_en: outside
@@ -31942,7 +31942,7 @@
 -lexeme
  lex: pegǯʼənə
  stem: pegǯʼ.
- gramm: V,intr,with_gen2,with_ill
+ gramm: V,intr,with_gen2,with_lat
  paradigm: paradigm_V
  trans_ru: убежать
  trans_en: run away
@@ -32527,7 +32527,7 @@
 -lexeme
  lex: peštənə
  stem: pešt.|peščʼ.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: отлететь, отскочить
  trans_en: bounce off
@@ -32572,7 +32572,7 @@
 -lexeme
  lex: pežʼgənə
  stem: pežʼg.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: то ли пружинить, то ли упасть
  trans_en: 
@@ -33598,7 +33598,7 @@
 -lexeme
  lex: pogranə
  stem: pogra.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: упасть, свалиться
  trans_en: fall down
@@ -33634,7 +33634,7 @@
 -lexeme
  lex: pogərjanə
  stem: pogərja.
- gramm: V,tr,with_instr,with_ill
+ gramm: V,tr,with_instr,with_lat
  paradigm: paradigm_V
  trans_ru: валить
  trans_en: fell
@@ -33643,7 +33643,7 @@
 -lexeme
  lex: pogərtənə
  stem: pogərt.|pogərčʼ.
- gramm: V,tr,with_instr,with_ill
+ gramm: V,tr,with_instr,with_lat
  paradigm: paradigm_V
  trans_ru: свалить, опрокинуть
  trans_en: fell, knock over
@@ -34192,7 +34192,7 @@
 -lexeme
  lex: postupitʼ
  stem: postupitʼ.
- gramm: V,rus,rus_inf,intr,with_ill
+ gramm: V,rus,rus_inf,intr,with_lat
  paradigm: Comparative
  trans_ru: поступить
  trans_en: 
@@ -34246,7 +34246,7 @@
 -lexeme
  lex: potanə
  stem: pota.
- gramm: V,intr,with_el,with_ill
+ gramm: V,intr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: выходить
  trans_en: come out
@@ -34300,7 +34300,7 @@
 -lexeme
  lex: potənə
  stem: pot.|počʼ.
- gramm: V,intr,with_el,with_ill
+ gramm: V,intr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: выйти; получиться; хотеться
  trans_en: come out; succeed; want
@@ -34309,7 +34309,7 @@
 -lexeme
  lex: pottənə
  stem: pott.//potʼt.|potčʼ.
- gramm: V,caus_t,tr,with_el,with_ill
+ gramm: V,caus_t,tr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: вытащить, вынести
  trans_en: take outside, pull out
@@ -35191,7 +35191,7 @@
 -lexeme
  lex: pukšʼənə
  stem: pukšʼ.
- gramm: V,intr,with_ill,act_pst_es,act_prs_p
+ gramm: V,intr,with_lat,act_pst_es,act_prs_p
  paradigm: paradigm_V
  trans_ru: сесть
  trans_en: sit down
@@ -35200,7 +35200,7 @@
 -lexeme
  lex: pukənə
  stem: puk.
- gramm: V,intr,with_ill,act_pst_s,act_prs_s
+ gramm: V,intr,with_lat,act_pst_s,act_prs_s
  paradigm: paradigm_V
  trans_ru: сидеть
  trans_en: sit
@@ -35209,7 +35209,7 @@
 -lexeme
  lex: puktənə
  stem: pukt.|pukčʼ.
- gramm: V,caus_t,intr,with_ill
+ gramm: V,caus_t,intr,with_lat
  paradigm: paradigm_V
  trans_ru: поставить, посадить; построить
  trans_en: put down; build
@@ -35372,7 +35372,7 @@
 -lexeme
  lex: punənə
  stem: pun.//pon.
- gramm: V,tr,with_ill,act_pst_es,act_prs_p
+ gramm: V,tr,with_lat,act_pst_es,act_prs_p
  paradigm: paradigm_V
  trans_ru: класть; ставить
  trans_en: put
@@ -36112,7 +36112,7 @@
 -lexeme
  lex: pəranə
  stem: pəra.//pɨra.
- gramm: V,intr,with_el,with_ill
+ gramm: V,intr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: входить
  trans_en: enter repeatedly
@@ -36184,7 +36184,7 @@
 -lexeme
  lex: pərtənə
  stem: pərt.//pɨrt.|pərčʼ.//pɨrčʼ.
- gramm: V,tr,caus_t,with_ill
+ gramm: V,tr,caus_t,with_lat
  paradigm: paradigm_V
  trans_ru: занести; крестить
  trans_en: bring inside; christen
@@ -36230,7 +36230,7 @@
 -lexeme
  lex: pərənə
  stem: pər.//pɨr.
- gramm: V,intr,with_el,with_ill
+ gramm: V,intr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: входить
  trans_en: enter
@@ -36356,7 +36356,7 @@
 -lexeme
  lex: pətʼəranə
  stem: pətʼəra.
- gramm: V,intr,with_el,with_ill
+ gramm: V,intr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: катиться, крутиться
  trans_en: 
@@ -36365,7 +36365,7 @@
 -lexeme
  lex: pətʼərjanə
  stem: pətʼərja.
- gramm: V,tr,with_el,with_ill
+ gramm: V,tr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: катать; катиться кубарем
  trans_en: 
@@ -36374,7 +36374,7 @@
 -lexeme
  lex: pətʼərtənə
  stem: pətʼərt.|pətʼərčʼ.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: покатиться, перевернуться, крутануться
  trans_en: 
@@ -36401,7 +36401,7 @@
 -lexeme
  lex: pəčʼanə
  stem: pəčʼa.
- gramm: V,impers,intr,with_ill
+ gramm: V,impers,intr,with_lat
  paradigm: paradigm_V
  trans_ru: намочить
  trans_en: 
@@ -37806,7 +37806,7 @@
 -lexeme
  lex: salʼanə
  stem: salʼa.
- gramm: V,intr,with_ill,with_ins,act_pst_mp,act_prs_mp
+ gramm: V,intr,with_lat,with_ins,act_pst_mp,act_prs_mp
  paradigm: paradigm_V
  trans_ru: бросать, кидаться
  trans_en: throw
@@ -37815,7 +37815,7 @@
 -lexeme
  lex: salʼənə
  stem: salʼ.
- gramm: V,tr,with_ill,with_instr,act_pst_es,act_prs_p
+ gramm: V,tr,with_lat,with_instr,act_pst_es,act_prs_p
  paradigm: paradigm_V
  trans_ru: бросить
  trans_en: throw
@@ -38175,7 +38175,7 @@
 -lexeme
  lex: serpaltənə
  stem: serpalt.|serpalčʼ.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: отбросить (недалеко)
  trans_en: 
@@ -39022,7 +39022,7 @@
 -lexeme
  lex: sotčʼə
  stem: sotčʼə.//sotcə.
- gramm: PRO,dem,ill
+ gramm: PRO,dem,lat
  paradigm: Comparative
  trans_ru: туда
  trans_en: 
@@ -39184,7 +39184,7 @@
 -lexeme
  lex: spisatʼ
  stem: spisatʼ.
- gramm: V,rus,rus_inf,tr,with_ill
+ gramm: V,rus,rus_inf,tr,with_lat
  paradigm: Comparative
  trans_ru: списать
  trans_en: 
@@ -40111,7 +40111,7 @@
 -lexeme
  lex: səltənə
  stem: səlt.//sult.|səlčʼ.//sulčʼ.
- gramm: V,intr,with_el,with_ill,act_pst_es,act_prs_p
+ gramm: V,intr,with_el,with_lat,act_pst_es,act_prs_p
  paradigm: paradigm_V
  trans_ru: встать
  trans_en: stand up
@@ -40156,7 +40156,7 @@
 -lexeme
  lex: səmedanə
  stem: səmeda.//smeda.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: увязнуть
  trans_en: 
@@ -41003,7 +41003,7 @@
 -lexeme
  lex: tatčʼə
  stem: tatčʼə.//tatcə.
- gramm: PRO,dem,ill
+ gramm: PRO,dem,lat
  paradigm: Comparative
  trans_ru: сюда
  trans_en: here
@@ -41390,7 +41390,7 @@
 -lexeme
  lex: ti
  stem: tinʼnʼad.
- gramm: PRO,pers,dms,ill
+ gramm: PRO,pers,dms,lat
  paradigm: Noun-case-compounding
  trans_ru: вы
  trans_en: you (plural)
@@ -41453,7 +41453,7 @@
 -lexeme
  lex: tod
  stem: toda.
- gramm: N,sg,ill
+ gramm: N,sg,lat
  paradigm: poss
  trans_ru: (память)
  trans_en: (memory)
@@ -41462,7 +41462,7 @@
 -lexeme
  lex: tod
  stem: tode.
- gramm: N,sg,ill
+ gramm: N,sg,lat
  paradigm: Comparative
  trans_ru: (память)
  trans_en: (memory)
@@ -42587,7 +42587,7 @@
 -lexeme
  lex: tulʼlʼanə
  stem: tulʼlʼa.//tulja.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: жрать; вбивать клин; конопатить
  trans_en: 
@@ -42921,7 +42921,7 @@
 -lexeme
  lex: təbanə
  stem: təba.
- gramm: V,intr,with_el,with_ill
+ gramm: V,intr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: подниматься
  trans_en: go up
@@ -42939,7 +42939,7 @@
 -lexeme
  lex: təbənə
  stem: təb.//tub.
- gramm: V,intr,with_el,with_ill
+ gramm: V,intr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: подниматься
  trans_en: go up
@@ -42957,7 +42957,7 @@
 -lexeme
  lex: təbətʼtʼanə
  stem: təbətʼtʼa.//təbətja.
- gramm: V,tr,with_el,with_ill
+ gramm: V,tr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: поднимать
  trans_en: 
@@ -43471,7 +43471,7 @@
 -lexeme
  lex: tərənə
  stem: tər.
- gramm: V,tr,with_ill,act_pst_es_p,act_prs_p
+ gramm: V,tr,with_lat,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
  trans_ru: класть, ставить; платить
  trans_en: put, place; pay
@@ -43823,7 +43823,7 @@
 -lexeme
  lex: tʼaponʼǯʼənə
  stem: tʼaponʼǯʼ.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: перепачкаться, сильно испачкаться
  trans_en: 
@@ -44030,7 +44030,7 @@
 -lexeme
  lex: tʼerənə
  stem: tʼer.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: помещаться
  trans_en: fit
@@ -44273,7 +44273,7 @@
 -lexeme
  lex: tʼopənə
  stem: tʼop.
- gramm: V,intr,with_el,with_ill
+ gramm: V,intr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: упасть
  trans_en: 
@@ -45031,7 +45031,7 @@
 -lexeme
  lex: ulʼlʼanə
  stem: ulʼlʼa.
- gramm: V,tr,with_ill,with_instr
+ gramm: V,tr,with_lat,with_instr
  paradigm: paradigm_V
  trans_ru: гнать
  trans_en: drive away
@@ -45284,7 +45284,7 @@
 -lexeme
  lex: urdənə
  stem: urd.|urǯʼ.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: поставить стоймя; прислонить
  trans_en: 
@@ -45518,7 +45518,7 @@
 -lexeme
  lex: utənə
  stem: ut.|učʼ.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: выиграть
  trans_en: win
@@ -45860,7 +45860,7 @@
 -lexeme
  lex: ušʼkətənə
  stem: ušʼkət.|ušʼkəčʼ.
- gramm: V,tr,caus,with_el,with_ill
+ gramm: V,tr,caus,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: уронить
  trans_en: drop
@@ -45986,7 +45986,7 @@
 -lexeme
  lex: ušʼənə
  stem: ušʼ.
- gramm: V,intr,with_el,with_ill,act_pst_es,act_prs_p
+ gramm: V,intr,with_el,with_lat,act_pst_es,act_prs_p
  paradigm: paradigm_V
  trans_ru: падать
  trans_en: fall
@@ -46112,7 +46112,7 @@
 -lexeme
  lex: vajənə
  stem: vaj.
- gramm: V,tr,with_el,with_ill
+ gramm: V,tr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: принести; родить
  trans_en: bring
@@ -46445,7 +46445,7 @@
 -lexeme
  lex: vatsanə
  stem: vatsa.//watsa.
- gramm: V,tr,with_dat,with_ill
+ gramm: V,tr,with_dat,with_lat
  paradigm: paradigm_V
  trans_ru: добавлять
  trans_en: add
@@ -46616,7 +46616,7 @@
 -lexeme
  lex: velʼtʼənə
  stem: velʼtʼ.//velʼt.|velʼčʼ.
- gramm: V,intr,with_instr,with_el,with_ill
+ gramm: V,intr,with_instr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: ходить
  trans_en: walk
@@ -46778,7 +46778,7 @@
 -lexeme
  lex: vetlənə
  stem: vetl.
- gramm: V,intr,with_instr,with_el,with_ill
+ gramm: V,intr,with_instr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: ходить
  trans_en: walk
@@ -46823,7 +46823,7 @@
 -lexeme
  lex: vetʼtənə
  stem: vetʼt.|vetʼčʼ.
- gramm: V,tr,with_instr,with_ill
+ gramm: V,tr,with_instr,with_lat
  paradigm: paradigm_V
  trans_ru: макать
  trans_en: 
@@ -47751,7 +47751,7 @@
 -lexeme
  lex: vortənə
  stem: vort.|vorčʼ.
- gramm: V,tr,with_instr,with_el,with_ill
+ gramm: V,tr,with_instr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: таскать; возить
  trans_en: carry
@@ -48246,7 +48246,7 @@
 -lexeme
  lex: vuttənə
  stem: vutt.|vutčʼ.//vučʼ.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: успевать; доставлять
  trans_en: manage, be in time
@@ -48345,7 +48345,7 @@
 -lexeme
  lex: vuənə
  stem: vu.
- gramm: V,intr,with_ill,act_pst_es,act_prs_p
+ gramm: V,intr,with_lat,act_pst_es,act_prs_p
  paradigm: paradigm_V
  trans_ru: добраться; успеть
  trans_en: reach, be in time
@@ -48363,7 +48363,7 @@
 -lexeme
  lex: vədənə
  stem: vəd.|vəǯʼ.
- gramm: V,intr,with_ill,act_pst_es,act_prs_p
+ gramm: V,intr,with_lat,act_pst_es,act_prs_p
  paradigm: paradigm_V
  trans_ru: лечь
  trans_en: lie down
@@ -48372,7 +48372,7 @@
 -lexeme
  lex: vədtənə
  stem: vədt.|vədčʼ.
- gramm: V,caus_t,tr,with_ill
+ gramm: V,caus_t,tr,with_lat
  paradigm: paradigm_V
  trans_ru: положить
  trans_en: lay down
@@ -48381,7 +48381,7 @@
 -lexeme
  lex: vəjənə
  stem: vəj.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: вязнуть, тонуть
  trans_en: drown
@@ -48598,7 +48598,7 @@
 -lexeme
  lex: vəžanə
  stem: vəža.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: переходить
  trans_en: cross
@@ -48635,7 +48635,7 @@
 -lexeme
  lex: vəžənə
  stem: vəž.
- gramm: V,intr,with_el,with_ill
+ gramm: V,intr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: переезжать; переходить
  trans_en: cross
@@ -48698,7 +48698,7 @@
 -lexeme
  lex: vɤldənə
  stem: vɤld.//veld.|vɤlǯʼ.//velǯʼ.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: распространять; раскидывать
  trans_en: spread
@@ -48707,7 +48707,7 @@
 -lexeme
  lex: vɤlmənə
  stem: vɤlm.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: распространиться
  trans_en: spread
@@ -48843,7 +48843,7 @@
 -lexeme
  lex: vɨgružatʼ
  stem: vɨgružatʼ.
- gramm: V,rus,rus_inf,tr,with_ill
+ gramm: V,rus,rus_inf,tr,with_lat
  paradigm: Comparative
  trans_ru: выгружать
  trans_en: 
@@ -49197,7 +49197,7 @@
 -lexeme
  lex: watənə
  stem: wat.//vat.|wačʼ.//vačʼ.
- gramm: V,tr,with_ill,act_pst_es,act_prs_p
+ gramm: V,tr,with_lat,act_pst_es,act_prs_p
  paradigm: paradigm_V
  trans_ru: прятать; хоронить
  trans_en: hide; bury
@@ -49269,7 +49269,7 @@
 -lexeme
  lex: wašʼkanə
  stem: wašʼka.
- gramm: V,intr,with_el,with_ill
+ gramm: V,intr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: спускаться пешком
  trans_en: go down
@@ -49278,7 +49278,7 @@
 -lexeme
  lex: wašʼkənə
  stem: wašʼk.//vašʼk.
- gramm: V,intr,with_el,with_ill
+ gramm: V,intr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: спускаться
  trans_en: go down
@@ -49287,7 +49287,7 @@
 -lexeme
  lex: wašʼkətʼtʼanə
  stem: wašʼkətʼtʼa.//wašʼkətja.
- gramm: V,tr,with_el,with_ill
+ gramm: V,tr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: спускать, приносить; продавать
  trans_en: 
@@ -50061,7 +50061,7 @@
 -lexeme
  lex: zdavatʼ
  stem: zdavatʼ.
- gramm: V,rus,rus_inf,tr,with_ill
+ gramm: V,rus,rus_inf,tr,with_lat
  paradigm: Comparative
  trans_ru: сдавать
  trans_en: 
@@ -50142,7 +50142,7 @@
 -lexeme
  lex: zirjanə
  stem: zirja.
- gramm: V,tr,with_ill,act_pst_mp,act_prs_mp
+ gramm: V,tr,with_lat,act_pst_mp,act_prs_mp
  paradigm: paradigm_V
  trans_ru: бросать; выбрасывать
  trans_en: throw; throw away
@@ -50169,7 +50169,7 @@
 -lexeme
  lex: zirtənə
  stem: zirt.|zirčʼ.
- gramm: V,tr,with_ill,act_pst_es,act_prs_p
+ gramm: V,tr,with_lat,act_pst_es,act_prs_p
  paradigm: paradigm_V
  trans_ru: бросить, выбросить
  trans_en: throw; throw away
@@ -50475,7 +50475,7 @@
 -lexeme
  lex: zəbənə
  stem: zəb.
- gramm: V,intr,with_dat,with_ill
+ gramm: V,intr,with_dat,with_lat
  paradigm: paradigm_V
  trans_ru: наподдать, врезать
  trans_en: 
@@ -50502,7 +50502,7 @@
 -lexeme
  lex: zəmənə
  stem: zəm.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: нырять; провалиться в болото
  trans_en: 
@@ -50908,7 +50908,7 @@
 -lexeme
  lex: čʼalʼanə
  stem: čʼalʼa.
- gramm: V,intr,with_instr,with_ill
+ gramm: V,intr,with_instr,with_lat
  paradigm: paradigm_V
  trans_ru: плевать
  trans_en: spit
@@ -50944,7 +50944,7 @@
 -lexeme
  lex: čʼalʼčʼənə
  stem: čʼalʼčʼ.
- gramm: V,intr,with_el,with_ill
+ gramm: V,intr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: отскочить
  trans_en: 
@@ -50962,7 +50962,7 @@
 -lexeme
  lex: čʼalʼǯʼənə
  stem: čʼalʼǯʼ.
- gramm: V,intr,with_instr,with_ill
+ gramm: V,intr,with_instr,with_lat
  paradigm: paradigm_V
  trans_ru: плюнуть
  trans_en: spit
@@ -50971,7 +50971,7 @@
 -lexeme
  lex: čʼalʼənə
  stem: čʼalʼ.
- gramm: V,intr,with_instr,with_ill
+ gramm: V,intr,with_instr,with_lat
  paradigm: paradigm_V
  trans_ru: плюнуть
  trans_en: spit
@@ -51520,7 +51520,7 @@
 -lexeme
  lex: čʼemtənə
  stem: čʼemt.|čʼemčʼ.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: спотыкаться, валиться
  trans_en: 
@@ -51538,7 +51538,7 @@
 -lexeme
  lex: čʼentənə
  stem: čʼent.|čʼenčʼ.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: спотыкаться, валиться
  trans_en: 
@@ -51943,7 +51943,7 @@
 -lexeme
  lex: čʼignanə
  stem: čʼigna.
- gramm: V,with_ill
+ gramm: V,with_lat
  paradigm: paradigm_V
  trans_ru: пятиться
  trans_en: 
@@ -52411,7 +52411,7 @@
 -lexeme
  lex: čʼogjanə
  stem: čʼogja.
- gramm: V,tr,with_instr,with_ill
+ gramm: V,tr,with_instr,with_lat
  paradigm: paradigm_V
  trans_ru: втыкать; колоть
  trans_en: 
@@ -52726,7 +52726,7 @@
 -lexeme
  lex: čʼože
  stem: čʼoža.
- gramm: POST,ill
+ gramm: POST,lat
  paradigm: poss
  trans_ru: в течение, подряд; до, по
  trans_en: during, in a row; up to
@@ -52870,7 +52870,7 @@
 -lexeme
  lex: čʼuməlʼtənə
  stem: čʼuməlʼt.|čʼuməlʼčʼ.
- gramm: V,tr,with_instr,with_ill
+ gramm: V,tr,with_instr,with_lat
  paradigm: paradigm_V
  trans_ru: собирать сено в копну
  trans_en: 
@@ -52915,7 +52915,7 @@
 -lexeme
  lex: čʼupanə
  stem: čʼupa.
- gramm: V,tr,with_ill,act_pst_es_mp,act_prs_mp
+ gramm: V,tr,with_lat,act_pst_es_mp,act_prs_mp
  paradigm: paradigm_V
  trans_ru: целовать
  trans_en: kiss
@@ -53221,7 +53221,7 @@
 -lexeme
  lex: čʼəgənanə
  stem: čʼəgəna.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: пятиться
  trans_en: 
@@ -53230,7 +53230,7 @@
 -lexeme
  lex: čʼəgəntənə
  stem: čʼəgənt.|čʼəgənčʼ.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: см. čʼiginʼatənə
  trans_en: 
@@ -53248,7 +53248,7 @@
 -lexeme
  lex: čʼəgənʼtənə
  stem: čʼəgənʼt.|čʼəgənʼčʼ.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: см. č'igin'atənə
  trans_en: 
@@ -53275,7 +53275,7 @@
 -lexeme
  lex: čʼəkinʼanə
  stem: čʼəkinʼa.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: пятиться
  trans_en: 
@@ -53284,7 +53284,7 @@
 -lexeme
  lex: čʼəkinʼtənə
  stem: čʼəkinʼt.|čʼəkinʼčʼ.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: споткнуться
  trans_en: 
@@ -53347,7 +53347,7 @@
 -lexeme
  lex: čʼəlčʼikənə
  stem: čʼəlčʼik.//čʼəlčʼk.
- gramm: V,intr,with_ill,detr
+ gramm: V,intr,with_lat,detr
  paradigm: paradigm_V
  trans_ru: опереться, навалиться (сознательно)
  trans_en: 
@@ -53356,7 +53356,7 @@
 -lexeme
  lex: čʼəlčʼikənə
  stem: čʼəlčʼək.
- gramm: V,intr,with_ill,detr
+ gramm: V,intr,with_lat,detr
  paradigm: Verb-imp-neg-empty
  trans_ru: опереться, навалиться (сознательно)
  trans_en: 
@@ -53726,7 +53726,7 @@
 -lexeme
  lex: čʼəsənə
  stem: čʼəs.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: вязнуть (в однородной среде)
  trans_en: 
@@ -53789,7 +53789,7 @@
 -lexeme
  lex: čʼəškəlʼtənə
  stem: čʼəškəlʼt.|čʼəškəlʼčʼ.
- gramm: V,intr,with_dat,with_ill
+ gramm: V,intr,with_dat,with_lat
  paradigm: paradigm_V
  trans_ru: дать щелбан
  trans_en: 
@@ -53915,7 +53915,7 @@
 -lexeme
  lex: čʼəžanə
  stem: čʼəža.
- gramm: V,tr,with_instr,with_dat,with_ill
+ gramm: V,tr,with_instr,with_dat,with_lat
  paradigm: paradigm_V
  trans_ru: лягать, пинать
  trans_en: 
@@ -53987,7 +53987,7 @@
 -lexeme
  lex: čʼəžənə
  stem: čʼəž.
- gramm: V,tr,with_dat,with_ill
+ gramm: V,tr,with_dat,with_lat
  paradigm: paradigm_V
  trans_ru: ударить ногой, пнуть, лягнуть
  trans_en: 
@@ -54221,7 +54221,7 @@
 -lexeme
  lex: šaganə
  stem: šaga.
- gramm: V,intr,with_ill,rus
+ gramm: V,intr,with_lat,rus
  paradigm: paradigm_V
  trans_ru: шагать
  trans_en: 
@@ -54230,7 +54230,7 @@
 -lexeme
  lex: šagǯʼənə
  stem: šagǯʼ.
- gramm: V,intr,with_ill,rus
+ gramm: V,intr,with_lat,rus
  paradigm: paradigm_V
  trans_ru: шагнуть, перешагнуть
  trans_en: 
@@ -55175,7 +55175,7 @@
 -lexeme
  lex: šlačʼketənə
  stem: šlačʼket.|šlačʼkečʼ.
- gramm: V,tr,with_instr,with_ill
+ gramm: V,tr,with_instr,with_lat
  paradigm: paradigm_V
  trans_ru: шлёпнуть
  trans_en: 
@@ -55868,7 +55868,7 @@
 -lexeme
  lex: šukkənə
  stem: šukk.
- gramm: V,intr,with_dat,with_instr,with_ill,act_pst_es_mp,act_prs_mp
+ gramm: V,intr,with_dat,with_instr,with_lat,act_pst_es_mp,act_prs_mp
  paradigm: paradigm_V
  trans_ru: бить; стучать
  trans_en: hit
@@ -57491,7 +57491,7 @@
 -lexeme
  lex: šʼinʼmašʼkənə
  stem: šʼinʼmašʼk.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: влюбиться, симпатизировать
  trans_en: fall in love
@@ -58117,7 +58117,7 @@
 -lexeme
  lex: šʼumarijanə
  stem: šʼumarija.
- gramm: V,tr,with_instr,with_ill
+ gramm: V,tr,with_instr,with_lat
  paradigm: paradigm_V
  trans_ru: привязывать шерсть или лен для прядения
  trans_en: 
@@ -58306,7 +58306,7 @@
 -lexeme
  lex: šʼužʼžʼənə
  stem: šʼužʼžʼ.
- gramm: V,tr,with_ill
+ gramm: V,tr,with_lat
  paradigm: paradigm_V
  trans_ru: нанизывать
  trans_en: 
@@ -58315,7 +58315,7 @@
 -lexeme
  lex: šʼužʼənə
  stem: šʼužʼ.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: дотянуться, достать
  trans_en: reach, get
@@ -58792,7 +58792,7 @@
 -lexeme
  lex: žugənə
  stem: žug.
- gramm: V,tr,with_instr,with_ill,with_dat,act_pst_es_mp,act_prs_mp
+ gramm: V,tr,with_instr,with_lat,with_dat,act_pst_es_mp,act_prs_mp
  paradigm: paradigm_V
  trans_ru: бить; забивать
  trans_en: beat, fight
@@ -59494,7 +59494,7 @@
 -lexeme
  lex: ǯʼokanə
  stem: ǯʼoka.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: тонуть
  trans_en: drown
@@ -59854,7 +59854,7 @@
 -lexeme
  lex: ǯʼutənə
  stem: ǯʼut.//ǯut.|ǯʼučʼ.//ǯučʼ.
- gramm: V,tr,with_instr,with_el,with_ill
+ gramm: V,tr,with_instr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: поднимать
  trans_en: lift
@@ -59863,7 +59863,7 @@
 -lexeme
  lex: ǯʼutʼtʼanə
  stem: ǯʼutʼtʼa.//ǯʼutʼja.//ǯʼutja.
- gramm: V,tr,with_instr,with_el,with_ill
+ gramm: V,tr,with_instr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: поднимать
  trans_en: lift
@@ -60747,7 +60747,7 @@
 -lexeme
  lex: əsjanə
  stem: əsja.
- gramm: V,tr,with_dat,with_ill
+ gramm: V,tr,with_dat,with_lat
  paradigm: paradigm_V
  trans_ru: посылать, отправлять
  trans_en: 
@@ -60756,7 +60756,7 @@
 -lexeme
  lex: əstənə
  stem: əst.|əsčʼ.
- gramm: V,tr,with_dat,tr,with_ill
+ gramm: V,tr,with_dat,tr,with_lat
  paradigm: paradigm_V
  trans_ru: послать, отправить
  trans_en: send
@@ -60883,7 +60883,7 @@
 -lexeme
  lex: əštənə
  stem: əšt.|əščʼ.
- gramm: V,tr,caus_t,with_ill
+ gramm: V,tr,caus_t,with_lat
  paradigm: paradigm_V
  trans_ru: потерять
  trans_en: lose
@@ -60910,7 +60910,7 @@
 -lexeme
  lex: əšənə
  stem: əš.
- gramm: V,intr,with_ill
+ gramm: V,intr,with_lat
  paradigm: paradigm_V
  trans_ru: потеряться, пропасть
  trans_en: get lost
