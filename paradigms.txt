@@ -880,11 +880,11 @@
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
  -flex: .e<.>
   regex-prev: ^.*[^<>.ə][<>.]*$
-  gloss: ILL
-  gramm: case_comp,ill
+  gloss: LAT
+  gramm: case_comp,lat
  -flex: .je<.>
-  gramm: case_comp,ill
-  gloss: ILL
+  gramm: case_comp,lat
+  gloss: LAT
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
  -flex: .əšʼ<.>
   regex-prev: ^.*[^<>.ə][<>.]*$
@@ -977,16 +977,16 @@
   gloss: LOC|3SG.POSS
   gramm: case_comp,poss_comp,loc
  -flex: .a|z<.>
-  gloss: ILL|3SG.POSS
-  gramm: case_comp,poss_comp,ill
+  gloss: LAT|3SG.POSS
+  gramm: case_comp,poss_comp,lat
  -flex: .ja|z<.>
   gloss: LOC|3SG.POSS
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   gramm: case_comp,poss_comp,loc
  -flex: .ja|z<.>
-  gloss: ILL|3SG.POSS
+  gloss: LAT|3SG.POSS
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
-  gramm: case_comp,poss_comp,ill
+  gramm: case_comp,poss_comp,lat
  -flex: .išʼt|əz<.>
   gloss: EL|3SG.POSS
   regex-prev: ^.*[^<>.ə][<>.]*$
@@ -1033,8 +1033,8 @@
   gloss: LOC
   gramm: case_comp,loc
  -flex: .ə<.>
-  gloss: ILL
-  gramm: case_comp,ill
+  gloss: LAT
+  gramm: case_comp,lat
  -flex: .əšʼ<.>
   gloss: EL
   gramm: case_comp,el
@@ -1088,8 +1088,8 @@
   gloss: LOC|3SG.POSS
   gramm: case_comp,poss_comp,loc
  -flex: .a|z<.>
-  gloss: ILL|3SG.POSS
-  gramm: case_comp,poss_comp,ill
+  gloss: LAT|3SG.POSS
+  gramm: case_comp,poss_comp,lat
  -flex: .išʼt|əz<.>
   gloss: EL|3SG.POSS
   gramm: case_comp,poss_comp,el
@@ -1234,17 +1234,17 @@
   gloss: INS
   paradigm: Noun-case-compounding
  -flex: .ə<.>//.jə<.>//.ɨ<.>//.jɨ<.>
-  gramm: ill
-  gloss: ILL
+  gramm: lat
+  gloss: LAT
   paradigm: Comparative
   regex-gramm: ^.*rel_n.*$
 
 -paradigm: Noun-case-korka
  -flex: .<.>
-  gramm: sg,ill
+  gramm: sg,lat
   paradigm: Comparative
  -flex: .<.>
-  gramm: sg,ill
+  gramm: sg,lat
   paradigm: poss
  -flex: .<.>
   gramm: sg,loc
@@ -1371,32 +1371,32 @@
   regex-prev: ^(vorčʼa|možga|junda|kwa)[<>.]*$
   paradigm: Noun-case-compounding
  -flex: .e<.>
-  gramm: ill
-  gloss: ILL
+  gramm: lat
+  gloss: LAT
   paradigm: Comparative
  -flex: .a<.>
-  gramm: ill
-  gloss: ILL
+  gramm: lat
+  gloss: LAT
   regex-prev: ^pal[<>.]*$
   paradigm: Comparative
  -flex: .a|nʼ|e<.>
-  gramm: ill,dms,ill
-  gloss: ILL|DMS|ILL
+  gramm: lat,dms
+  gloss: LAT|DMS|LAT
   regex-prev: ^pal[<>.]*$
   paradigm: Comparative
  -flex: .la<.>
-  gramm: ill
-  gloss: ILL
+  gramm: lat
+  gloss: LAT
   regex-prev: ^(vorčʼa|možga|junda|kwa)[<>.]*$
   paradigm: Noun-case-compounding
  -flex: .ə<.>//.ɨ<.>
-  gramm: ill
-  gloss: ILL
+  gramm: lat
+  gloss: LAT
   paradigm: Comparative
   regex-gramm: ^.*rel_n.*$
  -flex: .je<.>
-  gramm: ill
-  gloss: ILL
+  gramm: lat
+  gloss: LAT
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   paradigm: Comparative
  -flex: .əšʼ<.>//.ɨšʼ<.>
@@ -1468,8 +1468,8 @@
   gloss: DMS|LOC
   paradigm: Noun-case-compounding
  -flex: .nʼ|e<.>
-  gramm: dms,ill
-  gloss: DMS|ILL
+  gramm: dms,lat
+  gloss: DMS|LAT
   paradigm: Noun-case-compounding
  -flex: .nʼ|əšʼ<.>
   gramm: dms,el
@@ -1525,7 +1525,7 @@
   gramm: loc
   gloss: LOC
 # -flex: .e<.>
-#  gramm: ill
+#  gramm: lat
  -flex: .əšʼ<.>
   gramm: el
   gloss: EL
@@ -1549,8 +1549,8 @@
   gloss: DMS|LOC
   paradigm: Noun-case-compounding
  -flex: .nʼ|e<.>
-  gramm: dms,ill
-  gloss: DMS|ILL
+  gramm: dms,lat
+  gloss: DMS|LAT
   paradigm: Noun-case-compounding
  -flex: .nʼ|əšʼ<.>
   gramm: dms,el
@@ -1641,15 +1641,15 @@
   gramm: loc,1sg
   gloss: LOC|1SG.POSS
  -flex: .a|m<.>
-  gramm: ill,1sg
-  gloss: ILL|1SG.POSS
+  gramm: lat,1sg
+  gloss: LAT|1SG.POSS
  -flex: .ja|m<.>
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   gramm: loc,1sg
   gloss: LOC|1SG.POSS
  -flex: .ja|m<.>
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
-  gramm: ill,1sg
+  gramm: lat,1sg
   gloss: LOC|1SG.POSS
  -flex: .išʼt|əm<.>
   gramm: el,1sg
@@ -1673,8 +1673,8 @@
   gloss: 1SG.POSS|DMS|LOC
   paradigm: Noun-case-compounding
  -flex: .e|nʼ|e<.>
-  gramm: dms,ill,1sg
-  gloss: 1SG.POSS|DMS|ILL
+  gramm: dms,lat,1sg
+  gloss: 1SG.POSS|DMS|LAT
   paradigm: Noun-case-compounding
  -flex: .e|nʼ|əšʼ<.>
   gramm: dms,el,1sg
@@ -1695,8 +1695,8 @@
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   paradigm: Noun-case-compounding
  -flex: .je|nʼ|e<.>
-  gramm: dms,ill,1sg
-  gloss: 1SG.POSS|DMS|ILL
+  gramm: dms,lat,1sg
+  gloss: 1SG.POSS|DMS|LAT
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   paradigm: Noun-case-compounding
  -flex: .je|nʼ|əšʼ<.>
@@ -1792,16 +1792,16 @@
   gramm: loc,2sg
   gloss: LOC|2SG.POSS
  -flex: .a|d<.>
-  gramm: ill,2sg
-  gloss: ILL|2SG.POSS
+  gramm: lat,2sg
+  gloss: LAT|2SG.POSS
  -flex: .ja|d<.>
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   gloss: LOC|2SG.POSS
   gramm: loc,2sg
  -flex: .ja|d<.>
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
-  gloss: ILL|2SG.POSS
-  gramm: ill,2sg
+  gloss: LAT|2SG.POSS
+  gramm: lat,2sg
  -flex: .išʼt|əd<.>
   gramm: el,2sg
   gloss: EL|2SG.POSS
@@ -1824,8 +1824,8 @@
   gloss: 2SG.POSS|DMS|LOC
   paradigm: Noun-case-compounding
  -flex: .ed|nʼ|e<.>
-  gramm: dms,ill,2sg
-  gloss: 2SG.POSS|DMS|ILL
+  gramm: dms,lat,2sg
+  gloss: 2SG.POSS|DMS|LAT
   paradigm: Noun-case-compounding
  -flex: .ed|nʼ|əšʼ<.>
   gramm: dms,el,2sg
@@ -1846,8 +1846,8 @@
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   paradigm: Noun-case-compounding
  -flex: .jed|nʼ|e<.>
-  gramm: dms,ill,2sg
-  gloss: 2SG.POSS|DMS|ILL
+  gramm: dms,lat,2sg
+  gloss: 2SG.POSS|DMS|LAT
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   paradigm: Noun-case-compounding
  -flex: .jed|nʼ|əšʼ<.>
@@ -1944,16 +1944,16 @@
   gramm: loc,3sg
   gloss: LOC|3SG.POSS
  -flex: .a|z<.>
-  gramm: ill,3sg
-  gloss: ILL|3SG.POSS
+  gramm: lat,3sg
+  gloss: LAT|3SG.POSS
  -flex: .ja|z<.>
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   gloss: LOC|3SG.POSS
   gramm: loc,3sg
  -flex: .ja|z<.>
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
-  gloss: ILL|3SG.POSS
-  gramm: ill,3sg
+  gloss: LAT|3SG.POSS
+  gramm: lat,3sg
  -flex: .išʼt|əz<.>
   gramm: el,3sg
   gloss: EL|3SG.POSS
@@ -1976,8 +1976,8 @@
   gloss: 3SG.POSS|DMS|LOC
   paradigm: Noun-case-compounding
  -flex: .ez|nʼ|e<.>
-  gramm: dms,ill,3sg
-  gloss: 3SG.POSS|DMS|ILL
+  gramm: dms,lat,3sg
+  gloss: 3SG.POSS|DMS|LAT
   paradigm: Noun-case-compounding
  -flex: .ez|nʼ|əšʼ<.>
   gramm: dms,el,3sg
@@ -1998,8 +1998,8 @@
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   paradigm: Noun-case-compounding
  -flex: .jez|nʼ|e<.>
-  gramm: dms,ill,3sg
-  gloss: 3SG.POSS|DMS|ILL
+  gramm: dms,lat,3sg
+  gloss: 3SG.POSS|DMS|LAT
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   paradigm: Noun-case-compounding
  -flex: .jez|nʼ|əšʼ<.>
@@ -2092,16 +2092,16 @@
   gramm: loc,1sg
   gloss: LOC|1SG.POSS
  -flex: .a|m<.>
-  gramm: ill,1sg
-  gloss: ILL|1SG.POSS
+  gramm: lat,1sg
+  gloss: LAT|1SG.POSS
  -flex: .ja|m<.>
   gloss: LOC|1SG.POSS
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   gramm: loc,1sg
  -flex: .ja|m<.>
-  gloss: ILL|1SG.POSS
+  gloss: LAT|1SG.POSS
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
-  gramm: ill,1sg
+  gramm: lat,1sg
  -flex: .išʼt|əm<.>
   gloss: EL|1SG.POSS
   gramm: el,1sg
@@ -2124,8 +2124,8 @@
   gloss: 1SG.POSS|DMS|LOC
   paradigm: Noun-case-compounding
  -flex: .ə|nʼ|e<.>
-  gramm: dms,ill,1sg
-  gloss: 1SG.POSS|DMS|ILL
+  gramm: dms,lat,1sg
+  gloss: 1SG.POSS|DMS|LAT
   paradigm: Noun-case-compounding
  -flex: .ə|nʼ|əšʼ<.>
   gramm: dms,el,1sg
@@ -2146,8 +2146,8 @@
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   paradigm: Noun-case-compounding
  -flex: .jə|nʼ|e<.>
-  gramm: dms,ill,1sg
-  gloss: 1SG.POSS|DMS|ILL
+  gramm: dms,lat,1sg
+  gloss: 1SG.POSS|DMS|LAT
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   paradigm: Noun-case-compounding
  -flex: .jə|nʼ|əšʼ<.>
@@ -2243,16 +2243,16 @@
   gramm: loc,2sg
   gloss: LOC|2SG.POSS
  -flex: .a|d<.>
-  gramm: ill,2sg
-  gloss: ILL|2SG.POSS
+  gramm: lat,2sg
+  gloss: LAT|2SG.POSS
  -flex: .ja|d<.>
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   gramm: loc,2sg
   gloss: LOC|2SG.POSS
  -flex: .ja|d<.>
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
-  gramm: ill,2sg
-  gloss: ILL|2SG.POSS
+  gramm: lat,2sg
+  gloss: LAT|2SG.POSS
  -flex: .išʼt|əd<.>
   gramm: el,2sg
   gloss: EL|2SG.POSS
@@ -2275,8 +2275,8 @@
   gloss: 2SG.POSS|DMS|LOC
   paradigm: Noun-case-compounding
  -flex: .əd|nʼ|e<.>
-  gramm: dms,ill,2sg
-  gloss: 2SG.POSS|DMS|ILL
+  gramm: dms,lat,2sg
+  gloss: 2SG.POSS|DMS|LAT
   paradigm: Noun-case-compounding
  -flex: .əd|nʼ|əšʼ<.>
   gramm: dms,el,2sg
@@ -2297,8 +2297,8 @@
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   paradigm: Noun-case-compounding
  -flex: .jəd|nʼ|e<.>
-  gramm: dms,ill,2sg
-  gloss: 2SG.POSS|DMS|ILL
+  gramm: dms,lat,2sg
+  gloss: 2SG.POSS|DMS|LAT
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   paradigm: Noun-case-compounding
  -flex: .jəd|nʼ|əšʼ<.>
@@ -2395,16 +2395,16 @@
   gramm: loc,3sg
   gloss: LOC|3SG.POSS
  -flex: .a|z<.>
-  gramm: ill,3sg
-  gloss: ILL|3SG.POSS
+  gramm: lat,3sg
+  gloss: LAT|3SG.POSS
  -flex: .ja|z<.>
   gloss: LOC|3SG.POSS
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   gramm: loc,3sg
  -flex: .ja|z<.>
-  gloss: ILL|3SG.POSS
+  gloss: LAT|3SG.POSS
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
-  gramm: ill,3sg
+  gramm: lat,3sg
  -flex: .išʼt|əz<.>
   gramm: el,3sg
   gloss: EL|3SG.POSS
@@ -2427,8 +2427,8 @@
   gloss: 3SG.POSS|DMS|LOC
   paradigm: Noun-case-compounding
  -flex: .əz|nʼ|e<.>
-  gramm: dms,ill,3sg
-  gloss: 3SG.POSS|DMS|ILL
+  gramm: dms,lat,3sg
+  gloss: 3SG.POSS|DMS|LAT
   paradigm: Noun-case-compounding
  -flex: .əz|nʼ|əšʼ<.>
   gramm: dms,el,3sg
@@ -2449,8 +2449,8 @@
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   paradigm: Noun-case-compounding
  -flex: .jəz|nʼ|e<.>
-  gramm: dms,ill,3sg
-  gloss: 3SG.POSS|DMS|ILL
+  gramm: dms,lat,3sg
+  gloss: 3SG.POSS|DMS|LAT
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   paradigm: Noun-case-compounding
  -flex: .jəz|nʼ|əšʼ<.>
@@ -2511,16 +2511,16 @@
   gramm: loc,1pl
   gloss: LOC|1PL.POSS
  -flex: .a|mə<.>
-  gramm: ill,1pl
-  gloss: ILL|1PL.POSS
+  gramm: lat,1pl
+  gloss: LAT|1PL.POSS
  -flex: .ja|mə<.>
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   gramm: loc,1pl
   gloss: LOC|1PL.POSS
  -flex: .ja|mə<.>
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
-  gramm: ill,1pl
-  gloss: ILL|1PL.POSS
+  gramm: lat,1pl
+  gloss: LAT|1PL.POSS
  -flex: .išʼt|əmə<.>
   gramm: el,1pl
   gloss: EL|1PL.POSS
@@ -2543,8 +2543,8 @@
   gloss: 1PL.POSS|DMS|LOC
   paradigm: Noun-case-compounding
  -flex: .mə|nʼ|e<.>
-  gramm: dms,ill,1pl
-  gloss: 1PL.POSS|DMS|ILL
+  gramm: dms,lat,1pl
+  gloss: 1PL.POSS|DMS|LAT
   paradigm: Noun-case-compounding
  -flex: .mə|nʼ|əšʼ<.>
   gramm: dms,el,1pl
@@ -2605,16 +2605,16 @@
   gramm: loc,2pl
   gloss: LOC|2PL.POSS
  -flex: .a|də<.>
-  gramm: ill,2pl
-  gloss: ILL|2PL.POSS
+  gramm: lat,2pl
+  gloss: LAT|2PL.POSS
  -flex: .ja|də<.>
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   gloss: LOC|2PL.POSS
   gramm: loc,2pl
  -flex: .ja|də<.>
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
-  gramm: ill,2pl
-  gloss: ILL|2PL.POSS
+  gramm: lat,2pl
+  gloss: LAT|2PL.POSS
  -flex: .išʼt|ədə<.>
   gramm: el,2pl
   gloss: EL|2PL.POSS
@@ -2637,8 +2637,8 @@
   gloss: 2PL.POSS|DMS|LOC
   paradigm: Noun-case-compounding
  -flex: .də|nʼ|e<.>
-  gramm: dms,ill,2pl
-  gloss: 2PL.POSS|DMS|ILL
+  gramm: dms,lat,2pl
+  gloss: 2PL.POSS|DMS|LAT
   paradigm: Noun-case-compounding
  -flex: .də|nʼ|əšʼ<.>
   gramm: dms,el,2pl
@@ -2660,8 +2660,8 @@
   regex-prev: .*[kpstfxčš]ʼ?[<>.]*$
   paradigm: Noun-case-compounding
  -flex: .tə|nʼ|e<.>
-  gramm: dms,ill,2pl
-  gloss: 2PL.POSS|DMS|ILL
+  gramm: dms,lat,2pl
+  gloss: 2PL.POSS|DMS|LAT
   regex-prev: .*[kpstfxčš]ʼ?[<>.]*$
   paradigm: Noun-case-compounding
  -flex: .tə|nʼ|əšʼ<.>
@@ -2726,16 +2726,16 @@
   gramm: loc,3pl
   gloss: LOC|3PL.POSS
  -flex: .a|zə<.>
-  gramm: ill,3pl
-  gloss: ILL|3PL.POSS
+  gramm: lat,3pl
+  gloss: LAT|3PL.POSS
  -flex: .ja|zə<.>
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
   gloss: LOC|3PL.POSS
   gramm: loc,3pl
  -flex: .ja|zə<.>
   regex-prev: ^.*[aoiueəɤɨ][<>.]*$
-  gloss: ILL|3PL.POSS
-  gramm: ill,3pl
+  gloss: LAT|3PL.POSS
+  gramm: lat,3pl
  -flex: .išʼt|əzə<.>
   gramm: el,3pl
   gloss: EL|3PL.POSS
@@ -2758,8 +2758,8 @@
   gloss: 3PL.POSS|DMS|LOC
   paradigm: Noun-case-compounding
  -flex: .zə|nʼ|e<.>
-  gramm: dms,ill,3pl
-  gloss: 3PL.POSS|DMS|ILL
+  gramm: dms,lat,3pl
+  gloss: 3PL.POSS|DMS|LAT
   paradigm: Noun-case-compounding
  -flex: .zə|nʼ|əšʼ<.>
   gramm: dms,el,3pl
@@ -2781,8 +2781,8 @@
   regex-prev: .*[kpstfxčš]ʼ?[<>.]*$
   paradigm: Noun-case-compounding
  -flex: .sə|nʼ|e<.>
-  gramm: dms,ill,3pl
-  gloss: 3PL.POSS|DMS|ILL
+  gramm: dms,lat,3pl
+  gloss: 3PL.POSS|DMS|LAT
   regex-prev: .*[kpstfxčš]ʼ?[<>.]*$
   paradigm: Noun-case-compounding
  -flex: .sə|nʼ|əšʼ<.>
@@ -2848,8 +2848,8 @@
   gramm: loc,1sg
   gloss: LOC|1SG.POSS
  -flex: .a|m<.>//.ja|m<.>
-  gramm: ill,1sg
-  gloss: ILL|1SG.POSS
+  gramm: lat,1sg
+  gloss: LAT|1SG.POSS
  -flex: .išʼt|əm<.>
   gramm: el,1sg
   gloss: EL|1SG.POSS
@@ -2899,8 +2899,8 @@
   gramm: loc,2sg
   gloss: LOC|2SG.POSS
  -flex: .a|d<.>//.ja|d<.>
-  gramm: ill,2sg
-  gloss: ILL|2SG.POSS
+  gramm: lat,2sg
+  gloss: LAT|2SG.POSS
  -flex: .išʼt|əd<.>
   gramm: el,2sg
   gloss: EL|2SG.POSS
@@ -2951,8 +2951,8 @@
   gramm: loc,3sg
   gloss: LOC|3SG.POSS
  -flex: .a|z<.>//.ja|z<.>
-  gramm: ill,3sg
-  gloss: ILL|3SG.POSS
+  gramm: lat,3sg
+  gloss: LAT|3SG.POSS
  -flex: .išʼt|əz<.>
   gramm: el,3sg
   gloss: EL|3SG.POSS
@@ -2969,8 +2969,8 @@
   gramm: dms,loc,3sg
   gloss: 3SG.POSS|DMS|LOC
  -flex: .iz|nʼ|e<.>
-  gramm: dms,ill,3sg
-  gloss: 3SG.POSS|DMS|ILL
+  gramm: dms,lat,3sg
+  gloss: 3SG.POSS|DMS|LAT
  -flex: .iz|nʼ|əšʼ<.>
   gramm: dms,el,3sg
   gloss: 3SG.POSS|DMS|EL

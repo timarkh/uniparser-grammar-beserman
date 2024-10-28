@@ -751,8 +751,8 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Иванов
- trans_en: 
- gloss: STEM
+ trans_en: Ivanov
+ gloss: Ivanov
 
 -lexeme
  lex: Ivanova
@@ -760,8 +760,8 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Иванова
- trans_en: 
- gloss: STEM
+ trans_en: Ivanova
+ gloss: Ivanova
 
 -lexeme
  lex: Ivanovna
@@ -769,8 +769,8 @@
  gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Ивановна
- trans_en: 
- gloss: STEM
+ trans_en: Ivanovna
+ gloss: Ivanovna
 
 -lexeme
  lex: Iž
@@ -805,8 +805,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Яга
- trans_en: 
- gloss: STEM
+ trans_en: Yaga
+ gloss: Yaga
 
 -lexeme
  lex: Jako
@@ -814,8 +814,8 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Яко (домовое имя)
- trans_en: 
- gloss: STEM
+ trans_en: Yako (cognomen)
+ gloss: Yako
 
 -lexeme
  lex: Jar
@@ -832,8 +832,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Яргалас
- trans_en: 
- gloss: STEM
+ trans_en: Yargalas
+ gloss: Yargalas
 
 -lexeme
  lex: Jarskij
@@ -841,8 +841,8 @@
  gramm: A,rus,topn
  paradigm: paradigm_A
  trans_ru: Ярский
- trans_en: 
- gloss: STEM
+ trans_en: Yar (district)
+ gloss: Yar
 
 -lexeme
  lex: Jebək
@@ -850,8 +850,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Йебык (лес)
- trans_en: 
- gloss: STEM
+ trans_en: Yebyk (forest)
+ gloss: Yebyk
 
 -lexeme
  lex: Jefim
@@ -859,8 +859,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Ефим
- trans_en: 
- gloss: STEM
+ trans_en: Yefim
+ gloss: Yefim
 
 -lexeme
  lex: Jekatʼerina
@@ -868,8 +868,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Екатерина
- trans_en: 
- gloss: STEM
+ trans_en: Ekaterina
+ gloss: Ekaterina
 
 -lexeme
  lex: Jeva
@@ -877,8 +877,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Ева
- trans_en: 
- gloss: STEM
+ trans_en: Eva
+ gloss: Eva
 
 -lexeme
  lex: Ježgurt
@@ -958,8 +958,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Ева
- trans_en: 
- gloss: STEM
+ trans_en: Eva
+ gloss: Eva
 
 -lexeme
  lex: Kafkaz
@@ -967,8 +967,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Кавказ
- trans_en: 
- gloss: STEM
+ trans_en: Caucasus
+ gloss: Caucasus
 
 -lexeme
  lex: Kalašnʼikov
@@ -976,8 +976,8 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Калашников
- trans_en: 
- gloss: STEM
+ trans_en: Kalashnikov
+ gloss: Kalashnikov
 
 -lexeme
  lex: Kamki
@@ -985,8 +985,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Камки
- trans_en: 
- gloss: STEM
+ trans_en: Kamki
+ gloss: Kamki
 
 -lexeme
  lex: Kamčʼatka
@@ -994,8 +994,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Камчатка
- trans_en: 
- gloss: STEM
+ trans_en: Kamchatka
+ gloss: Kamchatka
 
 -lexeme
  lex: Kanada
@@ -1030,8 +1030,8 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Каток (домовое имя)
- trans_en: 
- gloss: STEM
+ trans_en: Katok (cognomen)
+ gloss: Katok
 
 -lexeme
  lex: Katʼa
@@ -1039,8 +1039,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Катя
- trans_en: 
- gloss: STEM
+ trans_en: Katya
+ gloss: Katya
 
 -lexeme
  lex: Katʼerin
@@ -1048,8 +1048,8 @@
  gramm: N,PN
  paradigm: paradigm_N
  trans_ru: Екатеринин (день)
- trans_en: 
- gloss: STEM
+ trans_en: Catherine's day
+ gloss: Catherine's.day
 
 -lexeme
  lex: Kazanʼ
@@ -1066,8 +1066,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Кестым
- trans_en: 
- gloss: STEM
+ trans_en: Kestym
+ gloss: Kestym
 
 -lexeme
  lex: Kijongurt
@@ -1084,8 +1084,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Кирилл
- trans_en: 
- gloss: STEM
+ trans_en: Kirill
+ gloss: Kirill
 
 -lexeme
  lex: Kitaj
@@ -1102,8 +1102,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Кизнер
- trans_en: 
- gloss: STEM
+ trans_en: Kizner
+ gloss: Kizner
 
 -lexeme
  lex: Kladbišʼšʼo
@@ -1111,8 +1111,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Скотомогильник
- trans_en: 
- gloss: STEM
+ trans_en: Livestock cemetery
+ gloss: Livestock.cemetery
 
 -lexeme
  lex: Klaša
@@ -1120,8 +1120,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Клаша
- trans_en: 
- gloss: STEM
+ trans_en: Klasha
+ gloss: Klasha
 
 -lexeme
  lex: Koblanʼuk
@@ -1129,8 +1129,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Кобланюк (Большой или Малый)
- trans_en: 
- gloss: STEM
+ trans_en: Koblanyuk (Big or Small)
+ gloss: Koblanyuk
 
 -lexeme
  lex: Kolumb
@@ -1138,8 +1138,8 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Колумб
- trans_en: 
- gloss: STEM
+ trans_en: Columbus
+ gloss: Columbus
 
 -lexeme
  lex: Kolʼa
@@ -1156,8 +1156,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Костя
- trans_en: 
- gloss: STEM
+ trans_en: Kostya (Konstantin)
+ gloss: Kostya
 
 -lexeme
  lex: Kostʼik
@@ -1165,8 +1165,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Костик
- trans_en: 
- gloss: STEM
+ trans_en: Kostik (Konstantin)
+ gloss: Kostik
 
 -lexeme
  lex: Kraskino
@@ -1174,8 +1174,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Краскино
- trans_en: 
- gloss: STEM
+ trans_en: Kraskino
+ gloss: Kraskino
 
 -lexeme
  lex: Kreməlʼ
@@ -1201,8 +1201,8 @@
  gramm: N,PN
  paradigm: paradigm_N
  trans_ru: Кузьмин (день)
- trans_en: 
- gloss: STEM
+ trans_en: Cosma's (day)
+ gloss: Cosma's.day
 
 -lexeme
  lex: Kwatʼo
@@ -1210,8 +1210,8 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Кватё (домовое имя)
- trans_en: 
- gloss: STEM
+ trans_en: Kwatyo (cognomen)
+ gloss: Kwatyo
 
 -lexeme
  lex: Kwatʼčʼinʼəgurt
@@ -1237,8 +1237,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Ксюша
- trans_en: 
- gloss: STEM
+ trans_en: Ksyusha (Ksenia)
+ gloss: Ksyusha
 
 -lexeme
  lex: Kəbančʼa
@@ -1273,8 +1273,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Промоина
- trans_en: 
- gloss: STEM
+ trans_en: Ravine
+ gloss: Ravine
 
 -lexeme
  lex: Kəčʼon
@@ -1300,8 +1300,8 @@
  gramm: N,PN
  paradigm: paradigm_N
  trans_ru: Луч (фирма)
- trans_en: 
- gloss: STEM
+ trans_en: Luch (enterprise)
+ gloss: Luch
 
 -lexeme
  lex: Ləktonna
@@ -1318,8 +1318,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Лякбан
- trans_en: 
- gloss: STEM
+ trans_en: Lyakban
+ gloss: Lyakban
 
 -lexeme
  lex: Lʼakšur
@@ -1336,7 +1336,7 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Лекма
- trans_en: Lekma
+ trans_en: Lekma (river)
  gloss: Lekma
 
 -lexeme
@@ -1345,7 +1345,7 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Лема
- trans_en: Lema
+ trans_en: Lema (river)
  gloss: Lema
 
 -lexeme
@@ -1390,8 +1390,8 @@
  gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Леонидовна
- trans_en: 
- gloss: STEM
+ trans_en: Leonidovna
+ gloss: Leonidovna
 
 -lexeme
  lex: Lʼera
@@ -1399,8 +1399,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Лера
- trans_en: 
- gloss: STEM
+ trans_en: Lera (Valeria)
+ gloss: Lera
 
 -lexeme
  lex: Lʼida
@@ -1408,8 +1408,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Лида
- trans_en: 
- gloss: STEM
+ trans_en: Lida (Lidia)
+ gloss: Lida
 
 -lexeme
  lex: Lʼitva
@@ -1426,8 +1426,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Лиза
- trans_en: 
- gloss: STEM
+ trans_en: Liza (Elizaveta)
+ gloss: Liza
 
 -lexeme
  lex: Lʼogonʼ
@@ -1435,8 +1435,8 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Лёгонь (домовое имя)
- trans_en: 
- gloss: STEM
+ trans_en: Lyogon (cognomen)
+ gloss: Lyogon
 
 -lexeme
  lex: Lʼonʼa
@@ -1453,8 +1453,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Лёнчик
- trans_en: 
- gloss: STEM
+ trans_en: Lyonchik (Leonid)
+ gloss: Lyonchik
 
 -lexeme
  lex: Lʼuba
@@ -1462,8 +1462,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Люба
- trans_en: 
- gloss: STEM
+ trans_en: Lyuba (Lyubov)
+ gloss: Lyuba
 
 -lexeme
  lex: Lʼubovʼ
@@ -1471,8 +1471,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Любовь
- trans_en: 
- gloss: STEM
+ trans_en: Lyubov
+ gloss: Lyubov
 
 -lexeme
  lex: Lʼuda
@@ -1480,8 +1480,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Люда
- trans_en: 
- gloss: STEM
+ trans_en: Lyuda (Lyudmila)
+ gloss: Lyuda
 
 -lexeme
  lex: Lʼudmila
@@ -1489,8 +1489,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Людмила
- trans_en: 
- gloss: STEM
+ trans_en: Lyudmila
+ gloss: Lyudmila
 
 -lexeme
  lex: Lʼušʼa
@@ -1498,8 +1498,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Люся
- trans_en: 
- gloss: STEM
+ trans_en: Lyusya
+ gloss: Lyusya
 
 -lexeme
  lex: Makar
@@ -1507,8 +1507,8 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Макар (домовое имя)
- trans_en: 
- gloss: STEM
+ trans_en: Makar (cognomen)
+ gloss: Makar
 
 -lexeme
  lex: Makšʼim
@@ -1516,8 +1516,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Максим
- trans_en: 
- gloss: STEM
+ trans_en: Maksim
+ gloss: Maksim
 
 -lexeme
  lex: Manʼa
@@ -1534,8 +1534,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Марфа
- trans_en: 
- gloss: STEM
+ trans_en: Marfa
+ gloss: Marfa
 
 -lexeme
  lex: Marina
@@ -1543,8 +1543,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Марина
- trans_en: 
- gloss: STEM
+ trans_en: Marina
+ gloss: Marina
 
 -lexeme
  lex: Matrʼona
@@ -1552,8 +1552,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Матрёна
- trans_en: 
- gloss: STEM
+ trans_en: Matryona
+ gloss: Matryona
 
 -lexeme
  lex: Mačʼinčʼa
@@ -1606,8 +1606,8 @@
  gramm: N,PN,rus
  paradigm: paradigm_N
  trans_ru: Михайлов (день)
- trans_en: 
- gloss: STEM
+ trans_en: Michael's (day)
+ gloss: Michael's.day
 
 -lexeme
  lex: Milka
@@ -1615,8 +1615,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Милка
- trans_en: 
- gloss: STEM
+ trans_en: Milka
+ gloss: Milka
 
 -lexeme
  lex: Minsk
@@ -1633,8 +1633,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Михайло
- trans_en: 
- gloss: STEM
+ trans_en: Mikhaylo
+ gloss: Mikhaylo
 
 -lexeme
  lex: Mixajlov
@@ -1642,8 +1642,8 @@
  gramm: N,PN,rus
  paradigm: paradigm_N
  trans_ru: Михайлов (день)
- trans_en: 
- gloss: STEM
+ trans_en: Michael's (day)
+ gloss: Michael's.day
 
 -lexeme
  lex: Mixalɨčʼ
@@ -1651,8 +1651,8 @@
  gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Михайлович
- trans_en: 
- gloss: STEM
+ trans_en: Mikhaylovich
+ gloss: Mikhaylovich
 
 -lexeme
  lex: Miša
@@ -1660,8 +1660,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Миша
- trans_en: 
- gloss: STEM
+ trans_en: Misha (Mikhail)
+ gloss: Misha
 
 -lexeme
  lex: Mišutka
@@ -1669,8 +1669,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Мишутка
- trans_en: 
- gloss: STEM
+ trans_en: Mishutka
+ gloss: Mishutka
 
 -lexeme
  lex: Mongolʼija
@@ -1705,8 +1705,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Мышко (шур)
- trans_en: 
- gloss: STEM
+ trans_en: Myshko (ravine)
+ gloss: Myshko
 
 -lexeme
  lex: Məškošur
@@ -1723,8 +1723,8 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Мышкин
- trans_en: 
- gloss: STEM
+ trans_en: Myshkin
+ gloss: Myshkin
 
 -lexeme
  lex: Nadʼa
@@ -1732,8 +1732,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Надя
- trans_en: 
- gloss: STEM
+ trans_en: Nadya (Nadezhda)
+ gloss: Nadya
 
 -lexeme
  lex: Natalʼ
@@ -1741,8 +1741,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Наталья
- trans_en: 
- gloss: STEM
+ trans_en: Natalya
+ gloss: Natalya
 
 -lexeme
  lex: Nataša
@@ -1750,8 +1750,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Наташа
- trans_en: 
- gloss: STEM
+ trans_en: Natasha (Natalya)
+ gloss: Natasha
 
 -lexeme
  lex: Našʼta
@@ -1759,8 +1759,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Настя
- trans_en: 
- gloss: STEM
+ trans_en: Nastya (Anastasia)
+ gloss: Nastya
 
 -lexeme
  lex: Nʼikolaičʼ
@@ -1768,8 +1768,8 @@
  gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Николаевич
- trans_en: 
- gloss: STEM
+ trans_en: Nikolaevich
+ gloss: Nikolaevich
 
 -lexeme
  lex: Nʼikolaj
@@ -1786,8 +1786,8 @@
  gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Николаевич
- trans_en: 
- gloss: STEM
+ trans_en: Nikolaevich
+ gloss: Nikolaevich
 
 -lexeme
  lex: Nʼikolajevna
@@ -1795,8 +1795,8 @@
  gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Николаевна
- trans_en: 
- gloss: STEM
+ trans_en: Nikolaevna
+ gloss: Nikolaevna
 
 -lexeme
  lex: Nʼina
@@ -1804,8 +1804,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Нина
- trans_en: 
- gloss: STEM
+ trans_en: Nina
+ gloss: Nina
 
 -lexeme
  lex: Odotʼ
@@ -1813,8 +1813,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Авдотья
- trans_en: 
- gloss: STEM
+ trans_en: Odot (Avdotya)
+ gloss: Odot
 
 -lexeme
  lex: Ofnašʼ
@@ -1822,8 +1822,8 @@
  gramm: N,PN
  paradigm: paradigm_N
  trans_ru: Афанасий
- trans_en: 
- gloss: STEM
+ trans_en: Ofnash (Afanasiy)
+ gloss: Ofnash
 
 -lexeme
  lex: Ofonašʼo
@@ -1831,8 +1831,8 @@
  gramm: N,PN
  paradigm: paradigm_N
  trans_ru: Афанасьев (день)
- trans_en: 
- gloss: STEM
+ trans_en: Athanasios' (day)
+ gloss: Athanasios'.day
 
 -lexeme
  lex: Olʼa
@@ -1840,8 +1840,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Оля
- trans_en: 
- gloss: STEM
+ trans_en: Olya (Olga)
+ gloss: Olya
 
 -lexeme
  lex: Olʼeg
@@ -1849,8 +1849,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Олег
- trans_en: 
- gloss: STEM
+ trans_en: Oleg
+ gloss: Oleg
 
 -lexeme
  lex: Olʼokšʼej
@@ -1858,8 +1858,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Алексей
- trans_en: 
- gloss: STEM
+ trans_en: Olyoksey (Aleksey)
+ gloss: Olyoksey
 
 -lexeme
  lex: Ondrej
@@ -1867,8 +1867,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Андрей
- trans_en: 
- gloss: STEM
+ trans_en: Ondrey (Andrey)
+ gloss: Ondrey
 
 -lexeme
  lex: Oranʼienburg
@@ -1894,8 +1894,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Падей (шур)
- trans_en: 
- gloss: STEM
+ trans_en: Padey
+ gloss: Padey
 
 -lexeme
  lex: Padʼejšur
@@ -1912,8 +1912,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Палагай
- trans_en: 
- gloss: STEM
+ trans_en: Palagay
+ gloss: Palagay
 
 -lexeme
  lex: Parašʼ
@@ -1921,8 +1921,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Прасковья
- trans_en: 
- gloss: STEM
+ trans_en: Parash (Praskovya)
+ gloss: Parash
 
 -lexeme
  lex: Paska
@@ -1939,8 +1939,8 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Патик (домовое имя)
- trans_en: 
- gloss: STEM
+ trans_en: Patik (cognomen)
+ gloss: Patik
 
 -lexeme
  lex: Pavlʼik
@@ -1948,8 +1948,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Павлик
- trans_en: 
- gloss: STEM
+ trans_en: Pavlik (Pavel)
+ gloss: Pavlik
 
 -lexeme
  lex: Paša
@@ -1957,8 +1957,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Паша
- trans_en: 
- gloss: STEM
+ trans_en: Pasha (Pavel)
+ gloss: Pasha
 
 -lexeme
  lex: Paššur
@@ -1975,8 +1975,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Пажма (Верхняя или Нижняя)
- trans_en: 
- gloss: STEM
+ trans_en: Pazhma (Upper or Lower)
+ gloss: Pazhma
 
 -lexeme
  lex: Pedor
@@ -1984,8 +1984,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Фёдор
- trans_en: 
- gloss: STEM
+ trans_en: Pedor (Fyodor)
+ gloss: Pedor
 
 -lexeme
  lex: Pekla
@@ -1993,8 +1993,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Фёкла
- trans_en: 
- gloss: STEM
+ trans_en: Pekla (Fyokla)
+ gloss: Pekla
 
 -lexeme
  lex: Penʼmošur
@@ -2002,8 +2002,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Зольный лог
- trans_en: Zolniy log
- gloss: Zolniy.log
+ trans_en: Penmoshur
+ gloss: Penmoshur
 
 -lexeme
  lex: Perm
@@ -2011,8 +2011,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Пермь
- trans_en: 
- gloss: STEM
+ trans_en: Perm
+ gloss: Perm
 
 -lexeme
  lex: Pesočʼnɨj
@@ -2029,8 +2029,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Петровка
- trans_en: 
- gloss: STEM
+ trans_en: Petrovka
+ gloss: Petrovka
 
 -lexeme
  lex: Petrova
@@ -2038,8 +2038,8 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Петрова
- trans_en: 
- gloss: STEM
+ trans_en: Petrova
+ gloss: Petrova
 
 -lexeme
  lex: Petrovičʼ
@@ -2047,8 +2047,8 @@
  gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Петрович
- trans_en: 
- gloss: STEM
+ trans_en: Petrovich
+ gloss: Petrovich
 
 -lexeme
  lex: Petʼa
@@ -2056,8 +2056,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Петя
- trans_en: Petya
- gloss: STEM
+ trans_en: Petya (Pyotr)
+ gloss: Petya
 
 -lexeme
  lex: Petʼerburg
@@ -2074,8 +2074,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Петька
- trans_en: 
- gloss: STEM
+ trans_en: Petka (Pyotr)
+ gloss: Petka
 
 -lexeme
  lex: Pibanʼšur
@@ -2083,8 +2083,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Пибаньшур
- trans_en: 
- gloss: STEM
+ trans_en: Pibanshur
+ gloss: Pibanshur
 
 -lexeme
  lex: Piskor
@@ -2128,8 +2128,8 @@
  gramm: N,PN
  paradigm: paradigm_N
  trans_ru: победа
- trans_en: 
- gloss: STEM
+ trans_en: Pobeda
+ gloss: Pobeda
 
 -lexeme
  lex: Pokrov
@@ -2146,8 +2146,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Полина
- trans_en: 
- gloss: STEM
+ trans_en: Polina
+ gloss: Polina
 
 -lexeme
  lex: Polʼša
@@ -2164,8 +2164,8 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Попова
- trans_en: 
- gloss: STEM
+ trans_en: Popova
+ gloss: Popova
 
 -lexeme
  lex: Port-artur
@@ -2173,8 +2173,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Порт-Артур
- trans_en: 
- gloss: STEM
+ trans_en: Port Arthur
+ gloss: Port.Arthur
 
 -lexeme
  lex: Potsdam
@@ -2190,9 +2190,9 @@
  stem: počʼinka.//počʼink.
  gramm: N,PN,topn,rus
  paradigm: paradigm_N
- trans_ru: 
- trans_en: 
- gloss: STEM
+ trans_ru: Починок
+ trans_en: Pochinka
+ gloss: Pochinka
 
 -lexeme
  lex: Pošʼolok
@@ -2200,8 +2200,8 @@
  gramm: N,PN,topn,rus
  paradigm: paradigm_N
  trans_ru: Посёлок (часть Шамардана)
- trans_en: 
- gloss: STEM
+ trans_en: Settlement (part of Shamardan)
+ gloss: Settlement
 
 -lexeme
  lex: Pugačʼova
@@ -2209,8 +2209,8 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Пугачёва
- trans_en: 
- gloss: STEM
+ trans_en: Pugachova
+ gloss: Pugachova
 
 -lexeme
  lex: Pulʼkino
@@ -2236,8 +2236,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Пушка (имя кошки)
- trans_en: 
- gloss: STEM
+ trans_en: Pushka (cat's name)
+ gloss: Pushka
 
 -lexeme
  lex: Pədsə
@@ -2263,7 +2263,7 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Пышкет
- trans_en: Pyshket
+ trans_en: Pyshkizh (Pyshket)
  gloss: Pyshket
 
 -lexeme
@@ -2272,8 +2272,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Пышкет
- trans_en: 
- gloss: STEM
+ trans_en: Pyshkizh (Pyshket)
+ gloss: Pyshkizh
 
 -lexeme
  lex: Radʼik
@@ -2281,8 +2281,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Радик
- trans_en: 
- gloss: STEM
+ trans_en: Radik
+ gloss: Radik
 
 -lexeme
  lex: Raja
@@ -2290,8 +2290,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Рая
- trans_en: 
- gloss: STEM
+ trans_en: Raya (Raisa)
+ gloss: Raya
 
 -lexeme
  lex: Rimma
@@ -2308,8 +2308,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Рита
- trans_en: 
- gloss: STEM
+ trans_en: Rita
+ gloss: Rita
 
 -lexeme
  lex: Roman
@@ -2317,8 +2317,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Роман
- trans_en: 
- gloss: STEM
+ trans_en: Roman
+ gloss: Roman
 
 -lexeme
  lex: Rošʼija
@@ -2353,8 +2353,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Саня
- trans_en: 
- gloss: STEM
+ trans_en: Sanya (Alexander)
+ gloss: Sanya
 
 -lexeme
  lex: Sarapul
@@ -2389,8 +2389,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Славик
- trans_en: 
- gloss: STEM
+ trans_en: Slavik (Stanislav / Vladislav / Vyacheslav)
+ gloss: Slavik
 
 -lexeme
  lex: Sočʼi
@@ -2398,8 +2398,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Сочи
- trans_en: 
- gloss: STEM
+ trans_en: Sochi
+ gloss: Sochi
 
 -lexeme
  lex: Stalʼin
@@ -2416,8 +2416,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Станислав
- trans_en: 
- gloss: STEM
+ trans_en: Stanislav
+ gloss: Stanislav
 
 -lexeme
  lex: Stʼepanovna
@@ -2425,8 +2425,8 @@
  gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Степановна
- trans_en: 
- gloss: STEM
+ trans_en: Stepanovna
+ gloss: Stepanovna
 
 -lexeme
  lex: Sverdlofsk
@@ -2434,8 +2434,8 @@
  gramm: N,PN,topn,rus
  paradigm: paradigm_N
  trans_ru: Свердловск (Екатеринбург)
- trans_en: 
- gloss: STEM
+ trans_en: Sverdlovsk (Yekaterinburg)
+ gloss: Sverdlovsk
 
 -lexeme
  lex: Sveta
@@ -2443,8 +2443,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Света
- trans_en: 
- gloss: STEM
+ trans_en: Sveta (Svetlana)
+ gloss: Sveta
 
 -lexeme
  lex: Svetlana
@@ -2452,8 +2452,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Светлана
- trans_en: 
- gloss: STEM
+ trans_en: Svetlana
+ gloss: Svetlana
 
 -lexeme
  lex: Talʼigurt
@@ -2470,8 +2470,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Тамара
- trans_en: 
- gloss: STEM
+ trans_en: Tamara
+ gloss: Tamara
 
 -lexeme
  lex: Tanʼa
@@ -2488,8 +2488,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Тарзан (кличка)
- trans_en: 
- gloss: STEM
+ trans_en: Tarzan (nickname)
+ gloss: Tarzan
 
 -lexeme
  lex: Tolʼa
@@ -2497,8 +2497,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Толя
- trans_en: 
- gloss: STEM
+ trans_en: Tolya (Anatoliy)
+ gloss: Tolya
 
 -lexeme
  lex: Totorja
@@ -2515,8 +2515,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Трифон; Трифонов день
- trans_en: 
- gloss: STEM
+ trans_en: Trifon; Trifon's day
+ gloss: Trifon
 
 -lexeme
  lex: Trifon
@@ -2524,8 +2524,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Трифон; Трифонов день
- trans_en: 
- gloss: STEM
+ trans_en: Trifon; Trifon's day
+ gloss: Trifon
 
 -lexeme
  lex: Tročʼa
@@ -2542,8 +2542,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: та сторона (Шамардана)
- trans_en: 
- gloss: STEM
+ trans_en: the other side (of Shamardan)
+ gloss: other.side
 
 -lexeme
  lex: Turcija
@@ -2560,8 +2560,8 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Төгей (домовое имя)
- trans_en: 
- gloss: STEM
+ trans_en: Tygey (cognomen)
+ gloss: Tygey
 
 -lexeme
  lex: Tələs
@@ -2578,8 +2578,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Тымъяр
- trans_en: 
- gloss: STEM
+ trans_en: Tymyar
+ gloss: Tymyar
 
 -lexeme
  lex: Tʼimofej
@@ -2596,8 +2596,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Степан
- trans_en: 
- gloss: STEM
+ trans_en: Tyopan (Stepan)
+ gloss: Tyopan
 
 -lexeme
  lex: Udmurtʼija
@@ -2623,8 +2623,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Ульяновск
- trans_en: 
- gloss: STEM
+ trans_en: Ulyanovsk
+ gloss: Ulyanovsk
 
 -lexeme
  lex: Ural
@@ -2641,8 +2641,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Урик (пи) (родовое имя)
- trans_en: 
- gloss: STEM
+ trans_en: Urik (cognomen)
+ gloss: Urik
 
 -lexeme
  lex: Uržum
@@ -2650,17 +2650,17 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Уржум
- trans_en: 
- gloss: STEM
+ trans_en: Urzhum
+ gloss: Urzhum
 
 -lexeme
  lex: Ušʼtʼinʼ
  stem: ušʼtʼinʼ.
  gramm: N,PN,persn
  paradigm: paradigm_N
- trans_ru: Устиний
- trans_en: 
- gloss: STEM
+ trans_ru: Устин
+ trans_en: Ustin
+ gloss: Ustin
 
 -lexeme
  lex: Valamaz
@@ -2668,8 +2668,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Валамаз
- trans_en: 
- gloss: STEM
+ trans_en: Valamaz
+ gloss: Valamaz
 
 -lexeme
  lex: Valʼa
@@ -2677,8 +2677,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Валя
- trans_en: 
- gloss: STEM
+ trans_en: Valya (Valentin / Valentina)
+ gloss: Valya
 
 -lexeme
  lex: Valʼera
@@ -2686,8 +2686,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Валера
- trans_en: 
- gloss: STEM
+ trans_en: Valera (Valeriy)
+ gloss: Valera
 
 -lexeme
  lex: Valʼerij
@@ -2695,8 +2695,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Валерий
- trans_en: 
- gloss: STEM
+ trans_en: Valeriy
+ gloss: Valeriy
 
 -lexeme
  lex: Valʼerija
@@ -2704,8 +2704,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Валерия
- trans_en: 
- gloss: STEM
+ trans_en: Valeria
+ gloss: Valeria
 
 -lexeme
  lex: Valʼerjan
@@ -2713,8 +2713,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Валерьян
- trans_en: 
- gloss: STEM
+ trans_en: Valerian
+ gloss: Valerian
 
 -lexeme
  lex: Vanʼa
@@ -2731,8 +2731,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Ванька
- trans_en: 
- gloss: STEM
+ trans_en: Vanka (Ivan)
+ gloss: Vanka
 
 -lexeme
  lex: Varuk
@@ -2740,8 +2740,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Варвара, Варя
- trans_en: 
- gloss: STEM
+ trans_en: Varuk (Varvara)
+ gloss: Varuk
 
 -lexeme
  lex: Vašʼa
@@ -2758,8 +2758,8 @@
  gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Васильевич
- trans_en: 
- gloss: STEM
+ trans_en: Vasilyevich
+ gloss: Vasilyevich
 
 -lexeme
  lex: Vašʼilʼjevna
@@ -2767,8 +2767,8 @@
  gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Васильевна
- trans_en: 
- gloss: STEM
+ trans_en: Vasilyevna
+ gloss: Vasilyevna
 
 -lexeme
  lex: Vašʼopi
@@ -2776,8 +2776,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Васепиево
- trans_en: Vasepiyevo
- gloss: Vasepiyevo
+ trans_en: Vasyopi (Vasepiyevo)
+ gloss: Vasyopi
 
 -lexeme
  lex: Velʼiktem
@@ -2794,8 +2794,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Вероника
- trans_en: 
- gloss: STEM
+ trans_en: Veronika
+ gloss: Veronika
 
 -lexeme
  lex: Viktorovna
@@ -2803,8 +2803,8 @@
  gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Викторовна
- trans_en: 
- gloss: STEM
+ trans_en: Viktorovna
+ gloss: Viktorovna
 
 -lexeme
  lex: Vinokur
@@ -2812,8 +2812,8 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Винокур
- trans_en: 
- gloss: STEM
+ trans_en: Vinokur
+ gloss: Vinokur
 
 -lexeme
  lex: Vitʼa
@@ -2821,8 +2821,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Витя
- trans_en: 
- gloss: STEM
+ trans_en: Vitya (Vitaliy)
+ gloss: Vitya
 
 -lexeme
  lex: Vladʼimir
@@ -2830,8 +2830,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Владимир
- trans_en: 
- gloss: STEM
+ trans_en: Vladimir
+ gloss: Vladimir
 
 -lexeme
  lex: Vladʼivostok
@@ -2839,8 +2839,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Владивосток
- trans_en: 
- gloss: STEM
+ trans_en: Vladivostok
+ gloss: Vladivostok
 
 -lexeme
  lex: Volkov
@@ -2848,8 +2848,8 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Волков
- trans_en: 
- gloss: STEM
+ trans_en: Volkov
+ gloss: Volkov
 
 -lexeme
  lex: Volodʼa
@@ -2857,8 +2857,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Володя
- trans_en: 
- gloss: STEM
+ trans_en: Volodya (Vladimir)
+ gloss: Volodya
 
 -lexeme
  lex: Volok
@@ -2866,8 +2866,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Волок
- trans_en: 
- gloss: STEM
+ trans_en: Volok (forest)
+ gloss: Volok
 
 -lexeme
  lex: Vorčʼa
@@ -2875,8 +2875,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Ворца
- trans_en: Vortsa
- gloss: Vortsa
+ trans_en: Vorcha (Vortsa)
+ gloss: Vorcha
 
 -lexeme
  lex: Vosxod
@@ -2884,8 +2884,8 @@
  gramm: N,PN
  paradigm: paradigm_N
  trans_ru: Восход (мотоцикл)
- trans_en: 
- gloss: STEM
+ trans_en: Voskhod (bike)
+ gloss: Voskhod
 
 -lexeme
  lex: Votkinsk
@@ -2893,8 +2893,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Воткинск
- trans_en: 
- gloss: STEM
+ trans_en: Votkinsk
+ gloss: Votkinsk
 
 -lexeme
  lex: Vova
@@ -2902,8 +2902,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Вова
- trans_en: 
- gloss: STEM
+ trans_en: Vova (Vladimir)
+ gloss: Vova
 
 -lexeme
  lex: Vɨborg
@@ -2911,8 +2911,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Выборг
- trans_en: 
- gloss: STEM
+ trans_en: Vyborg
+ gloss: Vyborg
 
 -lexeme
  lex: Xoxrʼakov
@@ -2920,8 +2920,8 @@
  gramm: N,PN,famn
  paradigm: paradigm_N
  trans_ru: Хохряков
- trans_en: 
- gloss: STEM
+ trans_en: Khokhryakov
+ gloss: Khokhryakov
 
 -lexeme
  lex: Zagrebino
@@ -2929,8 +2929,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Загребино
- trans_en: 
- gloss: STEM
+ trans_en: Zagrebino
+ gloss: Zagrebino
 
 -lexeme
  lex: Zaksenxauzen
@@ -2938,8 +2938,8 @@
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Заксенхаузен
- trans_en: 
- gloss: STEM
+ trans_en: Sachsenhausen
+ gloss: Sachsenhausen
 
 -lexeme
  lex: Zoja
@@ -2947,8 +2947,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Зоя
- trans_en: 
- gloss: STEM
+ trans_en: Zoya
+ gloss: Zoya
 
 -lexeme
  lex: Zozulʼa
@@ -2956,8 +2956,8 @@
  gramm: N,PN
  paradigm: paradigm_N
  trans_ru: "Зозуля" (огурцы)
- trans_en: 
- gloss: STEM
+ trans_en: Zozulya (cucmbers)
+ gloss: Zozulya
 
 -lexeme
  lex: a
@@ -3019,8 +3019,8 @@
  gramm: V,intr
  paradigm: paradigm_V
  trans_ru: пропасть, засидеться
- trans_en: 
- gloss: STEM
+ trans_en: get lost
+ gloss: get.lost
 
 -lexeme
  lex: abərtem
@@ -3055,8 +3055,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: администрация
- trans_en: 
- gloss: STEM
+ trans_en: authority
+ gloss: authority
 
 -lexeme
  lex: adɨššoj
@@ -3064,8 +3064,8 @@
  gramm: A,rus
  paradigm: paradigm_A
  trans_ru: жадный
- trans_en: 
- gloss: STEM
+ trans_en: greedy
+ gloss: greedy
 
 -lexeme
  lex: adʼami
@@ -3082,8 +3082,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: аэродром
- trans_en: 
- gloss: STEM
+ trans_en: airport
+ gloss: airport
 
 -lexeme
  lex: aeroport
@@ -3091,8 +3091,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: аэропорт
- trans_en: 
- gloss: STEM
+ trans_en: airport
+ gloss: airport
 
 -lexeme
  lex: aftobus
@@ -3118,7 +3118,7 @@
  gramm: INTERJ
  paradigm: Empty
  trans_ru: ай
- trans_en: oh
+ trans_en: oh; never mind
  gloss: oh
 
 -lexeme
@@ -3191,8 +3191,8 @@
  gramm: ADV,rus
  paradigm: Comparative
  trans_ru: аккуратно
- trans_en: 
- gloss: STEM
+ trans_en: carefully
+ gloss: carefully
 
 -lexeme
  lex: akšan
@@ -3209,8 +3209,8 @@
  gramm: V,impers
  paradigm: paradigm_V
  trans_ru: смеркаться
- trans_en: 
- gloss: STEM
+ trans_en: get dark
+ gloss: get.dark
 
 -lexeme
  lex: akəlʼes
@@ -3245,8 +3245,8 @@
  gramm: V,intr,with_dat
  paradigm: paradigm_V
  trans_ru: надоесть
- trans_en: 
- gloss: STEM
+ trans_en: annoy
+ gloss: annoy
 
 -lexeme
  lex: akəlʼčʼikənə
@@ -3299,8 +3299,8 @@
  gramm: A,rus
  paradigm: paradigm_A
  trans_ru: ярко-розовый
- trans_en: 
- gloss: STEM
+ trans_en: bright pink
+ gloss: pink
 
 -lexeme
  lex: aloj
@@ -3398,8 +3398,8 @@
  gramm: V,intr,with_instr
  paradigm: paradigm_V
  trans_ru: махнуть, отмахнуться; смахнуть, сдуть
- trans_en: 
- gloss: STEM
+ trans_en: wave
+ gloss: wave
 
 -lexeme
  lex: alʼuminʼ
@@ -3407,8 +3407,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: алюминий
- trans_en: 
- gloss: STEM
+ trans_en: aluminum
+ gloss: aluminum
 
 -lexeme
  lex: alʼčʼikənə
@@ -3580,8 +3580,8 @@
  gramm: N
  paradigm: paradigm_N
  trans_ru: гроздь
- trans_en: nail
- gloss: nail
+ trans_en: cluster
+ gloss: cluster
 
 -lexeme
  lex: anges
@@ -3879,7 +3879,7 @@
  paradigm: Comparative
  trans_ru: рядом, сбоку
  trans_en: at one's side, nearby
- gloss: at.side
+ gloss: beside
 
 -lexeme
  lex: arten
@@ -3897,7 +3897,7 @@
  paradigm: Comparative
  trans_ru: рядом, сбоку, по соседству
  trans_en: at one's side, nearby
- gloss: at.side
+ gloss: beside
 
 -lexeme
  lex: arten
@@ -3906,7 +3906,7 @@
  paradigm: poss
  trans_ru: по соседству
  trans_en: at one's side, nearby
- gloss: at.side.LOC
+ gloss: beside.LOC
 
 -lexeme
  lex: arten
@@ -3915,7 +3915,7 @@
  paradigm: poss
  trans_ru: по соседству
  trans_en: at one's side, nearby
- gloss: at.side.EL
+ gloss: beside.EL
 
 -lexeme
  lex: arten
@@ -3924,7 +3924,7 @@
  paradigm: Comparative
  trans_ru: по соседству
  trans_en: at one's side, nearby
- gloss: at.side.EL
+ gloss: beside.EL
 
 -lexeme
  lex: artrit
@@ -4043,8 +4043,8 @@
  gramm: ADV,3sg
  paradigm: Comparative
  trans_ru: на следующий день
- trans_en: 
- gloss: STEM
+ trans_en: the next day
+ gloss: next.day
 
 -lexeme
  lex: askə
@@ -4052,8 +4052,8 @@
  gramm: ADV,egr
  paradigm: Comparative
  trans_ru: завтра
- trans_en: 
- gloss: STEM
+ trans_en: tomorrow
+ gloss: tomorrow
 
 -lexeme
  lex: askə
@@ -4061,8 +4061,8 @@
  gramm: ADV,term
  paradigm: Comparative
  trans_ru: завтра
- trans_en: 
- gloss: STEM
+ trans_en: tomorrow
+ gloss: tomorrow
 
 -lexeme
  lex: askə
@@ -4080,8 +4080,8 @@
  gramm: ADV,dat
  paradigm: Comparative
  trans_ru: на завтра
- trans_en: 
- gloss: STEM
+ trans_en: for tomorrow
+ gloss: for.tomorrow
 
 -lexeme
  lex: asmes
@@ -4338,7 +4338,7 @@
  paradigm: poss
  trans_ru: сам
  trans_en: oneself
- gloss: oneself.DMS.ILL
+ gloss: oneself.DMS.LAT
 
 -lexeme
  lex: ačʼiz
@@ -27627,7 +27627,7 @@
  paradigm: paradigm_A
  trans_ru: никуда; некуда
  trans_en: nowhere
- gloss: nowhere.ILL
+ gloss: nowhere.LAT
 
 -lexeme
  lex: nokətən no
@@ -30838,7 +30838,7 @@
  paradigm: Comparative
  trans_ru: туда
  trans_en: there
- gloss: there.ILL
+ gloss: there.LAT
 
 -lexeme
  lex: otčʼə-tatčʼə
@@ -41007,7 +41007,7 @@
  paradigm: Comparative
  trans_ru: сюда
  trans_en: here
- gloss: here.ILL
+ gloss: here.LAT
 
 -lexeme
  lex: tatən
