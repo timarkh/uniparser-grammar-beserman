@@ -3431,7 +3431,7 @@
 -lexeme
  lex: am
  stem: am.
- gramm: IMIT
+ gramm: INTERJ
  paradigm: Comparative
  trans_ru: ам
  trans_en: nom
@@ -4416,11 +4416,11 @@
 -lexeme
  lex: ačʼər-wačʼər
  stem: ačʼər-wačʼər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ačʼərwak
@@ -4866,7 +4866,7 @@
 -lexeme
  lex: bambaš
  stem: bambaš.
- gramm: IMIT,rus
+ gramm: PRED,rus
  paradigm: Comparative
  trans_ru: вздувшаяся (о крышке банки)
  trans_en: 
@@ -5559,11 +5559,11 @@
 -lexeme
  lex: bilʼ-bilʼ
  stem: bilʼ-bilʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: буль-буль
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: bilʼet
@@ -6117,11 +6117,11 @@
 -lexeme
  lex: boz-boz
  stem: boz-boz.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: used to express the sound of deep, rough voice
- gloss: of.deep.voice
+ gloss: IDEO
 
 -lexeme
  lex: bočʼka
@@ -6234,11 +6234,11 @@
 -lexeme
  lex: brr
  stem: brr.//brrr.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Empty
  trans_ru: бррр
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: brus
@@ -6324,11 +6324,11 @@
 -lexeme
  lex: bug-bug
  stem: bug-bug.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: bugaltʼer
@@ -6351,20 +6351,20 @@
 -lexeme
  lex: bugrom
  stem: bugrom.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Empty
  trans_ru: сугробами (наметать снег)
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: buk
  stem: buk.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: бух
  trans_en: boom
- gloss: boom
+ gloss: IDEO
 
 -lexeme
  lex: buko
@@ -6396,11 +6396,11 @@
 -lexeme
  lex: bul-bul
  stem: bul-bul.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: bulki
@@ -6423,11 +6423,11 @@
 -lexeme
  lex: bulʼ-bulʼ
  stem: bulʼ-bulʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: bulʼdožʼer
@@ -6441,38 +6441,38 @@
 -lexeme
  lex: bulʼtrak
  stem: bulʼtrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: бульк
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: bulʼtər
  stem: bulʼtər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: bulʼtər-balʼtər
  stem: bulʼtər-balʼtər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: bulʼtər-malʼtər
  stem: bulʼtər-malʼtər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: буль-буль
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: bulʼtərtənə
@@ -6504,12 +6504,12 @@
 -lexeme
  lex: bunʼ-bunʼ
  stem: bunʼ-bunʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  paradigm: Adjectives_Pl_strict
  trans_ru: упитанный
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: bur
@@ -6766,12 +6766,12 @@
 -lexeme
  lex: bəg-bəg
  stem: bəg-bəg.//bug-bug.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  paradigm: Adjectives_Pl_strict
  trans_ru: 
  trans_en: conveys the image of thickness and fluffiness
- gloss: of.thickness.and.fluffiness
+ gloss: IDEO
 
 -lexeme
  lex: bəgatənə
@@ -6812,21 +6812,21 @@
 -lexeme
  lex: bəgəlʼ-bagəlʼ
  stem: bəgəlʼ-bagəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: неуклюже, вперевалку
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: bəgəlʼ-bəgəlʼ
  stem: bəgəlʼ-bəgəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  paradigm: Adjectives_Pl_strict
  trans_ru: полный, пухлый
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: bəgəlʼes
@@ -6867,11 +6867,11 @@
 -lexeme
  lex: bəgər-bəgər
  stem: bəgər-bəgər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: bəgəres
@@ -6948,20 +6948,20 @@
 -lexeme
  lex: bəlʼ
  stem: bəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: bəlʼ-balʼ
  stem: bəlʼ-balʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: bəlʼtərtənə
@@ -6993,11 +6993,11 @@
 -lexeme
  lex: bər-bər
  stem: bər-bər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: conveys the image of incomprehensible speach, murmuring; conveys the image of very loud speech
- gloss: of.murmuring.or.loud.speech
+ gloss: IDEO
 
 -lexeme
  lex: bərdanə
@@ -7092,11 +7092,11 @@
 -lexeme
  lex: bəs
  stem: bəs.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: /о холоде/ очень сильный
  trans_en: /about cold/ very strong
- gloss: strong.cold
+ gloss: IDEO
 
 -lexeme
  lex: bəs
@@ -7110,11 +7110,11 @@
 -lexeme
  lex: bəskəlʼ-bəskəlʼ
  stem: bəskəlʼ-bəskəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: bəttələnə
@@ -7173,11 +7173,11 @@
 -lexeme
  lex: bəz-bəz
  stem: bəz-bəz.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: обильно; плотно
  trans_en: amply, heavily
- gloss: amply
+ gloss: IDEO
 
 -lexeme
  lex: bəzgetənə
@@ -7209,11 +7209,11 @@
 -lexeme
  lex: bəčʼək-bačʼək
  stem: bəčʼək-bačʼək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: с разных сторон (выглядывать)
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: bəškaltənə
@@ -7245,11 +7245,11 @@
 -lexeme
  lex: bəšʼ
  stem: bəšʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: bəž
@@ -7560,11 +7560,11 @@
 -lexeme
  lex: dab
  stem: dab.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: см. dob
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: dabgetənə
@@ -7623,29 +7623,29 @@
 -lexeme
  lex: dambrak
  stem: dambrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: остаться безо всякого имущества
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: dambər
  stem: dambər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: dangrak
  stem: dangrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: danʼjanə
@@ -7803,11 +7803,11 @@
 -lexeme
  lex: dob
  stem: dob.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: то же, что top, только громче
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: dobgetənə
@@ -8019,11 +8019,11 @@
 -lexeme
  lex: dor-dor
  stem: dor-dor.
- gramm: IMIT
+ gramm: IDEO
  paradigm: paradigm_A
  trans_ru: низкий (о голосе)
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: dorožnʼik
@@ -8506,29 +8506,29 @@
 -lexeme
  lex: dəb-dab
  stem: dəb-dab.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: dəbrak
  stem: dəbrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: вместе, дружно за один раз (что-либо сделать)
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: dəbər-dəbər
  stem: dəbər-dəbər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: от души, с желанием, с удовольствием
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: dədə
@@ -8551,47 +8551,47 @@
 -lexeme
  lex: dəgi-mogi
  stem: dəgi-mogi.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: очень медленно
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: dəmbər
  stem: dəmbər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: dəmbər-dambər
  stem: dəmbər-dambər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: dəmbər-šaltər
  stem: dəmbər-šaltər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: dəmbər-šalʼtər
  stem: dəmbər-šalʼtər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: dəmbərtənə
@@ -8677,20 +8677,20 @@
 -lexeme
  lex: dəngər
  stem: dəngər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: легко, без труда, красиво
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: dəngər-dangər
  stem: dəngər-dangər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: dənmanə
@@ -9354,20 +9354,20 @@
 -lexeme
  lex: dʼəz
  stem: dʼəz.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: dʼəzak
  stem: dʼəzak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: e
@@ -10587,20 +10587,20 @@
 -lexeme
  lex: ganʼ
  stem: ganʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: развалившись; без дела
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ganʼ-ganʼ
  stem: ganʼ-ganʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: развалившись; без дела
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ganʼǯʼektənə
@@ -10614,20 +10614,20 @@
 -lexeme
  lex: gar
  stem: gar.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: нараспашку
  trans_en: wide open
- gloss: wide.open
+ gloss: IDEO
 
 -lexeme
  lex: garak
  stem: garak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: нараспашку
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: garaž
@@ -11019,11 +11019,11 @@
 -lexeme
  lex: glʼuk-glʼuk
  stem: glʼuk-glʼuk.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: god
@@ -11100,11 +11100,11 @@
 -lexeme
  lex: golʼak
  stem: golʼak.
- gramm: IMIT,rus
+ gramm: IDEO,rus
  paradigm: paradigm_A
  trans_ru: о чём-то пустом, голом
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: golʼik
@@ -11127,11 +11127,11 @@
 -lexeme
  lex: gom-gom
  stem: gom-gom.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: gomak
@@ -11244,11 +11244,11 @@
 -lexeme
  lex: gor
  stem: gor.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: gorb
@@ -11652,8 +11652,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: группа
- trans_en: 
- gloss: STEM
+ trans_en: group
+ gloss: group
 
 -lexeme
  lex: gruz
@@ -11670,8 +11670,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: груша
- trans_en: 
- gloss: STEM
+ trans_en: pear
+ gloss: pear
 
 -lexeme
  lex: grušʼik
@@ -11739,11 +11739,11 @@
 -lexeme
  lex: gulʼ-gulʼ
  stem: gulʼ-gulʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: gulʼatʼ
@@ -11751,7 +11751,7 @@
  gramm: V,rus
  paradigm: Comparative
  trans_ru: гулять
- trans_en: go for a walk, hang out
+ trans_en: go for a walk, hang out; cheat on
  gloss: hang.out
 
 -lexeme
@@ -11811,20 +11811,20 @@
 -lexeme
  lex: gunʼ
  stem: gunʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: gunʼ-gunʼ
  stem: gunʼ-gunʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: gunʼdənə
@@ -11929,11 +11929,11 @@
 -lexeme
  lex: gučʼ-gučʼ
  stem: gučʼ-gučʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: gušʼenʼica
@@ -11950,8 +11950,8 @@
  gramm: V,intr
  paradigm: paradigm_V
  trans_ru: выцвести, побелеть
- trans_en: 
- gloss: STEM
+ trans_en: fade
+ gloss: fade
 
 -lexeme
  lex: gužem
@@ -12010,20 +12010,20 @@
 -lexeme
  lex: gəb-gəb
  stem: gəb-gəb.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: gəbak
  stem: gəbak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: gəbdanə
@@ -12082,11 +12082,11 @@
 -lexeme
  lex: gəd-gəd
  stem: gəd-gəd.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: курлык-курлык; как голубки
  trans_en: like doves
- gloss: like.doves
+ gloss: IDEO
 
 -lexeme
  lex: gədə
@@ -12166,35 +12166,35 @@
  gramm: V,intr
  paradigm: paradigm_V
  trans_ru: скользить
- trans_en: 
- gloss: STEM
+ trans_en: slide
+ gloss: slide
 
 -lexeme
  lex: gəlʼ
  stem: gəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: gəlʼdrak
  stem: gəlʼdrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: gəlʼdər
  stem: gəlʼdər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: gəlʼdərjanə
@@ -12208,11 +12208,11 @@
 -lexeme
  lex: gəlʼkak
  stem: gəlʼkak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: одним махом, резко (проглотить)
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: gəlʼlʼanə
@@ -12253,11 +12253,11 @@
 -lexeme
  lex: gəmak
  stem: gəmak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: gəmər
@@ -12325,20 +12325,20 @@
 -lexeme
  lex: gər-gar
  stem: gər-gar.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: gər-gər
  stem: gər-gər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: gərijašʼkənə
@@ -12356,7 +12356,7 @@
  paradigm: paradigm_A
  trans_ru: /о зубе/ дырявый, с дуплом
  trans_en: /of a tooth/ with a hole, a cavern
- gloss: with.a.cavern
+ gloss: with.cavern
 
 -lexeme
  lex: gərkes
@@ -12382,8 +12382,8 @@
  gramm: N
  paradigm: paradigm_N
  trans_ru: жимолость (atas gərǯʼon)
- trans_en: 
- gloss: STEM
+ trans_en: honeysuckle
+ gloss: honeysuckle
 
 -lexeme
  lex: gərǯʼənə
@@ -12391,8 +12391,8 @@
  gramm: V,intr
  paradigm: paradigm_V
  trans_ru: рыгать
- trans_en: 
- gloss: STEM
+ trans_en: burp
+ gloss: burp
 
 -lexeme
  lex: gərə
@@ -12418,8 +12418,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: гостинец
- trans_en: 
- gloss: STEM
+ trans_en: small present
+ gloss: small.present
 
 -lexeme
  lex: gəzməlʼes
@@ -12442,20 +12442,20 @@
 -lexeme
  lex: gəzər
  stem: gəzər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: gəzərak
  stem: gəzərak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: gəzərtənə
@@ -12478,20 +12478,20 @@
 -lexeme
  lex: gəž
  stem: gəž.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: волоком, ползком, по земле
  trans_en: by pulling, crawling, on the ground
- gloss: by.pulling
+ gloss: IDEO
 
 -lexeme
  lex: gəž-gaž
  stem: gəž-gaž.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: gəžlo
@@ -12510,15 +12510,6 @@
  trans_ru: ноготь; коготь; копыто
  trans_en: nail; claw; hoof
  gloss: nail
-
--lexeme
- lex: gɤp
- stem: gɤp.
- gramm: IMIT
- paradigm: Comparative
- trans_ru: 
- trans_en: 
- gloss: STEM
 
 -lexeme
  lex: gɤp
@@ -12568,7 +12559,7 @@
 -lexeme
  lex: hm
  stem: hm.
- gramm: PART
+ gramm: INTERJ
  paradigm: Empty
  trans_ru: хм
  trans_en: huh
@@ -12715,8 +12706,8 @@
  gramm: A,rus
  paradigm: paradigm_A
  trans_ru: иностранный
- trans_en: 
- gloss: STEM
+ trans_en: foreign
+ gloss: foreign
 
 -lexeme
  lex: instrument
@@ -12742,8 +12733,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: инсульт
- trans_en: 
- gloss: STEM
+ trans_en: stroke
+ gloss: stroke
 
 -lexeme
  lex: internet
@@ -12769,8 +12760,8 @@
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
  trans_ru: инженер
- trans_en: 
- gloss: STEM
+ trans_en: engineer
+ gloss: engineer
 
 -lexeme
  lex: inʼdʼijskoj
@@ -12796,8 +12787,8 @@
  gramm: ADV,rus
  paradigm: paradigm_N
  trans_ru: интересно
- trans_en: 
- gloss: STEM
+ trans_en: interesting
+ gloss: interesting
 
 -lexeme
  lex: ipotʼeka
@@ -12805,8 +12796,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: ипотека
- trans_en: 
- gloss: STEM
+ trans_en: mortgage
+ gloss: mortgage
 
 -lexeme
  lex: isanə
@@ -12832,8 +12823,8 @@
  gramm: V,intr,with_instr
  paradigm: paradigm_V
  trans_ru: кататься
- trans_en: 
- gloss: STEM
+ trans_en: ride
+ gloss: ride
 
 -lexeme
  lex: iskilʼtənə
@@ -12841,8 +12832,8 @@
  gramm: V,intr,with_instr
  paradigm: paradigm_V
  trans_ru: скатиться; скатить
- trans_en: 
- gloss: STEM
+ trans_en: ride
+ gloss: ride
 
 -lexeme
  lex: iskritʼ
@@ -12868,8 +12859,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: история
- trans_en: 
- gloss: STEM
+ trans_en: story
+ gloss: story
 
 -lexeme
  lex: itak
@@ -13012,8 +13003,8 @@
  gramm: PART
  paradigm: Empty
  trans_ru: значит, оказывается
- trans_en: apparently, turns out
- gloss: apparently
+ trans_en: in that case; turns out
+ gloss: in.that.case
 
 -lexeme
  lex: ižʼelʼ
@@ -13030,8 +13021,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: изюм
- trans_en: 
- gloss: STEM
+ trans_en: raisins
+ gloss: raisins
 
 -lexeme
  lex: ižʼvir
@@ -13111,8 +13102,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: ягода
- trans_en: 
- gloss: STEM
+ trans_en: berry
+ gloss: berry
 
 -lexeme
  lex: jake
@@ -13120,8 +13111,8 @@
  gramm: CONJ
  paradigm: Empty
  trans_ru: или, либо
- trans_en: 
- gloss: STEM
+ trans_en: or
+ gloss: or
 
 -lexeme
  lex: jalan
@@ -13273,8 +13264,8 @@
  gramm: N,rus,transport
  paradigm: paradigm_N
  trans_ru: самолёт, аэроплан
- trans_en: 
- gloss: STEM
+ trans_en: plane
+ gloss: plane
 
 -lexeme
  lex: jatər
@@ -13291,8 +13282,8 @@
  gramm: PART
  paradigm: Comparative
  trans_ru: ладно
- trans_en: 
- gloss: STEM
+ trans_en: won't you
+ gloss: won't.you
 
 -lexeme
  lex: jawa
@@ -13300,8 +13291,8 @@
  gramm: PART,pl
  paradigm: Comparative
  trans_ru: ладно
- trans_en: 
- gloss: STEM
+ trans_en: won't you
+ gloss: won't.you
 
 -lexeme
  lex: jawuišʼkənə
@@ -13309,8 +13300,8 @@
  gramm: V,intr
  paradigm: paradigm_V
  trans_ru: завестись
- trans_en: 
- gloss: STEM
+ trans_en: appear, start living
+ gloss: appear
 
 -lexeme
  lex: jazɨk
@@ -13327,8 +13318,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: ячейка
- trans_en: 
- gloss: STEM
+ trans_en: cell
+ gloss: cell
 
 -lexeme
  lex: jačʼnʼevoj
@@ -13345,8 +13336,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: ящик
- trans_en: 
- gloss: STEM
+ trans_en: wooden box
+ gloss: box
 
 -lexeme
  lex: jažʼ
@@ -13408,8 +13399,8 @@
  gramm: N
  paradigm: paradigm_N
  trans_ru: плод
- trans_en: 
- gloss: STEM
+ trans_en: fruit
+ gloss: fruit
 
 -lexeme
  lex: jeroplan
@@ -13462,8 +13453,8 @@
  gramm: ADV,rus
  paradigm: Comparative
  trans_ru: естественно
- trans_en: 
- gloss: STEM
+ trans_en: of course
+ gloss: of.course
 
 -lexeme
  lex: jetən
@@ -13534,8 +13525,8 @@
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
  trans_ru: еврей
- trans_en: 
- gloss: STEM
+ trans_en: Jew
+ gloss: Jew
 
 -lexeme
  lex: jevrejskoj
@@ -13543,8 +13534,8 @@
  gramm: A,rus
  paradigm: paradigm_A
  trans_ru: еврейский
- trans_en: 
- gloss: STEM
+ trans_en: Jewish
+ gloss: Jewish
 
 -lexeme
  lex: ječʼikənə
@@ -13750,8 +13741,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: юбилей
- trans_en: 
- gloss: STEM
+ trans_en: anniversary
+ gloss: anniversary
 
 -lexeme
  lex: jubo
@@ -13765,20 +13756,20 @@
 -lexeme
  lex: jug-jug
  stem: jug-jug.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: яркий
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: jugak
  stem: jugak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: juldaš
@@ -13795,8 +13786,8 @@
  gramm: N,anim,hum
  paradigm: paradigm_N
  trans_ru: друг, подруга; спутник
- trans_en: 
- gloss: STEM
+ trans_en: friend; companion, fellow traveller
+ gloss: companion
 
 -lexeme
  lex: julʼ
@@ -13876,8 +13867,8 @@
  gramm: V,intr
  paradigm: paradigm_V
  trans_ru: брезговать
- trans_en: 
- gloss: STEM
+ trans_en: be disgusted
+ gloss: be.disgusted
 
 -lexeme
  lex: juri
@@ -13939,8 +13930,8 @@
  gramm: V,tr
  paradigm: paradigm_V
  trans_ru: распрягать
- trans_en: 
- gloss: STEM
+ trans_en: unharness
+ gloss: unharness
 
 -lexeme
  lex: juwo
@@ -13948,8 +13939,8 @@
  gramm: N
  paradigm: paradigm_N
  trans_ru: столб
- trans_en: 
- gloss: STEM
+ trans_en: pole
+ gloss: pole
 
 -lexeme
  lex: juzmanə
@@ -13963,20 +13954,20 @@
 -lexeme
  lex: juzər-jazər
  stem: juzər-jazər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: то же, что juzər-kezər
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: juzər-kezər
  stem: juzər-kezər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: juš
@@ -14065,8 +14056,8 @@
  gramm: V,intr,with_dat
  paradigm: paradigm_V
  trans_ru: кланяться, молиться; выпрашивать
- trans_en: 
- gloss: STEM
+ trans_en: bow, pray; demand
+ gloss: bow
 
 -lexeme
  lex: jəbərtənə
@@ -14074,27 +14065,27 @@
  gramm: V,intr,with_dat
  paradigm: paradigm_V
  trans_ru: кланяться
- trans_en: 
- gloss: STEM
+ trans_en: bow
+ gloss: bow
 
 -lexeme
  lex: jəg
  stem: jəg.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: тук-тук
  trans_en: knock-knock
- gloss: knock.knock
+ gloss: IDEO
 
 -lexeme
  lex: jəg-jəg
  stem: jəg-jəg.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  paradigm: paradigm_A
  trans_ru: крепко, как следует
  trans_en: firmly, fast, fundamentally; thoroughly, in order, properly
- gloss: thoroughly
+ gloss: IDEO
 
 -lexeme
  lex: jəganə
@@ -14211,8 +14202,8 @@
  gramm: N
  paradigm: paradigm_N
  trans_ru: плод
- trans_en: 
- gloss: STEM
+ trans_en: fruit
+ gloss: fruit
 
 -lexeme
  lex: jər
@@ -14283,8 +14274,8 @@
  gramm: A,rel_adj
  paradigm: paradigm_A
  trans_ru: примерно одинаковый по количеству
- trans_en: 
- gloss: STEM
+ trans_en: approximately same amount
+ gloss: same.amount
 
 -lexeme
  lex: jəros
@@ -14525,8 +14516,8 @@
  gramm: PART,rus
  paradigm: Empty
  trans_ru: -ка
- trans_en: hortative particle
- gloss: HORT
+ trans_en: imperative mitigator
+ gloss: IMP.MTG
 
 -lexeme
  lex: kab
@@ -14702,11 +14693,11 @@
 -lexeme
  lex: kak-kak
  stem: kak-kak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: poop (babytalk)
- gloss: poop
+ gloss: IDEO
 
 -lexeme
  lex: kak-nʼikak
@@ -14784,11 +14775,11 @@
 -lexeme
  lex: kal-kal
  stem: kal-kal.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kalančʼa
@@ -14956,20 +14947,20 @@
 -lexeme
  lex: kalʼtrak
  stem: kalʼtrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: передает образ расшатывания
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kalʼtər
  stem: kalʼtər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: о болтающемся предмете
  trans_en: of dangling
- gloss: of.dangling
+ gloss: IDEO
 
 -lexeme
  lex: kalʼtərtənə
@@ -15103,8 +15094,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: контора
- trans_en: 
- gloss: STEM
+ trans_en: administration
+ gloss: administration
 
 -lexeme
  lex: kanʼikul
@@ -15112,8 +15103,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: каникулы
- trans_en: 
- gloss: STEM
+ trans_en: vacation
+ gloss: vacation
 
 -lexeme
  lex: kanʼistra
@@ -15121,8 +15112,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: канистра
- trans_en: 
- gloss: STEM
+ trans_en: can
+ gloss: can
 
 -lexeme
  lex: kanʼsranə
@@ -15130,8 +15121,8 @@
  gramm: V,intr
  paradigm: paradigm_V
  trans_ru: ослабнуть
- trans_en: 
- gloss: STEM
+ trans_en: become weak
+ gloss: become.weak
 
 -lexeme
  lex: kanʼǯʼanə
@@ -15148,8 +15139,8 @@
  gramm: A
  paradigm: paradigm_A
  trans_ru: тихий, спокойный; уравновешенный; вялый
- trans_en: 
- gloss: STEM
+ trans_en: calm
+ gloss: calm
 
 -lexeme
  lex: kanʼəl
@@ -15157,8 +15148,8 @@
  gramm: ADV
  paradigm: Comparative
  trans_ru: медленно, не торопясь
- trans_en: 
- gloss: STEM
+ trans_en: calmly, slowly
+ gloss: calmly
 
 -lexeme
  lex: kanʼəlomənə
@@ -15184,8 +15175,8 @@
  gramm: V,rus,rus_inf,intr,with_lat
  paradigm: Comparative
  trans_ru: капать
- trans_en: 
- gloss: STEM
+ trans_en: drip
+ gloss: drip
 
 -lexeme
  lex: kapelʼka
@@ -15193,8 +15184,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: капелька
- trans_en: 
- gloss: STEM
+ trans_en: drop
+ gloss: drop
 
 -lexeme
  lex: kapelʼnʼica
@@ -15220,8 +15211,8 @@
  gramm: N
  paradigm: paradigm_N
  trans_ru: ворота
- trans_en: 
- gloss: STEM
+ trans_en: gate
+ gloss: gate
 
 -lexeme
  lex: kapkan
@@ -15229,8 +15220,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: капкан
- trans_en: 
- gloss: STEM
+ trans_en: trap
+ gloss: trap
 
 -lexeme
  lex: kapot
@@ -15238,8 +15229,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: капот
- trans_en: 
- gloss: STEM
+ trans_en: hood
+ gloss: hood
 
 -lexeme
  lex: kapralʼskij
@@ -15265,8 +15256,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: капуста
- trans_en: 
- gloss: STEM
+ trans_en: cabbage
+ gloss: cabbage
 
 -lexeme
  lex: kapčʼi
@@ -15346,8 +15337,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: карамель
- trans_en: 
- gloss: STEM
+ trans_en: caramel
+ gloss: caramel
 
 -lexeme
  lex: karamelʼka
@@ -15355,8 +15346,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: карамелька
- trans_en: 
- gloss: STEM
+ trans_en: caramel
+ gloss: caramel
 
 -lexeme
  lex: karandaš
@@ -15364,8 +15355,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: карандаш
- trans_en: 
- gloss: STEM
+ trans_en: pencil
+ gloss: pencil
 
 -lexeme
  lex: karašʼinʼ
@@ -15418,8 +15409,8 @@
  gramm: N,rus,anim
  paradigm: paradigm_N
  trans_ru: карп
- trans_en: 
- gloss: STEM
+ trans_en: carp
+ gloss: carp
 
 -lexeme
  lex: kars
@@ -15445,8 +15436,8 @@
  gramm: N,anim,hum
  paradigm: paradigm_N
  trans_ru: муж
- trans_en: 
- gloss: STEM
+ trans_en: husband
+ gloss: husband
 
 -lexeme
  lex: karta
@@ -15454,8 +15445,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: карта, карты
- trans_en: 
- gloss: STEM
+ trans_en: card
+ gloss: card
 
 -lexeme
  lex: kartofelʼnoj
@@ -15481,8 +15472,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: карточка
- trans_en: 
- gloss: STEM
+ trans_en: card, picture
+ gloss: card
 
 -lexeme
  lex: kartoška
@@ -15499,8 +15490,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: картина
- trans_en: 
- gloss: STEM
+ trans_en: picture
+ gloss: picture
 
 -lexeme
  lex: kartʼinka
@@ -15508,8 +15499,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: картинка
- trans_en: 
- gloss: STEM
+ trans_en: picture
+ gloss: picture
 
 -lexeme
  lex: karənə
@@ -15535,8 +15526,8 @@
  gramm: POST
  paradigm: poss
  trans_ru: с целью; из-за желания
- trans_en: 
- gloss: STEM
+ trans_en: because of
+ gloss: because.of
 
 -lexeme
  lex: katʼ
@@ -15544,8 +15535,8 @@
  gramm: CONJ
  paradigm: Empty
  trans_ru: см. kadʼ
- trans_en: 
- gloss: STEM
+ trans_en: like
+ gloss: like
 
 -lexeme
  lex: katʼ
@@ -15625,8 +15616,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: каша
- trans_en: 
- gloss: STEM
+ trans_en: porridge
+ gloss: porridge
 
 -lexeme
  lex: kašpu
@@ -15652,8 +15643,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: кассета (яиц)
- trans_en: 
- gloss: STEM
+ trans_en: egg carton; tape
+ gloss: egg.carton
 
 -lexeme
  lex: každoj
@@ -15671,7 +15662,7 @@
  paradigm: paradigm_N
  trans_ru: каждый, все подряд
  trans_en: each, everyone
- gloss: every
+ gloss: everyone
 
 -lexeme
  lex: kažʼanki
@@ -15788,8 +15779,8 @@
  paradigm: paradigm_N_px_ə
  paradigm: paradigm_N
  trans_ru: амбар
- trans_en: 
- gloss: STEM
+ trans_en: barn
+ gloss: barn
 
 -lexeme
  lex: kenʼa
@@ -15885,29 +15876,29 @@
 -lexeme
  lex: keprak
  stem: keprak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kepər
  stem: kepər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kepər-kapər
  stem: kepər-kapər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kepəranə
@@ -15921,7 +15912,7 @@
 -lexeme
  lex: ker
  stem: ker.
- gramm: ???
+ gramm: PART
  paradigm: Comparative
  trans_ru: опасаться
  trans_en: 
@@ -16321,8 +16312,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: кино
- trans_en: 
- gloss: STEM
+ trans_en: movie, TV
+ gloss: movie
 
 -lexeme
  lex: kinotʼeatər
@@ -16330,8 +16321,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: кинотеатр
- trans_en: 
- gloss: STEM
+ trans_en: cinema
+ gloss: cinema
 
 -lexeme
  lex: kinʼ
@@ -16366,8 +16357,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: книга
- trans_en: 
- gloss: STEM
+ trans_en: book
+ gloss: book
 
 -lexeme
  lex: kinʼke
@@ -16399,11 +16390,11 @@
 -lexeme
  lex: kir-kir
  stem: kir-kir.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kiros
@@ -16420,8 +16411,8 @@
  gramm: A,rus
  paradigm: paradigm_A
  trans_ru: кирпичный
- trans_en: 
- gloss: STEM
+ trans_en: brick
+ gloss: brick
 
 -lexeme
  lex: kis
@@ -16435,11 +16426,11 @@
 -lexeme
  lex: kis-kis
  stem: kis-kis.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kistočʼka
@@ -16447,8 +16438,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: кисточка
- trans_en: 
- gloss: STEM
+ trans_en: brush
+ gloss: brush
 
 -lexeme
  lex: kisɨranə
@@ -16465,8 +16456,8 @@
  gramm: A,rus
  paradigm: paradigm_A
  trans_ru: китайский
- trans_en: 
- gloss: STEM
+ trans_en: Chinese
+ gloss: Chinese
 
 -lexeme
  lex: kiultənə
@@ -16492,8 +16483,8 @@
  gramm: V,intr,with_instr
  paradigm: paradigm_V
  trans_ru: руководить
- trans_en: 
- gloss: STEM
+ trans_en: govern
+ gloss: govern
 
 -lexeme
  lex: kiška
@@ -16501,8 +16492,8 @@
  gramm: N,rus,body
  paradigm: paradigm_N
  trans_ru: кишка
- trans_en: 
- gloss: STEM
+ trans_en: intestine
+ gloss: intestine
 
 -lexeme
  lex: kišʼ
@@ -16654,8 +16645,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: клапан
- trans_en: 
- gloss: STEM
+ trans_en: valve
+ gloss: valve
 
 -lexeme
  lex: klas
@@ -16663,35 +16654,35 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: класс
- trans_en: 
- gloss: STEM
+ trans_en: class
+ gloss: class
 
 -lexeme
  lex: klašʼ
  stem: klašʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: шлёп
  trans_en: flop
- gloss: flop
+ gloss: IDEO
 
 -lexeme
  lex: klašʼ-klašʼ
  stem: klašʼ-klašʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: klop
  stem: klop.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: о резком и неожиданном падении
  trans_en: of sudden fall
- gloss: of.sudden.fall
+ gloss: IDEO
 
 -lexeme
  lex: kloun
@@ -16714,38 +16705,38 @@
 -lexeme
  lex: kluk-klak
  stem: kluk-klak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: небрежно, неряшливо; шатаясь
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kləp-klap
  stem: kləp-klap.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: кое-как, небрежно
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: klʼap
  stem: klʼap.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: klʼap-klʼap
  stem: klʼap-klʼap.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: klʼej
@@ -16753,8 +16744,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: клей
- trans_en: 
- gloss: STEM
+ trans_en: glue
+ gloss: glue
 
 -lexeme
  lex: klʼejmo
@@ -16804,11 +16795,11 @@
 -lexeme
  lex: klʼim-klʼam
  stem: klʼim-klʼam.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: некачественно, кое-как; для виду
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: klʼin
@@ -16816,17 +16807,17 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: клин
- trans_en: 
- gloss: STEM
+ trans_en: wedge
+ gloss: wedge
 
 -lexeme
  lex: klʼom
  stem: klʼom.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: klʼonka
@@ -16840,11 +16831,11 @@
 -lexeme
  lex: klʼop
  stem: klʼop.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: klʼuška
@@ -16861,8 +16852,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: кнопка
- trans_en: 
- gloss: STEM
+ trans_en: button
+ gloss: button
 
 -lexeme
  lex: knʼiga
@@ -16924,8 +16915,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: ковшик
- trans_en: 
- gloss: STEM
+ trans_en: small dipper
+ gloss: small.dipper
 
 -lexeme
  lex: kojka
@@ -16969,8 +16960,8 @@
  gramm: N
  paradigm: paradigm_N
  trans_ru: яичко, яички
- trans_en: 
- gloss: STEM
+ trans_en: testicle, testicles
+ gloss: testicles
 
 -lexeme
  lex: kokolʼ
@@ -17005,8 +16996,8 @@
  gramm: V,tr
  paradigm: paradigm_V
  trans_ru: клюнуть
- trans_en: 
- gloss: STEM
+ trans_en: peck
+ gloss: peck
 
 -lexeme
  lex: kokčʼanə
@@ -17014,8 +17005,8 @@
  gramm: V,tr
  paradigm: paradigm_V
  trans_ru: клевать
- trans_en: 
- gloss: STEM
+ trans_en: peck
+ gloss: peck
 
 -lexeme
  lex: kokčʼənə
@@ -17023,8 +17014,8 @@
  gramm: V,tr
  paradigm: paradigm_V
  trans_ru: клюнуть; ударить, ушибить
- trans_en: 
- gloss: STEM
+ trans_en: peck; hit
+ gloss: peck
 
 -lexeme
  lex: kol
@@ -17059,8 +17050,8 @@
  gramm: N
  paradigm: paradigm_N
  trans_ru: колбаса
- trans_en: 
- gloss: STEM
+ trans_en: sausage
+ gloss: sausage
 
 -lexeme
  lex: kolkožʼnʼik
@@ -17068,8 +17059,8 @@
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
  trans_ru: колхозник
- trans_en: 
- gloss: STEM
+ trans_en: collective farm worker
+ gloss: collective.farm.worker
 
 -lexeme
  lex: koloda
@@ -17095,8 +17086,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: колокольчик
- trans_en: 
- gloss: STEM
+ trans_en: bell
+ gloss: bell
 
 -lexeme
  lex: kolonka
@@ -17104,8 +17095,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: колонка
- trans_en: 
- gloss: STEM
+ trans_en: standpipe
+ gloss: standpipe
 
 -lexeme
  lex: kolončʼa
@@ -17122,8 +17113,8 @@
  gramm: A,rus
  paradigm: paradigm_A
  trans_ru: колорадский (жук)
- trans_en: 
- gloss: STEM
+ trans_en: Colorado (beetle)
+ gloss: Colorado
 
 -lexeme
  lex: koloratskoj
@@ -17131,8 +17122,8 @@
  gramm: A,rus
  paradigm: paradigm_A
  trans_ru: колорадский (жук)
- trans_en: 
- gloss: STEM
+ trans_en: Colorado (beetle)
+ gloss: Colorado
 
 -lexeme
  lex: kološ
@@ -17158,8 +17149,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: топор-колун
- trans_en: 
- gloss: STEM
+ trans_en: axe
+ gloss: axe
 
 -lexeme
  lex: kolxoz
@@ -17185,8 +17176,8 @@
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
  trans_ru: колхозник
- trans_en: 
- gloss: STEM
+ trans_en: collective farm worker
+ gloss: collective.farm.worker
 
 -lexeme
  lex: kolǯʼo
@@ -17212,8 +17203,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: коляска
- trans_en: 
- gloss: STEM
+ trans_en: stroller
+ gloss: stroller
 
 -lexeme
  lex: kolʼcevoj
@@ -17329,8 +17320,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: комбикорм
- trans_en: 
- gloss: STEM
+ trans_en: fodder
+ gloss: fodder
 
 -lexeme
  lex: kombikormovoj
@@ -17338,8 +17329,8 @@
  gramm: A,rus
  paradigm: paradigm_A
  trans_ru: комбикормовой
- trans_en: 
- gloss: STEM
+ trans_en: fodder
+ gloss: fodder
 
 -lexeme
  lex: kombinʼezon
@@ -17401,8 +17392,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: компьютер
- trans_en: 
- gloss: STEM
+ trans_en: computer
+ gloss: computer
 
 -lexeme
  lex: komplʼeks
@@ -17428,8 +17419,8 @@
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
  trans_ru: коммунист
- trans_en: 
- gloss: STEM
+ trans_en: communist
+ gloss: communist
 
 -lexeme
  lex: koncert
@@ -17437,26 +17428,26 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: концерт
- trans_en: 
- gloss: STEM
+ trans_en: concert
+ gloss: concert
 
 -lexeme
  lex: konglʼak
  stem: konglʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kongəlʼ-kangəlʼ
  stem: kongəlʼ-kangəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kongəlʼlʼanə
@@ -17482,8 +17473,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: конкурс
- trans_en: 
- gloss: STEM
+ trans_en: contest
+ gloss: contest
 
 -lexeme
  lex: konnɨj
@@ -17509,8 +17500,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: конопля
- trans_en: 
- gloss: STEM
+ trans_en: hemp
+ gloss: hemp
 
 -lexeme
  lex: kontejnʼer
@@ -17518,8 +17509,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: контейнер
- trans_en: 
- gloss: STEM
+ trans_en: container
+ gloss: container
 
 -lexeme
  lex: konvejer
@@ -17536,8 +17527,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: конверт
- trans_en: 
- gloss: STEM
+ trans_en: envelope
+ gloss: envelope
 
 -lexeme
  lex: konšʼerva
@@ -17671,8 +17662,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: коптилка
- trans_en: 
- gloss: STEM
+ trans_en: portable smokehouse
+ gloss: smokehouse
 
 -lexeme
  lex: kopəštənə
@@ -17707,8 +17698,8 @@
  gramm: N,rus,transport
  paradigm: paradigm_N
  trans_ru: корабль
- trans_en: 
- gloss: STEM
+ trans_en: ship
+ gloss: ship
 
 -lexeme
  lex: koranə
@@ -17816,8 +17807,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: коробка
- trans_en: 
- gloss: STEM
+ trans_en: box
+ gloss: box
 
 -lexeme
  lex: korosta
@@ -17858,11 +17849,11 @@
 -lexeme
  lex: kors
  stem: kors.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kort
@@ -17951,8 +17942,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: кастрюля
- trans_en: 
- gloss: STEM
+ trans_en: cooking pot
+ gloss: pot
 
 -lexeme
  lex: kostɨlʼ
@@ -17960,8 +17951,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: костыль
- trans_en: 
- gloss: STEM
+ trans_en: crunch
+ gloss: crunch
 
 -lexeme
  lex: kosənə
@@ -18122,8 +18113,8 @@
  gramm: PART,rus
  paradigm: Empty
  trans_ru: хоть, хотя
- trans_en: although
- gloss: although
+ trans_en: at least; although
+ gloss: at.least
 
 -lexeme
  lex: kotʼ
@@ -18257,8 +18248,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: котёл
- trans_en: 
- gloss: STEM
+ trans_en: cauldron
+ gloss: cauldron
 
 -lexeme
  lex: kovjor
@@ -18542,11 +18533,11 @@
 -lexeme
  lex: krašʼ
  stem: krašʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: резко, напрямик, не обдумав
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: krašʼica
@@ -18686,11 +18677,11 @@
 -lexeme
  lex: krip-krap
  stem: krip-krap.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: поверхностно; фрагментарно
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: krokodʼil
@@ -19010,11 +19001,11 @@
 -lexeme
  lex: kuku
  stem: kuku.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: ку-ку
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kukuruza
@@ -19028,11 +19019,11 @@
 -lexeme
  lex: kul-kal
  stem: kul-kal.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kule
@@ -19091,11 +19082,11 @@
 -lexeme
  lex: kulʼtər
  stem: kulʼtər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kulʼə
@@ -19226,11 +19217,11 @@
 -lexeme
  lex: kupər-kupər
  stem: kupər-kupər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kupərčʼikənə
@@ -19460,11 +19451,11 @@
 -lexeme
  lex: kusən-kwasən
  stem: kusən-kwasən.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: см. kəskəlʼ-kaskəlʼ
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kusəp
@@ -19649,11 +19640,11 @@
 -lexeme
  lex: kušʼ-kušʼ
  stem: kušʼ-kušʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kuž
@@ -19938,11 +19929,11 @@
 -lexeme
  lex: kvatʼ
  stem: kvatʼ.
- gramm: IMIT,rus
+ gramm: IDEO,rus
  paradigm: Comparative
  trans_ru: хвать
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kwa
@@ -20010,11 +20001,11 @@
 -lexeme
  lex: kwaltər
  stem: kwaltər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kwalʼanə
@@ -20082,20 +20073,20 @@
 -lexeme
  lex: kwalʼtrak
  stem: kwalʼtrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kwalʼtər
  stem: kwalʼtər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kwalʼtərtənə
@@ -20289,20 +20280,20 @@
 -lexeme
  lex: kwačʼrak
  stem: kwačʼrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kwačʼər
  stem: kwačʼər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kwačʼərtənə
@@ -20361,38 +20352,38 @@
 -lexeme
  lex: kwaž
  stem: kwaž.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: с большим аппетитом, желанием, удовольствием
  trans_en: with appetite, willingly, with pleasure
- gloss: with.appetite
+ gloss: IDEO
 
 -lexeme
  lex: kwažak
  stem: kwažak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: большими кусками, жадно
  trans_en: by large pieces, greedily
- gloss: by.large.pieces
+ gloss: IDEO
 
 -lexeme
  lex: kwažrak
  stem: kwažrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kwažər
  stem: kwažər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: с большим аппетитом, желанием, удовольствием
  trans_en: with appetite, willingly, with pleasure
- gloss: with.appetite
+ gloss: IDEO
 
 -lexeme
  lex: kwažərtənə
@@ -20415,11 +20406,11 @@
 -lexeme
  lex: kwažʼak
  stem: kwažʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: с хрустом
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kwinʼ
@@ -20604,11 +20595,11 @@
 -lexeme
  lex: kəl-kal
  stem: kəl-kal.
- gramm: IMIT
+ gramm: IDEO
  paradigm: paradigm_A
  trans_ru: кое-как
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kəlanə-buranə
@@ -20667,29 +20658,29 @@
 -lexeme
  lex: kəltər
  stem: kəltər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kəltər-kaltər
  stem: kəltər-kaltər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: paradigm_A
  trans_ru: неопрятный
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kəltər-kəltər
  stem: kəltər-kəltər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kəlǯʼikənə
@@ -20793,47 +20784,47 @@
 -lexeme
  lex: kəlʼtrak
  stem: kəlʼtrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kəlʼtrak
  stem: kəlʼtrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kəlʼtər
  stem: kəlʼtər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: пока см. kəlʼtər-kalʼtər
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kəlʼtər-kalʼtər
  stem: kəlʼtər-kalʼtər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kəlʼtər-kəlʼtər
  stem: kəlʼtər-kəlʼtər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: paradigm_A
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kəlʼtʼo
@@ -21261,29 +21252,29 @@
 -lexeme
  lex: kəskəlʼ-kaskəlʼ
  stem: kəskəlʼ-kaskəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kəskəlʼ-kwaskəlʼ
  stem: kəskəlʼ-kwaskəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kəskəlʼak
  stem: kəskəlʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kəskəlʼə
@@ -21387,11 +21378,11 @@
 -lexeme
  lex: kət-kət
  stem: kət-kət.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kətišʼen
@@ -21495,20 +21486,20 @@
 -lexeme
  lex: kətər
  stem: kətər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kətərak
  stem: kətərak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kətəšʼ
@@ -21531,11 +21522,11 @@
 -lexeme
  lex: kətʼ-kətʼ
  stem: kətʼ-kətʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: kətʼi
@@ -22316,11 +22307,11 @@
 -lexeme
  lex: lad-lad
  stem: lad-lad.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: хорошо, правильно, ладно, толком
  trans_en: well, correctly, right, properly
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ladno
@@ -22343,20 +22334,20 @@
 -lexeme
  lex: lakrak
  stem: lakrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: lakər
  stem: lakər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: lampa
@@ -22388,11 +22379,11 @@
 -lexeme
  lex: lanʼ-lanʼ
  stem: lanʼ-lanʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: lap
@@ -22488,11 +22479,11 @@
 -lexeme
  lex: laprak
  stem: laprak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: lapranə
@@ -22551,29 +22542,29 @@
 -lexeme
  lex: lačʼak
  stem: lačʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: быть как раз впору; вовремя
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: lačʼrak
  stem: lačʼrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: lačʼər
  stem: lačʼər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: lačʼərtənə
@@ -22587,11 +22578,11 @@
 -lexeme
  lex: laš
  stem: laš.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: лёжа; плашмя
  trans_en: in a lying position; flat
- gloss: flat
+ gloss: IDEO
 
 -lexeme
  lex: laškinʼnʼanə
@@ -22614,11 +22605,11 @@
 -lexeme
  lex: lašʼ-lašʼ
  stem: lašʼ-lašʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: спокойно, обстоятельно, не спеша
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: lašʼana
@@ -22965,20 +22956,20 @@
 -lexeme
  lex: lušək-lašək
  stem: lušək-lašək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: lušʼtər-lašʼtər
  stem: lušʼtər-lašʼtər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: luža
@@ -23010,11 +23001,11 @@
 -lexeme
  lex: ləbər-ləbər
  stem: ləbər-ləbər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ləd
@@ -23064,20 +23055,20 @@
 -lexeme
  lex: ləkər
  stem: ləkər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ləkər-lakər
  stem: ləkər-lakər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ləkərtənə
@@ -23226,11 +23217,11 @@
 -lexeme
  lex: ləpər-lapər
  stem: ləpər-lapər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ləs
@@ -23298,20 +23289,20 @@
 -lexeme
  lex: ləčʼər-lačʼər
  stem: ləčʼər-lačʼər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ləšək-lašək
  stem: ləšək-lašək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ləǯʼet
@@ -23352,11 +23343,11 @@
 -lexeme
  lex: lɤp-lɤp
  stem: lɤp-lɤp.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: lɤpkətənə
@@ -23407,11 +23398,11 @@
 -lexeme
  lex: lɨr-lar
  stem: lɨr-lar.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: lɨžnʼik
@@ -23470,11 +23461,11 @@
 -lexeme
  lex: lʼak-lʼak
  stem: lʼak-lʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: paradigm_A
  trans_ru: крепко, прочно, основательно
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: lʼakənə
@@ -24056,20 +24047,20 @@
 -lexeme
  lex: lʼug-lʼug
  stem: lʼug-lʼug.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: яркий (о свете)
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: lʼugak
  stem: lʼugak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: lʼugdənə
@@ -24218,11 +24209,11 @@
 -lexeme
  lex: lʼəbər-lʼabər
  stem: lʼəbər-lʼabər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: paradigm_A
  trans_ru: шаткий
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: lʼəgiješʼ
@@ -24245,11 +24236,11 @@
 -lexeme
  lex: lʼəgər
  stem: lʼəgər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: lʼəgərtənə
@@ -24263,11 +24254,11 @@
 -lexeme
  lex: lʼəkər-lʼakər
  stem: lʼəkər-lʼakər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: с трудом /о ходьбе/; неустойчиво, шатаясь
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: lʼəpet
@@ -24650,11 +24641,11 @@
 -lexeme
  lex: mam-mam
  stem: mam-mam.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: ням-ням
  trans_en: nom-nom
- gloss: nom.nom
+ gloss: IDEO
 
 -lexeme
  lex: mama
@@ -25641,11 +25632,11 @@
 -lexeme
  lex: miau
  stem: miau.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Empty
  trans_ru: мяу
  trans_en: miaou
- gloss: miaou
+ gloss: IDEO
 
 -lexeme
  lex: mijəm
@@ -26660,11 +26651,11 @@
 -lexeme
  lex: məkər-məkər
  stem: məkər-məkər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: məkərjanə
@@ -26705,11 +26696,11 @@
 -lexeme
  lex: məlʼək-malʼək
  stem: məlʼək-malʼək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: məlʼəkjanə
@@ -26741,11 +26732,11 @@
 -lexeme
  lex: məntək
  stem: məntək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: разминуться
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: məntək
@@ -26768,11 +26759,11 @@
 -lexeme
  lex: mənʼ
  stem: mənʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: mənʼanə
@@ -26795,11 +26786,11 @@
 -lexeme
  lex: mənʼək-manʼək
  stem: mənʼək-manʼək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: mənʼəkjanə
@@ -26813,11 +26804,11 @@
 -lexeme
  lex: mər-mər
  stem: mər-mər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: упорно, усердно
  trans_en: hard, heartily, industriously
- gloss: industriously
+ gloss: IDEO
 
 -lexeme
  lex: mərdem
@@ -27077,8 +27068,8 @@
  gramm: A,rus
  paradigm: paradigm_A
  trans_ru: национальный
- trans_en: 
- gloss: STEM
+ trans_en: national
+ gloss: national
 
 -lexeme
  lex: nadrez
@@ -27140,8 +27131,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: налог
- trans_en: 
- gloss: STEM
+ trans_en: tax
+ gloss: tax
 
 -lexeme
  lex: nalčʼikənə
@@ -27194,8 +27185,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: намёт
- trans_en: 
- gloss: STEM
+ trans_en: casting net
+ gloss: casting.net
 
 -lexeme
  lex: namlʼek
@@ -27506,11 +27497,11 @@
 -lexeme
  lex: naš-naš
  stem: naš-naš.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: naštanə
@@ -28030,11 +28021,11 @@
 -lexeme
  lex: nəkər-nəkər
  stem: nəkər-nəkər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: nəkərtənə
@@ -28184,11 +28175,11 @@
 -lexeme
  lex: nəs-nəs
  stem: nəs-nəs.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: nəš
@@ -28202,11 +28193,11 @@
 -lexeme
  lex: nəš-nəš
  stem: nəš-nəš.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: nəšna
@@ -28265,20 +28256,20 @@
 -lexeme
  lex: nʼak-nʼak
  stem: nʼak-nʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: nʼakrak
  stem: nʼakrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: nʼakranə
@@ -28791,7 +28782,7 @@
  paradigm: Empty
  trans_ru: уже
  trans_en: already
- gloss: already
+ gloss: IAM
 
 -lexeme
  lex: nʼi
@@ -28931,11 +28922,11 @@
 -lexeme
  lex: nʼonʼ-nʼonʼ
  stem: nʼonʼ-nʼonʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: nʼonʼok
@@ -29121,38 +29112,38 @@
 -lexeme
  lex: nʼəgəlʼ
  stem: nʼəgəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: nʼəgəlʼ-nʼagəlʼ
  stem: nʼəgəlʼ-nʼagəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: неуклюже, медлительно
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: nʼəgəlʼ-nʼəgəlʼ
  stem: nʼəgəlʼ-nʼəgəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: paradigm_A
  trans_ru: хорошенький, упитанный
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: nʼəgəlʼak
  stem: nʼəgəlʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: nʼəgəlʼes
@@ -29202,20 +29193,20 @@
 -lexeme
  lex: nʼəkər-nʼakər
  stem: nʼəkər-nʼakər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: nʼəkər-nʼəkər
  stem: nʼəkər-nʼəkər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: nʼəkərtənə
@@ -29302,11 +29293,11 @@
 -lexeme
  lex: nʼəməlʼ-nʼaməl
  stem: nʼəməlʼ-nʼaməl.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: скользкий; вязкий
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: nʼəməlʼes
@@ -29347,11 +29338,11 @@
 -lexeme
  lex: nʼər-nʼər
  stem: nʼər-nʼər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: nʼəranə
@@ -29374,11 +29365,11 @@
 -lexeme
  lex: nʼərkak
  stem: nʼərkak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: вздрогнуть (nʼərkak karišʼkənə)
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: nʼəromənə
@@ -29419,29 +29410,29 @@
 -lexeme
  lex: nʼəž
  stem: nʼəž.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: ползком, волоком
  trans_en: crawling
- gloss: crawling
+ gloss: IDEO
 
 -lexeme
  lex: nʼəž-nʼaž
  stem: nʼəž-nʼaž.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: плавно, равномерно
  trans_en: smoothly
- gloss: smoothly
+ gloss: IDEO
 
 -lexeme
  lex: nʼəž-nʼəž
  stem: nʼəž-nʼəž.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: ползком, волоком
  trans_en: crawling
- gloss: crawling
+ gloss: IDEO
 
 -lexeme
  lex: nʼəža
@@ -29482,11 +29473,11 @@
 -lexeme
  lex: nʼəžəlʼ-nʼažəlʼ
  stem: nʼəžəlʼ-nʼažəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: nʼəžəlʼlʼašʼkənə
@@ -30348,11 +30339,11 @@
 -lexeme
  lex: omrak
  stem: omrak.//omərak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: omšanʼik
@@ -30375,11 +30366,11 @@
 -lexeme
  lex: omər-omər
  stem: omər-omər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: oməres
@@ -31077,11 +31068,11 @@
 -lexeme
  lex: pa
  stem: pa.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: paj
@@ -31384,11 +31375,11 @@
 -lexeme
  lex: panʼ-panʼ
  stem: panʼ-panʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: panʼganə
@@ -32653,20 +32644,20 @@
 -lexeme
  lex: pik
  stem: pik.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: пик
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: pik-pak
  stem: pik-pak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: еле-еле слышно
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: pikanka
@@ -32842,11 +32833,11 @@
 -lexeme
  lex: pip-pip
  stem: pip-pip.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: би-би
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: pipik
@@ -34399,11 +34390,11 @@
 -lexeme
  lex: pozər-pozər
  stem: pozər-pozər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: свилеватый
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: pozəres
@@ -35426,11 +35417,11 @@
 -lexeme
  lex: pur-pur
  stem: pur-pur.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: purišʼmənə
@@ -36013,11 +36004,11 @@
 -lexeme
  lex: pəlʼtrak
  stem: pəlʼtrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: pəlʼtres
@@ -36031,11 +36022,11 @@
 -lexeme
  lex: pəlʼtər-pəlʼtər
  stem: pəlʼtər-pəlʼtər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: pəlʼəna
@@ -36239,20 +36230,20 @@
 -lexeme
  lex: pəs-pas
  stem: pəs-pas.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: pəs-pəs
  stem: pəs-pəs.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: плотно, крепко, сильно
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: pəsijanə
@@ -36284,11 +36275,11 @@
 -lexeme
  lex: pəsək-pasək
  stem: pəsək-pasək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: (о людях, животных) вертеться, копошиться, ворочаться
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: pəsəkmənə
@@ -36302,11 +36293,11 @@
 -lexeme
  lex: pəsər-pasər
  stem: pəsər-pasər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: pətsanə
@@ -36329,11 +36320,11 @@
 -lexeme
  lex: pətər-pətər
  stem: pətər-pətər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: pətʼə
@@ -36347,11 +36338,11 @@
 -lexeme
  lex: pətʼər-patʼər
  stem: pətʼər-patʼər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: кубарем
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: pətʼəranə
@@ -36392,11 +36383,11 @@
 -lexeme
  lex: pəzər-pəzər
  stem: pəzər-pəzər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: pəčʼanə
@@ -36428,20 +36419,20 @@
 -lexeme
  lex: pəčʼəl
  stem: pəčʼəl.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: до краёв
  trans_en: up to the brim (about liquids and containers)
- gloss: up.to.the.brim
+ gloss: IDEO
 
 -lexeme
  lex: pəčʼəlak
  stem: pəčʼəlak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: pəš
@@ -36455,11 +36446,11 @@
 -lexeme
  lex: pəš-pəš
  stem: pəš-pəš.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: pəšešʼ
@@ -38644,11 +38635,11 @@
 -lexeme
  lex: snok
  stem: snok.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: so
@@ -38914,11 +38905,11 @@
 -lexeme
  lex: sop-sop
  stem: sop-sop.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: с большим аппетитом
  trans_en: with gusto
- gloss: with.gusto
+ gloss: IDEO
 
 -lexeme
  lex: soplʼak
@@ -38932,11 +38923,11 @@
 -lexeme
  lex: sor
  stem: sor.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: sorgetənə
@@ -39310,11 +39301,11 @@
 -lexeme
  lex: sret-sret
  stem: sret-sret.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: sročʼno
@@ -39337,11 +39328,11 @@
 -lexeme
  lex: srup
  stem: srup.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: srək
@@ -40138,11 +40129,11 @@
 -lexeme
  lex: səlʼ-səlʼ
  stem: səlʼ-səlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: səmed
@@ -40183,11 +40174,11 @@
 -lexeme
  lex: sənak
  stem: sənak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: sənanə
@@ -40210,20 +40201,20 @@
 -lexeme
  lex: sənʼ-sənʼ
  stem: sənʼ-sənʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: səpəlʼ-səpəlʼ
  stem: səpəlʼ-səpəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: səpəlʼtənə
@@ -40237,29 +40228,29 @@
 -lexeme
  lex: səpər-sapər
  stem: səpər-sapər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: səpər-səpər
  stem: səpər-səpər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: sər-sər
  stem: sər-sər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: səre
@@ -40363,11 +40354,11 @@
 -lexeme
  lex: səsə-pəsə
  stem: səsə-pəsə.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: sətənə
@@ -40742,11 +40733,11 @@
 -lexeme
  lex: talʼək
  stem: talʼək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: (о выпечке) клёклый, сырой, непропечённый
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tam
@@ -40850,20 +40841,20 @@
 -lexeme
  lex: tap
  stem: tap.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: см. top
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tap-tap
  stem: tap-tap.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tap-tap
@@ -40895,20 +40886,20 @@
 -lexeme
  lex: tapər-tapər
  stem: tapər-tapər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tara-bara
  stem: tara-bara.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tarak
@@ -40958,11 +40949,11 @@
 -lexeme
  lex: tas
  stem: tas.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: см. təs-tas
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tasanə
@@ -41084,11 +41075,11 @@
 -lexeme
  lex: tačʼ
  stem: tačʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tačʼe
@@ -41111,11 +41102,11 @@
 -lexeme
  lex: tačʼər
  stem: tačʼər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: бегом
  trans_en: running
- gloss: running
+ gloss: IDEO
 
 -lexeme
  lex: tačʼərak
@@ -41147,11 +41138,11 @@
 -lexeme
  lex: tašʼ-tašʼ
  stem: tašʼ-tašʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tašʼkə
@@ -41534,11 +41525,11 @@
 -lexeme
  lex: tok-tok
  stem: tok-tok.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tokar
@@ -41588,11 +41579,11 @@
 -lexeme
  lex: tokəlʼ-tokəlʼ
  stem: tokəlʼ-tokəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tol
@@ -41876,38 +41867,38 @@
 -lexeme
  lex: top
  stem: top.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: top-top
  stem: top-top.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: топ-топ
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: top-top
  stem: top-top.
- gramm: IMIT
+ gramm: IDEO
  paradigm: paradigm_A
  trans_ru: упитанный
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: topak
  stem: topak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: внезапно, резко
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: toplʼivo
@@ -41975,11 +41966,11 @@
 -lexeme
  lex: tos-tos
  stem: tos-tos.
- gramm: IMIT
+ gramm: IDEO
  paradigm: paradigm_A
  trans_ru: упитанный
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: totok
@@ -42029,11 +42020,11 @@
 -lexeme
  lex: toš-toš
  stem: toš-toš.
- gramm: IMIT
+ gramm: IDEO
  paradigm: paradigm_A
  trans_ru: упитанный
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tože
@@ -42236,11 +42227,11 @@
 -lexeme
  lex: trik-trik
  stem: trik-trik.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: triko
@@ -42254,11 +42245,11 @@
 -lexeme
  lex: trinʼ
  stem: trinʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: быстро
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tros
@@ -42461,11 +42452,11 @@
 -lexeme
  lex: tuk
  stem: tuk.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: тук
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tuklʼičʼ
@@ -42723,11 +42714,11 @@
 -lexeme
  lex: tupən-tupən
  stem: tupən-tupən.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: ясно, понятно, доходчиво, толково, толком
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: turi
@@ -42741,11 +42732,11 @@
 -lexeme
  lex: turi-tari
  stem: turi-tari.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: редкий, негустой
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: turnanə
@@ -43011,38 +43002,38 @@
 -lexeme
  lex: tək-mək
  stem: tək-mək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tək-tak
  stem: tək-tak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tək-tak
  stem: tək-tak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tək-tək
  stem: tək-tək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: тук-тук
  trans_en: knock-knock
- gloss: knock.knock
+ gloss: IDEO
 
 -lexeme
  lex: təkketənə
@@ -43056,11 +43047,11 @@
 -lexeme
  lex: təkəlʼ-təkəlʼ
  stem: təkəlʼ-təkəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: təkənə
@@ -43074,20 +43065,20 @@
 -lexeme
  lex: təkər
  stem: təkər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: təkər-takər
  stem: təkər-takər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: təkərtənə
@@ -43111,20 +43102,20 @@
 -lexeme
  lex: təlkak
  stem: təlkak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: (о красном цвете) очень яркий
  trans_en: of bright red
- gloss: of.bright.red
+ gloss: IDEO
 
 -lexeme
  lex: təlpinʼ
  stem: təlpinʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: (о красном цвете) очень яркий
  trans_en: of bright red
- gloss: of.bright.red
+ gloss: IDEO
 
 -lexeme
  lex: təlpu
@@ -43147,11 +43138,11 @@
 -lexeme
  lex: təlʼək
  stem: təlʼək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: paradigm_A
  trans_ru: упитанный
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: təm
@@ -43210,29 +43201,29 @@
 -lexeme
  lex: təp
  stem: təp.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: təp-tap
  stem: təp-tap.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: təp-təp
  stem: təp-təp.
- gramm: IMIT
+ gramm: IDEO
  paradigm: paradigm_A
  trans_ru: крепкий, сильный
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: təp-təp
@@ -43246,20 +43237,20 @@
 -lexeme
  lex: təpak
  stem: təpak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: внезапно, резко
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: təprak
  stem: təprak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: təptaza
@@ -43291,11 +43282,11 @@
 -lexeme
  lex: təpər
  stem: təpər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: təpərton
@@ -43336,29 +43327,29 @@
 -lexeme
  lex: tər-par
  stem: tər-par.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: см. tər-tar
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tər-tar
  stem: tər-tar.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tər-tər
  stem: tər-tər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tərba
@@ -43516,11 +43507,11 @@
 -lexeme
  lex: təs-tas
  stem: təs-tas.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: about a wasted resource
- gloss: about.a.wasted.resource
+ gloss: IDEO
 
 -lexeme
  lex: təsanə
@@ -43543,11 +43534,11 @@
 -lexeme
  lex: təčʼər-tačʼər
  stem: təčʼər-tačʼər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: треск
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: təš
@@ -43769,20 +43760,20 @@
 -lexeme
  lex: tʼap
  stem: tʼap.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: вдрызг; насквозь
  trans_en: completely; through and through
- gloss: completely
+ gloss: IDEO
 
 -lexeme
  lex: tʼap-tʼap
  stem: tʼap-tʼap.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tʼapketənə
@@ -43859,11 +43850,11 @@
 -lexeme
  lex: tʼaž-tʼaž
  stem: tʼaž-tʼaž.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tʼeatər
@@ -44102,11 +44093,11 @@
 -lexeme
  lex: tʼfu
  stem: tʼfu.
- gramm: IMIT,rus
+ gramm: IDEO,rus
  paradigm: Comparative
  trans_ru: тьфу
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tʼfu
@@ -44174,11 +44165,11 @@
 -lexeme
  lex: tʼišʼ-tišʼ
  stem: tʼišʼ-tišʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: пись-пись, писать
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tʼišʼunʼ
@@ -44201,20 +44192,20 @@
 -lexeme
  lex: tʼok-tʼok
  stem: tʼok-tʼok.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: кап-кап
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tʼom
  stem: tʼom.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tʼomnoj
@@ -44228,29 +44219,29 @@
 -lexeme
  lex: tʼop
  stem: tʼop.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tʼop-tʼop
  stem: tʼop-tʼop.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: допьяна, в стельку
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tʼopak
  stem: tʼopak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tʼopo
@@ -44282,11 +44273,11 @@
 -lexeme
  lex: tʼor
  stem: tʼor.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tʼotʼa
@@ -44318,11 +44309,11 @@
 -lexeme
  lex: tʼuk-tʼak
  stem: tʼuk-tʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tʼupik
@@ -44417,11 +44408,11 @@
 -lexeme
  lex: tʼəpəlʼ-tʼapəlʼ
  stem: tʼəpəlʼ-tʼapəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: то же, что tʼəpəlʼes; то же, что tʼəpər-tʼapər
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tʼəpəlʼes
@@ -44453,29 +44444,29 @@
 -lexeme
  lex: tʼəpər-tʼapər
  stem: tʼəpər-tʼapər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: paradigm_A
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tʼər-tʼər
  stem: tʼər-tʼər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: tʼəž-tʼaž
  stem: tʼəž-tʼaž.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: u
@@ -45320,11 +45311,11 @@
 -lexeme
  lex: uri-beri
  stem: uri-beri.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: quickly, urgently (about work)
- gloss: quickly
+ gloss: IDEO
 
 -lexeme
  lex: urjanə
@@ -45734,11 +45725,11 @@
 -lexeme
  lex: učʼək-wačʼək
  stem: učʼək-wačʼək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: то же, что učʼəš-wačʼəš
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: učʼəlag
@@ -45797,11 +45788,11 @@
 -lexeme
  lex: učʼəš-wačʼəš
  stem: učʼəš-wačʼəš.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ušjanə
@@ -46481,11 +46472,11 @@
 -lexeme
  lex: vašʼ-vašʼ
  stem: vašʼ-vašʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: važnoj
@@ -46895,11 +46886,11 @@
 -lexeme
  lex: vešʼ-vešʼ
  stem: vešʼ-vešʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: vešʼak
@@ -48680,20 +48671,20 @@
 -lexeme
  lex: vɤjək-vajək
  stem: vɤjək-vajək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: vɤl-vɤl
  stem: vɤl-vɤl.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: vɤldənə
@@ -49242,20 +49233,20 @@
 -lexeme
  lex: wačʼrak
  stem: wačʼrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: с треском
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: wačʼər-wačʼər
  stem: wačʼər-wačʼər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: waškala
@@ -49458,11 +49449,11 @@
 -lexeme
  lex: xop
  stem: xop.
- gramm: IMIT,rus
+ gramm: IDEO,rus
  paradigm: Comparative
  trans_ru: хоп
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: xorovod
@@ -49845,20 +49836,20 @@
 -lexeme
  lex: zar
  stem: zar.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: взахлёб; навзрыд
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: zarak
  stem: zarak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: навзрыд
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: zarnʼi
@@ -50124,11 +50115,11 @@
 -lexeme
  lex: zir
  stem: zir.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: быстро
  trans_en: quickly
- gloss: quickly
+ gloss: IDEO
 
 -lexeme
  lex: zirak
@@ -50151,11 +50142,11 @@
 -lexeme
  lex: zirkak
  stem: zirkak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: zirpaltənə
@@ -50340,11 +50331,11 @@
 -lexeme
  lex: zub-zub
  stem: zub-zub.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: zubektənə
@@ -50376,20 +50367,20 @@
 -lexeme
  lex: zur
  stem: zur.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: о сильном плаче
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: zurkak
  stem: zurkak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: zurkanə
@@ -50412,11 +50403,11 @@
 -lexeme
  lex: zut-zut
  stem: zut-zut.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: zvanʼije
@@ -50457,11 +50448,11 @@
 -lexeme
  lex: zəb-zəb
  stem: zəb-zəb.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: плотно
  trans_en: tight
- gloss: tight
+ gloss: IDEO
 
 -lexeme
  lex: zəbən
@@ -50854,11 +50845,11 @@
 -lexeme
  lex: čʼalak
  stem: čʼalak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: залпом
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼalmənə
@@ -50935,11 +50926,11 @@
 -lexeme
  lex: čʼalʼtrak
  stem: čʼalʼtrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: вдребезги
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼalʼčʼənə
@@ -50989,11 +50980,11 @@
 -lexeme
  lex: čʼamblʼak
  stem: čʼamblʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: о всплексе
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼambəlʼlʼanə
@@ -51025,11 +51016,11 @@
 -lexeme
  lex: čʼapak
  stem: čʼapak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: внезапно
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼapkəlʼlʼanə
@@ -51052,20 +51043,20 @@
 -lexeme
  lex: čʼaplʼak
  stem: čʼaplʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: резко
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼaprak
  stem: čʼaprak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: сильно (удивиться)
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼaptənə
@@ -51106,29 +51097,29 @@
 -lexeme
  lex: čʼar
  stem: čʼar.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: навзрыд
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼarak
  stem: čʼarak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: с треском
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼark
  stem: čʼark.//čʼarək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: о тугом, твёрдом
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼarka
@@ -51223,11 +51214,11 @@
 -lexeme
  lex: čʼaš-čʼaš
  stem: čʼaš-čʼaš.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼaša
@@ -51268,11 +51259,11 @@
 -lexeme
  lex: čʼaštrak
  stem: čʼaštrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: с шорохом
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼaštərtənə
@@ -51295,29 +51286,29 @@
 -lexeme
  lex: čʼaž
  stem: čʼaž.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: об очень красном
  trans_en: of deep red
- gloss: of.deep.red
+ gloss: IDEO
 
 -lexeme
  lex: čʼaž-čʼaž
  stem: čʼaž-čʼaž.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: об очень красном
  trans_en: of deep red
- gloss: of.deep.red
+ gloss: IDEO
 
 -lexeme
  lex: čʼažak
  stem: čʼažak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: об очень красном
  trans_en: of deep red
- gloss: of.deep.red
+ gloss: IDEO
 
 -lexeme
  lex: čʼažgetənə
@@ -51349,11 +51340,11 @@
 -lexeme
  lex: čʼažrak
  stem: čʼažrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: с треском
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼažres
@@ -51367,20 +51358,20 @@
 -lexeme
  lex: čʼažər
  stem: čʼažər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼažər-čʼažər
  stem: čʼažər-čʼažər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: о хрусте снега
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼažərtənə
@@ -51475,20 +51466,20 @@
 -lexeme
  lex: čʼelʼak
  stem: čʼelʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼelʼkak
  stem: čʼelʼkak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼelʼə
@@ -51979,11 +51970,11 @@
 -lexeme
  lex: čʼijed-čʼajed
  stem: čʼijed-čʼajed.
- gramm: IMIT
+ gramm: IDEO
  paradigm: paradigm_A
  trans_ru: очень худой, тощий
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼik
@@ -51997,38 +51988,38 @@
 -lexeme
  lex: čʼilʼ
  stem: čʼilʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼilʼ-valʼ
  stem: čʼilʼ-valʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: ярко
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼilʼ-čʼilʼ
  stem: čʼilʼ-čʼilʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼilʼak
  stem: čʼilʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼilʼanə
@@ -52042,20 +52033,20 @@
 -lexeme
  lex: čʼilʼdər-čʼalʼdər
  stem: čʼilʼdər-čʼalʼdər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼilʼik
  stem: čʼilʼik.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼilʼikjanə
@@ -52096,29 +52087,29 @@
 -lexeme
  lex: čʼilʼtər-pilʼtər
  stem: čʼilʼtər-pilʼtər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: блестящий, сверкающий
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼilʼtər-čʼalʼtər
  stem: čʼilʼtər-čʼalʼtər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: то же, что čʼilʼdər-čʼalʼdər; то же, что čʼilʼtər-čʼilʼtər
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼilʼtər-čʼilʼtər
  stem: čʼilʼtər-čʼilʼtər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: кристально чистый; ярко
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼilʼəm
@@ -52276,11 +52267,11 @@
 -lexeme
  lex: čʼir
  stem: čʼir.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼir-kwanʼ
@@ -52294,11 +52285,11 @@
 -lexeme
  lex: čʼirak
  stem: čʼirak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼirej
@@ -52357,29 +52348,29 @@
 -lexeme
  lex: čʼitrinʼ-pitrinʼ
  stem: čʼitrinʼ-pitrinʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: вдребезги
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼlʼak
  stem: čʼlʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼmor
  stem: čʼmor.//čʼmər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: передаёт интенсивность питья
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼog
@@ -52393,11 +52384,11 @@
 -lexeme
  lex: čʼogak
  stem: čʼogak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼogjaltənə
@@ -52429,20 +52420,20 @@
 -lexeme
  lex: čʼograk
  stem: čʼograk.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼograk
  stem: čʼograk.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: то же, что čʼorkak
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼogǯʼənə
@@ -52465,20 +52456,20 @@
 -lexeme
  lex: čʼogər-čʼogər
  stem: čʼogər-čʼogər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼok-čʼok
  stem: čʼok-čʼok.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼokak
@@ -52546,20 +52537,20 @@
 -lexeme
  lex: čʼoprak
  stem: čʼoprak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: то же, что čʼorkak
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼopər-čʼopər
  stem: čʼopər-čʼopər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼorjanə
@@ -52573,11 +52564,11 @@
 -lexeme
  lex: čʼorkak
  stem: čʼorkak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: откуда ни возьмись, ни с того ни с сего
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼornobeloj
@@ -52753,11 +52744,11 @@
 -lexeme
  lex: čʼpak
  stem: čʼpak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼugdənə
@@ -52798,11 +52789,11 @@
 -lexeme
  lex: čʼuki-beki
  stem: čʼuki-beki.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼukinʼ
@@ -52834,11 +52825,11 @@
 -lexeme
  lex: čʼukər-bekər
  stem: čʼukər-bekər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼulka
@@ -52906,11 +52897,11 @@
 -lexeme
  lex: čʼup
  stem: čʼup.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: чмок
  trans_en: mwah
- gloss: mwah
+ gloss: IDEO
 
 -lexeme
  lex: čʼupanə
@@ -53005,38 +52996,38 @@
 -lexeme
  lex: čʼutrak
  stem: čʼutrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼutrik-čʼatrik
  stem: čʼutrik-čʼatrik.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼutək-čʼatək
  stem: čʼutək-čʼatək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼutəlʼ-čʼatəlʼ
  stem: čʼutəlʼ-čʼatəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼutənə
@@ -53050,20 +53041,20 @@
 -lexeme
  lex: čʼutər-čʼatər
  stem: čʼutər-čʼatər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼutɨk-čʼatɨk
  stem: čʼutɨk-čʼatɨk.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼučʼelo
@@ -53257,11 +53248,11 @@
 -lexeme
  lex: čʼək
  stem: čʼək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəkinʼ
@@ -53311,11 +53302,11 @@
 -lexeme
  lex: čʼəkər-bekər
  stem: čʼəkər-bekər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəlan
@@ -53338,11 +53329,11 @@
 -lexeme
  lex: čʼəlkak
  stem: čʼəlkak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəlčʼikənə
@@ -53365,20 +53356,20 @@
 -lexeme
  lex: čʼəlʼ
  stem: čʼəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəlʼ-čʼəlʼ
  stem: čʼəlʼ-čʼəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəlʼə
@@ -53401,11 +53392,11 @@
 -lexeme
  lex: čʼəmbəlʼ-čʼambəlʼ
  stem: čʼəmbəlʼ-čʼambəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəmbəlʼlʼašʼkənə
@@ -53455,11 +53446,11 @@
 -lexeme
  lex: čʼəndər-čʼandər
  stem: čʼəndər-čʼandər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: paradigm_A
  trans_ru: худенький, худющий
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼənʼgəlʼtənə
@@ -53473,20 +53464,20 @@
 -lexeme
  lex: čʼəp
  stem: čʼəp.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəpak
  stem: čʼəpak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəpet
@@ -53545,20 +53536,20 @@
 -lexeme
  lex: čʼəpək-čʼəpək
  stem: čʼəpək-čʼəpək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: активно и с причмокиванием; маленькими глотками
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəpəken-čʼəpəken
  stem: čʼəpəken-čʼəpəken.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: активно и с причмокиванием; маленькими глотками
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəpəktənə
@@ -53590,11 +53581,11 @@
 -lexeme
  lex: čʼəpər-čʼəpər
  stem: čʼəpər-čʼəpər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: крепко, сильно
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəpəres
@@ -53608,11 +53599,11 @@
 -lexeme
  lex: čʼəpəš-čʼəpəš
  stem: čʼəpəš-čʼəpəš.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəpəšak
@@ -53626,11 +53617,11 @@
 -lexeme
  lex: čʼər-čʼar
  stem: čʼər-čʼar.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼərdənə
@@ -53735,29 +53726,29 @@
 -lexeme
  lex: čʼəš-paš
  stem: čʼəš-paš.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəš-pəš
  stem: čʼəš-pəš.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəš-čʼaš
  stem: čʼəš-čʼaš.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəškan
@@ -53816,38 +53807,38 @@
 -lexeme
  lex: čʼəštrak
  stem: čʼəštrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: исподтишка, втихаря
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəštər
  stem: čʼəštər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəštər-paštər
  stem: čʼəštər-paštər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəštər-čʼaštər
  stem: čʼəštər-čʼaštər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəštərtənə
@@ -53861,56 +53852,56 @@
 -lexeme
  lex: čʼəšək
  stem: čʼəšək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəšək-pəšək
  stem: čʼəšək-pəšək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəšək-čʼašək
  stem: čʼəšək-čʼašək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: выражает образ возни, сопровождающейся звуком
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəšək-čʼəšək
  stem: čʼəšək-čʼəšək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəž
  stem: čʼəž.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəž-čʼaž
  stem: čʼəž-čʼaž.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəžanə
@@ -53978,11 +53969,11 @@
 -lexeme
  lex: čʼəžək-čʼažək
  stem: čʼəžək-čʼažək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəžənə
@@ -54005,11 +53996,11 @@
 -lexeme
  lex: čʼəžər-čʼažər
  stem: čʼəžər-čʼažər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: čʼəžət
@@ -54302,11 +54293,11 @@
 -lexeme
  lex: šakər
  stem: šakər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: imitation of the rustle of dry grass
- gloss: of.rustle
+ gloss: IDEO
 
 -lexeme
  lex: šakərtənə
@@ -54338,20 +54329,20 @@
 -lexeme
  lex: šaltrak
  stem: šaltrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: все без исключения
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šaltər
  stem: šaltər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šaltərton
@@ -54383,29 +54374,29 @@
 -lexeme
  lex: šalʼ-valʼ
  stem: šalʼ-valʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šalʼ-valʼ
  stem: šalʼ-valʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: шаляй-валяй
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šalʼ-šalʼ
  stem: šalʼ-šalʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: сплошь
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šalʼdar
@@ -54419,29 +54410,29 @@
 -lexeme
  lex: šalʼk
  stem: šalʼk.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šalʼk-šalʼk
  stem: šalʼk-šalʼk.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šalʼkak
  stem: šalʼkak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: сплошь
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šalʼko
@@ -54455,20 +54446,20 @@
 -lexeme
  lex: šalʼtrak
  stem: šalʼtrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: однокр. от šalʼtər; вдребезги
  trans_en: into pieces
- gloss: into.pieces
+ gloss: IDEO
 
 -lexeme
  lex: šalʼtər
  stem: šalʼtər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šalʼtərtənə
@@ -54482,20 +54473,20 @@
 -lexeme
  lex: šalʼək
  stem: šalʼək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: сплошняком, полностью
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šamblʼak
  stem: šamblʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šambəlʼlʼanə
@@ -54572,11 +54563,11 @@
 -lexeme
  lex: šap-šap
  stem: šap-šap.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: кап-кап
  trans_en: drip-drop
- gloss: drip.drop
+ gloss: IDEO
 
 -lexeme
  lex: šapka
@@ -54590,11 +54581,11 @@
 -lexeme
  lex: šaplʼak
  stem: šaplʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šaprak
@@ -54635,11 +54626,11 @@
 -lexeme
  lex: šapər-šapər
  stem: šapər-šapər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šapərjanə
@@ -54662,20 +54653,20 @@
 -lexeme
  lex: šar
  stem: šar.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šar-šar
  stem: šar-šar.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šara
@@ -54698,11 +54689,11 @@
 -lexeme
  lex: šarak
  stem: šarak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šaraka
@@ -54779,11 +54770,11 @@
 -lexeme
  lex: šau
  stem: šau.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šaugetənə
@@ -55166,11 +55157,11 @@
 -lexeme
  lex: šlačʼ
  stem: šlačʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: вдрызг
  trans_en: totally
- gloss: totally
+ gloss: IDEO
 
 -lexeme
  lex: šlačʼketənə
@@ -55184,11 +55175,11 @@
 -lexeme
  lex: šlinʼ-šlanʼ
  stem: šlinʼ-šlanʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šlʼapa
@@ -55211,29 +55202,29 @@
 -lexeme
  lex: šlʼop
  stem: šlʼop.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šlʼup
  stem: šlʼup.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: хлюп
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šlʼup-šlʼap
  stem: šlʼup-šlʼap.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šmales
@@ -55400,11 +55391,11 @@
 -lexeme
  lex: šomblʼak
  stem: šomblʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šonʼer
@@ -55454,29 +55445,29 @@
 -lexeme
  lex: šop
  stem: šop.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: смачно
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šopak
  stem: šopak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: смачно
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šor
  stem: šor.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šor
@@ -55490,11 +55481,11 @@
 -lexeme
  lex: šorak
  stem: šorak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šoranə
@@ -55643,47 +55634,47 @@
 -lexeme
  lex: šrak
  stem: šrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šračʼ
  stem: šračʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šrup
  stem: šrup.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: о хлюпании
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šrup-šrup
  stem: šrup-šrup.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: о хлюпании
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šrupak
  stem: šrupak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: о хлюпании
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šruptənə
@@ -56129,11 +56120,11 @@
 -lexeme
  lex: šwak
  stem: šwak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šəd
@@ -56192,29 +56183,29 @@
 -lexeme
  lex: šəkər-bekər
  stem: šəkər-bekər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šəkər-šakər
  stem: šəkər-šakər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šəkər-šəkər
  stem: šəkər-šəkər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šəkərtənə
@@ -56237,20 +56228,20 @@
 -lexeme
  lex: šəltər-šaltər
  stem: šəltər-šaltər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šəlʼtər-šalʼtər
  stem: šəlʼtər-šalʼtər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šəlʼə
@@ -56264,11 +56255,11 @@
 -lexeme
  lex: šəlʼək-šəlʼək
  stem: šəlʼək-šəlʼək.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šəm
@@ -56282,11 +56273,11 @@
 -lexeme
  lex: šəmbəlʼ-šambəlʼ
  stem: šəmbəlʼ-šambəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šəmərijanə
@@ -56318,29 +56309,29 @@
 -lexeme
  lex: šəngəlʼ
  stem: šəngəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šəngəlʼ-šangəlʼ
  stem: šəngəlʼ-šangəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šəngəlʼes
  stem: šəngəlʼes.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šəngəlʼtənə
@@ -56363,11 +56354,11 @@
 -lexeme
  lex: šənʼər-šanʼər
  stem: šənʼər-šanʼər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šəp
@@ -56381,29 +56372,29 @@
 -lexeme
  lex: šəpəlʼ
  stem: šəpəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šəpəlʼ-šapəlʼ
  stem: šəpəlʼ-šapəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šəpəlʼ-šəpəlʼ
  stem: šəpəlʼ-šəpəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šəpəlʼtənə
@@ -56417,20 +56408,20 @@
 -lexeme
  lex: šəpər
  stem: šəpər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šəpər-šapər
  stem: šəpər-šapər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šəpərtənə
@@ -56453,20 +56444,20 @@
 -lexeme
  lex: šər-šar
  stem: šər-šar.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šər-šər
  stem: šər-šər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šəranə
@@ -56644,11 +56635,11 @@
 -lexeme
  lex: šɨr-šɨr
  stem: šɨr-šɨr.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šɨrjašʼkənə
@@ -57635,20 +57626,20 @@
 -lexeme
  lex: šʼivir
  stem: šʼivir.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šʼivirak
  stem: šʼivirak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šʼivirjanə
@@ -58072,11 +58063,11 @@
 -lexeme
  lex: šʼultər-šʼaltər
  stem: šʼultər-šʼaltər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: то же, что kəltər-kaltər
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: šʼulək
@@ -58450,29 +58441,29 @@
 -lexeme
  lex: žalʼ
  stem: žalʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: см. žalʼ-žalʼ
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: žalʼ-žalʼ
  stem: žalʼ-žalʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: žalʼak
  stem: žalʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: žalʼanə
@@ -58504,20 +58495,20 @@
 -lexeme
  lex: žalʼrak
  stem: žalʼrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: žan
  stem: žan.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: žangetənə
@@ -58531,11 +58522,11 @@
 -lexeme
  lex: žangrak
  stem: žangrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: žar
@@ -58675,11 +58666,11 @@
 -lexeme
  lex: žik
  stem: žik.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: пронзительно (визжать)
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: žila
@@ -58702,11 +58693,11 @@
 -lexeme
  lex: žin-žin
  stem: žin-žin.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: žingetənə
@@ -58846,11 +58837,11 @@
 -lexeme
  lex: žəgəlʼ
  stem: žəgəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: paradigm_A
  trans_ru: выражает образ муторности, кропотливости, трудозатратности
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: žəgəlʼes
@@ -58864,11 +58855,11 @@
 -lexeme
  lex: žəlʼ-žəlʼ
  stem: žəlʼ-žəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: žəlʼdənə
@@ -58891,20 +58882,20 @@
 -lexeme
  lex: žəlʼər
  stem: žəlʼər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: žəlʼər-žalʼər
  stem: žəlʼər-žalʼər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: žəlʼərtənə
@@ -58918,20 +58909,20 @@
 -lexeme
  lex: žəngər
  stem: žəngər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: о звоне
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: žəngər-žangər
  stem: žəngər-žangər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: žəngərtənə
@@ -59080,29 +59071,29 @@
 -lexeme
  lex: ǯʼablʼak
  stem: ǯʼablʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼalak
  stem: ǯʼalak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼamblʼak
  stem: ǯʼamblʼak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼambəlʼlʼanə
@@ -59125,38 +59116,38 @@
 -lexeme
  lex: ǯʼan-ǯʼan
  stem: ǯʼan-ǯʼan.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼangrak
  stem: ǯʼangrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼangrak
  stem: ǯʼangrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼangər-ǯʼangər
  stem: ǯʼangər-ǯʼangər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼangərtənə
@@ -59305,11 +59296,11 @@
 -lexeme
  lex: ǯʼib-ǯʼib
  stem: ǯʼib-ǯʼib.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: крепко
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼigar
@@ -59323,11 +59314,11 @@
 -lexeme
  lex: ǯʼik-ǯʼik
  stem: ǯʼik-ǯʼik.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼikketənə
@@ -59386,11 +59377,11 @@
 -lexeme
  lex: ǯʼin-ǯʼin
  stem: ǯʼin-ǯʼin.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼizgetənə
@@ -59413,11 +59404,11 @@
 -lexeme
  lex: ǯʼlon
  stem: ǯʼlon.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼob
@@ -59485,11 +59476,11 @@
 -lexeme
  lex: ǯʼogak-mogak
  stem: ǯʼogak-mogak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼokanə
@@ -59665,11 +59656,11 @@
 -lexeme
  lex: ǯʼot-ǯʼot
  stem: ǯʼot-ǯʼot.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: как следует
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼotak
@@ -59701,11 +59692,11 @@
 -lexeme
  lex: ǯʼotər-ǯʼotər
  stem: ǯʼotər-ǯʼotər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: сильно
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼozə
@@ -59845,11 +59836,11 @@
 -lexeme
  lex: ǯʼustər-ǯʼastər
  stem: ǯʼustər-ǯʼastər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼutənə
@@ -59971,11 +59962,11 @@
 -lexeme
  lex: ǯʼəbəlʼ-ǯʼabəlʼ
  stem: ǯʼəbəlʼ-ǯʼabəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼəbəlʼlʼanə
@@ -59998,11 +59989,11 @@
 -lexeme
  lex: ǯʼəg-ǯʼəg
  stem: ǯʼəg-ǯʼəg.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼəganə
@@ -60079,11 +60070,11 @@
 -lexeme
  lex: ǯʼəkrak
  stem: ǯʼəkrak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼəkə
@@ -60097,20 +60088,20 @@
 -lexeme
  lex: ǯʼəkər
  stem: ǯʼəkər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼəkər-ǯʼakər
  stem: ǯʼəkər-ǯʼakər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼəkərtənə
@@ -60161,11 +60152,11 @@
 -lexeme
  lex: ǯʼəmbəlʼ-ǯʼambəlʼ
  stem: ǯʼəmbəlʼ-ǯʼambəlʼ.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼəmres
@@ -60179,29 +60170,29 @@
 -lexeme
  lex: ǯʼəmər-ǯʼəmər
  stem: ǯʼəmər-ǯʼəmər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: основательно, старательно
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼəngər-ǯʼangər
  stem: ǯʼəngər-ǯʼangər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼəngər-ǯʼəngər
  stem: ǯʼəngər-ǯʼəngər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼəngəranə
@@ -60261,11 +60252,11 @@
 -lexeme
  lex: ǯʼər-ǯʼər
  stem: ǯʼər-ǯʼər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼərasa
@@ -60333,11 +60324,11 @@
 -lexeme
  lex: ǯʼəstər-ǯʼastər
  stem: ǯʼəstər-ǯʼastər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼəstərə
@@ -60396,20 +60387,20 @@
 -lexeme
  lex: ǯʼəz
  stem: ǯʼəz.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼəzak
  stem: ǯʼəzak.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: 
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: ǯʼəzanə
@@ -60513,11 +60504,11 @@
 -lexeme
  lex: əbər-tabər
  stem: əbər-tabər.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: очень быстро, стремглав; беспокойный, буйный
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: əbəštənə
@@ -60603,11 +60594,11 @@
 -lexeme
  lex: əntʼi-məntʼi
  stem: əntʼi-məntʼi.
- gramm: IMIT
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: дразнить
  trans_en: 
- gloss: STEM
+ gloss: IDEO
 
 -lexeme
  lex: əp
@@ -60981,25 +60972,25 @@
 
 -lexeme
  lex: ɨš
- stem: ɨš.
- gramm: INTERJ
+ stem: ɨš.//išʼ.
+ gramm: IDEO
  paradigm: Empty
  trans_ru: о холоде
  trans_en: of cold
- gloss: of.cold
+ gloss: IDEO
 
 -lexeme
  lex: ɨš-ɨš
- stem: ɨš-ɨš.
- gramm: IMIT
+ stem: ɨš-ɨš.//išʼ-išʼ.
+ gramm: IDEO
  paradigm: Comparative
  trans_ru: о холоде
  trans_en: of cold
- gloss: of.cold
+ gloss: IDEO
 
 -lexeme
  lex: ɨš-ɨš
- stem: ɨš-ɨš.
+ stem: ɨš-ɨš.//išʼ.
  gramm: INTERJ
  paradigm: Empty
  trans_ru: о холоде
