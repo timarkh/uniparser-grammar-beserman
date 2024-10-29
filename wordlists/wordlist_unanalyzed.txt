@@ -774,7 +774,6 @@ wažʼen
 xlebnʼicaez
 zə
 čem
-čʼastʼez
 čʼaš
 čʼepəlʼlʼa
 čʼibɨ
@@ -1481,7 +1480,6 @@ he-
 he-he
 hej
 intʼe
-intʼeresnɨj
 inʼtʼersno
 isi
 iskažatʼ
@@ -2084,9 +2082,6 @@ səkə
 səlde
 səlidčʼožʼazə
 sənduk
-səsəpu
-səsəpujez
-səsəpulen
 səčʼ
 səžʼ
 sʼemʼonɨčʼlen
@@ -2292,7 +2287,6 @@ zɨraltɨlo
 čʼagər-čʼagər
 čʼakl
 čʼasjaje
-čʼastʼ
 čʼašʼjajəšʼ
 čʼašʼnʼikos
 čʼe
