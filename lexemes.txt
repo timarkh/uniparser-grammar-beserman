@@ -5985,8 +5985,8 @@
  gramm: N,anim,hum,rus
  paradigm: paradigm_N
  trans_ru: болельщик
- trans_en: 
- gloss: STEM
+ trans_en: (soccer) fan
+ gloss: fan
 
 -lexeme
  lex: bolʼno
@@ -38503,8 +38503,8 @@
  gramm: N,rus,anim
  paradigm: paradigm_N
  trans_ru: слон
- trans_en: 
- gloss: STEM
+ trans_en: elephant
+ gloss: elephant
 
 -lexeme
  lex: slovarʼ
@@ -38512,8 +38512,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: словарь
- trans_en: 
- gloss: STEM
+ trans_en: dictionary
+ gloss: dictionary
 
 -lexeme
  lex: slovo
@@ -38521,8 +38521,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: слово
- trans_en: 
- gloss: STEM
+ trans_en: word
+ gloss: word
 
 -lexeme
  lex: složnoj
@@ -38530,8 +38530,8 @@
  gramm: A,rus
  paradigm: paradigm_A
  trans_ru: сложный
- trans_en: 
- gloss: STEM
+ trans_en: complex
+ gloss: complex
 
 -lexeme
  lex: slučʼaj
@@ -38539,8 +38539,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: случай
- trans_en: 
- gloss: STEM
+ trans_en: incident
+ gloss: incident
 
 -lexeme
  lex: služba
@@ -38548,8 +38548,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: служба
- trans_en: 
- gloss: STEM
+ trans_en: service
+ gloss: service
 
 -lexeme
  lex: služitʼ
@@ -38557,8 +38557,8 @@
  gramm: V,intr,rus,rus_inf
  paradigm: Comparative
  trans_ru: служить
- trans_en: 
- gloss: STEM
+ trans_en: serve
+ gloss: serve
 
 -lexeme
  lex: slʼedovatʼelʼ
@@ -38566,8 +38566,8 @@
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
  trans_ru: следователь
- trans_en: 
- gloss: STEM
+ trans_en: investigator
+ gloss: investigator
 
 -lexeme
  lex: slʼedušʼij
@@ -49920,8 +49920,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: заступ (лопата)
- trans_en: 
- gloss: STEM
+ trans_en: spade
+ gloss: spade
 
 -lexeme
  lex: zato
@@ -49938,8 +49938,8 @@
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
  trans_ru: заведующий
- trans_en: 
- gloss: STEM
+ trans_en: director
+ gloss: director
 
 -lexeme
  lex: zavedušʼij
@@ -49947,8 +49947,8 @@
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
  trans_ru: заведующий
- trans_en: 
- gloss: STEM
+ trans_en: director
+ gloss: director
 
 -lexeme
  lex: zavešʼanije
@@ -49956,8 +49956,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: завещание
- trans_en: 
- gloss: STEM
+ trans_en: will, testament
+ gloss: will
 
 -lexeme
  lex: zavidovatʼ
@@ -49974,8 +49974,8 @@
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
  trans_ru: завклубом
- trans_en: 
- gloss: STEM
+ trans_en: club director
+ gloss: club.director
 
 -lexeme
  lex: zavod
