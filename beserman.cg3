@@ -477,9 +477,13 @@ SELECT (N) IF (0 ("<palaz>"i) OR ("<pala>"i))
               (-1 ("<ulla>"i) OR ("<valla>"i) OR ("<vəlla>"i) OR ("<ažʼ>"i) OR ("<ber>"i) OR ("<šʼer>"i) OR ("<bur>"i) OR ("<palʼlʼan>"i) OR ("<kenʼer>"i) OR ("<odig>"i) OR ("<muket>"i) OR ("<ped>"i) OR ("<puš>"i) OR ("<kud>"i) OR ("<ulʼčʼa>"i) OR ("<šaj>"i) OR ("<vožʼ>"i) OR ("<milʼam>"i) OR ("<tilʼad>"i) OR (N topn nom));
 
 
-# ber: N vs. A/ADV
+# ber: N vs. A/ADV vs. POST (bere)
 SELECT (N) IF (0 ("<ber>"i))
               (1 ("pal"));
+
+
+SELECT (POST) IF (0 ("<bere>"i) OR ("<beram>"i) OR ("<berad>"i) OR ("<beraz>"i) OR ("<beramə>"i) OR ("<beradə>"i) OR ("<berazə>"i))
+      (-1 (V nmlz_em) OR ("<so>"i) OR ("<ta>"i) OR (PRO pers nom) OR ("<obed>"i) OR ("<ar>"i) OR (NUM) OR ("<čʼas>"i));
 
 # vitʼe: five-lat vs. wait-prs.3sg
 SELECT (V) IF (0 ("<vitʼe>"i))
