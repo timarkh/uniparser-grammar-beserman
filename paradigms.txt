@@ -4275,50 +4275,50 @@
   gloss: PST.EVID.1SG
  -flex: .em<.>
   gramm: pst2,2,sg
-  gloss: PST.EVID.23SG
+  gloss: PST.EVID.SG
  -flex: .em<.>
   gramm: pst2,3,sg
-  gloss: PST.EVID.23SG
+  gloss: PST.EVID.SG
  -flex: .em|ed<.>
   gramm: pst2,2,sg
-  gloss: PST.EVID.23SG|2SG
+  gloss: PST.EVID.SG|2SG
  -flex: .em|ez<.>
   gramm: pst2,3,sg
-  gloss: PST.EVID.23SG|3SG
+  gloss: PST.EVID.SG|3SG
  -flex: .išʼkemə<.>//.išʼkemmə<.>
   gramm: pst2,1,pl
   gloss: PST.EVID.1PL
  -flex: .ilʼlʼam<.>
   gramm: pst2,2,pl
-  gloss: PST.EVID.23PL
+  gloss: PST.EVID.PL
  -flex: .ilʼlʼam<.>
   gramm: pst2,3,pl
-  gloss: PST.EVID.23PL
+  gloss: PST.EVID.PL
  -flex: .ilʼlʼam|də<.>
   gramm: pst2,2,pl
-  gloss: PST.EVID.23PL|2PL
+  gloss: PST.EVID.PL|2PL
  -flex: .ilʼlʼam|zə<.>
   gramm: pst2,3,pl
-  gloss: PST.EVID.23PL|3PL
+  gloss: PST.EVID.PL|3PL
 
  -flex: .išʼkəmte<.>
   gramm: pst2,1,sg,neg
   gloss: PST.EVID.NEG.1SG
  -flex: .əmte<.>
   gramm: pst2,2,sg,neg
-  gloss: PST.EVID.NEG.23
+  gloss: PST.EVID.NEG
  -flex: .əmte<.>
   gramm: pst2,3,sg,neg
-  gloss: PST.EVID.NEG.23
+  gloss: PST.EVID.NEG
  -flex: .išʼkəmte|mə<.>//.əmte|mə<.>
   gramm: pst2,1,pl,neg
   gloss: PST.EVID.NEG.1PL|1PL
  -flex: .əmte|də<.>
   gramm: pst2,2,pl,neg
-  gloss: PST.EVID.NEG.23|2PL
+  gloss: PST.EVID.NEG|2PL
  -flex: .əmte|zə<.>
   gramm: pst2,3,pl,neg
-  gloss: PST.EVID.NEG.23|3PL
+  gloss: PST.EVID.NEG|3PL
  paradigm: Comparative
 
 -paradigm: Evidentiality-I-short
@@ -4347,50 +4347,50 @@
   gloss: PST.EVID.1SG
  -flex: .m<.>
   gramm: pst2,2,sg
-  gloss: PST.EVID.23SG
+  gloss: PST.EVID.SG
  -flex: .m<.>
   gramm: pst2,3,sg
-  gloss: PST.EVID.23SG
+  gloss: PST.EVID.SG
  -flex: .m|ed<.>
   gramm: pst2,2,sg
-  gloss: PST.EVID.23SG|2SG
+  gloss: PST.EVID.SG|2SG
  -flex: .m|ez<.>
   gramm: pst2,3,sg
-  gloss: PST.EVID.23SG|3SG
+  gloss: PST.EVID.SG|3SG
  -flex: .šʼkemə<.>//.šʼkemmə<.>
   gramm: pst2,1,pl
   gloss: PST.EVID.1PL
  -flex: .lʼlʼam<.>
   gramm: pst2,2,pl
-  gloss: PST.EVID.23PL
+  gloss: PST.EVID.PL
  -flex: .lʼlʼam<.>
   gramm: pst2,3,pl
-  gloss: PST.EVID.23PL
+  gloss: PST.EVID.PL
  -flex: .lʼlʼam|də<.>
   gramm: pst2,2,pl
-  gloss: PST.EVID.23PL|2PL
+  gloss: PST.EVID.PL|2PL
  -flex: .lʼlʼam|zə<.>
   gramm: pst2,3,pl
-  gloss: PST.EVID.23PL|3PL
+  gloss: PST.EVID.PL|3PL
 
  -flex: .šʼkəmte<.>
   gramm: pst2,1,sg,neg
   gloss: PST.EVID.NEG.1SG
  -flex: .mte<.>
   gramm: pst2,2,sg,neg
-  gloss: PST.EVID.NEG.23
+  gloss: PST.EVID.NEG
  -flex: .mte<.>
   gramm: pst2,3,sg,neg
-  gloss: PST.EVID.NEG.23
+  gloss: PST.EVID.NEG
  -flex: .šʼkəmte|mə<.>//.mte|mə<.>
   gramm: pst2,1,pl,neg
   gloss: PST.EVID.NEG.1PL|1PL
  -flex: .mte|də<.>
   gramm: pst2,2,pl,neg
-  gloss: PST.EVID.NEG.23|2PL
+  gloss: PST.EVID.NEG|2PL
  -flex: .mte|zə<.>
   gramm: pst2,3,pl,neg
-  gloss: PST.EVID.NEG.23|3PL
+  gloss: PST.EVID.NEG|3PL
  paradigm: Comparative
 
 
