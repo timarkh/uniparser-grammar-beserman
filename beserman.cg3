@@ -259,9 +259,9 @@ REMOVE (N) IF (0 ("<gəne>"i))
               (-1 (NUM) OR ("<kalʼlʼen>"i) OR ("<ožʼ>"i) OR ("<əžət>"i));
 
 # lat and other spatial cases are generally available to
-# occupations and positions only
+# occupations and positions only, sometimes nations
 REMOVE (N anim lat sg) IF (0 (N anim 1sg))
-                          (NOT 0 (N lat occupation));
+                          (NOT 0 (N lat occupation) OR (N lat nation));
 
 
 # Accusative vs. 3sg
