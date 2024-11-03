@@ -44,6 +44,21 @@ def prepare_files():
     shutil.copy2('beserman.cg3', 'uniparser_beserman_lat/data_default/')
 
 
+def cg3_test():
+    """
+    Test if the CG3 rules work as intended.
+    """
+    from uniparser_beserman_lat import BesermanLatAnalyzer
+    a = BesermanLatAnalyzer(mode='default')
+    sentences = ['Vot , vot , vožʼe nʼi noki= en nʼi šʼote .', 'Gondər vorte korjosse .', 'Bugrom bugrom a pelʼtəsa vaje tinʼ ?']
+    for s in sentences:
+        print(s)
+        analyzedWords = a.analyze_words(s.split(' '), disambiguate=True)
+        for analyses in analyzedWords:
+            for ana in analyses:
+                print(ana.wf, ana.lemma, ana.gramm, ana.gloss)
+
+
 def parse_wordlists():
     """
     Analyze wordlists/wordlist.csv.
@@ -59,3 +74,4 @@ def parse_wordlists():
 if __name__ == '__main__':
     prepare_files()
     parse_wordlists()
+    # cg3_test()

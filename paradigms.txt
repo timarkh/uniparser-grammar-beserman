@@ -3000,9 +3000,9 @@
   gramm: nmlz,nmlz_on
   gloss: NMLZ
   paradigm: Noun-num-consonant
- -flex: .onʼnʼig<.>//.onnʼig<.>
+ -flex: .onʼ|nʼig<.>//.on|nʼig<.>
   gramm: nloc
-  gloss: NLOC
+  gloss: NMLZ|NLOC
   paradigm: Noun-num-consonant
  -flex: .emən<.>//.əmən<.>//.emɨn<.>//.əmɨn<.>
   gramm: res
@@ -3039,9 +3039,9 @@
   gramm: nmlz,nmlz_on
   gloss: NMLZ
   paradigm: Noun-num-consonant
- -flex: .nʼnʼig<.>//.nnʼig<.>
+ -flex: .nʼ|nʼig<.>//.n|nʼig<.>
   gramm: nloc
-  gloss: NLOC
+  gloss: NMLZ|NLOC
   paradigm: Noun-num-consonant
  -flex: .mən<.>//.mɨn<.>
   gramm: res

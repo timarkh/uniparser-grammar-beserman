@@ -22,13 +22,13 @@
  gramm: N,PN
  paradigm: paradigm_N
  trans_ru: Агроснаб
- trans_en: 
- gloss: STEM
+ trans_en: Agrosnab
+ gloss: Agrosnab
 
 -lexeme
  lex: agronom
  stem: agronom.
- gramm: N,anim,hum,rus
+ gramm: N,anim,hum,rus,occupation
  paradigm: paradigm_N
  trans_ru: агроном
  trans_en: agronomist
@@ -139,8 +139,8 @@
  gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Андреевич
- trans_en: 
- gloss: STEM
+ trans_en: Andreevich
+ gloss: Andreevich
 
 -lexeme
  lex: Andrej
@@ -184,8 +184,8 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Аркаша
- trans_en: 
- gloss: STEM
+ trans_en: Arkash (Arkadiy)
+ gloss: Arkash
 
 -lexeme
  lex: Aršʼenʼtʼij
@@ -202,8 +202,8 @@
  gramm: N,PN,patrn
  paradigm: paradigm_N
  trans_ru: Арсентьевна
- trans_en: 
- gloss: STEM
+ trans_en: Arsentyevna
+ gloss: Arsentyevna
 
 -lexeme
  lex: Ava
@@ -3188,7 +3188,7 @@
 -lexeme
  lex: akrobatka
  stem: akrobatka.//akrobatk.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: акробатка
  trans_en: 
@@ -3956,7 +3956,7 @@
 -lexeme
  lex: artʼist
  stem: artʼist.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: артист
  trans_en: artist
@@ -4947,7 +4947,7 @@
 -lexeme
  lex: banʼdʼit
  stem: banʼdʼit.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: бандит
  trans_en: bandit
@@ -5055,7 +5055,7 @@
 -lexeme
  lex: batʼuška
  stem: batʼuška.//batʼušk.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: батюшка
  trans_en: priest
@@ -5082,7 +5082,7 @@
 -lexeme
  lex: baškir
  stem: baškir.
- gramm: N,anim,hum
+ gramm: N,anim,hum,nation
  paradigm: paradigm_N
  trans_ru: башкир
  trans_en: Bashkort
@@ -5469,7 +5469,7 @@
 -lexeme
  lex: bešʼerman
  stem: bešʼerman.//besʼerman.//besʼermʼan.//bešʼermʼan.
- gramm: N,anim,hum
+ gramm: N,anim,hum,nation
  paradigm: paradigm_N
  trans_ru: бесермянин, бесермянка
  trans_en: Beserman
@@ -5514,7 +5514,7 @@
 -lexeme
  lex: biger
  stem: biger.
- gramm: N,anim,hum
+ gramm: N,anim,hum,nation
  paradigm: paradigm_N
  trans_ru: татарин, татарка
  trans_en: Tatar
@@ -5982,7 +5982,7 @@
 -lexeme
  lex: bolʼelʼšʼik
  stem: bolʼelʼšʼik.
- gramm: N,anim,hum,rus
+ gramm: N,anim,hum,rus,occupation
  paradigm: paradigm_N
  trans_ru: болельщик
  trans_en: (soccer) fan
@@ -6039,8 +6039,8 @@
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
  trans_ru: бомж
- trans_en: 
- gloss: STEM
+ trans_en: homeless
+ gloss: homeless
 
 -lexeme
  lex: bon
@@ -6234,7 +6234,7 @@
 -lexeme
  lex: brigadʼir
  stem: brigadʼir.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: бригадир
  trans_en: foreman
@@ -6360,11 +6360,11 @@
 -lexeme
  lex: bugaltʼer
  stem: bugaltʼer.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: бухгалтер
- trans_en: 
- gloss: STEM
+ trans_en: accountant
+ gloss: accountant
 
 -lexeme
  lex: bugor
@@ -7416,7 +7416,7 @@
 -lexeme
  lex: car
  stem: car.//carʼ.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: царь
  trans_en: tsar
@@ -7425,7 +7425,7 @@
 -lexeme
  lex: carevičʼ
  stem: carevičʼ.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: царевич
  trans_en: 
@@ -7515,7 +7515,7 @@
 -lexeme
  lex: ciganka
  stem: ciganka.//cigank.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,nation
  paradigm: paradigm_N
  trans_ru: цыганка
  trans_en: 
@@ -7848,29 +7848,29 @@
 -lexeme
  lex: dojar
  stem: dojar.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: дояр
- trans_en: 
- gloss: STEM
+ trans_en: milker
+ gloss: milker
 
 -lexeme
  lex: dojarka
  stem: dojarka.//dojark.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: доярка
- trans_en: 
- gloss: STEM
+ trans_en: milker
+ gloss: milker
 
 -lexeme
  lex: doktor
  stem: doktor.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: доктор
- trans_en: 
- gloss: STEM
+ trans_en: doctor
+ gloss: doctor
 
 -lexeme
  lex: dokument
@@ -7878,8 +7878,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: документ
- trans_en: 
- gloss: STEM
+ trans_en: document
+ gloss: document
 
 -lexeme
  lex: dol
@@ -8175,8 +8175,8 @@
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
  trans_ru: друг
- trans_en: 
- gloss: STEM
+ trans_en: friend
+ gloss: friend
 
 -lexeme
  lex: družitʼ
@@ -8497,7 +8497,7 @@
 -lexeme
  lex: dvornʼik
  stem: dvornʼik.
- gramm: N,anim,hum,rus
+ gramm: N,anim,hum,rus,occupation
  paradigm: paradigm_N
  trans_ru: дворник
  trans_en: 
@@ -9030,11 +9030,11 @@
 -lexeme
  lex: dʼeputat
  stem: dʼeputat.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: депутат
- trans_en: 
- gloss: STEM
+ trans_en: deputy, member of parliament
+ gloss: deputy
 
 -lexeme
  lex: dʼera
@@ -9219,7 +9219,7 @@
 -lexeme
  lex: dʼežurnɨj
  stem: dʼežurnɨj.//dʼežurnoj.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: дежурный
  trans_en: 
@@ -9294,17 +9294,17 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: диктофон
- trans_en: 
- gloss: STEM
+ trans_en: sound recorder
+ gloss: recorder
 
 -lexeme
  lex: dʼirektor
  stem: dʼirektor.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: директор
- trans_en: 
- gloss: STEM
+ trans_en: director
+ gloss: director
 
 -lexeme
  lex: dʼiskotʼeka
@@ -9372,7 +9372,7 @@
 -lexeme
  lex: dʼušʼ
  stem: dʼušʼ.//ǯʼučʼ.//ǯʼušʼ.
- gramm: N,anim,hum
+ gramm: N,anim,hum,nation
  paradigm: paradigm_N
  trans_ru: русский, русская
  trans_en: Russian
@@ -9516,11 +9516,11 @@
 -lexeme
  lex: eksej
  stem: eksej.
- gramm: N,anim,hum
+ gramm: N,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: царь
- trans_en: 
- gloss: STEM
+ trans_en: tsar
+ gloss: tsar
 
 -lexeme
  lex: ekskavator
@@ -9588,7 +9588,7 @@
 -lexeme
  lex: elʼektrik
  stem: elʼektrik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: электрик
  trans_en: 
@@ -10668,7 +10668,7 @@
 -lexeme
  lex: garmonʼis
  stem: garmonʼist.//garmonʼis.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: гармонист
  trans_en: accordionist
@@ -11001,7 +11001,7 @@
 -lexeme
  lex: glava
  stem: glava.//glav.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: глава
  trans_en: head, director
@@ -11694,7 +11694,7 @@
 -lexeme
  lex: grušʼik
  stem: grušʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: грузчик
  trans_en: loader
@@ -11712,7 +11712,7 @@
 -lexeme
  lex: gružʼin
  stem: gružʼin.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,nation
  paradigm: paradigm_N
  trans_ru: грузин
  trans_en: Georgian
@@ -12775,7 +12775,7 @@
 -lexeme
  lex: inženʼer
  stem: inženʼer.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: инженер
  trans_en: engineer
@@ -13549,7 +13549,7 @@
 -lexeme
  lex: jevrej
  stem: jevrej.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,nation
  paradigm: paradigm_N
  trans_ru: еврей
  trans_en: Jew
@@ -16651,11 +16651,11 @@
 -lexeme
  lex: kladofšʼik
  stem: kladofšʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: кладовщик
- trans_en: 
- gloss: STEM
+ trans_en: warehouse worker
+ gloss: warehouse.worker
 
 -lexeme
  lex: klal
@@ -16714,7 +16714,7 @@
 -lexeme
  lex: kloun
  stem: kloun.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: клоун
  trans_en: clown
@@ -17083,7 +17083,7 @@
 -lexeme
  lex: kolkožʼnʼik
  stem: kolkožʼnʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: колхозник
  trans_en: collective farm worker
@@ -17200,7 +17200,7 @@
 -lexeme
  lex: kolxoznʼik
  stem: kolxoznʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: колхозник
  trans_en: collective farm worker
@@ -17335,7 +17335,7 @@
 -lexeme
  lex: kombajnʼor
  stem: kombajnʼor.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: комбайнёр
  trans_en: combine operator
@@ -17443,7 +17443,7 @@
 -lexeme
  lex: komunʼist
  stem: komunʼist.//kommunʼist.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: коммунист
  trans_en: communist
@@ -17740,7 +17740,7 @@
 -lexeme
  lex: korejec
  stem: korejec.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,nation
  paradigm: paradigm_N
  trans_ru: кореец
  trans_en: Korean
@@ -18308,7 +18308,7 @@
 -lexeme
  lex: kočʼegar
  stem: kočʼegar.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: кочегар
  trans_en: 
@@ -19370,7 +19370,7 @@
 -lexeme
  lex: kursant
  stem: kursant.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: курсант
  trans_en: 
@@ -19830,7 +19830,7 @@
 -lexeme
  lex: kužʼo
  stem: kužʼo.
- gramm: N,anim,hum,supernat
+ gramm: N,anim,hum,occupation,supernat
  paradigm: paradigm_N
  trans_ru: начальник; хозяин; дух-покровитель
  trans_en: boss; patron spirit
@@ -20946,7 +20946,7 @@
 -lexeme
  lex: kəno
  stem: kəno.//kuno.
- gramm: N,anim,hum
+ gramm: N,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: гость
  trans_en: guest
@@ -22418,7 +22418,7 @@
  gramm: A
  paradigm: paradigm_A
  trans_ru: хороший, правильный, положительный /о человеке или животном/
- trans_en: good, right, positive /of a human or animal/
+ trans_en: good, right, positive (/of a human or animal)
  gloss: good
 
 -lexeme
@@ -23425,7 +23425,7 @@
 -lexeme
  lex: lɨžnʼik
  stem: lɨžnʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: лыжник
  trans_en: 
@@ -23795,7 +23795,7 @@
 -lexeme
  lex: lʼešʼnʼik
  stem: lʼešʼnʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: лесник
  trans_en: 
@@ -23831,7 +23831,7 @@
 -lexeme
  lex: lʼingvist
  stem: lʼingvist.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: лингвист
  trans_en: linguist
@@ -24680,8 +24680,8 @@
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
  trans_ru: мама
- trans_en: mommy
- gloss: mommy
+ trans_en: mom
+ gloss: mom
 
 -lexeme
  lex: mamaš
@@ -24689,8 +24689,8 @@
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
  trans_ru: свекровь, тёща; мамаша
- trans_en: mother-in-law; mammy (address)
- gloss: mammy
+ trans_en: mother-in-law; older woman (address)
+ gloss: older.woman
 
 -lexeme
  lex: mamišʼ
@@ -24858,7 +24858,7 @@
 -lexeme
  lex: mastʼer
  stem: mastʼer.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: мастер
  trans_en: 
@@ -25218,7 +25218,7 @@
 -lexeme
  lex: medʼičʼka
  stem: medʼičʼka.//medʼičʼk.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: медичка
  trans_en: 
@@ -25245,7 +25245,7 @@
 -lexeme
  lex: melʼnʼik
  stem: melʼnʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: мельник
  trans_en: 
@@ -25371,7 +25371,7 @@
 -lexeme
  lex: mexanʼik
  stem: mexanʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: механик
  trans_en: 
@@ -25677,7 +25677,7 @@
 -lexeme
  lex: milʼicionʼer
  stem: milʼicionʼer.//milʼiconʼer.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: милиционер
  trans_en: police officer
@@ -25731,7 +25731,7 @@
 -lexeme
  lex: minʼistər
  stem: minʼistər.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: министр
  trans_en: minister
@@ -26046,7 +26046,7 @@
 -lexeme
  lex: monʼtʼor
  stem: monʼtʼor.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: монтёр
  trans_en: 
@@ -27452,7 +27452,7 @@
 -lexeme
  lex: načʼalʼnʼik
  stem: načʼalʼnʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: начальник
  trans_en: boss
@@ -27831,7 +27831,7 @@
 -lexeme
  lex: novobranʼec
  stem: novobranʼec.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: новобранец
  trans_en: 
@@ -27978,8 +27978,8 @@
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
  trans_ru: внучка
- trans_en: 
- gloss: STEM
+ trans_en: granddaughter
+ gloss: granddaughter
 
 -lexeme
  lex: nušə
@@ -28553,7 +28553,7 @@
 -lexeme
  lex: nʼemec
  stem: nʼemec.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,nation
  paradigm: paradigm_N
  trans_ru: немец
  trans_en: German
@@ -29774,7 +29774,7 @@
  stem: odnoklasnʼik.
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
- trans_ru: одноклассников
+ trans_ru: одноклассник
  trans_en: 
  gloss: STEM
 
@@ -29943,7 +29943,7 @@
 -lexeme
  lex: okotnʼik
  stem: okotnʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: охотник
  trans_en: 
@@ -30915,7 +30915,7 @@
 -lexeme
  lex: oxotnʼik
  stem: oxotnʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: охотник
  trans_en: hunter
@@ -31474,7 +31474,7 @@
 -lexeme
  lex: parikmaxer
  stem: parikmaxer.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: парикмахер
  trans_en: 
@@ -32086,7 +32086,7 @@
 -lexeme
  lex: penʼšʼionʼer
  stem: penʼšʼionʼer.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: пенсионер
  trans_en: 
@@ -32905,7 +32905,7 @@
 -lexeme
  lex: pisatʼelʼ
  stem: pisatʼelʼ.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: писатель
  trans_en: writer
@@ -33265,7 +33265,7 @@
 -lexeme
  lex: plotnʼik
  stem: plotnʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: плотник
  trans_en: 
@@ -33859,7 +33859,7 @@
 -lexeme
  lex: polʼak
  stem: polʼak.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,nation
  paradigm: paradigm_N
  trans_ru: поляк
  trans_en: 
@@ -33985,7 +33985,7 @@
 -lexeme
  lex: pomošnʼik
  stem: pomošnʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: помощник
  trans_en: 
@@ -34021,7 +34021,7 @@
 -lexeme
  lex: pop
  stem: pop.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: поп
  trans_en: priest
@@ -34309,7 +34309,7 @@
 -lexeme
  lex: povar
  stem: povar.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: повар
  trans_en: cook
@@ -34453,11 +34453,11 @@
 -lexeme
  lex: počʼtalʼjon
  stem: počʼtalʼjon.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: почтальон
- trans_en: 
- gloss: STEM
+ trans_en: mailman
+ gloss: mailman
 
 -lexeme
  lex: počʼtʼi
@@ -34543,7 +34543,7 @@
 -lexeme
  lex: požarnʼik
  stem: požarnʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: пожарник
  trans_en: fireman
@@ -34651,29 +34651,29 @@
 -lexeme
  lex: pretstavitʼelʼ
  stem: pretstavitʼelʼ.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: представитель
- trans_en: 
- gloss: STEM
+ trans_en: representative
+ gloss: representative
 
 -lexeme
  lex: pretšʼedatʼelʼ
  stem: pretšʼedatʼelʼ.//pretsʼedatʼelʼ.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: председатель
- trans_en: 
- gloss: STEM
+ trans_en: president
+ gloss: president
 
 -lexeme
  lex: prežʼidʼent
  stem: prežʼidʼent.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: президент
- trans_en: 
- gloss: STEM
+ trans_en: president (of a country)
+ gloss: president
 
 -lexeme
  lex: pricel
@@ -34687,7 +34687,7 @@
 -lexeme
  lex: prijomšʼica
  stem: prijomšʼica.//prijomšʼic.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: приёмщица
  trans_en: 
@@ -34750,7 +34750,7 @@
 -lexeme
  lex: princessa
  stem: princessa.//princess.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: принцесса
  trans_en: 
@@ -34849,7 +34849,7 @@
 -lexeme
  lex: prodafšʼica
  stem: prodafšʼica.//prodafšʼic.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: продавщица
  trans_en: 
@@ -34858,7 +34858,7 @@
 -lexeme
  lex: prodavec
  stem: prodavec.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: продавец
  trans_en: 
@@ -35598,7 +35598,7 @@
 -lexeme
  lex: putʼešestvenʼnʼik
  stem: putʼešestvenʼnʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: путешественник
  trans_en: 
@@ -35779,7 +35779,7 @@
 -lexeme
  lex: pčʼelovod
  stem: pčʼelovod.
- gramm: N,anim,hum,rus
+ gramm: N,anim,hum,rus,occupation
  paradigm: paradigm_N
  trans_ru: пчеловод
  trans_en: 
@@ -36157,7 +36157,7 @@
 -lexeme
  lex: pərtos
  stem: pərtos.
- gramm: N,anim,hum
+ gramm: N,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: примак
  trans_en: 
@@ -37086,7 +37086,7 @@
 -lexeme
  lex: razbojnʼik
  stem: razbojnʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: разбойник
  trans_en: bandit
@@ -37890,8 +37890,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: санаторий
- trans_en: 
- gloss: STEM
+ trans_en: spa
+ gloss: spa
 
 -lexeme
  lex: sandal
@@ -37917,8 +37917,8 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: санкция
- trans_en: 
- gloss: STEM
+ trans_en: sanction, sanctions
+ gloss: sanctions
 
 -lexeme
  lex: sanlanə
@@ -37986,7 +37986,7 @@
 -lexeme
  lex: sapožnʼik
  stem: sapožnʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: сапожник
  trans_en: shoemaker
@@ -38061,8 +38061,8 @@
  gramm: N
  paradigm: paradigm_N_px_ə
  trans_ru: сознание
- trans_en: 
- gloss: STEM
+ trans_en: conscience
+ gloss: conscience
 
 -lexeme
  lex: satʼtʼašʼkənə
@@ -38070,8 +38070,8 @@
  gramm: V,intr
  paradigm: paradigm_V
  trans_ru: очнуться, прийти в себя
- trans_en: 
- gloss: STEM
+ trans_en: regain conscience
+ gloss: regain.conscience
 
 -lexeme
  lex: satʼəmənə
@@ -38563,7 +38563,7 @@
 -lexeme
  lex: slʼedovatʼelʼ
  stem: slʼedovatʼelʼ.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: следователь
  trans_en: investigator
@@ -38824,7 +38824,7 @@
 -lexeme
  lex: soldat
  stem: soldat.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: солдат
  trans_en: soldier
@@ -39112,7 +39112,7 @@
 -lexeme
  lex: spasatʼelʼ
  stem: spasatʼelʼ.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: спасатель
  trans_en: 
@@ -39202,7 +39202,7 @@
 -lexeme
  lex: sportsmen
  stem: sportsmen.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: спортсмен
  trans_en: 
@@ -39382,7 +39382,7 @@
 -lexeme
  lex: starosta
  stem: starosta.//starost.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: староста
  trans_en: 
@@ -39418,7 +39418,7 @@
 -lexeme
  lex: stomatolog
  stem: stomatolog.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: стоматолог
  trans_en: dentist
@@ -39427,7 +39427,7 @@
 -lexeme
  lex: storož
  stem: storož.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: сторож
  trans_en: watchman
@@ -39535,11 +39535,11 @@
 -lexeme
  lex: studʼent
  stem: studʼent.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: студент
- trans_en: 
- gloss: STEM
+ trans_en: student
+ gloss: student
 
 -lexeme
  lex: stʼag
@@ -39949,7 +39949,7 @@
 -lexeme
  lex: svaršʼik
  stem: svaršʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: сварщик
  trans_en: welder
@@ -40021,7 +40021,7 @@
 -lexeme
  lex: svidʼetʼelʼ
  stem: svidʼetʼelʼ.
- gramm: N,anim,hum,rus
+ gramm: N,anim,hum,rus,occupation
  paradigm: paradigm_N
  trans_ru: свидетель
  trans_en: witness
@@ -40030,7 +40030,7 @@
 -lexeme
  lex: svidʼetʼelʼnʼica
  stem: svidʼetʼelʼnʼica.//svidʼetʼelʼnʼic.
- gramm: N,anim,hum,rus
+ gramm: N,anim,hum,rus,occupation
  paradigm: paradigm_N
  trans_ru: свидетельница
  trans_en: female witness
@@ -40634,7 +40634,7 @@
 -lexeme
  lex: takšʼis
  stem: takšʼis.//takšʼist.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: таксист
  trans_en: taxi driver
@@ -40751,7 +40751,7 @@
 -lexeme
  lex: tamada
  stem: tamada.//tamad.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: тамада
  trans_en: toastmaster
@@ -40823,7 +40823,7 @@
 -lexeme
  lex: tankis
  stem: tankis.//tankist.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: танкист
  trans_en: tanker
@@ -41534,7 +41534,7 @@
 -lexeme
  lex: tokar
  stem: tokar.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: токарь
  trans_en: turner
@@ -42137,7 +42137,7 @@
 -lexeme
  lex: traktoris
  stem: traktoris.//traktorist.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: тракторист
  trans_en: tractor driver
@@ -44012,7 +44012,7 @@
 -lexeme
  lex: tʼerorist
  stem: tʼerorist.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: террорист
  trans_en: 
@@ -44543,7 +44543,7 @@
 -lexeme
  lex: udmort
  stem: udmort.
- gramm: N,anim,hum
+ gramm: N,anim,hum,nation
  paradigm: paradigm_N
  trans_ru: удмурт, удмуртка
  trans_en: 
@@ -44552,7 +44552,7 @@
 -lexeme
  lex: udmurt
  stem: udmurt.
- gramm: N,anim,hum
+ gramm: N,anim,hum,nation
  paradigm: paradigm_N
  trans_ru: удмурт, удмуртка
  trans_en: Udmurt
@@ -45338,11 +45338,11 @@
 -lexeme
  lex: urmot
  stem: urmot.
- gramm: N,anim,hum
+ gramm: N,anim,hum,nation
  paradigm: paradigm_N
  trans_ru: удмурт
- trans_en: 
- gloss: STEM
+ trans_en: Udmurt
+ gloss: Udmurt
 
 -lexeme
  lex: urmənə
@@ -45662,11 +45662,11 @@
 -lexeme
  lex: učʼenʼik
  stem: učʼenʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: ученик
- trans_en: 
- gloss: STEM
+ trans_en: student
+ gloss: student
 
 -lexeme
  lex: učʼilʼišʼe
@@ -45674,26 +45674,26 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: училище
- trans_en: 
- gloss: STEM
+ trans_en: college
+ gloss: college
 
 -lexeme
  lex: učʼitʼelʼ
  stem: učʼitʼelʼ.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: учитель
- trans_en: 
- gloss: STEM
+ trans_en: teacher
+ gloss: teacher
 
 -lexeme
  lex: učʼitʼelʼnʼica
  stem: učʼitʼelʼnʼica.//učʼitʼelʼnʼic.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: учительница
- trans_en: 
- gloss: STEM
+ trans_en: female teacher
+ gloss: female.teacher
 
 -lexeme
  lex: učʼkal
@@ -46805,11 +46805,11 @@
 -lexeme
  lex: vetʼerinar
  stem: vetʼerinar.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: ветеринар
- trans_en: 
- gloss: STEM
+ trans_en: veterinary
+ gloss: veterinary
 
 -lexeme
  lex: vetʼtənə
@@ -46817,8 +46817,8 @@
  gramm: V,tr,with_instr,with_lat
  paradigm: paradigm_V
  trans_ru: макать
- trans_en: 
- gloss: STEM
+ trans_en: dip
+ gloss: dip
 
 -lexeme
  lex: vezdʼe
@@ -47448,8 +47448,8 @@
  gramm: N,rus,anim,hum
  paradigm: paradigm_N
  trans_ru: внук
- trans_en: 
- gloss: STEM
+ trans_en: grandson
+ gloss: grandson
 
 -lexeme
  lex: vnučʼka
@@ -47517,11 +47517,11 @@
 -lexeme
  lex: vojennoj
  stem: vojennoj.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: военный
- trans_en: 
- gloss: STEM
+ trans_en: military
+ gloss: military
 
 -lexeme
  lex: vojevatʼ
@@ -48093,7 +48093,7 @@
 -lexeme
  lex: vračʼ
  stem: vračʼ.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: врач
  trans_en: doctor
@@ -49809,7 +49809,7 @@
 -lexeme
  lex: zaprafšʼik
  stem: zaprafšʼik.//zapravšʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: заправщик
  trans_en: 
@@ -49935,7 +49935,7 @@
 -lexeme
  lex: zavedujušʼij
  stem: zavedujušʼij.//zavedušʼij.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: заведующий
  trans_en: director
@@ -49944,7 +49944,7 @@
 -lexeme
  lex: zavedušʼij
  stem: zavedušʼij.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: заведующий
  trans_en: director
@@ -49971,7 +49971,7 @@
 -lexeme
  lex: zavklub
  stem: zavklub.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: завклубом
  trans_en: club director
@@ -50007,7 +50007,7 @@
 -lexeme
  lex: zavučʼ
  stem: zavučʼ.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: завуч
  trans_en: 
@@ -50268,7 +50268,7 @@
 -lexeme
  lex: zootʼexnʼik
  stem: zootʼexnʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: зоотехник
  trans_en: livestock specialist
@@ -51655,11 +51655,11 @@
 -lexeme
  lex: čʼerepaxa
  stem: čʼerepaxa.//čʼerepax.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim
  paradigm: paradigm_N
  trans_ru: черепаха
- trans_en: 
- gloss: STEM
+ trans_en: turtle
+ gloss: turtle
 
 -lexeme
  lex: čʼerk
@@ -51871,7 +51871,7 @@
 -lexeme
  lex: čʼiganʼ
  stem: čʼiganʼ.
- gramm: N,anim,hum
+ gramm: N,anim,hum,nation
  paradigm: paradigm_N
  trans_ru: цыган, цыганка
  trans_en: Gipsy
@@ -51880,7 +51880,7 @@
 -lexeme
  lex: čʼiganʼka
  stem: čʼiganʼka.//čʼiganʼk.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,nation
  paradigm: paradigm_N
  trans_ru: цыганка
  trans_en: Gipsy woman
@@ -52168,11 +52168,11 @@
 -lexeme
  lex: čʼinovnʼik
  stem: čʼinovnʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: чиновник
- trans_en: 
- gloss: STEM
+ trans_en: government official
+ gloss: official
 
 -lexeme
  lex: čʼinʼgetənə
@@ -54788,11 +54788,11 @@
 -lexeme
  lex: šaxtʼor
  stem: šaxtʼor.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: шахтёр
- trans_en: 
- gloss: STEM
+ trans_en: miner
+ gloss: miner
 
 -lexeme
  lex: šačʼa
@@ -54959,7 +54959,7 @@
 -lexeme
  lex: šermačʼ
  stem: šermačʼ.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: разбойник
  trans_en: 
@@ -55121,7 +55121,7 @@
 -lexeme
  lex: školʼnʼik
  stem: školʼnʼik.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: школьник
  trans_en: schoolkid
@@ -55301,7 +55301,7 @@
 -lexeme
  lex: šofer
  stem: šofer.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: шофёр
  trans_en: driver
@@ -55310,7 +55310,7 @@
 -lexeme
  lex: šofʼor
  stem: šofʼor.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: шофёр
  trans_en: driver
@@ -55916,8 +55916,8 @@
  gramm: V,tr,with_instr
  paradigm: paradigm_V
  trans_ru: веселить
- trans_en: 
- gloss: STEM
+ trans_en: amuse
+ gloss: amuse
 
 -lexeme
  lex: šum
@@ -57901,7 +57901,7 @@
 -lexeme
  lex: šʼuančʼi
  stem: šʼuančʼi.
- gramm: N,anim,hum
+ gramm: N,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: свадебный гость
  trans_en: wedding guest
@@ -58738,11 +58738,11 @@
 -lexeme
  lex: životnovod
  stem: životnovod.
- gramm: N,rus,anim,hum
+ gramm: N,rus,anim,hum,occupation
  paradigm: paradigm_N
  trans_ru: жиотвновод
- trans_en: 
- gloss: STEM
+ trans_en: livestock specialist
+ gloss: livestock.specialist
 
 -lexeme
  lex: žob
@@ -58792,7 +58792,7 @@
 -lexeme
  lex: žulʼik
  stem: žulʼik.
- gramm: N,anim,hum,rus
+ gramm: N,anim,hum,rus,occupation
  paradigm: paradigm_N
  trans_ru: жулик
  trans_en: 

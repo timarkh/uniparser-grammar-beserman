@@ -10,7 +10,7 @@ DELIMITERS = "<SENT_BOUNDARY>";
 
 LIST NegVerbs = "en" "medam" "medaz" "ug" ("ud" V) "uz" ("um" V) "ej" ("ed" V) "ez" ("em" V);
 LIST NegVerbs1 = ("um" V) "ej" ("em" V);
-LIST NegVerbs2 = ("ud" V) ("ed" V);
+LIST NegVerbs2 = ("ud" V) ("ed" V) "en";
 LIST NegVerbs3 = "uz" "ez";
 LIST NegVerbsFut = "um" "ug" "ud" "uz";
 LIST NegVerbsPst = "ej" "em" "ed" "ez";
@@ -28,7 +28,8 @@ LIST VPred = V PRED;
 SET VTr1 = (V tr) OR (V caus);
 SET VTr2 = VTr1 - (detr);
 SET VTr = VTr2 OR ("veranə");
-SET VFin = (V 1) OR (V 2) OR (V 3) OR ("val") OR ("wanʼ");
+SET VFin = (V prs) OR (V pst) OR (V pst2) OR (V fut) OR (V deb) OR (V res) OR ("val") OR ("wanʼ");
+SET VFinPRED = (V prs) OR (V pst) OR (V pst2) OR (V fut) OR (V deb) OR (V res) OR ("val") OR ("wanʼ") OR (PRED);
 SET VTrFin = (V tr 1) - (detr) OR (V tr 2) - (detr) - (imp) OR (V tr 3) - (detr) OR (V caus 1) OR (V caus 2) - (imp) OR (V caus 3);
 SET VIntr = (V intr) - (caus) OR (PRED) OR (V tr detr) - (V tr caus detr);
 LIST BOS = (>>>);
@@ -39,7 +40,7 @@ LIST EndSentPunc = "." "?" "!" ")." ")!" ")?" ".)" "!)" "?)"
 
 
 
-SECTION    # Verbs
+SECTION    # Verbal negation
 # Only leave V,cng analyses if there is a negative verb nearby.
 SELECT (V cng) IF (*-1 NegVerbs BARRIER NotClitics);
 REMOVE (V imp) IF (*-1 NegVerbs BARRIER NotClitics);
@@ -50,6 +51,8 @@ SELECT (V cng fut) IF (*-1 ("uz") BARRIER NotClitics);
 SELECT (V cng fut) IF (-4 ("uz")) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
 SELECT (V cng pst) IF (*-1 NegVerbsPst BARRIER NotClitics);
 SELECT (V cng pst) IF (-4 NegVerbsPst) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
+SELECT (V cng) IF (*-1 ("en") BARRIER NotClitics);
+SELECT (V cng) IF (-4 ("en")) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
 
 REMOVE (V cng 1) IF (*-1 NegVerbs3 BARRIER NotClitics);
 REMOVE (V cng 1) IF (-4 NegVerbs3) (-3 ("a")) (-2 ("mar")) (-1 ("a"));
@@ -77,14 +80,42 @@ REMOVE (V cng fut) IF (NEGATE 0C (V cng fut)) (NOT 0 NegVerbs)
 REMOVE (V cng pst) IF (NEGATE 0C (V cng pst)) (NOT 0 NegVerbs)
                       (NEGATE *-1 NegVerbsPst BARRIER NotClitics);
 
+REMOVE (V detr cng sg) IF (0 (V cng 1 sg prs))
+                          (*-1 ("<mon>"i) BARRIER ("<so>"i) | ("<ta>"i) | (N sg nom) | (V prs 1 sg));
+REMOVE (V detr cng pl) IF (0 (V cng 1 pl prs))
+                          (*-1 ("<mi>"i) OR (<"ašʼmes">i) OR (<"asmes">i) BARRIER ("<soos>"i) | ("<taos>"i) | (N pl nom) | (V prs 1 pl));
+REMOVE (V detr cng sg) IF (0 (V cng 2 sg prs))
+                          (*-1 ("<ton>"i) BARRIER ("<so>"i) | ("<ta>"i) | (N sg nom) | (V prs 2 sg));
+REMOVE (V detr cng pl) IF (0 (V cng 2 pl prs))
+                          (*-1 ("<ti>"i) BARRIER ("<soos>"i) | ("<taos>"i) | (N pl nom) | (V prs 2 pl));
 
 REMOVE (V cng) IF (NEGATE *-1 NegVerbs BARRIER NotClitics) 
                   (NOT 0 NegVerbs)
                   (NEGATE 0C (V cng));
 
 
+SECTION  # Verbs vs. nouns
+# lat / 1sg vs. prs.3sg
+REMOVE (N lat) IF (0 (V prs 3 sg))
+                  (NEGATE *-1 VFinPRED BARRIER BOS)
+                  (NEGATE *1 VFinPRED BARRIER BOS)
+                  (NEGATE *-1 (PRO pers 1 nom) OR (PRO pers 2 nom) OR (N pl nom) OR (PRO pers pl nom) BARRIER BOS)
+                  (NEGATE *1 (PRO pers 1 nom) OR (PRO pers 2 nom) OR (N pl nom) OR (PRO pers pl nom) BARRIER BOS)
+                  (NEGATE *-1 (N lat) BARRIER BOS)
+                  (NEGATE *1 (N lat) BARRIER BOS);
+REMOVE (N 1sg) IF (0 (V prs 3 sg))
+                  (NEGATE *-1 VFinPRED BARRIER BOS)
+                  (NEGATE *1 VFinPRED BARRIER BOS)
+                  (NEGATE *-1 (PRO pers 1 nom) OR (PRO pers 2 nom) OR (N pl nom) OR (PRO pers pl nom) BARRIER BOS)
+                  (NEGATE *1 (PRO pers 1 nom) OR (PRO pers 2 nom) OR (N pl nom) OR (PRO pers pl nom) BARRIER BOS)
+                  (NEGATE *-1 (N 1sg nom) BARRIER BOS)
+                  (NEGATE *1 (N 1sg nom) BARRIER BOS);
+
+
+SECTION  # Verbs
+
 # Pst2 vs. nominalization in -m
-REMOVE (V pst2 sg) IF (1 ("ber" lat));
+REMOVE (V pst2 sg) IF (1 ("ber" lat) OR ("bere"));
 REMOVE (V nmlz_em sg nom) IF (1 ("šusa") OR VerbalClitics);
 SELECT (V pst2 3 sg) IF (0 (nmlz_em 3sg sg nom))
                         (*1 ("potənə") BARRIER NotClitics);
@@ -137,6 +168,8 @@ REMOVE (V fut detr) IF (0 (V prs))
 # imperative plural is a very rare form which coincides
 # with prs,3,pl
 REMOVE (V imp pl) IF (-1 (PRO sg nom) OR WhQuestions);
+REMOVE (V imp pl) IF (-2 (PRO sg nom) OR WhQuestions)
+                     (-1 (ADV) | (PART));
 REMOVE (V imp pl) IF (0 (V intr detr 3 sg));
 SELECT (V imp pl) IF (1 ("<ka>"i) OR ("<ko>"i));
 
@@ -160,6 +193,7 @@ REMOVE (V nmlz_on prop_o);
 REMOVE (V intr detr fut) IF (0 (V intr detr fut) - (V intr detr 3 sg) - (V intr detr caus));
 REMOVE (V intr detr prs 3 pl) IF (0 (V intr prs 1 sg));
 
+
 # imperative vs. prs.3sg
 REMOVE (V imp) IF (0 (V prs 3 sg))
                   (0C (V))
@@ -171,15 +205,27 @@ REMOVE (V imp) IF (0 (V prs 3 sg))
                   (*-1 (N sg nom) - NomPoss BARRIER NotClitics - (ADV))
                   (NEGATE *0 (V tr) BARRIER BOSPunct);
 REMOVE (V imp) IF (0 (V prs 3 sg))
+                  (0C (V tr detr))
+                  (*-1 (N sg nom) - NomPoss BARRIER NotClitics - (ADV))
+                  (NEGATE *0 (V tr) - (detr) BARRIER BOSPunct);
+REMOVE (V imp) IF (0 (V prs 3 sg))
                   (0C (V intr) - (caus))
                   (-2 (N nom) | DemPersPro) (-1 (N rel_n loc) OR (N rel_n el) OR (N rel_n lat))
                   (*-3 (N sg nom) - NomPoss BARRIER NotClitics - (ADV))
                   (NEGATE *0 (V tr) BARRIER BOSPunct);
+
+REMOVE (V imp) IF (0 (V prs 3 sg) - (V detr))
+                  (0C (V tr) OR (V caus))
+                  (*0 (N anim sg nom) - NomPoss BARRIER NotClitics - (ADV))
+                  (*0 (acc))
+                  (NEGATE *-1 (V tr) BARRIER BOSPunct)
+                  (NEGATE *1 (V tr) BARRIER BOSPunct);
+
 SELECT (V imp) IF (1 ("<ka>"i) OR ("<ko>"i));
 
 
 SECTION    # Nouns
-# Illative vs. 1sg
+# Lative vs. 1sg
 # If there is a possessor to the left and the noun is animate,
 # it could hardly be in the lative.
 REMOVE (N lat sg) IF (0 (N anim 1sg))
@@ -193,7 +239,7 @@ REMOVE (N sg lat) IF (0 (N nom sg 1sg))
                      (-1 ("<e>"i) OR ("<oj>"i));
 # If there is a verb that requires lative and no "mənam" around,
 # this is also probably the lative.
-REMOVE (N nom sg 1sg) IF (0 (N sg lat))
+REMOVE (N nom sg 1sg) IF (0 (N sg lat) - (N anim))
                          (NEGATE *0 ("<mənam>"i) BARRIER BOSPunct)
                          (*0 (V with_lat) BARRIER BOSPunct);
 # In the opposite case, it is probably nom.1sg.
@@ -208,15 +254,14 @@ REMOVE (N nom sg 1sg) IF (0 ("<noməre>") OR ("<nokinʼe>") OR ("<gəne>"))
                          (NEGATE *0 ("<mənam>"i) BARRIER BOSPunct)
                          (NEGATE *0 (V with_lat) BARRIER BOS);
 
-# lat vs. prs.3sg of similar verbs
-REMOVE (N) IF (0 ("<zore>"i) OR ("<vaje>"i) OR ("<vožʼe>"i) OR ("<šue>"i))
-              (NEGATE *0 VPred BARRIER BOS);
-REMOVE (N) IF (0 ("<vue>"i))
-              (NEGATE *0 VPred BARRIER BOS)
-              (*0 (lat) BARRIER BOS);
 # gəne is usually PART
 REMOVE (N) IF (0 ("<gəne>"i))
               (-1 (NUM) OR ("<kalʼlʼen>"i) OR ("<ožʼ>"i) OR ("<əžət>"i));
+
+# lat and other spatial cases are generally available to
+# occupations and positions only
+REMOVE (N anim lat sg) IF (0 (N anim 1sg))
+                          (NOT 0 (N lat occupation));
 
 
 # Accusative vs. 3sg
@@ -253,7 +298,7 @@ REMOVE (PRO pl nom 2pl) IF (0 ("<vəldə>"i))
 # Relational nouns are hardly ever used in the nominative.
 REMOVE (N rel_n nom 1sg) IF (0 (N rel_n lat))
                             (-1 (N nom) OR (PRO pers nom));
-# And in the instrumental.
+# Or in the instrumental.
 REMOVE (N rel_n ins) IF (0 (N rel_n loc))
                         (-1 (N nom) OR (PRO pers nom));
 
@@ -593,7 +638,7 @@ SELECT (PRO pers) IF (@1 DemPersPro)
       (1 (",")) (2 ("<jeslʼi>"i));
 SELECT (PRO pers) IF (@1 DemPersPro)
       (1 ("...")) (2 ("<so>"i)) (3 (V prs 3 sg));
-SELECT (PRO dem) IF (@1 DemPersPro)
+SELECT (PRO pers) IF (@1 DemPersPro)
       (1 (N nom)) (2 ("<dore|vəle>"i)) (3 (","));
 SELECT (PRO dem) IF (@1 DemPersPro)
       (1 (N nom 3sg)) (2 (V res)) (3 (N loc));
