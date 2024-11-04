@@ -29,7 +29,7 @@ SET VTr1 = (V tr) OR (V caus);
 SET VTr2 = VTr1 - (detr);
 SET VTr = VTr2 OR ("veranə");
 SET VFin = (V prs) OR (V pst) OR (V pst2) OR (V fut) OR (V deb) OR (V res) OR ("val") OR ("wanʼ");
-SET VFinPRED = (V prs) OR (V pst) OR (V pst2) OR (V fut) OR (V deb) OR (V res) OR ("val") OR ("wanʼ") OR (PRED);
+SET VFinPred = (V prs) OR (V pst) OR (V pst2) OR (V fut) OR (V deb) OR (V res) OR ("val") OR ("wanʼ") OR (PRED);
 SET VTrFin = (V tr 1) - (detr) OR (V tr 2) - (detr) - (imp) OR (V tr 3) - (detr) OR (V caus 1) OR (V caus 2) - (imp) OR (V caus 3);
 SET VIntr = (V intr) - (caus) OR (PRED) OR (V tr detr) - (V tr caus detr);
 LIST BOS = (>>>);
@@ -97,15 +97,15 @@ REMOVE (V cng) IF (NEGATE *-1 NegVerbs BARRIER NotClitics)
 SECTION  # Verbs vs. nouns
 # lat / 1sg vs. prs.3sg
 REMOVE (N lat) IF (0 (V prs 3 sg))
-                  (NEGATE *-1 VFinPRED BARRIER BOS)
-                  (NEGATE *1 VFinPRED BARRIER BOS)
+                  (NEGATE *-1 VFinPred BARRIER BOS)
+                  (NEGATE *1 VFinPred BARRIER BOS)
                   (NEGATE *-1 (PRO pers 1 nom) OR (PRO pers 2 nom) OR (N pl nom) OR (PRO pers pl nom) BARRIER BOS)
                   (NEGATE *1 (PRO pers 1 nom) OR (PRO pers 2 nom) OR (N pl nom) OR (PRO pers pl nom) BARRIER BOS)
                   (NEGATE *-1 (N lat) BARRIER BOS)
                   (NEGATE *1 (N lat) BARRIER BOS);
 REMOVE (N 1sg) IF (0 (V prs 3 sg))
-                  (NEGATE *-1 VFinPRED BARRIER BOS)
-                  (NEGATE *1 VFinPRED BARRIER BOS)
+                  (NEGATE *-1 VFinPred BARRIER BOS)
+                  (NEGATE *1 VFinPred BARRIER BOS)
                   (NEGATE *-1 (PRO pers 1 nom) OR (PRO pers 2 nom) OR (N pl nom) OR (PRO pers pl nom) BARRIER BOS)
                   (NEGATE *1 (PRO pers 1 nom) OR (PRO pers 2 nom) OR (N pl nom) OR (PRO pers pl nom) BARRIER BOS)
                   (NEGATE *-1 (N 1sg nom) BARRIER BOS)
@@ -627,10 +627,13 @@ SELECT (V) IF (0 ("<vaj>"i))
               (1 EndSentPunc);
 
 # ulənə-vələnə
-SELECT ("<vələnə>") IF (-1* ("<ulənə>") BARRIER (*) - (punct))
-					   (0 (pst2) OR (pst) OR (inf));
-REMOVE ("<vələnə>") IF (0 ("<vəl>") OR ("<vəlem>"));
+SELECT ("vələnə") IF (-1* ("ulənə") BARRIER (*) - (punct))
+					 (0 (pst2) OR (pst) OR (inf));
+REMOVE ("vələnə") IF (0 ("<vəl>") OR ("<vəlem>"));
 
+# ku: when vs. weave
+REMOVE ("kuənə") IF (0 ("<ku>"i))
+					(0* VFinPred);
 
 
 SECTION # Ad-hoc
