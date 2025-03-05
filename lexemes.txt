@@ -76,8 +76,17 @@
  gramm: N,PN,persn
  paradigm: paradigm_N
  trans_ru: Аля
- trans_en: Alya (Alla)
+ trans_en: Alya (Alevtina, Alla)
  gloss: Alya
+
+-lexeme
+ lex: Alʼeftʼina
+ stem: alʼeftʼina.//alʼeftʼin.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Алевтина
+ trans_en: Alevtina
+ gloss: Alevtina
 
 -lexeme
  lex: Alʼina
@@ -1736,6 +1745,15 @@
  gloss: Myshkin
 
 -lexeme
+ lex: Nadʼežda
+ stem: nadʼežda.//nadʼežd.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Надежда
+ trans_en: Nadezhda
+ gloss: Nadezhda
+
+-lexeme
  lex: Nadʼa
  stem: nadʼa.
  gramm: N,PN,persn
@@ -2124,7 +2142,7 @@
 
 -lexeme
  lex: Pičʼinka
- stem: pičʼinka.//pičʼink.
+ stem: pičʼinka.//pičʼink.//pčʼinka.//pčʼink.
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Ёжевский
@@ -2501,6 +2519,15 @@
  gloss: Tarzan
 
 -lexeme
+ lex: Tʼixon
+ stem: tʼixon.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Тихон
+ trans_en: Tikhon
+ gloss: Tikhon
+
+-lexeme
  lex: Tolʼa
  stem: tolʼa.
  gramm: N,PN,persn
@@ -2652,6 +2679,15 @@
  trans_ru: Урик (пи) (родовое имя)
  trans_en: Urik (cognomen)
  gloss: Urik
+
+-lexeme
+ lex: Bobəlʼ
+ stem: bobəlʼ.
+ gramm: N,PN,famn
+ paradigm: paradigm_N
+ trans_ru: Бобыль (родовое имя)
+ trans_en: Bobyl (cognomen)
+ gloss: Bobyl
 
 -lexeme
  lex: Uržum
@@ -2880,7 +2916,7 @@
 
 -lexeme
  lex: Vorčʼa
- stem: vorčʼa.
+ stem: vorčʼa.//vorca.
  gramm: N,PN,topn
  paradigm: paradigm_N
  trans_ru: Ворца
@@ -2960,6 +2996,15 @@
  gloss: Zoya
 
 -lexeme
+ lex: Bim
+ stem: bim.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: Бим (имя собаки)
+ trans_en: Bim (dog's name)
+ gloss: Bim
+
+-lexeme
  lex: Zozulʼa
  stem: zozulʼa.//zozulʼ.
  gramm: N,PN
@@ -2967,6 +3012,15 @@
  trans_ru: "Зозуля" (огурцы)
  trans_en: Zozulya (cucmbers)
  gloss: Zozulya
+
+-lexeme
+ lex: barbaris
+ stem: barbaris.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: "Барбарис" (конфета)
+ trans_en: Barbaris (candy)
+ gloss: Barbaris
 
 -lexeme
  lex: a
@@ -3339,6 +3393,15 @@
  gloss: nasty.thing
 
 -lexeme
+ lex: kaka
+ stem: kaka.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: бяка, кака
+ trans_en: nasty thing/person, poo
+ gloss: nasty.thing
+
+-lexeme
  lex: alʼanə
  stem: alʼa.
  gramm: V,intr
@@ -3631,6 +3694,15 @@
 -lexeme
  lex: anije
  stem: anije.
+ gramm: INTERJ
+ paradigm: Empty
+ trans_ru: ой, мамочки!
+ trans_en: oh my God!
+ gloss: oh.my.God
+
+-lexeme
+ lex: anike
+ stem: anike.
  gramm: INTERJ
  paradigm: Empty
  trans_ru: ой, мамочки!
@@ -4222,7 +4294,7 @@
 
 -lexeme
  lex: ax
- stem: ax.
+ stem: ax.//ah.
  gramm: INTERJ,rus
  paradigm: Comparative
  trans_ru: ах
@@ -5287,6 +5359,15 @@
  gloss: turn
 
 -lexeme
+ lex: beretskənə
+ stem: beretsk.
+ gramm: V,intr
+ paradigm: paradigm_V
+ trans_ru: повернуться
+ trans_en: turn around
+ gloss: turn.around
+
+-lexeme
  lex: berganə
  stem: berga.
  gramm: V,intr,act_pst_es_p,act_prs_p
@@ -5687,7 +5768,7 @@
  stem: bizget.|bizgečʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о насекомых/ жужжать; /о комарах/ звенеть
+ trans_ru: (о насекомых) жужжать; (о комарах) звенеть
  trans_en: 
  gloss: STEM
 
@@ -6124,8 +6205,8 @@
  gloss: pyatro
 
 -lexeme
- lex: botnʼik
- stem: botnʼik.
+ lex: bortnʼik
+ stem: botnʼik.//bortnʼik
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: дикорастущая мята
@@ -6579,7 +6660,7 @@
  stem: burm.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о ране/ зажить
+ trans_ru: (о ране) зажить
  trans_en: 
  gloss: STEM
 
@@ -6950,7 +7031,7 @@
  stem: bəgət.
  gramm: A
  paradigm: paradigm_A
- trans_ru: без костей /о мясе/; полный /о частях тела/
+ trans_ru: без костей (о мясе/; полный /о частях тела)
  trans_en: without bones (about meat); round, fleshy (about body parts)
  gloss: fleshy
 
@@ -7121,8 +7202,8 @@
  stem: bəs.
  gramm: IDEO
  paradigm: Comparative
- trans_ru: /о холоде/ очень сильный
- trans_en: /about cold/ very strong
+ trans_ru: (о холоде) очень сильный
+ trans_en: (about cold) very strong
  gloss: IDEO
 
 -lexeme
@@ -7220,7 +7301,7 @@
  stem: bəzinʼ.
  gramm: ADV
  paradigm: Comparative
- trans_ru: в позе кверху задом; /о бёдрах/ крутые
+ trans_ru: в позе кверху задом; (о бёдрах) крутые
  trans_en: in the 'ass upwards' position; bulging /about thighs/
  gloss: bulging
 
@@ -12129,7 +12210,7 @@
  stem: gədərja.
  gramm: V,impers
  paradigm: paradigm_V
- trans_ru: /о громе/ греметь
+ trans_ru: (о громе) греметь
  trans_en: thunder
  gloss: thunder
 
@@ -12138,7 +12219,7 @@
  stem: gədərt.|gədərčʼ.
  gramm: V,impers
  paradigm: paradigm_V
- trans_ru: /о громе/ громыхнуть, загреметь
+ trans_ru: (о громе) громыхнуть, загреметь
  trans_en: thunder
  gloss: thunder
 
@@ -12327,7 +12408,7 @@
  stem: gər.
  gramm: A
  paradigm: paradigm_A
- trans_ru: коренной /о зубе/
+ trans_ru: коренной (о зубе)
  trans_en: molar
  gloss: molar
 
@@ -12363,7 +12444,7 @@
  stem: gərijašʼk.
  gramm: V,intr,detr
  paradigm: paradigm_V
- trans_ru: /о серёжках на деревьях/ появляться, появиться
+ trans_ru: (о серёжках на деревьях) появляться, появиться
  trans_en: 
  gloss: STEM
 
@@ -12372,8 +12453,8 @@
  stem: gərkes.
  gramm: A
  paradigm: paradigm_A
- trans_ru: /о зубе/ дырявый, с дуплом
- trans_en: /of a tooth/ with a hole, a cavern
+ trans_ru: (о зубе) дырявый, с дуплом
+ trans_en: (of a tooth) with a hole, a cavern
  gloss: with.cavern
 
 -lexeme
@@ -12543,7 +12624,7 @@
  stem: gɤpa.
  gramm: V,impers
  paradigm: paradigm_V
- trans_ru: /о сильном ветре со снегом/ идти, пуржить
+ trans_ru: (о сильном ветре со снегом) идти, пуржить
  trans_en: 
  gloss: STEM
 
@@ -12552,7 +12633,7 @@
  stem: gɤpat.|gɤpačʼ.
  gramm: V,impers
  paradigm: paradigm_V
- trans_ru: /о сильном ветре со снегом/ идти, пуржить
+ trans_ru: (о сильном ветре со снегом) идти, пуржить
  trans_en: 
  gloss: STEM
 
@@ -13254,7 +13335,7 @@
  stem: jaraton.
  gramm: N,nmlz_on
  paradigm: paradigm_N
- trans_ru: любовь; любимый /о человеке/
+ trans_ru: любовь; любимый (о человеке)
  trans_en: love; loved one /of a person/
  gloss: love
 
@@ -15504,7 +15585,7 @@
 
 -lexeme
  lex: kartoška
- stem: kartoška.//kartoški.//kartošk.
+ stem: kartoška.//kartoški.//kartošk.//kartopka.//kartopki.//kartopk.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: картошка
@@ -16216,8 +16297,8 @@
  gloss: STEM
 
 -lexeme
- lex: kežʼəčʼikənə
- stem: kežʼəčʼik.//kežʼəčʼk.
+ lex: kežʼətčʼkənə
+ stem: kežʼətčʼik.//kežʼətčʼk.//kežʼəčʼik.//kežʼəčʼk.
  gramm: V,impers,detr
  paradigm: paradigm_V
  trans_ru: холодать
@@ -17189,6 +17270,15 @@
  gloss: collective.farm
 
 -lexeme
+ lex: sofxoz
+ stem: sofxoz.//sovxoz.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: совхоз
+ trans_en: collective farm
+ gloss: collective.farm
+
+-lexeme
  lex: kolxoznoj
  stem: kolxoznoj.//kolxoznɨj.
  gramm: A,rus
@@ -18004,7 +18094,7 @@
  stem: kotekja.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о курице/ кудахтать
+ trans_ru: (о курице) кудахтать
  trans_en: 
  gloss: STEM
 
@@ -18337,7 +18427,7 @@
  stem: kočʼərja.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о сороке/ стрекотать, трещать
+ trans_ru: (о сороке) стрекотать, трещать
  trans_en: 
  gloss: STEM
 
@@ -19171,7 +19261,7 @@
 
 -lexeme
  lex: kunʼanʼ
- stem: kunʼanʼ.
+ stem: kunʼanʼ.//kunʼan.
  gramm: N,anim
  paradigm: paradigm_N
  trans_ru: телёнок, тёлка
@@ -19994,7 +20084,7 @@
  stem: kwakket.|kwakkečʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о лягушке/ квакать
+ trans_ru: (о лягушке) квакать
  trans_en: 
  gloss: STEM
 
@@ -21656,7 +21746,7 @@
 
 -lexeme
  lex: kəčʼe
- stem: kəčʼe.//kčʼe.//kəče.//kče.//kɨče.
+ stem: kəčʼe.//kčʼe.//kəče.//kče.//kɨče.//kše.
  gramm: PRO
  paradigm: paradigm_A
  trans_ru: какой; как
@@ -21665,7 +21755,7 @@
 
 -lexeme
  lex: kəčʼeke
- stem: kəčʼe&ke.//kčʼe&ke.//kəče&ke.//kče&ke.//kɨče&ke.
+ stem: kəčʼe&ke.//kčʼe&ke.//kəče&ke.//kče&ke.//kɨče&ke.//kše&ke.
  gramm: ADV
  paradigm: Comparative
  trans_ru: как-нибудь, как-то
@@ -21674,7 +21764,7 @@
 
 -lexeme
  lex: kəčʼeke
- stem: kəčʼe&ke.//kčʼe&ke.//kəče&ke.//kče&ke.//kɨče&ke.
+ stem: kəčʼe&ke.//kčʼe&ke.//kəče&ke.//kče&ke.//kɨče&ke.//kše&ke.
  gramm: PRO
  paradigm: paradigm_N
  trans_ru: какой-нибудь, какой-то
@@ -21698,6 +21788,15 @@
  trans_ru: кыш
  trans_en: shoo
  gloss: shoo
+
+-lexeme
+ lex: nʼeznaj
+ stem: nʼeznaj.
+ gramm: INTERJ,rus
+ paradigm: Empty
+ trans_ru: не знаю
+ trans_en: I don't know
+ gloss: dunno
 
 -lexeme
  lex: kəš
@@ -22146,7 +22245,7 @@
  stem: kɤsekt.|kɤsekčʼ.//kɤsečʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о горле/ пересыхать
+ trans_ru: (о горле) пересыхать
  trans_en: 
  gloss: STEM
 
@@ -22216,7 +22315,7 @@
 
 -lexeme
  lex: kɤžə
- stem: kɤžə.|kɤži.
+ stem: kɤžə.//kežə.|kɤži.//keži.
  gramm: N
  paradigm: paradigm_N
  trans_ru: горох
@@ -22417,7 +22516,7 @@
  stem: lap-lap.
  gramm: A
  paradigm: paradigm_A
- trans_ru: хороший, правильный, положительный /о человеке или животном/
+ trans_ru: хороший, правильный, положительный (о человеке или животном)
  trans_en: good, right, positive (/of a human or animal)
  gloss: good
 
@@ -23210,7 +23309,7 @@
  stem: ləmija.
  gramm: V,impers
  paradigm: paradigm_V
- trans_ru: /о снеге/ идти
+ trans_ru: (о снеге) идти
  trans_en: snow
  gloss: snow
 
@@ -23553,7 +23652,7 @@
  stem: lʼarget.|lʼargečʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /только об овцах и ягнятах/ блеять
+ trans_ru: (только об овцах и ягнятах) блеять
  trans_en: 
  gloss: STEM
 
@@ -23920,7 +24019,7 @@
 
 -lexeme
  lex: lʼitra
- stem: lʼitra.//lʼitər.//lʼitr.
+ stem: lʼitra.//lʼitər.//lʼitr.//lʼitər.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: литр
@@ -24274,7 +24373,7 @@
  stem: lʼəkər-lʼakər.
  gramm: IDEO
  paradigm: Comparative
- trans_ru: с трудом /о ходьбе/; неустойчиво, шатаясь
+ trans_ru: с трудом (о ходьбе); неустойчиво, шатаясь
  trans_en: 
  gloss: IDEO
 
@@ -24367,6 +24466,33 @@
  trans_ru: магазин
  trans_en: store
  gloss: store
+
+-lexeme
+ lex: rajpo
+ stem: rajpo.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: райпо
+ trans_en: Raipo store
+ gloss: store
+
+-lexeme
+ lex: mojva
+ stem: mojva.
+ gramm: N,anim,rus
+ paradigm: paradigm_N
+ trans_ru: мойва
+ trans_en: capelin
+ gloss: capelin
+
+-lexeme
+ lex: skumbrija
+ stem: skumbrija.
+ gramm: N,anim,rus
+ paradigm: paradigm_N
+ trans_ru: скумбрия
+ trans_en: mackerel
+ gloss: mackerel
 
 -lexeme
  lex: magažʼinnɨj
@@ -25292,7 +25418,7 @@
  stem: merčʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о предмете/ резать, быть острым
+ trans_ru: (о предмете) резать, быть острым
  trans_en: 
  gloss: STEM
 
@@ -25523,7 +25649,7 @@
 
 -lexeme
  lex: mh
- stem: mh.//mx.//uhm.
+ stem: mh.//mx.//uhm.//mhm.
  gramm: PART
  paradigm: Empty
  trans_ru: угу
@@ -26968,7 +27094,7 @@
  stem: mɤjom.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: стареть /о человеке/
+ trans_ru: стареть (о человеке)
  trans_en: become old
  gloss: become.old
 
@@ -27685,7 +27811,7 @@
 
 -lexeme
  lex: noməre no
- stem: nomər.//nomr.
+ stem: nomər.//nomr.//nombr.//nobr.
  gramm: PRO
  paradigm: paradigm_N-mar
  trans_ru: ничего, ничто
@@ -29264,7 +29390,7 @@
 
 -lexeme
  lex: nʼəm
- stem: nʼəm.
+ stem: nʼəm.//nʼim.
  gramm: N
  paradigm: paradigm_N
  paradigm: paradigm_N_px_ə
@@ -29896,6 +30022,15 @@
  gloss: of.large.quantity
 
 -lexeme
+ lex: oj-oj-oj
+ stem: oj-oj-oj.
+ gramm: INTERJ
+ paradigm: Empty
+ trans_ru: ой-ой-ой
+ trans_en: oh
+ gloss: oh
+
+-lexeme
  lex: ok
  stem: ok.//ox.
  gramm: INTERJ
@@ -30305,8 +30440,8 @@
  stem: ološo.
  gramm: N,anim
  paradigm: paradigm_N
- trans_ru: /о домашних животных/ кастрат
- trans_en: /about domestic animals/ castrated
+ trans_ru: (о домашних животных) кастрат
+ trans_en: (about domestic animals) castrated
  gloss: castrated
 
 -lexeme
@@ -30566,7 +30701,7 @@
  stem: orsm.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о крови/ сворачиваться
+ trans_ru: (о крови) сворачиваться
  trans_en: 
  gloss: STEM
 
@@ -31215,7 +31350,7 @@
  stem: pales.
  gramm: A
  paradigm: paradigm_A
- trans_ru: оставшийся; недоделанный; неполный; /о человеке/ одинокий
+ trans_ru: оставшийся; недоделанный; неполный; (о человеке) одинокий
  trans_en: leftover; unfinished; incomplete
  gloss: leftover
 
@@ -31305,7 +31440,7 @@
  stem: palʼk.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: выдавить /о прыще и т.п./; плеснуть
+ trans_ru: выдавить (о прыще и т.п.); плеснуть
  trans_en: 
  gloss: STEM
 
@@ -31967,8 +32102,8 @@
  gloss: darkness
 
 -lexeme
- lex: pejməčʼikənə
- stem: pejməčʼik.//pejməčʼk.
+ lex: pejmətčʼkənə
+ stem: pejmətčʼik.//pejmətčʼk.//pejməčʼik.//pejməčʼk.
  gramm: V,impers,detr
  paradigm: paradigm_V
  trans_ru: стемнеть
@@ -32242,6 +32377,15 @@
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: перга
+ trans_en: 
+ gloss: STEM
+
+-lexeme
+ lex: irga
+ stem: irga.//irg.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: ирга
  trans_en: 
  gloss: STEM
 
@@ -32556,7 +32700,7 @@
  stem: pežʼd.|pežʼǯʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: выбить /о крышке банки/; разойтись /о краях пирожков/
+ trans_ru: выбить (о крышке банки/; разойтись /о краях пирожков)
  trans_en: 
  gloss: STEM
 
@@ -32916,7 +33060,7 @@
  stem: pisket.|piskečʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о мышах/ пищать
+ trans_ru: (о мышах) пищать
  trans_en: 
  gloss: STEM
 
@@ -35482,7 +35626,7 @@
  stem: purǯʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /например, о пыли, перьях, муке/ подниматься, подняться
+ trans_ru: (например, о пыли, перьях, муке) подниматься, подняться
  trans_en: 
  gloss: STEM
 
@@ -35702,7 +35846,16 @@
  paradigm: paradigm_N
  trans_ru: суп со взбитым яйцом
  trans_en: soup with whipped eggs
- gloss: soup.with.whipped.eggs
+ gloss: egg.soup
+
+-lexeme
+ lex: pušti
+ stem: pušti.
+ gramm: N
+ paradigm: paradigm_N
+ trans_ru: суп со взбитым яйцом
+ trans_en: soup with whipped eggs
+ gloss: egg.soup
 
 -lexeme
  lex: puštros
@@ -35745,7 +35898,7 @@
  stem: pužmera.
  gramm: V,impers
  paradigm: paradigm_V
- trans_ru: /об инее/ быть
+ trans_ru: (об инее) быть
  trans_en: 
  gloss: STEM
 
@@ -35754,7 +35907,7 @@
  stem: pužmert.|pužmerčʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: индеветь, /об инее/ быть
+ trans_ru: индеветь, (об инее) быть
  trans_en: 
  gloss: STEM
 
@@ -36150,7 +36303,7 @@
  stem: pərsa.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /обычно о злаках, семечках/ жариться без масла
+ trans_ru: (обычно о злаках, семечках) жариться без масла
  trans_en: 
  gloss: STEM
 
@@ -36745,7 +36898,7 @@
  stem: pɤšʼekt.//pešʼekt.|pɤšʼekčʼ.//pɤšʼečʼ.//pešʼekčʼ.//pešʼečʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: подняться /о температуре/; перегреться
+ trans_ru: подняться (о температуре); перегреться
  trans_en: 
  gloss: STEM
 
@@ -37592,7 +37745,7 @@
  stem: sajes.
  gramm: N
  paradigm: paradigm_N
- trans_ru: рукав /одежды/; патрубок самогонного аппарата
+ trans_ru: рукав (одежды); патрубок самогонного аппарата
  trans_en: sleeve; a connection pipe in a moonshine still
  gloss: sleeve
 
@@ -38736,7 +38889,7 @@
  stem: sog.
  gramm: V,tr,with_instr
  paradigm: paradigm_V
- trans_ru: закопать; /о сорняках/ заглушить
+ trans_ru: закопать; (о сорняках) заглушить
  trans_en: bury
  gloss: bury
 
@@ -39690,7 +39843,7 @@
  stem: sulʼpa.
  gramm: V,impers
  paradigm: paradigm_V
- trans_ru: /о снеге с дождем/ идти, падать
+ trans_ru: (о снеге с дождем) идти, падать
  trans_en: 
  gloss: STEM
 
@@ -40438,7 +40591,7 @@
  stem: sɤzə.|sɤzi.
  gramm: N
  paradigm: paradigm_N
- trans_ru: подол, край /одежды/
+ trans_ru: подол, край (одежды)
  trans_en: bottom, border /of an item of clothing/
  gloss: clothes.bottom
 
@@ -41191,7 +41344,7 @@
 
 -lexeme
  lex: tedʼə
- stem: tedʼə.//tedʼi.//tɤdʼə.//tɤdʼi.//tɤdʼɨ.
+ stem: tedʼə.//tedʼi.//tɤdʼə.//tɤdʼi.//tɤdʼɨ.//tejdə.
  gramm: A
  paradigm: paradigm_A
  trans_ru: белый; светлый, яркий
@@ -41725,7 +41878,7 @@
  stem: tolm.
  gramm: V,impers
  paradigm: paradigm_V
- trans_ru: наступить /о зиме/; перезимовать
+ trans_ru: наступить (о зиме); перезимовать
  trans_en: 
  gloss: STEM
 
@@ -42896,7 +43049,7 @@
  stem: tuǯʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о реке/ подниматься; разливаться
+ trans_ru: (о реке) подниматься; разливаться
  trans_en: 
  gloss: STEM
 
@@ -43353,7 +43506,7 @@
 
 -lexeme
  lex: tərba
- stem: tərba.//tərb.//turba.//turb.
+ stem: tərba.//tərb.//turba.//turb.//truba.//trub.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: труба; кольцо; большая катушка для ниток
@@ -43392,8 +43545,8 @@
  stem: tərləga.//tərləg.
  gramm: N,anim,hum
  paradigm: paradigm_N
- trans_ru: /о девочках и женщинах/ непослушная; /о взрослых женщинах/ непостоянная, ненадёжная, ветреная
- trans_en: /about girls and women/ unruly; /about adult women/ inconsistent, unreliable, heedless
+ trans_ru: (о девочках и женщинах) непослушная; (о взрослых женщинах) непостоянная, ненадёжная, ветреная
+ trans_en: (about girls and women) unruly; (about adult women) inconsistent, unreliable, heedless
  gloss: unruly
 
 -lexeme
@@ -43599,7 +43752,7 @@
  stem: tɤla.
  gramm: V,impers
  paradigm: paradigm_V
- trans_ru: /о ветре/ дуть; сохнуть на ветру
+ trans_ru: (о ветре) дуть; сохнуть на ветру
  trans_en: blow (of wind)
  gloss: blow
 
@@ -43608,7 +43761,7 @@
  stem: tɤlijašʼk.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: опериться, /о перьях/ появиться
+ trans_ru: опериться, (о перьях) появиться
  trans_en: 
  gloss: STEM
 
@@ -44536,7 +44689,7 @@
  stem: uda.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о растении/ прижиться, прорасти
+ trans_ru: (о растении) прижиться, прорасти
  trans_en: 
  gloss: STEM
 
@@ -45259,7 +45412,7 @@
  stem: urdset.
  gramm: N,deriv_et
  paradigm: paradigm_N
- trans_ru: подкладка /одежды/
+ trans_ru: подкладка (одежды)
  trans_en: lining /of a piece of clothes/; inset (in a piece of clothes)
  gloss: lining
 
@@ -45304,7 +45457,7 @@
  stem: urget.|urgečʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: урчать /в животе/; /о технике/ тарахтеть
+ trans_ru: урчать /в животе/; (о технике) тарахтеть
  trans_en: 
  gloss: STEM
 
@@ -45385,7 +45538,7 @@
  stem: ursket.|urskečʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о свинье/ хрюкать
+ trans_ru: (о свинье) хрюкать
  trans_en: 
  gloss: STEM
 
@@ -45403,7 +45556,7 @@
  stem: urtčʼik.//určʼik.
  gramm: V,intr,detr
  paradigm: paradigm_V
- trans_ru: /о животе/ располнеть
+ trans_ru: (о животе) располнеть
  trans_en: 
  gloss: STEM
 
@@ -45412,7 +45565,7 @@
  stem: urtčʼək.
  gramm: V,intr,detr
  paradigm: Verb-imp-neg-empty
- trans_ru: /о животе/ располнеть
+ trans_ru: (о животе) располнеть
  trans_en: 
  gloss: STEM
 
@@ -48132,8 +48285,17 @@
  gramm: ADV,rus
  paradigm: Comparative
  trans_ru: вроде
- trans_en: 
- gloss: STEM
+ trans_en: it seems
+ gloss: it.seems
+
+-lexeme
+ lex: vrodʼebɨ
+ stem: vrodʼebɨ.
+ gramm: ADV,rus
+ paradigm: Comparative
+ trans_ru: вроде бы
+ trans_en: it seems
+ gloss: it.seems
 
 -lexeme
  lex: vu
@@ -48926,8 +49088,8 @@
  stem: wales.
  gramm: A
  paradigm: paradigm_A
- trans_ru: /об овцах, козах, свиньях/ молодой, не достигший возраста спаривания
- trans_en: /about sheep, goats, pigs/ young, not old enough for breeding
+ trans_ru: (об овцах, козах, свиньях) молодой, не достигший возраста спаривания
+ trans_en: (about sheep, goats, pigs) young, not old enough for breeding
  gloss: young
 
 -lexeme
@@ -50266,6 +50428,15 @@
  gloss: zoo
 
 -lexeme
+ lex: akvapark
+ stem: akvapark.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: аквапарк
+ trans_en: water park
+ gloss: water.park
+
+-lexeme
  lex: zootʼexnʼik
  stem: zootʼexnʼik.
  gramm: N,rus,anim,hum,occupation
@@ -50306,7 +50477,7 @@
  stem: zor.
  gramm: V,impers,act_pst_p,act_prs_p
  paradigm: paradigm_V
- trans_ru: /о дожде/ идти
+ trans_ru: (о дожде) идти
  trans_en: rain
  gloss: rain
 
@@ -50423,8 +50594,8 @@
  stem: zvod.
  gramm: N,rus
  paradigm: paradigm_N
- trans_ru: свод /печи/
- trans_en: /furnace/ roof
+ trans_ru: свод (печи)
+ trans_en: (furnace) roof
  gloss: furnace.roof
 
 -lexeme
@@ -50847,7 +51018,7 @@
  stem: čʼalm.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о звуке/ раздаваться
+ trans_ru: (о звуке) раздаваться
  trans_en: 
  gloss: STEM
 
@@ -51153,7 +51324,7 @@
  stem: čʼar.
  gramm: V,intr,with_dat
  paradigm: paradigm_V
- trans_ru: /о болезни, плохих привычках/ переходить; заражаться
+ trans_ru: (о болезни, плохих привычках) переходить; заражаться
  trans_en: 
  gloss: STEM
 
@@ -51234,7 +51405,7 @@
  stem: čʼašj.
  gramm: V,impers
  paradigm: paradigm_V
- trans_ru: /о молнии/ поразить, ударить насмерть
+ trans_ru: (о молнии) поразить, ударить насмерть
  trans_en: 
  gloss: STEM
 
@@ -52949,8 +53120,8 @@
  gloss: STEM
 
 -lexeme
- lex: čʼurəčʼkənə
- stem: čʼurəčʼk.//čʼurəčʼik.
+ lex: čʼurətčʼkənə
+ stem: čʼurətčʼk.//čʼurətčʼik.//čʼurəčʼk.//čʼurəčʼik.
  gramm: V,intr,detr
  paradigm: paradigm_V
  trans_ru: скупиться, быть скупым
@@ -53628,7 +53799,7 @@
  stem: čʼərget.//čʼirget.|čʼərgečʼ.//čʼəirgečʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о сверчке, кузнечике/ стрекотать; /о мелких птицах/ чирикать, петь
+ trans_ru: (о сверчке, кузнечике) стрекотать; (о мелких птицах) чирикать, петь
  trans_en: 
  gloss: STEM
 
@@ -55582,7 +55753,7 @@
  stem: šor.
  gramm: V,tr,with_instr,with_gen2
  paradigm: paradigm_V
- trans_ru: отрезать /обычно о хлебе/
+ trans_ru: отрезать (обычно о хлебе)
  trans_en: cut (bread)
  gloss: cut
 
@@ -56329,7 +56500,7 @@
  stem: šəngəlʼt.|šəngəlʼčʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: онеметь, закоченеть /от холода/
+ trans_ru: онеметь, закоченеть (от холода)
  trans_en: 
  gloss: STEM
 
@@ -56509,7 +56680,7 @@
  stem: šət.|šəčʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о продуктах, которые готовятся при помощи мучной или дрожжевой закваски/ подняться; бродить
+ trans_ru: (о продуктах, которые готовятся при помощи мучной или дрожжевой закваски) подняться; бродить
  trans_en: 
  gloss: STEM
 
@@ -57195,7 +57366,7 @@
  stem: šʼerəl.
  gramm: N
  paradigm: paradigm_N
- trans_ru: гнида; мелкие яйца /летающих насекомых и блох/ в виде крупинок
+ trans_ru: гнида; мелкие яйца (летающих насекомых и блох) в виде крупинок
  trans_en: 
  gloss: STEM
 
@@ -57763,7 +57934,7 @@
  stem: šʼižʼəlm.
  gramm: V,impers
  paradigm: paradigm_V
- trans_ru: /об осени/ наступать
+ trans_ru: (об осени) наступать
  trans_en: 
  gloss: STEM
 
@@ -58164,7 +58335,7 @@
  stem: šʼurela.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о злаках/ цвести
+ trans_ru: (о злаках) цвести
  trans_en: 
  gloss: STEM
 
@@ -58182,7 +58353,7 @@
  stem: šʼurla.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о злаках/ цвести или колоситься
+ trans_ru: (о злаках) цвести или колоситься
  trans_en: 
  gloss: STEM
 
@@ -58281,8 +58452,8 @@
  stem: šʼužʼjašʼkon.//šʼužʼžʼašʼkon.
  gramm: N,nmlz_on
  paradigm: paradigm_N
- trans_ru: /у животных/ послед, плацента
- trans_en: /in animals/ afterbirth, placenta
+ trans_ru: (у животных) послед, плацента
+ trans_en: (in animals) afterbirth, placenta
  gloss: placenta
 
 -lexeme
@@ -58479,7 +58650,7 @@
  stem: žalʼget.|žalʼgečʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: журчать /о льющейся воде/; барабанить /о дожде/
+ trans_ru: журчать (о льющейся воде/; барабанить /о дожде)
  trans_en: 
  gloss: STEM
 
@@ -59199,7 +59370,7 @@
  stem: ǯʼegjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о ржи/ образовывать колосья
+ trans_ru: (о ржи) образовывать колосья
  trans_en: 
  gloss: STEM
 
@@ -59424,7 +59595,7 @@
  stem: ǯʼoba.
  gramm: V,impers
  paradigm: paradigm_V
- trans_ru: /о метели с мокрым снегом/ мести
+ trans_ru: (о метели с мокрым снегом) мести
  trans_en: 
  gloss: STEM
 
@@ -59573,8 +59744,8 @@
  gloss: twilight
 
 -lexeme
- lex: ǯʼoməčʼikənə
- stem: ǯʼoməčʼik.//ǯʼoməčʼk.
+ lex: ǯʼomətčʼkənə
+ stem: ǯʼomətčʼik.//ǯʼomətčʼk.//ǯʼoməčʼik.//ǯʼoməčʼk.
  gramm: V,impers,detr
  paradigm: paradigm_V
  trans_ru: темнеть, смеркаться
@@ -59586,7 +59757,7 @@
  stem: ǯʼon-ǯʼon.
  gramm: A
  paradigm: paradigm_A
- trans_ru: очень крепкий, не гнилой /о древесине/
+ trans_ru: очень крепкий, не гнилой (о древесине)
  trans_en: 
  gloss: STEM
 
@@ -59844,7 +60015,7 @@
 
 -lexeme
  lex: ǯʼutʼtʼanə
- stem: ǯʼutʼtʼa.//ǯʼutʼja.//ǯʼutja.
+ stem: ǯʼutʼtʼa.//ǯʼutʼja.//ǯʼutja.//ǯutʼtʼa.//ǯutʼja.//ǯutja.
  gramm: V,tr,with_instr,with_el,with_lat
  paradigm: paradigm_V
  trans_ru: поднимать
@@ -59865,7 +60036,7 @@
  stem: ǯʼuža.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о солнце/ всходить
+ trans_ru: (о солнце) всходить
  trans_en: 
  gloss: STEM
 
@@ -59991,7 +60162,7 @@
  stem: ǯʼəga.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о нитке, верёвке и под./ завязываться на узел
+ trans_ru: (о нитке, верёвке и под.) завязываться на узел
  trans_en: 
  gloss: STEM
 
@@ -60117,7 +60288,7 @@
  stem: ǯʼəlʼgərt.|ǯʼəlʼgərčʼ.
  gramm: V,intr
  paradigm: paradigm_V
- trans_ru: /о воробье/ чирикать
+ trans_ru: (о воробье) чирикать
  trans_en: 
  gloss: STEM
 
@@ -60997,3 +61168,12 @@
  trans_ru: военкомат
  trans_en: recruitment.office
  gloss: recruitment.office
+
+-lexeme
+ lex: mulla
+ stem: mulla.
+ gramm: N,anim,hum
+ paradigm: paradigm_N
+ trans_ru: мулла
+ trans_en: mullah
+ gloss: mullah

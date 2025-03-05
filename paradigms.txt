@@ -3252,6 +3252,10 @@
  -flex: .išʼko<.>
   gramm: 1,sg,prs
   gloss: PRS.1SG
+ -flex: .šʼko<.>
+  gramm: 1,sg,prs
+  gloss: PRS.1SG
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
  -flex: .ko<.>
   gramm: 1,sg,prs
   gloss: PRS.1SG
@@ -3259,6 +3263,10 @@
  -flex: .išʼkod<.>
   gramm: 2,sg,prs
   gloss: PRS.2SG
+ -flex: .šʼkod<.>
+  gramm: 2,sg,prs
+  gloss: PRS.2SG
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
  -flex: .kod<.>
   gramm: 2,sg,prs
   gloss: PRS.2SG
@@ -3269,6 +3277,10 @@
  -flex: .išʼkom<.>//.išʼkomə<.>//.išʼkomɨ<.>
   gramm: 1,pl,prs
   gloss: PRS.1PL
+ -flex: .šʼkom<.>//.šʼkomə<.>//.šʼkomɨ<.>
+  gramm: 1,pl,prs
+  gloss: PRS.1PL
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
  -flex: .kom<.>//.komə<.>//.komɨ<.>
   gramm: 1,pl,prs
   gloss: PRS.1PL
@@ -3276,6 +3288,10 @@
  -flex: .išʼkodə<.>//.išʼkodɨ<.>
   gramm: 2,pl,prs
   gloss: PRS.2PL
+ -flex: .šʼkodə<.>//.šʼkodɨ<.>
+  gramm: 2,pl,prs
+  gloss: PRS.2PL
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
  -flex: .kodə<.>//.kodɨ<.>
   gramm: 2,pl,prs
   gloss: PRS.2PL
@@ -3354,9 +3370,17 @@
  -flex: .išʼkə<.>
   gramm: 1,sg,prs,cng
   gloss: CNG.PRS.1SG
+ -flex: .šʼkə<.>
+  gramm: 1,sg,prs,cng
+  gloss: CNG.PRS.1SG
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
  -flex: .išʼkə<.>
   gramm: 2,sg,prs,cng
   gloss: CNG.PRS.2SG
+ -flex: .šʼkə<.>
+  gramm: 2,sg,prs,cng
+  gloss: CNG.PRS.2SG
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
  -flex: .<.>
   gramm: 3,sg,prs,cng
  -flex: .ə<.>
@@ -3365,9 +3389,17 @@
  -flex: .išʼke<.>
   gramm: 1,pl,prs,cng
   gloss: CNG.PRS.1PL
+ -flex: .šʼke<.>
+  gramm: 1,pl,prs,cng
+  gloss: CNG.PRS.1PL
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
  -flex: .išʼke<.>
   gramm: 2,pl,prs,cng
   gloss: CNG.PRS.2PL
+ -flex: .šʼke<.>
+  gramm: 2,pl,prs,cng
+  gloss: CNG.PRS.2PL
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
  -flex: .o<.>
   gramm: 3,pl,prs,cng
   gloss: CNG.PRS.3PL
@@ -3672,6 +3704,22 @@
   paradigm: Evidentiality-I
   paradigm: Participles-I
   paradigm: Verb-imp-I
+ -flex: <0>.išʼ<.>
+  gramm: detr
+  gloss: DETR
+  paradigm: Aspect-I-2
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-cond-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Verb-imp-I
+  regex-next: ^[<>0-9.]*s.*
  -flex: <0>.šʼk<.>
   gramm: detr
   gloss: DETR
@@ -3688,6 +3736,23 @@
   paradigm: Evidentiality-I
   paradigm: Participles-I
   paradigm: Verb-imp-I
+ -flex: <0>.šʼ<.>
+  gramm: detr
+  gloss: DETR
+  regex-prev: ^.*i[<>.]*$
+  paradigm: Aspect-I-2
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-cond-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Verb-imp-I
+  regex-next: ^[<>0-9.]*s.*
  -flex: <1>.ik<.>//<1>.k<.>//<1>.ək<.>
   gramm: detr
   gloss: DETR
@@ -3803,6 +3868,22 @@
   paradigm: Evidentiality-I
   paradigm: Participles-I
   paradigm: Verb-imp-I
+ -flex: .išʼ<.>
+  gramm: detr
+  gloss: DETR
+  paradigm: Aspect-I-3
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-cond-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Verb-imp-I
+  regex-next: ^[<>0-9.]*s.*
  -flex: .əl<.>//.ɨl<.>
   gramm: iter
   gloss: ITER
