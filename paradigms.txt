@@ -179,15 +179,15 @@
   paradigm: Comparative
  -flex: <1>.oj<.>
   gramm: advtemp
-  gloss: PERIOD
+  gloss: ADVTEMP
   paradigm: Comparative
  -flex: <1>.oj|skən<.>
-  gramm: advtemp,
-  gloss: PERIOD|DELIM
+  gramm: advtemp,delim
+  gloss: ADVTEMP|DELIM
   paradigm: Comparative
  -flex: <1>.oj|lə<.>
   gramm: advtemp,dat
-  gloss: PERIOD|DELIM
+  gloss: ADVTEMP|DAT
   paradigm: Comparative
  -flex: .o<.>
   gramm: apprnum
@@ -698,7 +698,7 @@
   gloss: INS|CAR.ATTR
   paradigm: paradigm_A
  -flex: .skən<.>
-  gramm: period
+  gramm: delim
   gloss: DELIM
   paradigm: Comparative
 
@@ -1663,6 +1663,15 @@
  -flex: .tʼi|m<.>
   gramm: prol,1sg
   gloss: PROL|1SG.POSS
+ -flex: .e|tʼi<.>
+  gramm: prol,1sg
+  gloss: 1SG.POSS|PROL
+  regex-gramm: .*,hum.*
+ -flex: .je|tʼi<.>
+  regex-prev: ^.*[aoiueəɤɨ][<>.]*$
+  gramm: prol,1sg
+  gloss: 1SG.POSS|PROL
+  regex-gramm: .*,hum.*
  -flex: <1>.ətʼi|m<.>
   gramm: prol,1sg
   gloss: PROL|1SG.POSS
@@ -1814,6 +1823,15 @@
  -flex: .tʼi|d<.>
   gramm: prol,2sg
   gloss: PROL|2SG.POSS
+ -flex: .ed|tʼi<.>
+  gramm: prol,2sg
+  gloss: 2SG.POSS|PROL
+  regex-gramm: .*,hum.*
+ -flex: .jed|tʼi<.>
+  regex-prev: ^.*[aoiueəɤɨ][<>.]*$
+  gramm: prol,2sg
+  gloss: 2SG.POSS|PROL
+  regex-gramm: .*,hum.*
  -flex: .ətʼi|d<.>
   gramm: prol,2sg
   gloss: PROL|2SG.POSS
@@ -1966,6 +1984,15 @@
  -flex: .tʼi|z<.>
   gramm: prol,3sg
   gloss: PROL|3SG.POSS
+ -flex: .ez|tʼi<.>
+  gramm: prol,3sg
+  gloss: 3SG.POSS|PROL
+  regex-gramm: .*,hum.*
+ -flex: .jez|tʼi<.>
+  regex-prev: ^.*[aoiueəɤɨ][<>.]*$
+  gramm: prol,3sg
+  gloss: 3SG.POSS|PROL
+  regex-gramm: .*,hum.*
  -flex: .ətʼi|z<.>
   gramm: prol,3sg
   gloss: PROL|3SG.POSS
@@ -2114,6 +2141,15 @@
  -flex: .tʼi|m<.>
   gramm: prol,1sg
   gloss: PROL|1SG.POSS
+ -flex: .ə|tʼi<.>
+  gramm: prol,1sg
+  gloss: 1SG.POSS|PROL
+  regex-gramm: .*,hum.*
+ -flex: .jə|tʼi<.>
+  regex-prev: ^.*[aoiueəɤɨ][<>.]*$
+  gramm: prol,1sg
+  gloss: 1SG.POSS|PROL
+  regex-gramm: .*,hum.*
  -flex: <1>.ətʼi|m<.>
   gramm: prol,1sg
   gloss: PROL|1SG.POSS
@@ -2265,6 +2301,15 @@
  -flex: .tʼi|d<.>
   gramm: prol,2sg
   gloss: PROL|2SG.POSS
+ -flex: .əd|tʼi<.>
+  gramm: prol,2sg
+  gloss: 2SG.POSS|PROL
+  regex-gramm: .*,hum.*
+ -flex: .jəd|tʼi<.>
+  regex-prev: ^.*[aoiueəɤɨ][<>.]*$
+  gramm: prol,2sg
+  gloss: 2SG.POSS|PROL
+  regex-gramm: .*,hum.*
  -flex: <1>.ətʼi|d<.>
   gramm: prol,2sg
   gloss: PROL|2SG.POSS
@@ -2417,6 +2462,15 @@
  -flex: .tʼi|z<.>
   gramm: prol,3sg
   gloss: PROL|3SG.POSS
+ -flex: .əz|tʼi<.>
+  gramm: prol,3sg
+  gloss: 3SG.POSS|PROL
+  regex-gramm: .*,hum.*
+ -flex: .jəz|tʼi<.>
+  regex-prev: ^.*[aoiueəɤɨ][<>.]*$
+  gramm: prol,3sg
+  gloss: 3SG.POSS|PROL
+  regex-gramm: .*,hum.*
  -flex: <1>.ətʼi|z<.>
   gramm: prol,3sg
   gloss: PROL|3SG.POSS
@@ -2533,6 +2587,10 @@
  -flex: .tʼi|mə<.>
   gramm: prol,1pl
   gloss: PROL|1PL.POSS
+ -flex: .mə|tʼi<.>
+  gramm: prol,1pl
+  gloss: 1PL.POSS|PROL
+  regex-gramm: .*,hum.*
  -flex: .ətʼi|mə<.>
   gramm: prol,1pl
   gloss: PROL|1PL.POSS
@@ -2627,6 +2685,15 @@
  -flex: .tʼi|də<.>
   gramm: prol,2pl
   gloss: PROL|2PL.POSS
+ -flex: .də|tʼi<.>
+  gramm: prol,2pl
+  gloss: 2PL.POSS|PROL
+  regex-gramm: .*,hum.*
+ -flex: .tə|tʼi<.>
+  regex-prev: .*[kpstfxčš]ʼ?[<>.]*$
+  gramm: prol,2pl
+  gloss: 2PL.POSS|PROL
+  regex-gramm: .*,hum.*
  -flex: .ətʼi|də<.>
   gramm: prol,2pl
   gloss: PROL|2PL.POSS
@@ -2748,6 +2815,15 @@
  -flex: .tʼi|zə<.>
   gramm: prol,3pl
   gloss: PROL|3PL.POSS
+ -flex: .zə|tʼi<.>
+  gramm: prol,3pl
+  gloss: 3PL.POSS|PROL
+  regex-gramm: .*,hum.*
+ -flex: .sə|tʼi<.>
+  regex-prev: .*[kpstfxčš]ʼ?[<>.]*$
+  gramm: prol,3pl
+  gloss: 3PL.POSS|PROL
+  regex-gramm: .*,hum.*
  -flex: .ətʼi|zə<.>
   gramm: prol,3pl
   gloss: PROL|3PL.POSS
@@ -3200,12 +3276,12 @@
   gloss: CVB.NEG
   paradigm: Comparative
  -flex: .onʼnʼa<.>//.onja<.>
-  gramm: cvb_sim1
-  gloss: CVB.SIM1
+  gramm: cvb_sim,cvb_onja
+  gloss: CVB.SIM
   paradigm: pers_poss
  -flex: .əku<.>//.əkə<.>
-  gramm: cvb_sim3
-  gloss: CVB.SIM3
+  gramm: cvb_sim,cvb_ku
+  gloss: CVB.SIM
   paradigm: Comparative
   paradigm: pers_poss
  -flex: .itčʼožʼ<.>//.ətčʼožʼ<.>//.ičʼožʼ<.>//.əčʼožʼ<.>//.ičʼčʼožʼ<.>//.əčʼčʼožʼ<.>
@@ -3228,12 +3304,12 @@
   gloss: CVB.NEG
   paradigm: Comparative
  -flex: .nʼnʼa<.>//.nja<.>
-  gramm: cvb_sim1
-  gloss: CVB.SIM1
+  gramm: cvb_sim,cvb_onja
+  gloss: CVB.SIM
   paradigm: pers_poss
  -flex: .ku<.>//.kə<.>
-  gramm: cvb_sim3
-  gloss: CVB.SIM3
+  gramm: cvb_sim,cvb_ku
+  gloss: CVB.SIM
   paradigm: Comparative
   paradigm: pers_poss
  -flex: .tčʼožʼ<.>//.čʼožʼ<.>//.čʼčʼožʼ<.>
