@@ -1,3 +1,13 @@
+
+-lexeme
+ lex: NAME
+ stem: name.//name-//<name>.//<name>-.
+ gramm: N,PN,persn
+ paradigm: paradigm_N
+ trans_ru: заглушка для имени
+ trans_en: name placeholder
+ gloss: (name)
+
 -lexeme
  lex: Abaševo
  stem: abaševo.
@@ -3095,6 +3105,15 @@
  gloss: be.greedy
 
 -lexeme
+ lex: adjašʼkənə
+ stem: adjašʼ.
+ gramm: V,intr,with_dat
+ paradigm: Verbs-s
+ trans_ru: набирать сверх меры, жадничать
+ trans_en: overstock, be greedy
+ gloss: be.greedy
+
+-lexeme
  lex: adminʼistracija
  stem: adminʼistracija.//adminʼistracij.
  gramm: N,rus
@@ -3298,6 +3317,15 @@
  stem: akəlʼlʼašʼk.
  gramm: V,intr,detr
  paradigm: paradigm_V
+ trans_ru: быть охочим; жадно есть
+ trans_en: be eager; eat greedily
+ gloss: be.eager
+
+-lexeme
+ lex: akəlʼlʼašʼkənə
+ stem: akəlʼlʼašʼ.
+ gramm: V,intr,detr
+ paradigm: Verbs-s
  trans_ru: быть охочим; жадно есть
  trans_en: be eager; eat greedily
  gloss: be.eager
@@ -3720,7 +3748,7 @@
 
 -lexeme
  lex: ansambəlʼ
- stem: ansambəlʼ.
+ stem: ansambəlʼ.//ansamblʼ.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: ансамбль
@@ -4006,6 +4034,15 @@
  trans_ru: артрит
  trans_en: arthritis
  gloss: arthritis
+
+-lexeme
+ lex: artən
+ stem: artən.
+ gramm: ADV
+ paradigm: Comparative
+ trans_ru: рядом, сбоку, по соседству
+ trans_en: at one's side, nearby
+ gloss: beside
 
 -lexeme
  lex: artəšʼ
@@ -4315,6 +4352,15 @@
  stem: azgənmišʼk.
  gramm: V,detr,intr
  paradigm: paradigm_V
+ trans_ru: становиться ленивым
+ trans_en: become lazy
+ gloss: become.lazy
+
+-lexeme
+ lex: azgənmišʼkənə
+ stem: azgənmišʼ.
+ gramm: V,detr,intr
+ paradigm: Verbs-s
  trans_ru: становиться ленивым
  trans_en: become lazy
  gloss: become.lazy
@@ -5476,6 +5522,15 @@
  gloss: fool.around
 
 -lexeme
+ lex: bestəkjašʼkənə
+ stem: bestəkjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: дурачиться
+ trans_en: fool around
+ gloss: fool.around
+
+-lexeme
  lex: beton
  stem: beton.
  gramm: N,rus
@@ -5534,6 +5589,15 @@
  stem: bečʼejašʼk.
  gramm: V,intr,with_ins
  paradigm: paradigm_V
+ trans_ru: подружиться
+ trans_en: make friends
+ gloss: make.friends
+
+-lexeme
+ lex: bečʼejašʼkənə
+ stem: bečʼejašʼ.
+ gramm: V,intr,with_ins
+ paradigm: Verbs-s
  trans_ru: подружиться
  trans_en: make friends
  gloss: make.friends
@@ -6188,7 +6252,7 @@
 
 -lexeme
  lex: bortnʼik
- stem: botnʼik.//bortnʼik
+ stem: botnʼik.//bortnʼik.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: дикорастущая мята
@@ -6197,7 +6261,7 @@
 
 -lexeme
  lex: boršʼevik
- stem: boršʼevik.
+ stem: boršʼevik.//borševik.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: борщевик
@@ -6755,10 +6819,28 @@
  gloss: STEM
 
 -lexeme
+ lex: butonašʼkənə
+ stem: butonašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: пойти в стрелку; образовать бутоны
+ trans_en: shoot; form buds
+ gloss: STEM
+
+-lexeme
  lex: butonʼnʼašʼkənə
  stem: butonʼnʼašʼk.//butonʼjašʼk.//butonjašʼk.
  gramm: V,rus,intr
  paradigm: paradigm_V
+ trans_ru: пойти в стрелку; образовать бутоны
+ trans_en: shoot; form buds
+ gloss: STEM
+
+-lexeme
+ lex: butonʼnʼašʼkənə
+ stem: butonʼnʼašʼk.//butonʼjašʼk.//butonjašʼ.
+ gramm: V,rus,intr
+ paradigm: Verbs-s
  trans_ru: пойти в стрелку; образовать бутоны
  trans_en: shoot; form buds
  gloss: STEM
@@ -8487,7 +8569,7 @@
 
 -lexeme
  lex: dust
- stem: dust.
+ stem: dust.//dus.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: дуст
@@ -9271,10 +9353,28 @@
  gloss: STEM
 
 -lexeme
+ lex: dʼešʼburjašʼkənə
+ stem: dʼešʼburjašʼ.
+ gramm: V,intr,with_ins
+ paradigm: Verbs-s
+ trans_ru: здороваться
+ trans_en: greet, say hello
+ gloss: STEM
+
+-lexeme
  lex: dʼešʼjašʼkənə
  stem: dʼešʼjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: подлизываться
+ trans_en: be a sycophant
+ gloss: STEM
+
+-lexeme
+ lex: dʼešʼjašʼkənə
+ stem: dʼešʼjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: подлизываться
  trans_en: be a sycophant
  gloss: STEM
@@ -9573,7 +9673,16 @@
  gramm: INTERJ
  paradigm: Empty
  trans_ru: эх, э-хе-хе
- trans_en: heh
+ trans_en: heh (sigh; complaint)
+ gloss: heh
+
+-lexeme
+ lex: e-he-he-he-he
+ stem: e-he-he-he-he.
+ gramm: INTERJ
+ paradigm: Empty
+ trans_ru: эх, э-хе-хе
+ trans_en: heh (sigh; complaint)
  gloss: heh
 
 -lexeme
@@ -10144,6 +10253,15 @@
  gloss: be.friends
 
 -lexeme
+ lex: ešjašʼkənə
+ stem: ešjašʼ.
+ gramm: V,intr,with_ins
+ paradigm: Verbs-s
+ trans_ru: дружить
+ trans_en: be friends
+ gloss: be.friends
+
+-lexeme
  lex: eštem
  stem: eštem.
  gramm: A
@@ -10166,6 +10284,15 @@
  stem: eštemjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: баловаться
+ trans_en: dabble
+ gloss: dabble
+
+-lexeme
+ lex: eštemjašʼkənə
+ stem: eštemjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: баловаться
  trans_en: dabble
  gloss: dabble
@@ -10670,6 +10797,15 @@
  stem: galǯʼijašʼk.
  gramm: V,detr,intr
  paradigm: paradigm_V
+ trans_ru: ошпариться
+ trans_en: scald
+ gloss: scald
+
+-lexeme
+ lex: galǯʼijašʼkənə
+ stem: galǯʼijašʼ.
+ gramm: V,detr,intr
+ paradigm: Verbs-s
  trans_ru: ошпариться
  trans_en: scald
  gloss: scald
@@ -12449,6 +12585,15 @@
  gloss: STEM
 
 -lexeme
+ lex: gərijašʼkənə
+ stem: gərijašʼ.
+ gramm: V,intr,detr
+ paradigm: Verbs-s
+ trans_ru: (о серёжках на деревьях) появляться, появиться
+ trans_en: (of earrings on trees) appear
+ gloss: STEM
+
+-lexeme
  lex: gərkes
  stem: gərkes.
  gramm: A
@@ -13421,6 +13566,15 @@
  gloss: appear
 
 -lexeme
+ lex: jawuišʼkənə
+ stem: jawuišʼk.//jawišʼk.//jališʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: завестись
+ trans_en: appear, start living
+ gloss: appear
+
+-lexeme
  lex: jazɨk
  stem: jazɨk.
  gramm: N,rus
@@ -13479,6 +13633,15 @@
  stem: jedəjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: (о ячмене) образовывать зёрна
+ trans_en: (of barley) form grains
+ gloss: STEM
+
+-lexeme
+ lex: jedəjašʼkənə
+ stem: jedəjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: (о ячмене) образовывать зёрна
  trans_en: (of barley) form grains
  gloss: STEM
@@ -13632,6 +13795,15 @@
  stem: jetəzjašʼk.
  gramm: V,intr,detr
  paradigm: paradigm_V
+ trans_ru: зазнаваться
+ trans_en: swagger
+ gloss: swagger
+
+-lexeme
+ lex: jetəzjašʼkənə
+ stem: jetəzjašʼ.
+ gramm: V,intr,detr
+ paradigm: Verbs-s
  trans_ru: зазнаваться
  trans_en: swagger
  gloss: swagger
@@ -14350,10 +14522,28 @@
  gloss: curse
 
 -lexeme
+ lex: jərišʼkənə
+ stem: jərišʼ.
+ gramm: V,tr
+ paradigm: Verbs-s
+ trans_ru: проклинать
+ trans_en: curse
+ gloss: curse
+
+-lexeme
  lex: jərjašʼkənə
  stem: jərjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: образовать кочан, головку или коробочку
+ trans_en: form a bob, head, or boll
+ gloss: STEM
+
+-lexeme
+ lex: jərjašʼkənə
+ stem: jərjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: образовать кочан, головку или коробочку
  trans_en: form a bob, head, or boll
  gloss: STEM
@@ -14372,6 +14562,15 @@
  stem: jərkurjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: сильно ругаться на кого-л., разозлившись
+ trans_en: swear angrily
+ gloss: swear.angrily
+
+-lexeme
+ lex: jərkurjašʼkənə
+ stem: jərkurjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: сильно ругаться на кого-л., разозлившись
  trans_en: swear angrily
  gloss: swear.angrily
@@ -14569,6 +14768,15 @@
  stem: jɤnjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: зазнаваться
+ trans_en: swagger
+ gloss: swagger
+
+-lexeme
+ lex: jɤnjašʼkənə
+ stem: jɤnjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: зазнаваться
  trans_en: swagger
  gloss: swagger
@@ -15512,6 +15720,15 @@
  gloss: STEM
 
 -lexeme
+ lex: karjašʼkənə
+ stem: karjašʼ.
+ gramm: V,intr,with_lat,detr
+ paradigm: Verbs-s
+ trans_ru: гнездиться, разводить личинок
+ trans_en: nest, breed
+ gloss: STEM
+
+-lexeme
  lex: karjer
  stem: karjer.
  gramm: N,rus
@@ -16171,6 +16388,15 @@
  gloss: STEM
 
 -lexeme
+ lex: kečʼərjašʼkənə
+ stem: kečʼərjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: испытывать жгучее желание что-либо съесть или выпить
+ trans_en: crave something to eat or drink
+ gloss: STEM
+
+-lexeme
  lex: kečʼərtənə
  stem: kečʼərt.|kečʼərčʼ.
  gramm: V,tr
@@ -16256,6 +16482,15 @@
  stem: kežegjašʼk.
  gramm: V,intr,detr
  paradigm: paradigm_V
+ trans_ru: ворчать; отказываться
+ trans_en: grumble; refuse
+ gloss: grumble;.refuse
+
+-lexeme
+ lex: kežegjašʼkənə
+ stem: kežegjašʼ.
+ gramm: V,intr,detr
+ paradigm: Verbs-s
  trans_ru: ворчать; отказываться
  trans_en: grumble; refuse
  gloss: grumble;.refuse
@@ -16680,6 +16915,15 @@
  stem: kišʼtašʼk.
  gramm: V,intr,detr
  paradigm: paradigm_V
+ trans_ru: блестеть
+ trans_en: shine
+ gloss: shine
+
+-lexeme
+ lex: kišʼtašʼkənə
+ stem: kišʼtašʼ.
+ gramm: V,intr,detr
+ paradigm: Verbs-s
  trans_ru: блестеть
  trans_en: shine
  gloss: shine
@@ -19062,6 +19306,15 @@
  gloss: grieve
 
 -lexeme
+ lex: kujkijašʼkənə
+ stem: kujkijašʼ.
+ gramm: V,intr,detr
+ paradigm: Verbs-s
+ trans_ru: горевать
+ trans_en: grieve
+ gloss: grieve
+
+-lexeme
  lex: kujkə
  stem: kujkə.|kujki.
  gramm: N
@@ -19075,6 +19328,15 @@
  stem: kujəkjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: переживать, горевать
+ trans_en: grieve
+ gloss: grieve
+
+-lexeme
+ lex: kujəkjašʼkənə
+ stem: kujəkjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: переживать, горевать
  trans_en: grieve
  gloss: grieve
@@ -20377,6 +20639,15 @@
  gloss: get.offended
 
 -lexeme
+ lex: kwatašʼkənə
+ stem: kwatašʼ.
+ gramm: V,intr,detr
+ paradigm: Verbs-s
+ trans_ru: обидеться
+ trans_en: get offended
+ gloss: get.offended
+
+-lexeme
  lex: kwatʼ
  stem: kwatʼ.
  gramm: NUM
@@ -20684,7 +20955,7 @@
 
 -lexeme
  lex: kək
- stem: kək.|kəkt.
+ stem: kək.|kək.//kəkt.
  gramm: NUM|NUM,obl
  paradigm: paradigm_NUM
  trans_ru: два
@@ -20804,6 +21075,15 @@
  stem: kəlǯʼik.//kəlǯʼk.//kəlǯʼišʼk.
  gramm: V,intr,with_gen2,act_pst_es_p,act_prs_p
  paradigm: paradigm_V
+ trans_ru: слушаться
+ trans_en: listen, be obedient
+ gloss: be.obedient
+
+-lexeme
+ lex: kəlǯʼikənə
+ stem: kəlǯʼik.//kəlǯʼk.//kəlǯʼišʼ.
+ gramm: V,intr,with_gen2,act_pst_es_p,act_prs_p
+ paradigm: Verbs-s
  trans_ru: слушаться
  trans_en: listen, be obedient
  gloss: be.obedient
@@ -21421,6 +21701,15 @@
  gloss: wiggle
 
 -lexeme
+ lex: kəstašʼkənə
+ stem: kəstašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: вертеться, дёргаться
+ trans_en: wiggle, spin, twitch
+ gloss: wiggle
+
+-lexeme
  lex: kəsčʼikənə
  stem: kəsčʼ.
  gramm: V,intr,detr
@@ -21533,6 +21822,15 @@
  stem: kətlašʼk.
  gramm: V,tr
  paradigm: paradigm_V
+ trans_ru: поздравлять
+ trans_en: congratulate
+ gloss: congratulate
+
+-lexeme
+ lex: kətlašʼkənə
+ stem: kətlašʼ.
+ gramm: V,tr
+ paradigm: Verbs-s
  trans_ru: поздравлять
  trans_en: congratulate
  gloss: congratulate
@@ -21731,6 +22029,15 @@
  stem: kəzpaljašʼk.//kəzpalʼlʼašʼk.//kuzpaljašʼk.//kuzpalʼlʼašʼk.
  gramm: V,intr,detr
  paradigm: paradigm_V
+ trans_ru: жениться
+ trans_en: marry
+ gloss: marry
+
+-lexeme
+ lex: kəzpaljašʼkənə
+ stem: kəzpaljašʼk.//kəzpalʼlʼašʼk.//kuzpaljašʼk.//kuzpalʼlʼašʼ.
+ gramm: V,intr,detr
+ paradigm: Verbs-s
  trans_ru: жениться
  trans_en: marry
  gloss: marry
@@ -22296,6 +22603,15 @@
  gloss: complain
 
 -lexeme
+ lex: kɤtǯʼožjašʼkənə
+ stem: kɤtǯʼožjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: жаловаться
+ trans_en: complain
+ gloss: complain
+
+-lexeme
  lex: kɤš
  stem: kɤš.
  gramm: A
@@ -22336,6 +22652,15 @@
  stem: kɤžəjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: (о горохе) образовывать большие горошины
+ trans_en: (of peas) form large peas
+ gloss: STEM
+
+-lexeme
+ lex: kɤžəjašʼkənə
+ stem: kɤžəjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: (о горохе) образовывать большие горошины
  trans_en: (of peas) form large peas
  gloss: STEM
@@ -22918,6 +23243,15 @@
  gloss: boast
 
 -lexeme
+ lex: lopərjašʼkənə
+ stem: lopərjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: хвастаться, похвастаться
+ trans_en: boast
+ gloss: boast
+
+-lexeme
  lex: lotereja
  stem: lotereja.//loterej.
  gramm: N,rus
@@ -23219,6 +23553,15 @@
  stem: ləljašʼk.//ləlʼlʼašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: оживать, ожить
+ trans_en: revive
+ gloss: revive
+
+-lexeme
+ lex: ləljašʼkənə
+ stem: ləljašʼk.//ləlʼlʼašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: оживать, ожить
  trans_en: revive
  gloss: revive
@@ -24019,7 +24362,7 @@
 
 -lexeme
  lex: lʼitra
- stem: lʼitra.//lʼitər.//lʼitr.//lʼitər.
+ stem: lʼitra.//lʼitər.//lʼitr.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: литр
@@ -25550,7 +25893,7 @@
 
 -lexeme
  lex: mešʼ
- stem: mešʼ.
+ stem: mešʼ.//mečʼ.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: мяч
@@ -25882,10 +26225,28 @@
  gloss: wash
 
 -lexeme
+ lex: mišʼkənə
+ stem: mišʼ.
+ gramm: V,tr,with_ins,act_pst_es_p,act_prs_p
+ paradigm: Verbs-s
+ trans_ru: мыть; стирать
+ trans_en: wash
+ gloss: wash
+
+-lexeme
  lex: mišʼtašʼkənə
  stem: mišʼtašʼk.
  gramm: V,intr,with_ins,detr
  paradigm: paradigm_V
+ trans_ru: мыться; стирать себе одежду
+ trans_en: wash oneself; wash one's clothes
+ gloss: wash.oneself
+
+-lexeme
+ lex: mišʼtašʼkənə
+ stem: mišʼtašʼ.
+ gramm: V,intr,with_ins,detr
+ paradigm: Verbs-s
  trans_ru: мыться; стирать себе одежду
  trans_en: wash oneself; wash one's clothes
  gloss: wash.oneself
@@ -26048,6 +26409,15 @@
  stem: molʼogašʼk.
  gramm: V,intr,detr
  paradigm: paradigm_V
+ trans_ru: образовывать комки
+ trans_en: clump
+ gloss: clump
+
+-lexeme
+ lex: molʼogašʼkənə
+ stem: molʼogašʼ.
+ gramm: V,intr,detr
+ paradigm: Verbs-s
  trans_ru: образовывать комки
  trans_en: clump
  gloss: clump
@@ -26464,6 +26834,15 @@
  stem: mulʼəjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: образовать первые незрелые плоды
+ trans_en: form first unripe fruit
+ gloss: STEM
+
+-lexeme
+ lex: mulʼəjašʼkənə
+ stem: mulʼəjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: образовать первые незрелые плоды
  trans_en: form first unripe fruit
  gloss: STEM
@@ -27378,6 +27757,15 @@
  gloss: STEM
 
 -lexeme
+ lex: nanikokojašʼkənə
+ stem: nanikokojašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: капризничать; просить что-л., клянчить
+ trans_en: caprice; beg for sth., nag
+ gloss: STEM
+
+-lexeme
  lex: nanʼed
  stem: nanʼed.
  gramm: ADV
@@ -27643,6 +28031,15 @@
  stem: našʼk.
  gramm: V,tr,with_lat,act_pst_p,act_prs_p
  paradigm: paradigm_V
+ trans_ru: смотреть; наблюдать; следить
+ trans_en: watch
+ gloss: watch
+
+-lexeme
+ lex: našʼkənə
+ stem: našʼ.
+ gramm: V,tr,with_lat,act_pst_p,act_prs_p
+ paradigm: Verbs-s
  trans_ru: смотреть; наблюдать; следить
  trans_en: watch
  gloss: watch
@@ -29610,6 +30007,15 @@
  stem: nʼəžəlʼlʼašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: медленно, вяло делать что-либо
+ trans_en: slowly, sluggishly do something
+ gloss: STEM
+
+-lexeme
+ lex: nʼəžəlʼlʼašʼkənə
+ stem: nʼəžəlʼlʼašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: медленно, вяло делать что-либо
  trans_en: slowly, sluggishly do something
  gloss: STEM
@@ -31634,6 +32040,15 @@
  gloss: STEM
 
 -lexeme
+ lex: parišʼkənə
+ stem: parišʼ.
+ gramm: V,detr,intr,rus
+ paradigm: Verbs-s
+ trans_ru: преть, испускать пар
+ trans_en: sweat, steam
+ gloss: STEM
+
+-lexeme
  lex: parnʼik
  stem: parnʼik.
  gramm: N,rus
@@ -31931,8 +32346,8 @@
  gloss: splash
 
 -lexeme
- lex: paǯʼa
- stem: paǯʼa.//paǯʼ.
+ lex: padǯʼa
+ stem: padǯʼa.//padǯʼ.//paǯʼa.//paǯʼ.
  gramm: N
  paradigm: paradigm_N
  trans_ru: приставная лестница
@@ -32054,7 +32469,7 @@
  paradigm: paradigm_V
  trans_ru: бродить, быть в бегах
  trans_en: wander; be on the run
- gloss: STEM
+ gloss: wander
 
 -lexeme
  lex: pegoj
@@ -32142,6 +32557,15 @@
  stem: pelʼlʼašʼk.
  gramm: V,detr,intr
  paradigm: paradigm_V
+ trans_ru: гадать
+ trans_en: tell fortunes
+ gloss: tell.fortunes
+
+-lexeme
+ lex: pelʼlʼašʼkənə
+ stem: pelʼlʼašʼ.
+ gramm: V,detr,intr
+ paradigm: Verbs-s
  trans_ru: гадать
  trans_en: tell fortunes
  gloss: tell.fortunes
@@ -32270,7 +32694,7 @@
  paradigm: paradigm_N
  trans_ru: передача
  trans_en: broadcast; transfer; gear
- gloss: STEM
+ gloss: broadcast
 
 -lexeme
  lex: peregoretʼ
@@ -32283,12 +32707,12 @@
 
 -lexeme
  lex: perekod
- stem: perekod.
+ stem: perekod.//perexod.
  gramm: N,rus
  paradigm: paradigm_N
  trans_ru: узкий деревянный мостик
- trans_en: small narrow wooden bridge
- gloss: small.narrow.wooden.bridge
+ trans_en: narrow wooden bridge
+ gloss: narrow.bridge
 
 -lexeme
  lex: perepečʼ
@@ -32296,8 +32720,8 @@
  gramm: N
  paradigm: paradigm_N
  trans_ru: перепеч, перепечи
- trans_en: perepechi (an open pie)
- gloss: STEM
+ trans_en: perepech (an open pie)
+ gloss: perepech
 
 -lexeme
  lex: perepešʼ
@@ -32305,7 +32729,7 @@
  gramm: N
  paradigm: paradigm_N
  trans_ru: перепеч, перепечи
- trans_en: perepech
+ trans_en: perepech (an open pie)
  gloss: perepech
 
 -lexeme
@@ -32885,10 +33309,28 @@
  gloss: STEM
 
 -lexeme
+ lex: pinʼalašʼkənə
+ stem: pinʼalašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: обзаводиться ребенком/детьми
+ trans_en: have a child/children
+ gloss: STEM
+
+-lexeme
  lex: pinʼalʼlʼašʼkənə
  stem: pinʼalʼlʼašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: обзаводиться детьми
+ trans_en: have children
+ gloss: have.children
+
+-lexeme
+ lex: pinʼalʼlʼašʼkənə
+ stem: pinʼalʼlʼašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: обзаводиться детьми
  trans_en: have children
  gloss: have.children
@@ -33353,6 +33795,15 @@
  gloss: swim
 
 -lexeme
+ lex: plašʼkənə
+ stem: plašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: плавать; купаться
+ trans_en: swim, go swimming
+ gloss: swim
+
+-lexeme
  lex: plod
  stem: plod.
  gramm: N,rus
@@ -33492,6 +33943,15 @@
  stem: plʼemašʼk.
  gramm: V,impers
  paradigm: paradigm_V
+ trans_ru: заволакивать облаками
+ trans_en: cloud
+ gloss: cloud
+
+-lexeme
+ lex: plʼemašʼkənə
+ stem: plʼemašʼ.
+ gramm: V,impers
+ paradigm: Verbs-s
  trans_ru: заволакивать облаками
  trans_en: cloud
  gloss: cloud
@@ -34640,6 +35100,15 @@
  gloss: I.guess
 
 -lexeme
+ lex: požalusta
+ stem: požalusta.//požalujsta.//požaləsta.
+ gramm: PART,rus
+ paradigm: Empty
+ trans_ru: пожалуйста
+ trans_en: please; be my guest
+ gloss: please
+
+-lexeme
  lex: požanə
  stem: poža.
  gramm: V,tr,with_ins
@@ -35396,6 +35865,15 @@
  gloss: meet
 
 -lexeme
+ lex: pumišʼkənə
+ stem: pumišʼ.
+ gramm: V,intr,with_ins,detr
+ paradigm: Verbs-s
+ trans_ru: встречаться
+ trans_en: meet
+ gloss: meet
+
+-lexeme
  lex: pumjanə
  stem: pumja.
  gramm: V,tr
@@ -35595,6 +36073,15 @@
  gloss: STEM
 
 -lexeme
+ lex: purtesašʼkənə
+ stem: purtesašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: (о стручках) образовываться
+ trans_en: (of pods) form
+ gloss: STEM
+
+-lexeme
  lex: purtə
  stem: purtə.|purti.
  gramm: N
@@ -35672,6 +36159,15 @@
  stem: puskarjašʼk.
  gramm: V,intr,detr
  paradigm: paradigm_V
+ trans_ru: гнездиться
+ trans_en: nest
+ gloss: nest
+
+-lexeme
+ lex: puskarjašʼkənə
+ stem: puskarjašʼ.
+ gramm: V,intr,detr
+ paradigm: Verbs-s
  trans_ru: гнездиться
  trans_en: nest
  gloss: nest
@@ -36033,6 +36529,15 @@
  stem: pədʼesjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: встать на колени
+ trans_en: kneel
+ gloss: kneel
+
+-lexeme
+ lex: pədʼesjašʼkənə
+ stem: pədʼesjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: встать на колени
  trans_en: kneel
  gloss: kneel
@@ -36840,6 +37345,15 @@
  gloss: haunt
 
 -lexeme
+ lex: pɤrtmašʼkənə
+ stem: pɤrtmašʼk.//pertmašʼ.
+ gramm: V,intr,with_dat,detr
+ paradigm: Verbs-s
+ trans_ru: привидеться
+ trans_en: haunt
+ gloss: haunt
+
+-lexeme
  lex: pɤšʼ
  stem: pɤšʼ.//pešʼ.
  gramm: A
@@ -37493,6 +38007,15 @@
  stem: rodnʼajašʼk.
  gramm: V,rus,intr
  paradigm: paradigm_V
+ trans_ru: породниться
+ trans_en: become relatives
+ gloss: become.relatives
+
+-lexeme
+ lex: rodnʼajašʼkənə
+ stem: rodnʼajašʼ.
+ gramm: V,rus,intr
+ paradigm: Verbs-s
  trans_ru: породниться
  trans_en: become relatives
  gloss: become.relatives
@@ -38218,6 +38741,15 @@
  gloss: regain.conscience
 
 -lexeme
+ lex: satʼtʼašʼkənə
+ stem: satʼtʼašʼk.//satʼjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: очнуться, прийти в себя
+ trans_en: regain conscience
+ gloss: regain.conscience
+
+-lexeme
  lex: satʼəmənə
  stem: satʼəm.
  gramm: V,intr
@@ -38357,6 +38889,15 @@
  stem: sežʼjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: взбодриться, встряхнуться
+ trans_en: cheer up
+ gloss: cheer.up
+
+-lexeme
+ lex: sežʼjašʼkənə
+ stem: sežʼjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: взбодриться, встряхнуться
  trans_en: cheer up
  gloss: cheer.up
@@ -38787,12 +39328,12 @@
 
 -lexeme
  lex: so
- stem: se.
+ stem: s&e.
  gramm: PRO,pers,acc
  paradigm: Comparative
  trans_ru: он, она, оно
  trans_en: he, she, it
- gloss: that.ACC
+ gloss: that&ACC
 
 -lexeme
  lex: so
@@ -40627,7 +41168,7 @@
  stem: ta.
  gramm: PRO,pers
  paradigm: paradigm_N-mar
- trans_ru: он, она
+ trans_ru: он, она, оно
  trans_en: he, she, it
  gloss: this
 
@@ -41326,12 +41867,12 @@
 
 -lexeme
  lex: te
- stem: te.
+ stem: t&e.
  gramm: PRO,pers,acc
  paradigm: Comparative
- trans_ru: он, она
- trans_en: this
- gloss: this.ACC
+ trans_ru: он, она, оно
+ trans_en: he, she, it
+ gloss: this&ACC
 
 -lexeme
  lex: tedʼijanə
@@ -41626,6 +42167,15 @@
  stem: todjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: привередничать, разбираться
+ trans_en: quibble, sort out
+ gloss: STEM
+
+-lexeme
+ lex: todjašʼkənə
+ stem: todjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: привередничать, разбираться
  trans_en: quibble, sort out
  gloss: STEM
@@ -43144,6 +43694,15 @@
  gloss: STEM
 
 -lexeme
+ lex: təgašʼkənə
+ stem: təgašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: (о волосах) растрепаться
+ trans_en: (of hair) muss
+ gloss: STEM
+
+-lexeme
  lex: təgə
  stem: təgə.|təgi.
  gramm: N
@@ -43775,6 +44334,15 @@
  gloss: STEM
 
 -lexeme
+ lex: tɤlijašʼkənə
+ stem: tɤlijašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: опериться, (о перьях) появиться
+ trans_en: fledge, (of feathers) emerge
+ gloss: STEM
+
+-lexeme
  lex: tɤloburdo
  stem: tɤloburdo.
  gramm: N,anim
@@ -44167,6 +44735,15 @@
  stem: tʼergašʼk.
  gramm: V,intr,with_ins,detr
  paradigm: paradigm_V
+ trans_ru: драться, подраться
+ trans_en: brawl, fight
+ gloss: STEM
+
+-lexeme
+ lex: tʼergašʼkənə
+ stem: tʼergašʼ.
+ gramm: V,intr,with_ins,detr
+ paradigm: Verbs-s
  trans_ru: драться, подраться
  trans_en: brawl, fight
  gloss: STEM
@@ -45655,6 +46232,15 @@
  stem: uttəlišʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: жаловаться
+ trans_en: complain
+ gloss: complain
+
+-lexeme
+ lex: uttəlišʼkənə
+ stem: uttəlišʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: жаловаться
  trans_en: complain
  gloss: complain
@@ -47578,6 +48164,15 @@
  gloss: fool.around
 
 -lexeme
+ lex: vižʼtemjašʼkənə
+ stem: vižʼtemjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: дурачиться
+ trans_en: fool around
+ gloss: fool.around
+
+-lexeme
  lex: vižʼtemmənə
  stem: vižʼtemm.
  gramm: V,intr,with_gen2
@@ -48001,6 +48596,15 @@
  gloss: STEM
 
 -lexeme
+ lex: votsašʼkənə
+ stem: votsašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: (о человеке) маячить
+ trans_en: (of a person) loom
+ gloss: STEM
+
+-lexeme
  lex: votset
  stem: votset.
  gramm: N,deriv_et
@@ -48145,6 +48749,15 @@
  gloss: envy
 
 -lexeme
+ lex: vožjašʼkənə
+ stem: vožjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: завидовать
+ trans_en: envy
+ gloss: envy
+
+-lexeme
  lex: vožmət
  stem: vožmət.
  gramm: A
@@ -48172,6 +48785,15 @@
  gloss: STEM
 
 -lexeme
+ lex: vožojašʼkənə
+ stem: vožojašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: ходить ряженым на Рождество
+ trans_en: be guisers at Christmas
+ gloss: STEM
+
+-lexeme
  lex: vožʼ
  stem: vožʼ.
  gramm: N
@@ -48185,6 +48807,15 @@
  stem: vožʼdašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: стыдиться
+ trans_en: be ashamed
+ gloss: be.ashamed
+
+-lexeme
+ lex: vožʼdašʼkənə
+ stem: vožʼdašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: стыдиться
  trans_en: be ashamed
  gloss: be.ashamed
@@ -48374,6 +49005,15 @@
  stem: vurašʼk.
  gramm: V,intr,detr
  paradigm: paradigm_V
+ trans_ru: вымогать
+ trans_en: extort
+ gloss: extort
+
+-lexeme
+ lex: vurašʼkənə
+ stem: vurašʼ.
+ gramm: V,intr,detr
+ paradigm: Verbs-s
  trans_ru: вымогать
  trans_en: extort
  gloss: extort
@@ -48780,6 +49420,15 @@
  stem: vəžijašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: (о человеке) обосноваться
+ trans_en: (of a person) settle down
+ gloss: STEM
+
+-lexeme
+ lex: vəžijašʼkənə
+ stem: vəžijašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: (о человеке) обосноваться
  trans_en: (of a person) settle down
  gloss: STEM
@@ -49264,6 +49913,15 @@
  gloss: argue
 
 -lexeme
+ lex: wamenʼnʼašʼkənə
+ stem: wamenʼnʼašʼk.//wamenjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: спорить
+ trans_en: argue
+ gloss: argue
+
+-lexeme
  lex: waməšjanə
  stem: waməšja.
  gramm: V,tr
@@ -49451,6 +50109,15 @@
  stem: wašʼk.//vašʼk.
  gramm: V,intr,with_el,with_lat
  paradigm: paradigm_V
+ trans_ru: спускаться
+ trans_en: go down
+ gloss: go.down
+
+-lexeme
+ lex: wašʼkənə
+ stem: wašʼk.//vašʼ.
+ gramm: V,intr,with_el,with_lat
+ paradigm: Verbs-s
  trans_ru: спускаться
  trans_en: go down
  gloss: go.down
@@ -50798,6 +51465,15 @@
  gloss: STEM
 
 -lexeme
+ lex: zərəmašʼkənə
+ stem: zərəmašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: иметь насморк, быть сопливым
+ trans_en: have runny nose
+ gloss: STEM
+
+-lexeme
  lex: zərəmešʼ
  stem: zərəmešʼ.
  gramm: A,oblin
@@ -50829,6 +51505,15 @@
  stem: zɤkjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: зазнаваться
+ trans_en: swagger
+ gloss: swagger
+
+-lexeme
+ lex: zɤkjašʼkənə
+ stem: zɤkjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: зазнаваться
  trans_en: swagger
  gloss: swagger
@@ -50919,6 +51604,15 @@
  stem: čʼabejjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: созревать (о пшенице)
+ trans_en: ripen (of wheat)
+ gloss: STEM
+
+-lexeme
+ lex: čʼabejjašʼkənə
+ stem: čʼabejjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: созревать (о пшенице)
  trans_en: ripen (of wheat)
  gloss: STEM
@@ -51171,6 +51865,15 @@
  stem: čʼambəlʼlʼašʼk.
  gramm: V,detr,intr
  paradigm: paradigm_V
+ trans_ru: плескаться
+ trans_en: splash
+ gloss: splash
+
+-lexeme
+ lex: čʼambəlʼlʼašʼkənə
+ stem: čʼambəlʼlʼašʼ.
+ gramm: V,detr,intr
+ paradigm: Verbs-s
  trans_ru: плескаться
  trans_en: splash
  gloss: splash
@@ -52382,6 +53085,15 @@
  gloss: be.stubborn
 
 -lexeme
+ lex: čʼinʼnʼašʼkənə
+ stem: čʼinʼnʼašʼ.
+ gramm: V,intr,detr
+ paradigm: Verbs-s
+ trans_ru: упираться, ломаться
+ trans_en: be stubborn
+ gloss: be.stubborn
+
+-lexeme
  lex: čʼinʼə
  stem: čʼinʼə.|čʼinʼi.
  gramm: N,body
@@ -52806,7 +53518,7 @@
 
 -lexeme
  lex: čʼoš
- stem: čʼoš.//čoš.
+ stem: čʼoš.//čoš.//tʼoš.
  gramm: ADV
  paradigm: Comparative
  trans_ru: вместе
@@ -52824,7 +53536,7 @@
 
 -lexeme
  lex: čʼošen
- stem: čʼošen.//čošen.
+ stem: čʼošen.//čošen.//tʼošen.
  gramm: ADV,ins
  paradigm: Comparative
  trans_ru: в количестве стольких-то человек
@@ -53579,6 +54291,15 @@
  gloss: flounder
 
 -lexeme
+ lex: čʼəmbəlʼlʼašʼkənə
+ stem: čʼəmbəlʼlʼašʼk.//čʼəmbəlʼjašʼ.
+ gramm: V,intr,detr
+ paradigm: Verbs-s
+ trans_ru: барахтаться
+ trans_en: flounder
+ gloss: flounder
+
+-lexeme
  lex: čʼəmərak
  stem: čʼəmərak.
  gramm: ADV
@@ -54187,6 +54908,15 @@
  stem: čʼəžəvəžijašʼk.//čʼəžəvəžəjašʼk.
  gramm: V,intr,detr
  paradigm: paradigm_V
+ trans_ru: породниться
+ trans_en: become relatives
+ gloss: become.relatives
+
+-lexeme
+ lex: čʼəžəvəžijašʼkənə
+ stem: čʼəžəvəžijašʼk.//čʼəžəvəžəjašʼ.
+ gramm: V,intr,detr
+ paradigm: Verbs-s
  trans_ru: породниться
  trans_en: become relatives
  gloss: become.relatives
@@ -55101,6 +55831,15 @@
  gloss: spike
 
 -lexeme
+ lex: šepjašʼkənə
+ stem: šepjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: колоситься
+ trans_en: spike
+ gloss: spike
+
+-lexeme
  lex: šer
  stem: šer.
  gramm: A
@@ -55132,6 +55871,15 @@
  stem: šerjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: редеть, становиться реже
+ trans_en: become sparse
+ gloss: become.sparse
+
+-lexeme
+ lex: šerjašʼkənə
+ stem: šerjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: редеть, становиться реже
  trans_en: become sparse
  gloss: become.sparse
@@ -56822,6 +57570,15 @@
  gloss: STEM
 
 -lexeme
+ lex: šɨrjašʼkənə
+ stem: šɨrjašʼ.
+ gramm: V,intr,with_ins
+ paradigm: Verbs-s
+ trans_ru: (о человеке) размахнуться
+ trans_en: (of a person) swing
+ gloss: STEM
+
+-lexeme
  lex: šɨrtənə
  stem: šɨrt.|šɨrčʼ.
  gramm: V,intr,with_ins
@@ -57389,6 +58146,15 @@
  gloss: STEM
 
 -lexeme
+ lex: šʼerəljašʼkənə
+ stem: šʼerəljašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: откладывать яйца (о летающих насекомых и блохах)
+ trans_en: lay eggs, nits (of flying insects and fleas)
+ gloss: STEM
+
+-lexeme
  lex: šʼestra
  stem: šʼestra.//šʼestr.
  gramm: N,rus,anim,hum
@@ -57438,6 +58204,15 @@
  stem: šʼežʼijašʼk.//šʼežʼəjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: (об овсе) образовывать зерна
+ trans_en: (of oats) form grains
+ gloss: STEM
+
+-lexeme
+ lex: šʼežʼijašʼkənə
+ stem: šʼežʼijašʼk.//šʼežʼəjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: (об овсе) образовывать зерна
  trans_en: (of oats) form grains
  gloss: STEM
@@ -57655,6 +58430,15 @@
  stem: šʼinʼmašʼk.
  gramm: V,intr,with_lat
  paradigm: paradigm_V
+ trans_ru: влюбиться, симпатизировать
+ trans_en: fall in love
+ gloss: fall.in.love
+
+-lexeme
+ lex: šʼinʼmašʼkənə
+ stem: šʼinʼmašʼ.
+ gramm: V,intr,with_lat
+ paradigm: Verbs-s
  trans_ru: влюбиться, симпатизировать
  trans_en: fall in love
  gloss: fall.in.love
@@ -58205,10 +58989,28 @@
  gloss: STEM
 
 -lexeme
+ lex: šʼulemšugjašʼkənə
+ stem: šʼulemšugjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
+ trans_ru: беспокоиться, тревожиться
+ trans_en: fret, worry
+ gloss: STEM
+
+-lexeme
  lex: šʼulmašʼkənə
  stem: šʼulmašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: заботиться; беспокоиться
+ trans_en: care; worry
+ gloss: care
+
+-lexeme
+ lex: šʼulmašʼkənə
+ stem: šʼulmašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: заботиться; беспокоиться
  trans_en: care; worry
  gloss: care
@@ -58353,6 +59155,15 @@
  stem: šʼurelašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: (о зерновых) цвести
+ trans_en: bloom (of grains)
+ gloss: STEM
+
+-lexeme
+ lex: šʼurelašʼkənə
+ stem: šʼurelašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: (о зерновых) цвести
  trans_en: bloom (of grains)
  gloss: STEM
@@ -59186,6 +59997,15 @@
  gloss: spike
 
 -lexeme
+ lex: žʼernojašʼkənə
+ stem: žʼernojašʼ.
+ gramm: V,rus,intr
+ paradigm: Verbs-s
+ trans_ru: колоситься
+ trans_en: spike
+ gloss: spike
+
+-lexeme
  lex: žʼimnʼij
  stem: žʼimnʼij.
  gramm: A,rus
@@ -59379,6 +60199,15 @@
  stem: ǯʼegjašʼk.
  gramm: V,intr
  paradigm: paradigm_V
+ trans_ru: (о ржи) образовывать колосья
+ trans_en: (of rye) form ears
+ gloss: STEM
+
+-lexeme
+ lex: ǯʼegjašʼkənə
+ stem: ǯʼegjašʼ.
+ gramm: V,intr
+ paradigm: Verbs-s
  trans_ru: (о ржи) образовывать колосья
  trans_en: (of rye) form ears
  gloss: STEM
@@ -60158,6 +60987,15 @@
  gloss: STEM
 
 -lexeme
+ lex: ǯʼəbəlʼlʼašʼkənə
+ stem: ǯʼəbəlʼlʼašʼ.
+ gramm: V,intr,detr
+ paradigm: Verbs-s
+ trans_ru: раскачиваться вдоль продольной оси
+ trans_en: sway along the longitudinal axis
+ gloss: STEM
+
+-lexeme
  lex: ǯʼəg-ǯʼəg
  stem: ǯʼəg-ǯʼəg.
  gramm: IDEO
@@ -60808,6 +61646,15 @@
  gloss: fester
 
 -lexeme
+ lex: ərašʼkənə
+ stem: ərašʼ.
+ gramm: V,intr,detr
+ paradigm: Verbs-s
+ trans_ru: гноиться
+ trans_en: fester
+ gloss: fester
+
+-lexeme
  lex: ərgetənə
  stem: ərget.|ərgečʼ.
  gramm: V,intr
@@ -61168,3 +62015,137 @@
  trans_en: of cold
  gloss: of.cold
 
+-lexeme
+ lex: Nʼiva
+ stem: nʼiva.
+ gramm: N,PN,transport
+ paradigm: paradigm_N
+ trans_ru: Нива (машина)
+ trans_en: Niva (car)
+ gloss: Niva
+
+-lexeme
+ lex: žigulʼi
+ stem: žigulʼi.
+ gramm: N,PN,transport
+ paradigm: paradigm_N
+ trans_ru: Жигули (машина)
+ trans_en: Zhiguli (car)
+ gloss: Zhiguli
+
+-lexeme
+ lex: dʼetskoj
+ stem: dʼetskoj.//dʼeckoj.//dʼetskij.//dʼeckij.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: детский
+ trans_en: children's
+ gloss: children's
+
+-lexeme
+ lex: Kwak
+ stem: kwak
+ gramm: N,PN,famn
+ paradigm: paradigm_N
+ trans_ru: Куак (родовое имя)
+ trans_en: Kwak (cognomen)
+ gloss: Kwak
+
+-lexeme
+ lex: Olʼoksanka
+ stem: olʼoksanka.
+ gramm: N,PN,famn
+ paradigm: paradigm_N
+ trans_ru: Олёксанка (родовое имя)
+ trans_en: Olyoksanka (cognomen)
+ gloss: Olyoksanka
+
+-lexeme
+ lex: Bɨčʼok
+ stem: bɨčʼok.
+ gramm: N,PN,famn
+ paradigm: paradigm_N
+ trans_ru: Бычок (родовое имя)
+ trans_en: Bychok (cognomen)
+ gloss: Bychok
+
+-lexeme
+ lex: Abak
+ stem: abak.
+ gramm: N,PN,famn
+ paradigm: paradigm_N
+ trans_ru: Абак (родовое имя)
+ trans_en: Abak (cognomen)
+ gloss: Abak
+
+-lexeme
+ lex: tʼipa
+ stem: tʼipa.
+ gramm: PART,rus
+ paradigm: Empty
+ trans_ru: типа
+ trans_en: as if, reportedly
+ gloss: as.if
+
+-lexeme
+ lex: tʼeperʼ
+ stem: tʼeperʼ.
+ gramm: PART,rus
+ paradigm: Empty
+ trans_ru: теперь
+ trans_en: now
+ gloss: now
+
+-lexeme
+ lex: ta
+ stem: t&iz.
+ gramm: PRO,pers,sg,nom,3sg
+ paradigm: Comparative
+ trans_ru: он, она, оно
+ trans_en: he, she, it
+ gloss: this&3SG.POSS
+
+-lexeme
+ lex: so
+ stem: s&iz.
+ gramm: PRO,pers,sg,nom,3sg
+ paradigm: Comparative
+ trans_ru: он, она, оно
+ trans_en: he, she, it
+ gloss: that&3SG.POSS
+
+-lexeme
+ lex: sʼejf
+ stem: sʼejf.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: сейф
+ trans_en: deposit box
+ gloss: deposit.box
+
+-lexeme
+ lex: bank
+ stem: bank.
+ gramm: N,rus
+ paradigm: paradigm_N
+ trans_ru: банк
+ trans_en: bank
+ gloss: bank
+
+-lexeme
+ lex: pravoj
+ stem: pravoj.//pravɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: правый
+ trans_en: right
+ gloss: right
+
+-lexeme
+ lex: lʼevoj
+ stem: lʼevoj.//lʼevɨj.
+ gramm: A,rus
+ paradigm: paradigm_A
+ trans_ru: левый
+ trans_en: left
+ gloss: left

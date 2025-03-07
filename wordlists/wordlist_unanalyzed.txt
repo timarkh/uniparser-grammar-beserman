@@ -804,7 +804,6 @@ f
 ins
 kenʼ
 sk
-verašʼsa
 zə
 zɤk-zɤk
 čʼəndər-
@@ -973,19 +972,16 @@ zɤk-zɤk
 -раз-
 -своему
 -э
-bortnʼik
 bəršʼina
 jə
 kwinʼ-kwinʼ
 lʼitər
 maš
 midəl
-nʼiva
 o-o
 odi
 odig-kək
 og
-perexod
 re
 tat
 tros-tros
@@ -1190,7 +1186,6 @@ bu
 bə
 bəd
 də
-dʼeckij
 ee
 gib
 gortono
@@ -1204,7 +1199,6 @@ kwak
 le
 ludmem
 moločʼko
-olʼoksankaos
 ou
 oxo
 pas
@@ -1225,8 +1219,6 @@ taki
 tin
 tupala
 tur
-tʼeperʼ
-tʼipa
 tʼorn
 van
 vapšʼe
@@ -1241,7 +1233,6 @@ zʼelʼonɨj
 šoportono
 šumpoton
 šʼion-juon
-žigulʼi
 žʼelʼonɨj
 абсолютно
 алевтина
@@ -1546,7 +1537,6 @@ zʼelʼonɨj
 -угу
 -ч-
 -яга
-abak
 adʼa
 anajez-atajez
 artešʼ
@@ -1554,15 +1544,11 @@ axmad
 bašʼ
 beršʼən
 bogatɨj
-borševik
 botʼinki
 bəgəlʼ-
 d
 doroga
 dren
-dus
-dusen
-dʼetskij
 ej-ej-ej
 ek-
 finʼnʼoslen
@@ -1584,7 +1570,6 @@ kus
 kvas
 kwinʼ-nʼilʼ
 kš
-kəketʼi
 kəmalʼə
 kətčʼ
 kɤškəmət
@@ -1592,7 +1577,6 @@ kɤškət
 lo
 lʼ
 lʼe
-lʼevɨj
 lʼilʼa
 lʼoša
 lʼubov
@@ -1613,7 +1597,6 @@ nazvanʼijez
 obrat
 odiga
 oksana
-olʼoksanka
 olʼoš
 opredʼelʼonnoj
 otdʼel
@@ -1632,9 +1615,6 @@ platʼtʼ
 polnɨj
 port-
 posatka
-požalusta
-požaləsta
-pravɨj
 prisposoblʼenʼije
 prišʼaga
 pɤjšurjos
@@ -1649,7 +1629,6 @@ sʼergej
 tao
 tapər-
 tfu
-tiz
 tu
 turkajən
 tuška
@@ -2205,7 +2184,6 @@ zo
 -nə
 -ogorod
 -tabər
--vəžəosnʼətʼi
 -čʼaš
 -žagze
 -ай-
@@ -2236,7 +2214,6 @@ alʼekšʼejevna
 alʼo
 anajen-atajen
 annen
-ansamblʼen
 apašʼ
 armenʼijən
 balda
@@ -2263,7 +2240,6 @@ bəršʼə
 bɤ
 bɤršʼ
 bɤršʼən
-bɨčʼok
 bɨžʼi
 c
 celɨj
@@ -2280,7 +2256,6 @@ dvuxetažnɨj
 dʼ
 dʼerev
 dʼerevʼannij
-dʼetskoj
 dʼevʼatʼ
 dʼi
 dʼimitričʼ
@@ -2402,7 +2377,6 @@ medogonkaezlə
 meločʼ
 melʼisa
 metər
-mečʼez
 milʼ
 milʼica
 milʼlʼard
@@ -2500,7 +2474,6 @@ polʼezno
 polʼicajən
 pom
 potʼ
-požalujsta
 pr
 pravnučʼka
 presnoj
@@ -2560,7 +2533,6 @@ sumk
 svʼašʼennɨj
 sxvatki
 sɤskon
-sʼejfjostə
 sʼekcijaz
 sʼorno
 tapər
@@ -2685,7 +2657,6 @@ zɤkešʼ-zɤkešʼ
 čʼədantem
 čʼəpəlʼijez
 čʼərk
-čʼəžə-vəžəosnʼətʼi
 šam
 šanʼgʼi
 šaraje
@@ -3859,7 +3830,6 @@ zɤkešʼ-zɤkešʼ
 -məm
 -mərəžešʼ
 -nakres
--našʼsa
 -ogorodaz
 -ogorode
 -ogorodišʼtəz
@@ -3975,7 +3945,6 @@ zɤkešʼ-zɤkešʼ
 31
 abaš
 abašefskijen
-abiosnʼətʼi
 adatʼ
 addzeme
 addzəl
@@ -4043,7 +4012,6 @@ armenʼije
 aromat
 arten-arten
 arterija
-artən
 artʼisjoslə
 artʼom
 artʼommə
@@ -4087,7 +4055,6 @@ bamez
 bananovɨj
 bandʼitjostə
 bandʼitʼjos
-bank
 bankrotstvo
 bas
 batalʼjonskijjos
@@ -4200,7 +4167,6 @@ cepʼ
 cerke
 cexaz
 danʼilovičʼ
-danʼnʼašʼsa
 darmovoj
 davno
 deckij
@@ -4265,7 +4231,6 @@ dʼičʼnɨj
 dʼišʼkut
 dʼišʼs
 e-e-e
-e-he-he-he-he
 eb
 een
 egəz
@@ -4503,7 +4468,6 @@ joslešʼ
 jožefskoj
 jožl
 jualʼlʼašʼsa
-juašʼsa
 jubekjasa
 julʼaosən
 juməltokez
@@ -4813,7 +4777,6 @@ kədʼokaz
 kədʼoke-kədʼoke
 kədʼokišʼaz
 kədʼokəges
-kəketʼize
 kəknaizəlen
 kəknam
 kəkt
@@ -5005,7 +4968,6 @@ metoden
 mettiz
 mettəlizə
 mettənə
-mečʼen
 meǯʼ
 mid
 mikalʼlʼo
@@ -5137,8 +5099,6 @@ naš
 naštašʼkaləmən
 našʼot
 našʼs
-našʼsa
-našʼsa-
 našʼsa-našʼsa
 naʼda
 ne
@@ -5452,7 +5412,6 @@ plankez
 plasmasez
 platʼoškaossə
 platʼtʼaenʼnʼosəzlə
-plašʼsa
 plitez
 plošatka
 ploštovoj
@@ -5890,7 +5849,6 @@ səžʼ
 sɨgajəšʼ
 sʼ
 sʼedʼmoj
-sʼejfjosəšʼ
 sʼekretarša
 sʼeloje
 sʼelʼpoje
@@ -5959,7 +5917,6 @@ toal
 todiškə
 todmatskənə
 todmačʼ
-todmoosnʼətʼi
 todəd
 todʼišʼkod
 toj
@@ -6076,7 +6033,6 @@ tʼo
 tʼok
 tʼom-tʼom
 tʼoplɨj
-tʼošen
 tʼu-tʼu-tʼu-tʼu-tʼu-tʼu
 tʼu-tʼutʼ
 tʼupašnʼe
@@ -6266,9 +6222,7 @@ vošʼ
 vošʼem
 vošʼinajen
 vošʼinaze
-vožojašʼsa
 vožəlizə
-vožʼmašʼsa
 vpečʼatlʼenʼije
 vraz
 vrazbros
@@ -6416,7 +6370,6 @@ zʼelʼonɨjze
 čʼabəšjašʼke
 čʼagər-čʼagər
 čʼakl
-čʼaklašʼsa
 čʼaldijaz
 čʼan
 čʼapkišʼkonna
@@ -6491,7 +6444,6 @@ zʼelʼonɨjze
 šagimardanova
 šampunʼ
 šampunʼe
-šanašʼsa
 šapk
 šapkijezlen
 šapočʼkajez

@@ -1480,6 +1480,10 @@
   gloss: DMS|EL
   regex-next: ^ez.*$
   paradigm: Noun-case-compounding
+ -flex: .nʼ|ətʼi<.>
+  gramm: dms,prol
+  gloss: DMS|PROL
+  paradigm: Noun-case-compounding
  -flex: .nʼ|išʼen<.>
   gramm: dms,egr
   gloss: DMS|EGR
@@ -1560,6 +1564,10 @@
   gramm: dms,el
   gloss: DMS|EL
   regex-next: ^ez.*$
+  paradigm: Noun-case-compounding
+ -flex: .nʼ|ətʼi<.>
+  gramm: dms,prol
+  gloss: DMS|PROL
   paradigm: Noun-case-compounding
  -flex: .nʼ|išʼen<.>
   gramm: dms,egr
@@ -3258,6 +3266,45 @@
   gramm: 
 
 
+-paradigm: Verbs-s
+ -flex: .sa<.>
+  gramm: cvb
+  gloss: CVB
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
+  paradigm: Comparative
+ -flex: .sal<.>
+  gramm: 1,sg,cond
+  gloss: COND
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
+ -flex: .sal<.>
+  gramm: 2,sg,cond
+  gloss: COND
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
+ -flex: .sal<.>
+  gramm: 3,sg,cond
+  gloss: COND
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
+ -flex: .sal|əd<.>
+  gramm: 2,sg,cond
+  gloss: COND|2SG
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
+ -flex: .sal|əz<.>
+  gramm: 3,sg,cond
+  gloss: COND|3SG
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
+ -flex: .sal|mə<.>
+  gramm: 1,pl,cond
+  gloss: COND|1PL
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
+ -flex: .sal|də<.>
+  gramm: 2,pl,cond
+  gloss: COND|2PL
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
+ -flex: .sal|zə<.>
+  gramm: 3,pl,cond
+  gloss: COND|3PL
+  regex-prev: .*[dtkšžǯ]ʼ?[<>.]*$
+ paradigm: Comparative
 
 
 
@@ -4155,6 +4202,22 @@
   paradigm: Evidentiality-I
   paradigm: Participles-I
   paradigm: Verb-imp-I
+ -flex: .šʼ<.>
+  gramm: detr
+  gloss: DETR
+  paradigm: Aspect-I-2
+  paradigm: Infinitive-I
+  paradigm: Verb-pres-I-positive
+  paradigm: Verb-past-I-positive
+  paradigm: Verb-future-I-positive
+  paradigm: Verb-pres-I-negative
+  paradigm: Verb-I-negative
+  paradigm: Verb-cond-I
+  paradigm: Converbs-I
+  paradigm: Evidentiality-I
+  paradigm: Participles-I
+  paradigm: Verb-imp-I
+  regex-next: ^[<>0-9.]*s.*
  -flex: .lʼlʼa<.>
   gramm: iter
   gloss: ITER
