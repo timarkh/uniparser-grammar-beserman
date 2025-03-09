@@ -130,7 +130,7 @@ SELECT (V fut 1 sg) IF (NOT 0 (V detr))
 SELECT (V fut 1 sg) IF (NOT 0 (V detr))
                        (*-1 ("<askaz>"i) BARRIER NotClitics);
 SELECT (V fut 1 sg) IF (NOT 0 (V detr))
-                       (-2 (N nom) | DemPersPro) (-1 (N rel_n loc) OR (N rel_n el) OR (N rel_n lat))
+                       (-2 (N nom) | DemPersPro) (-1 (NREL loc) OR (NREL el) OR (NREL lat))
                        (*-3 ("<mon>"i) BARRIER BOSPunct | (PRO pers sg nom) | (N sg nom));
 SELECT (1 V fut sg) IF (0 ("<.*o>"r))
       (1 ("<ka>"i) OR ("<ko>"i));
@@ -210,7 +210,7 @@ REMOVE (V imp) IF (0 (V prs 3 sg))
                   (NEGATE *0 (V tr) - (detr) BARRIER BOSPunct);
 REMOVE (V imp) IF (0 (V prs 3 sg))
                   (0C (V intr) - (caus))
-                  (-2 (N nom) | DemPersPro) (-1 (N rel_n loc) OR (N rel_n el) OR (N rel_n lat))
+                  (-2 (N nom) | DemPersPro) (-1 (NREL loc) OR (NREL el) OR (NREL lat))
                   (*-3 (N sg nom) - NomPoss BARRIER NotClitics - (ADV))
                   (NEGATE *0 (V tr) BARRIER BOSPunct);
 
@@ -296,15 +296,15 @@ REMOVE (PRO pl nom 2pl) IF (0 ("<vəldə>"i))
                            (NOT -1 ("<jɤl>"i) OR ("<ǯʼek>"i) OR ("<vožʼ>"i) OR ("<lud>"i) OR ("<nər>"i) OR ("<ber>"i));
 
 # Relational nouns are hardly ever used in the nominative.
-REMOVE (N rel_n nom 1sg) IF (0 (N rel_n lat))
+REMOVE (NREL nom 1sg) IF (0 (NREL lat))
                             (-1 (N nom) OR (PRO pers nom));
 # Or in the instrumental.
-REMOVE (N rel_n ins) IF (0 (N rel_n loc))
+REMOVE (NREL ins) IF (0 (NREL loc))
                         (-1 (N nom) OR (PRO pers nom));
 
 # korka: lat vs. nom
 SELECT (N nom) IF (0 ("<korka>"i))
-                  (1 (N rel_n) OR ("pal") OR ("ber") OR ("šʼer") OR ("ažʼ") OR ("sereg"));
+                  (1 (NREL) OR ("mesta") OR ("sereg"));
 SELECT (N nom) IF (0 ("<korka>"i))
                   (*0 (V 3 sg) OR (PRED) OR VerbalClitics)
                   (NEGATE *0 (V with_lat) BARRIER BOS);
@@ -372,7 +372,7 @@ SELECT (pers) IF (0 DemPersPro)
 SELECT (dem) IF (0 DemPersPro)
                 (1C NAdj)
                 (NOT 1 (ADV))
-                (NOT 1 (N rel_n))
+                (NOT 1 (NREL))
                 (NEGATE 2* VPred)
                 (NEGATE *-1 (V 3 sg) BARRIER BOSPunct);
 SELECT (dem) IF (0 DemPersPro)
@@ -552,13 +552,13 @@ SELECT (PRED) IF (0 ("<kule>"i))
               (1 ("<val>"i)) (2 (".") OR (","));
 
 # pɤlə: thumb vs. into
-SELECT (N rel_n) IF (0 ("<pɤlə>"i))
+SELECT (NREL) IF (0 ("<pɤlə>"i))
                  (-1 ("čʼašša") OR ("pižʼ") OR ("vu") OR ("ləmə") OR ("kwak") OR ("ǯʼeg") OR ("kalək") OR ("gibi") OR ("salat") OR ("koko") OR ("turən") OR ("jɤl") OR ("sulʼep") OR ("venʼək") OR ("kəz") OR ("pužəm") OR ("nɤd") OR ("tʼaponʼ") OR ("šʼuj") OR ("təl"))
-                 (NOT 1 (N rel_n));
+                 (NOT 1 (NREL));
 
 # vu: N vs. V
 SELECT (N) IF (0 ("<vu>"i))
-              (1 (N rel_n) - Poss);
+              (1 (NREL) - Poss);
 SELECT (N) IF (0 ("<vu>"i))
               (1 ("<punna>"i) OR ("juənə") OR ("kišʼkanə") OR ("ləktənə") OR ("nullənə"));
 
@@ -615,7 +615,7 @@ SELECT (N) IF (0 ("<pənə>"i))
 # vaj: V vs. N
 SELECT (N) IF (0 ("<vaj>"i))
               (-1 ("kəšʼpu") OR ("kəz") OR ("pužəm") OR ("pu") OR ("šʼəres") OR (","))
-              (1 (N rel_n));
+              (1 (NREL));
 SELECT (V) IF (@1 ("<vaj>"i))
               (11 (N acc) OR (PRO pers acc) OR (N dat) OR (PRO pers dat) OR ("<ton>"i));
 SELECT (V) IF (0 ("<vaj>"i))
@@ -656,9 +656,9 @@ SELECT (PRO dem) IF (@1 DemPersPro)
 SELECT (PRO dem) IF (@1 DemPersPro)
       (1 (N hum nom 1sg)) (2 (V 3 sg));
 SELECT (PRO pers) IF (@1 DemPersPro)
-      (1 (N rel_n lat) OR (N rel_n loc)) (2 (PRO pers nom));
+      (1 (NREL lat) OR (NREL loc)) (2 (PRO pers nom));
 SELECT (PRO pers) IF (@1 DemPersPro)
-      (1 (N rel_n lat) OR (N rel_n loc)) (2 (V 1) OR (V 2) OR (V 3 pl));
+      (1 (NREL lat) OR (NREL loc)) (2 (V 1) OR (V 2) OR (V 3 pl));
 SELECT (PRO pers) IF (@1 DemPersPro)
       (1 ("<evəl>"i));
 SELECT (PRO dem) IF (@1 DemPersPro)
@@ -798,10 +798,10 @@ SELECT (PRO dem) IF (@2 DemPersPro)
       (1 (N hum nom 1sg)) (2 (V 3 sg));
 SELECT (PRO pers) IF (@2 DemPersPro)
       (-1 StartClitics)
-      (1 (N rel_n lat) OR (N rel_n loc)) (2 (PRO pers nom));
+      (1 (NREL lat) OR (NREL loc)) (2 (PRO pers nom));
 SELECT (PRO pers) IF (@2 DemPersPro)
       (-1 StartClitics)
-      (1 (N rel_n lat) OR (N rel_n loc)) (2 (V 1) OR (V 2) OR (V 3 pl));
+      (1 (NREL lat) OR (NREL loc)) (2 (V 1) OR (V 2) OR (V 3 pl));
 SELECT (PRO pers) IF (@2 DemPersPro)
       (-1 StartClitics)
       (1 ("<evəl>"i));
@@ -998,7 +998,7 @@ SELECT (PRO dem) IF (0 DemPersPro)
 
 SELECT (PRO pers) IF (@2 DemPersPro)
       (-1 ("mənənə" 3 sg) OR ("ləktənə" 3 sg))
-      (1 (N nom)) (2 (N rel_n lat) OR (N rel_n el)) (3 EndSentPunc);
+      (1 (N nom)) (2 (NREL lat) OR (NREL el)) (3 EndSentPunc);
 
 SELECT (PRO dem) IF (0 DemPersPro)
       (-1 (N sg nom hum))

@@ -1587,7 +1587,6 @@ mal
 marəmešʼ
 mat
 matk
-matʼon
 mačʼinʼčʼa
 miksʼeren
 məsjos
@@ -2182,7 +2181,6 @@ zo
 -mədzələšʼ
 -mədənəzə
 -nə
--ogorod
 -tabər
 -čʼaš
 -žagze
@@ -2388,7 +2386,6 @@ moroženɨj
 mors
 mosk
 muzʼej
-muš
 məna
 mʼaso
 mʼata
@@ -2427,7 +2424,6 @@ ofonašʼjev
 oh
 okto-kalto
 ol
-omšanʼnʼik
 ooo
 opatʼ
 oppa
@@ -2579,7 +2575,6 @@ ulənə-vələnə
 uləsa-uləsa
 ulʼejze
 ulʼlʼ
-unʼiversʼitʼet
 urodešʼ
 ustʼ-
 uu
@@ -2590,7 +2585,6 @@ valʼer
 valʼerez
 valʼerjevna
 valʼlʼine
-valʼlʼintʼiz
 vapšʼetə
 varenʼnʼe
 vasʼilʼij
@@ -3830,9 +3824,6 @@ zɤkešʼ-zɤkešʼ
 -məm
 -mərəžešʼ
 -nakres
--ogorodaz
--ogorode
--ogorodišʼtəz
 -ogze
 -perʼod
 -sonʼ
@@ -4586,7 +4577,6 @@ kilog
 kilʼka
 kilʼl
 kinʼez
-kinʼjoske
 kinʼlənke
 kinʼnʼo
 kirofskoj
@@ -4637,7 +4627,6 @@ konuse
 konusən
 konʼdonz
 konʼe
-konʼuxlə
 kopej
 kopnʼi
 kopčʼonɨj
@@ -4801,7 +4790,6 @@ kətət
 kəzəko
 kəzʼə
 kəčʼ
-kəčʼezeke
 kəškatʼ
 kəšʼp
 kɤk
@@ -4921,7 +4909,6 @@ marez
 marinadaz
 markaosmes
 marke-marke
-markeosse
 marlʼi
 marlʼije
 marmeladkaos
@@ -5235,10 +5222,6 @@ oleg
 olʼga
 olʼi
 olʼok
-omšanʼnʼike
-omšanʼnʼikmə
-omšanʼnʼikən
-omšanʼnʼikəšʼ
 on
 onton
 onʼišʼ
@@ -5579,9 +5562,7 @@ putk
 putʼofkame
 pux
 puxez
-puškətʼi
 pušt
-puštrosəz
 pušʼtʼ
 pužjatsa
 pužjatskonez
@@ -6095,7 +6076,6 @@ užʼdʼečʼka
 užʼez
 va-
 va-ka
-vadʼeskətʼi
 vaflʼi
 vaflʼide
 vai
@@ -6264,7 +6244,6 @@ vɨšɨfkajez
 vɨšʼelok
 vʼitʼono
 w
-wadʼeskətʼi
 wagonaz
 wajžə
 wakətiz

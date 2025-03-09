@@ -31,6 +31,7 @@
   {"wf": "kuto", "lemma": "^(kut|kuənə)$"},
   {"wf": "([mt]on|nomər)e", "gramm": ".*,(lat|1sg).*"},
   {"wf": "jarat.*", "lemma": "jaranə"},
+  {"lemma": ".*ke", "gramm": "PRO,indef(.(?!indef_ke))*$"},
   {"gloss": ".*-DETR-DETR-(FUT|IMP|NEG|PRS\\.3PL|PRS\\.NEG|PST2|PTCP).*"}
 ]
 

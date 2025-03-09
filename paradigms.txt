@@ -437,7 +437,7 @@
   gramm: attr,prop_o
   gloss: PROP
   # do not confuse it with the debitive
-  regex-gramm: ^(.(?!rel_n|vn))*$
+  regex-gramm: ^(.(?!NREL|nmlz_on))*$
   paradigm: paradigm_A
  -flex: .jem<.>
   gramm: attr,prop_em
@@ -687,7 +687,7 @@
   gramm: attr,prop_o
   gloss: PROP
   # do not confuse it with the debitive
-  regex-gramm: ^(.(?!rel_n|vn))*$
+  regex-gramm: ^(.(?!NREL|nmlz_on))*$
   paradigm: paradigm_A
  -flex: .jem<.>
   gramm: attr,prop_em
@@ -1237,7 +1237,7 @@
   gramm: lat
   gloss: LAT
   paradigm: Comparative
-  regex-gramm: ^.*rel_n.*$
+  regex-gramm: ^NREL.*$
 
 -paradigm: Noun-case-korka
  -flex: .<.>
@@ -1393,7 +1393,7 @@
   gramm: lat
   gloss: LAT
   paradigm: Comparative
-  regex-gramm: ^.*rel_n.*$
+  regex-gramm: ^NREL.*$
  -flex: .je<.>
   gramm: lat
   gloss: LAT
@@ -1448,7 +1448,7 @@
  -flex: .ətʼi<.>//.ɨtʼi<.>
   gramm: prol
   gloss: PROL
-  regex-prev-gramm: ^.*obl.*$
+  regex-gramm: ^.*obl.*$
   paradigm: Noun-case-compounding
  -flex: .ətʼi<.>//.ɨtʼi<.>
   gramm: prol
@@ -1510,26 +1510,28 @@
  -flex: .len<.>
   gramm: gen
   gloss: GEN
+  paradigm: Noun-case-compounding
  -flex: .lešʼ<.>//.ləšʼ<.>
   gramm: gen2
   gloss: GEN2
+  paradigm: Noun-case-compounding
  -flex: .lə<.>//.lɨ<.>
   gramm: dat
   gloss: DAT
  -flex: .en<.>//.in<.>
   gramm: ins
   gloss: INS
+  paradigm: Noun-case-compounding
  -flex: .tek<.>
   gramm: car
   gloss: CAR
+  paradigm: Noun-case-compounding
  -flex: .ja<.>
   gramm: adv
   gloss: ADV
  -flex: .ən<.>
   gramm: loc
   gloss: LOC
-# -flex: .e<.>
-#  gramm: lat
  -flex: .əšʼ<.>
   gramm: el
   gloss: EL
@@ -1551,11 +1553,9 @@
  -flex: .nʼ|ən<.>
   gramm: dms,loc
   gloss: DMS|LOC
-  paradigm: Noun-case-compounding
  -flex: .nʼ|e<.>
   gramm: dms,lat
   gloss: DMS|LAT
-  paradigm: Noun-case-compounding
  -flex: .nʼ|əšʼ<.>
   gramm: dms,el
   gloss: DMS|EL
@@ -1568,13 +1568,24 @@
  -flex: .nʼ|ətʼi<.>
   gramm: dms,prol
   gloss: DMS|PROL
-  paradigm: Noun-case-compounding
  -flex: .nʼ|išʼen<.>
   gramm: dms,egr
   gloss: DMS|EGR
-  paradigm: Noun-case-compounding
  paradigm: Comparative
  
+-paradigm: Noun-case-mar-l
+ -flex: .len<.>//.lʼen<.>
+  gramm: sg,gen
+  gloss: GEN
+  paradigm: Noun-case-compounding
+ -flex: .lešʼ<.>//.ləšʼ<.>//.lʼešʼ<.>//.lʼəšʼ<.>
+  gramm: sg,gen2
+  gloss: GEN2
+  paradigm: Noun-case-compounding
+ -flex: .lə<.>//.lɨ<.>
+  gramm: sg,dat
+  gloss: DAT
+  paradigm: Comparative
  
 
   
@@ -3262,6 +3273,14 @@
   gramm: comp
   gloss: COMP
   regex-prev: ^.*[kpstfxčš]ʼ?[.<>]*$
+ -flex: <0>.ke//<1>.ke
+  gramm: indef_ke
+  gloss: INDEF
+  regex-gramm: ^.*,indef.*$
+ -flex: <0>.ke|ges//<1>.ke|ges//<0>.ke|gem//<1>.ke|gem
+  gramm: indef_ke,comp
+  gloss: INDEF|COMP
+  regex-gramm: ^.*,indef.*$
  -flex: <0>.//<1>.
   gramm: 
 
