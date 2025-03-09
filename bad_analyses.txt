@@ -27,6 +27,7 @@
   {"wf": "tərtem.*", "lemma": "tərənə"},
   {"wf": "(vəl|ul)ən", "gramm": ".*,ins,.*"},
   {"wf": "(vəl|ul|ber|gən)e", "gramm": ".*1sg.*"},
+  {"wf": ".*emən(ge[sm])?$", "gramm": "V.*,nmlz_em.*,loc.*"},
   {"wfGlossed": "^[^-]+[^-a]$", "lemma": ".*a$"},
   {"wf": "kuto", "lemma": "^(kut|kuənə)$"},
   {"wf": "([mt]on|nomər)e", "gramm": ".*,(lat|1sg).*"},
